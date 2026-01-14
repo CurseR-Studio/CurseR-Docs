@@ -2,7 +2,7 @@
   "api/CurseR.Chapter1.ChapterManager1.html": {
     "href": "api/CurseR.Chapter1.ChapterManager1.html",
     "title": "Class ChapterManager1 | CurseR",
-    "summary": "Class ChapterManager1 Namespace CurseR.Chapter1 public class ChapterManager1 : AbstractChapterManager Inheritance object AbstractChapterManager ChapterManager1 Inherited Members AbstractChapterManager.CheckPoint AbstractChapterManager._playedCutScenes AbstractChapterManager.SetCheckPoint(Vector2) AbstractChapterManager.RestartFromCheckPoint() AbstractChapterManager.IsCutScenePlayed(CutSceneData) AbstractChapterManager.SetCutScenePlayed(CutSceneData, bool) Properties AreObjectsActivated 오브젝트 활성화/비활성화 상태 public bool AreObjectsActivated { get; } Property Value bool CurrentChapter public override int CurrentChapter { get; } Property Value int Methods Dispose() protected override void Dispose() Init() protected override void Init()"
+    "summary": "Class ChapterManager1 Namespace CurseR.Chapter1 public class ChapterManager1 : AbstractChapterManager Inheritance object AbstractChapterManager ChapterManager1 Inherited Members AbstractChapterManager.CheckPoint AbstractChapterManager._playedCutScenes AbstractChapterManager.SetCheckPoint(Vector2) AbstractChapterManager.RestartFromCheckPoint() AbstractChapterManager.IsCutScenePlayed(CutSceneData) AbstractChapterManager.SetCutScenePlayed(CutSceneData, bool) Properties CurrentChapter public override int CurrentChapter { get; } Property Value int Methods ActivateObject(ObjectType) 특정 오브젝트 활성화 public void ActivateObject(ObjectType type) Parameters type ObjectType 활성화시킬 오브젝트 종류 Dispose() protected override void Dispose() Init() protected override void Init() IsObjectActivated(ObjectType) 오브젝트가 활성화 되었는지 여부 구하기 public bool IsObjectActivated(ObjectType type) Parameters type ObjectType 오브젝트 종류 Returns bool"
   },
   "api/CurseR.Chapter1.Events.ClickPressEvent.html": {
     "href": "api/CurseR.Chapter1.Events.ClickPressEvent.html",
@@ -43,6 +43,11 @@
     "href": "api/CurseR.Chapter1.Events.html",
     "title": "Namespace CurseR.Chapter1.Events | CurseR",
     "summary": "Namespace CurseR.Chapter1.Events Classes ClickPressEvent ClickReleaseEvent DeathEvent JumpPressEvent JumpReleaseEvent WaterEnterEvent WaterExitEvent"
+  },
+  "api/CurseR.Chapter1.ObjectType.html": {
+    "href": "api/CurseR.Chapter1.ObjectType.html",
+    "title": "Enum ObjectType | CurseR",
+    "summary": "Enum ObjectType Namespace CurseR.Chapter1 public enum ObjectType Fields Button = 0 Inputbox = 1"
   },
   "api/CurseR.Chapter1.Objects.Button.Button.html": {
     "href": "api/CurseR.Chapter1.Objects.Button.Button.html",
@@ -97,7 +102,7 @@
   "api/CurseR.Chapter1.html": {
     "href": "api/CurseR.Chapter1.html",
     "title": "Namespace CurseR.Chapter1 | CurseR",
-    "summary": "Namespace CurseR.Chapter1 Namespaces CurseR.Chapter1.Events CurseR.Chapter1.Objects CurseR.Chapter1.Player Classes ChapterManager1"
+    "summary": "Namespace CurseR.Chapter1 Namespaces CurseR.Chapter1.Events CurseR.Chapter1.Objects CurseR.Chapter1.Player Classes ChapterManager1 Enums ObjectType"
   },
   "api/CurseR.Core.AbstractChapterManager.html": {
     "href": "api/CurseR.Core.AbstractChapterManager.html",
@@ -324,6 +329,16 @@
     "title": "API Reference | CurseR",
     "summary": "API Reference CurseR API documentation."
   },
+  "articles/chapter_1/objects/is_object_activated.html": {
+    "href": "articles/chapter_1/objects/is_object_activated.html",
+    "title": "오브젝트 활성화 여부 | CurseR",
+    "summary": "활성화 여부 구하기 var manager = GameServices.GetChapterManager<ChapterManager1>(); manager.IsObjectActivated(ObjectType.Button); 오브젝트 활성화시키기 var manager = GameServices.GetChapterManager<ChapterManager1>(); manager.ActivateObject(ObjectType.Button);"
+  },
+  "articles/chapter_1/player/check_collision.html": {
+    "href": "articles/chapter_1/player/check_collision.html",
+    "title": "플레이어 충돌 체크하기 | CurseR",
+    "summary": "충돌 체크하기 확장 메소드 Collision2D.ByPlayer() 사용 void OnCollisionEnter2D(Collision2D collision) { if (collision.ByPlayer()) { // Do something } } 트리거 체크하기 확장 메소드 Collider2D.ByPlayer() 사용 void OnTriggerEnter2D(Collider2D collision) { if (collision.ByPlayer()) { // Do something } }"
+  },
   "articles/introduction.html": {
     "href": "articles/introduction.html",
     "title": "Introduction | CurseR",
@@ -331,7 +346,7 @@
   },
   "index.html": {
     "href": "index.html",
-    "title": "This is the HOMEPAGE. | CurseR",
-    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+    "title": "CurseR API Docs | CurseR",
+    "summary": "CurseR API Docs"
   }
 }

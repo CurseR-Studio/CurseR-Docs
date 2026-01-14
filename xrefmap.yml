@@ -16,19 +16,19 @@ references:
   commentId: T:CurseR.Chapter1.ChapterManager1
   fullName: CurseR.Chapter1.ChapterManager1
   nameWithType: ChapterManager1
-- uid: CurseR.Chapter1.ChapterManager1.AreObjectsActivated
-  name: AreObjectsActivated
-  href: api/CurseR.Chapter1.ChapterManager1.html#CurseR_Chapter1_ChapterManager1_AreObjectsActivated
-  commentId: P:CurseR.Chapter1.ChapterManager1.AreObjectsActivated
-  fullName: CurseR.Chapter1.ChapterManager1.AreObjectsActivated
-  nameWithType: ChapterManager1.AreObjectsActivated
-- uid: CurseR.Chapter1.ChapterManager1.AreObjectsActivated*
-  name: AreObjectsActivated
-  href: api/CurseR.Chapter1.ChapterManager1.html#CurseR_Chapter1_ChapterManager1_AreObjectsActivated_
-  commentId: Overload:CurseR.Chapter1.ChapterManager1.AreObjectsActivated
+- uid: CurseR.Chapter1.ChapterManager1.ActivateObject(CurseR.Chapter1.ObjectType)
+  name: ActivateObject(ObjectType)
+  href: api/CurseR.Chapter1.ChapterManager1.html#CurseR_Chapter1_ChapterManager1_ActivateObject_CurseR_Chapter1_ObjectType_
+  commentId: M:CurseR.Chapter1.ChapterManager1.ActivateObject(CurseR.Chapter1.ObjectType)
+  fullName: CurseR.Chapter1.ChapterManager1.ActivateObject(CurseR.Chapter1.ObjectType)
+  nameWithType: ChapterManager1.ActivateObject(ObjectType)
+- uid: CurseR.Chapter1.ChapterManager1.ActivateObject*
+  name: ActivateObject
+  href: api/CurseR.Chapter1.ChapterManager1.html#CurseR_Chapter1_ChapterManager1_ActivateObject_
+  commentId: Overload:CurseR.Chapter1.ChapterManager1.ActivateObject
   isSpec: "True"
-  fullName: CurseR.Chapter1.ChapterManager1.AreObjectsActivated
-  nameWithType: ChapterManager1.AreObjectsActivated
+  fullName: CurseR.Chapter1.ChapterManager1.ActivateObject
+  nameWithType: ChapterManager1.ActivateObject
 - uid: CurseR.Chapter1.ChapterManager1.CurrentChapter
   name: CurrentChapter
   href: api/CurseR.Chapter1.ChapterManager1.html#CurseR_Chapter1_ChapterManager1_CurrentChapter
@@ -68,6 +68,19 @@ references:
   isSpec: "True"
   fullName: CurseR.Chapter1.ChapterManager1.Init
   nameWithType: ChapterManager1.Init
+- uid: CurseR.Chapter1.ChapterManager1.IsObjectActivated(CurseR.Chapter1.ObjectType)
+  name: IsObjectActivated(ObjectType)
+  href: api/CurseR.Chapter1.ChapterManager1.html#CurseR_Chapter1_ChapterManager1_IsObjectActivated_CurseR_Chapter1_ObjectType_
+  commentId: M:CurseR.Chapter1.ChapterManager1.IsObjectActivated(CurseR.Chapter1.ObjectType)
+  fullName: CurseR.Chapter1.ChapterManager1.IsObjectActivated(CurseR.Chapter1.ObjectType)
+  nameWithType: ChapterManager1.IsObjectActivated(ObjectType)
+- uid: CurseR.Chapter1.ChapterManager1.IsObjectActivated*
+  name: IsObjectActivated
+  href: api/CurseR.Chapter1.ChapterManager1.html#CurseR_Chapter1_ChapterManager1_IsObjectActivated_
+  commentId: Overload:CurseR.Chapter1.ChapterManager1.IsObjectActivated
+  isSpec: "True"
+  fullName: CurseR.Chapter1.ChapterManager1.IsObjectActivated
+  nameWithType: ChapterManager1.IsObjectActivated
 - uid: CurseR.Chapter1.Events
   name: CurseR.Chapter1.Events
   href: api/CurseR.Chapter1.Events.html
@@ -207,6 +220,24 @@ references:
   isSpec: "True"
   fullName: CurseR.Chapter1.Events.WaterExitEvent.Name
   nameWithType: WaterExitEvent.Name
+- uid: CurseR.Chapter1.ObjectType
+  name: ObjectType
+  href: api/CurseR.Chapter1.ObjectType.html
+  commentId: T:CurseR.Chapter1.ObjectType
+  fullName: CurseR.Chapter1.ObjectType
+  nameWithType: ObjectType
+- uid: CurseR.Chapter1.ObjectType.Button
+  name: Button
+  href: api/CurseR.Chapter1.ObjectType.html#CurseR_Chapter1_ObjectType_Button
+  commentId: F:CurseR.Chapter1.ObjectType.Button
+  fullName: CurseR.Chapter1.ObjectType.Button
+  nameWithType: ObjectType.Button
+- uid: CurseR.Chapter1.ObjectType.Inputbox
+  name: Inputbox
+  href: api/CurseR.Chapter1.ObjectType.html#CurseR_Chapter1_ObjectType_Inputbox
+  commentId: F:CurseR.Chapter1.ObjectType.Inputbox
+  fullName: CurseR.Chapter1.ObjectType.Inputbox
+  nameWithType: ObjectType.Inputbox
 - uid: CurseR.Chapter1.Objects
   name: CurseR.Chapter1.Objects
   href: api/CurseR.Chapter1.Objects.html

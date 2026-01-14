@@ -138,6 +138,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.ObjectType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.ObjectType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.ObjectType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CurseR.Chapter1.Objects.Button.Button.yml",
       "output": {
         ".html": {
@@ -925,6 +939,26 @@
         },
         ".json": {
           "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/chapter_1/objects/is_object_activated.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/chapter_1/objects/is_object_activated.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/chapter_1/player/check_collision.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/chapter_1/player/check_collision.html"
         }
       },
       "version": ""

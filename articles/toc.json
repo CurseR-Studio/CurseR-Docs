@@ -1,2 +1,2 @@
 
-{"items":[{"name":"Introduction","href":"introduction.html","topicHref":"introduction.html"}],"pdf":false}
+{"items":[{"name":"Introduction","href":"introduction.html","topicHref":"introduction.html"},{"name":"Chapter 1","items":[{"name":"Objects","items":[{"name":"오브젝트 활성화 여부","href":"chapter_1/objects/is_object_activated.html","topicHref":"chapter_1/objects/is_object_activated.html"}]},{"name":"Player","items":[{"name":"플레이어 충돌 체크하기","href":"chapter_1/player/check_collision.html","topicHref":"chapter_1/player/check_collision.html"}]}]}],"pdf":false}
