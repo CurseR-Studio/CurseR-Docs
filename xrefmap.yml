@@ -2013,6 +2013,22 @@ references:
   commentId: T:CurseR.Core.TransitionManager
   fullName: CurseR.Core.TransitionManager
   nameWithType: TransitionManager
+- uid: CurseR.Core.TransitionManager.FadeIn(System.Single)
+  name: FadeIn(float)
+  href: api/CurseR.Core.TransitionManager.html#CurseR_Core_TransitionManager_FadeIn_System_Single_
+  commentId: M:CurseR.Core.TransitionManager.FadeIn(System.Single)
+  name.vb: FadeIn(Single)
+  fullName: CurseR.Core.TransitionManager.FadeIn(float)
+  fullName.vb: CurseR.Core.TransitionManager.FadeIn(Single)
+  nameWithType: TransitionManager.FadeIn(float)
+  nameWithType.vb: TransitionManager.FadeIn(Single)
+- uid: CurseR.Core.TransitionManager.FadeIn*
+  name: FadeIn
+  href: api/CurseR.Core.TransitionManager.html#CurseR_Core_TransitionManager_FadeIn_
+  commentId: Overload:CurseR.Core.TransitionManager.FadeIn
+  isSpec: "True"
+  fullName: CurseR.Core.TransitionManager.FadeIn
+  nameWithType: TransitionManager.FadeIn
 - uid: CurseR.Core.TransitionManager.FadeInAsync(System.Single)
   name: FadeInAsync(float)
   href: api/CurseR.Core.TransitionManager.html#CurseR_Core_TransitionManager_FadeInAsync_System_Single_

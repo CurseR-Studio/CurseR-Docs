@@ -262,7 +262,7 @@
   "api/CurseR.Core.TransitionManager.html": {
     "href": "api/CurseR.Core.TransitionManager.html",
     "title": "Class TransitionManager | CurseR",
-    "summary": "Class TransitionManager Namespace CurseR.Core public class TransitionManager : MonoBehaviour Inheritance object TransitionManager Properties IsFading public bool IsFading { get; } Property Value bool Methods FadeInAsync(float) public IEnumerator FadeInAsync(float fadeDuration = 0.5) Parameters fadeDuration float Returns IEnumerator FadeOut(float) public void FadeOut(float fadeDuration = 0.5) Parameters fadeDuration float FadeOutAsync(float) public IEnumerator FadeOutAsync(float fadeDuration = 0.5) Parameters fadeDuration float Returns IEnumerator FadeOutThenIn(float, float) public void FadeOutThenIn(float fadeDuration = 0.5, float holdTime = 1) Parameters fadeDuration float holdTime float FadeOutThenInAsync(float, float) public IEnumerator FadeOutThenInAsync(float fadeDuration = 0.5, float holdTime = 1) Parameters fadeDuration float holdTime float Returns IEnumerator"
+    "summary": "Class TransitionManager Namespace CurseR.Core public class TransitionManager : MonoBehaviour Inheritance object TransitionManager Properties IsFading public bool IsFading { get; } Property Value bool Methods FadeIn(float) public void FadeIn(float fadeDuration = 0.5) Parameters fadeDuration float FadeInAsync(float) public IEnumerator FadeInAsync(float fadeDuration = 0.5) Parameters fadeDuration float Returns IEnumerator FadeOut(float) public void FadeOut(float fadeDuration = 0.5) Parameters fadeDuration float FadeOutAsync(float) public IEnumerator FadeOutAsync(float fadeDuration = 0.5) Parameters fadeDuration float Returns IEnumerator FadeOutThenIn(float, float) public void FadeOutThenIn(float fadeDuration = 0.5, float holdTime = 1) Parameters fadeDuration float holdTime float FadeOutThenInAsync(float, float) public IEnumerator FadeOutThenInAsync(float fadeDuration = 0.5, float holdTime = 1) Parameters fadeDuration float holdTime float Returns IEnumerator"
   },
   "api/CurseR.Core.Utils.Direction.html": {
     "href": "api/CurseR.Core.Utils.Direction.html",
@@ -343,6 +343,11 @@
     "href": "articles/introduction.html",
     "title": "Introduction | CurseR",
     "summary": "Introduction"
+  },
+  "articles/utils/shared_flag.html": {
+    "href": "articles/utils/shared_flag.html",
+    "title": "Shared Flag | CurseR",
+    "summary": "Shared Flag 공유 boolean 플래그. 점유 중인 영역에서 모두 사용 시 자동으로 기본값으로 리셋됨. 선언 var defaultValue = false; var flag = new SharedFlag(defaultValue); 점유 및 사용 비동기적으로 동시에 다중 점유 가능. 점유 중인 영역에서 모두 handle.GetValue()가 호출되면 자동으로 기본값으로 리셋됨. using (var handle = flag.Acquire()) { var val = handle.GetValue(); // Do something } // 자동으로 점유 해제됨 플래그 설정하기 기본값의 반댓값으로 플래그 설정 flag.Set();"
   },
   "index.html": {
     "href": "index.html",
