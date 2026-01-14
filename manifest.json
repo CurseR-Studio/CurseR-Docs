@@ -11,6 +11,902 @@
       }
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.ChapterManager1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.ChapterManager1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.ChapterManager1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Events.ClickPressEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Events.ClickPressEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Events.ClickPressEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Events.ClickReleaseEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Events.ClickReleaseEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Events.ClickReleaseEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Events.DeathEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Events.DeathEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Events.DeathEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Events.JumpPressEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Events.JumpPressEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Events.JumpPressEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Events.JumpReleaseEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Events.JumpReleaseEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Events.JumpReleaseEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Events.WaterEnterEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Events.WaterEnterEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Events.WaterEnterEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Events.WaterExitEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Events.WaterExitEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Events.WaterExitEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Events.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Events",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Objects.Button.Button.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Objects.Button.Button.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Objects.Button.Button",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Objects.Button.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Objects.Button.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Objects.Button",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Objects.Inputbox.Inputbox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Objects.Inputbox.Inputbox.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Objects.Inputbox.Inputbox",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Objects.Inputbox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Objects.Inputbox.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Objects.Inputbox",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Objects.Object.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Objects.Object.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Objects.Object",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Objects.Spike.SpikeScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Objects.Spike.SpikeScript.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Objects.Spike.SpikeScript",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Objects.Spike.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Objects.Spike.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Objects.Spike",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Objects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Objects.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Objects",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Player.PlayerController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Player.PlayerController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Player.PlayerController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Player.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Player",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.AbstractChapterManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.AbstractChapterManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.AbstractChapterManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.AbstractPlayerController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.AbstractPlayerController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.AbstractPlayerController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Camera.CameraBounds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Camera.CameraBounds.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Camera.CameraBounds",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Camera.MainCamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Camera.MainCamera.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Camera.MainCamera",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Camera.VirtualCamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Camera.VirtualCamera.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Camera.VirtualCamera",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Camera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Camera.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Camera",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.CutScene.Camera.CameraMoveData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.CutScene.Camera.CameraMoveData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.CutScene.Camera.CameraMoveData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.CutScene.Camera.CameraSequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.CutScene.Camera.CameraSequence.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.CutScene.Camera.CameraSequence",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.CutScene.Camera.CutSceneFocusPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.CutScene.Camera.CutSceneFocusPoint.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.CutScene.Camera.CutSceneFocusPoint",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.CutScene.Camera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.CutScene.Camera.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.CutScene.Camera",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.CutScene.Conversation.ConversationSequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.CutScene.Conversation.ConversationSequence.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.CutScene.Conversation.ConversationSequence",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.CutScene.Conversation.DialogBubble.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.CutScene.Conversation.DialogBubble.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.CutScene.Conversation.DialogBubble",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.CutScene.Conversation.DialogData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.CutScene.Conversation.DialogData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.CutScene.Conversation.DialogData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.CutScene.Conversation.DialogSpeaker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.CutScene.Conversation.DialogSpeaker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.CutScene.Conversation.DialogSpeaker",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.CutScene.Conversation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.CutScene.Conversation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.CutScene.Conversation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.CutScene.CutSceneData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.CutScene.CutSceneData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.CutScene.CutSceneData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.CutScene.CutSceneManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.CutScene.CutSceneManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.CutScene.CutSceneManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.CutScene.CutSceneSequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.CutScene.CutSceneSequence.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.CutScene.CutSceneSequence",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.CutScene.CutSceneTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.CutScene.CutSceneTrigger.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.CutScene.CutSceneTrigger",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.CutScene.DelaySequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.CutScene.DelaySequence.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.CutScene.DelaySequence",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.CutScene.SequenceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.CutScene.SequenceType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.CutScene.SequenceType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.CutScene.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.CutScene.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.CutScene",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.GameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.GameEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.GameEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.GameEventBus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.GameEventBus.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.GameEventBus",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.GameServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.GameServices.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.GameServices",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Scene.CheckPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Scene.CheckPoint.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Scene.CheckPoint",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Scene.EditorStartPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Scene.EditorStartPoint.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Scene.EditorStartPoint",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Scene.SceneArea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Scene.SceneArea.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Scene.SceneArea",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Scene.SceneController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Scene.SceneController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Scene.SceneController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Scene.ScenePoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Scene.ScenePoint.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Scene.ScenePoint",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Scene.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Scene.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Scene",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.TransitionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.TransitionManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.TransitionManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Utils.Direction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Utils.Direction.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Utils.Direction",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Utils.SharedFlag.Handle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Utils.SharedFlag.Handle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Utils.SharedFlag.Handle",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Utils.SharedFlag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Utils.SharedFlag.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Utils.SharedFlag",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Utils.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Utils.Utils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Utils.Utils",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Utils.WaitForAtLeastSeconds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Utils.WaitForAtLeastSeconds.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Utils.WaitForAtLeastSeconds",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Utils.WaitForSecondsWithCancel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Utils.WaitForSecondsWithCancel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Utils.WaitForSecondsWithCancel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Utils.WaitUntilWithCancel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Utils.WaitUntilWithCancel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Utils.WaitUntilWithCancel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Utils.WorldPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Utils.WorldPoint.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Utils.WorldPoint",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Utils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Utils",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Features.Core.Utils.TextAssetExtensionFilterAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Features.Core.Utils.TextAssetExtensionFilterAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Features.Core.Utils.TextAssetExtensionFilterAttribute",
+      "Summary": "<p sourcefile=\"api/Features.Core.Utils.TextAssetExtensionFilterAttribute.yml\" sourcestartlinenumber=\"1\">TextAsset 필드에 특정 확장자만 허용하도록 필터링하는 어트리뷰트</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Features.Core.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Features.Core.Utils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Features.Core.Utils",
+      "Summary": null
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
@@ -29,16 +925,6 @@
         },
         ".json": {
           "relative_path": "api/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/getting-started.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/getting-started.html"
         }
       },
       "version": ""

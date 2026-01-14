@@ -1,13 +1,328 @@
 {
+  "api/CurseR.Chapter1.ChapterManager1.html": {
+    "href": "api/CurseR.Chapter1.ChapterManager1.html",
+    "title": "Class ChapterManager1 | CurseR",
+    "summary": "Class ChapterManager1 Namespace CurseR.Chapter1 public class ChapterManager1 : AbstractChapterManager Inheritance object AbstractChapterManager ChapterManager1 Inherited Members AbstractChapterManager.CheckPoint AbstractChapterManager._playedCutScenes AbstractChapterManager.SetCheckPoint(Vector2) AbstractChapterManager.RestartFromCheckPoint() AbstractChapterManager.IsCutScenePlayed(CutSceneData) AbstractChapterManager.SetCutScenePlayed(CutSceneData, bool) Properties AreObjectsActivated public bool AreObjectsActivated { get; } Property Value bool CurrentChapter public override int CurrentChapter { get; } Property Value int Methods Dispose() protected override void Dispose() Init() protected override void Init()"
+  },
+  "api/CurseR.Chapter1.Events.ClickPressEvent.html": {
+    "href": "api/CurseR.Chapter1.Events.ClickPressEvent.html",
+    "title": "Class ClickPressEvent | CurseR",
+    "summary": "Class ClickPressEvent Namespace CurseR.Chapter1.Events public class ClickPressEvent : GameEvent Inheritance object GameEvent ClickPressEvent Properties Name public override string Name { get; } Property Value string"
+  },
+  "api/CurseR.Chapter1.Events.ClickReleaseEvent.html": {
+    "href": "api/CurseR.Chapter1.Events.ClickReleaseEvent.html",
+    "title": "Class ClickReleaseEvent | CurseR",
+    "summary": "Class ClickReleaseEvent Namespace CurseR.Chapter1.Events public class ClickReleaseEvent : GameEvent Inheritance object GameEvent ClickReleaseEvent Properties Name public override string Name { get; } Property Value string"
+  },
+  "api/CurseR.Chapter1.Events.DeathEvent.html": {
+    "href": "api/CurseR.Chapter1.Events.DeathEvent.html",
+    "title": "Class DeathEvent | CurseR",
+    "summary": "Class DeathEvent Namespace CurseR.Chapter1.Events public class DeathEvent : GameEvent Inheritance object GameEvent DeathEvent Properties Name public override string Name { get; } Property Value string"
+  },
+  "api/CurseR.Chapter1.Events.JumpPressEvent.html": {
+    "href": "api/CurseR.Chapter1.Events.JumpPressEvent.html",
+    "title": "Class JumpPressEvent | CurseR",
+    "summary": "Class JumpPressEvent Namespace CurseR.Chapter1.Events public class JumpPressEvent : GameEvent Inheritance object GameEvent JumpPressEvent Properties Name public override string Name { get; } Property Value string"
+  },
+  "api/CurseR.Chapter1.Events.JumpReleaseEvent.html": {
+    "href": "api/CurseR.Chapter1.Events.JumpReleaseEvent.html",
+    "title": "Class JumpReleaseEvent | CurseR",
+    "summary": "Class JumpReleaseEvent Namespace CurseR.Chapter1.Events public class JumpReleaseEvent : GameEvent Inheritance object GameEvent JumpReleaseEvent Properties Name public override string Name { get; } Property Value string"
+  },
+  "api/CurseR.Chapter1.Events.WaterEnterEvent.html": {
+    "href": "api/CurseR.Chapter1.Events.WaterEnterEvent.html",
+    "title": "Class WaterEnterEvent | CurseR",
+    "summary": "Class WaterEnterEvent Namespace CurseR.Chapter1.Events public class WaterEnterEvent : GameEvent Inheritance object GameEvent WaterEnterEvent Properties Name public override string Name { get; } Property Value string"
+  },
+  "api/CurseR.Chapter1.Events.WaterExitEvent.html": {
+    "href": "api/CurseR.Chapter1.Events.WaterExitEvent.html",
+    "title": "Class WaterExitEvent | CurseR",
+    "summary": "Class WaterExitEvent Namespace CurseR.Chapter1.Events public class WaterExitEvent : GameEvent Inheritance object GameEvent WaterExitEvent Properties Name public override string Name { get; } Property Value string"
+  },
+  "api/CurseR.Chapter1.Events.html": {
+    "href": "api/CurseR.Chapter1.Events.html",
+    "title": "Namespace CurseR.Chapter1.Events | CurseR",
+    "summary": "Namespace CurseR.Chapter1.Events Classes ClickPressEvent ClickReleaseEvent DeathEvent JumpPressEvent JumpReleaseEvent WaterEnterEvent WaterExitEvent"
+  },
+  "api/CurseR.Chapter1.Objects.Button.Button.html": {
+    "href": "api/CurseR.Chapter1.Objects.Button.Button.html",
+    "title": "Class Button | CurseR",
+    "summary": "Class Button Namespace CurseR.Chapter1.Objects.Button public class Button : Object Inheritance object Object Button Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Object.Dispose() Fields SlowdownCooltime public float SlowdownCooltime Field Value float buttonCooltime public float buttonCooltime Field Value float buttonCoyoteTime public float buttonCoyoteTime Field Value float buttonPower public float buttonPower Field Value float buttonSwimPower public float buttonSwimPower Field Value float innerGravity public float innerGravity Field Value float innerVelocityMultiplier public float innerVelocityMultiplier Field Value float inputBufferTime public float inputBufferTime Field Value float isActivated public bool isActivated Field Value bool minFallingSpeed public float minFallingSpeed Field Value float Methods Init() public override void Init()"
+  },
+  "api/CurseR.Chapter1.Objects.Button.html": {
+    "href": "api/CurseR.Chapter1.Objects.Button.html",
+    "title": "Namespace CurseR.Chapter1.Objects.Button | CurseR",
+    "summary": "Namespace CurseR.Chapter1.Objects.Button Classes Button"
+  },
+  "api/CurseR.Chapter1.Objects.Inputbox.Inputbox.html": {
+    "href": "api/CurseR.Chapter1.Objects.Inputbox.Inputbox.html",
+    "title": "Class Inputbox | CurseR",
+    "summary": "Class Inputbox Namespace CurseR.Chapter1.Objects.Inputbox public class Inputbox : Object Inheritance object Object Inputbox Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Object.Dispose() Methods Init() public override void Init()"
+  },
+  "api/CurseR.Chapter1.Objects.Inputbox.html": {
+    "href": "api/CurseR.Chapter1.Objects.Inputbox.html",
+    "title": "Namespace CurseR.Chapter1.Objects.Inputbox | CurseR",
+    "summary": "Namespace CurseR.Chapter1.Objects.Inputbox Classes Inputbox"
+  },
+  "api/CurseR.Chapter1.Objects.Object.html": {
+    "href": "api/CurseR.Chapter1.Objects.Object.html",
+    "title": "Class Object | CurseR",
+    "summary": "Class Object Namespace CurseR.Chapter1.Objects public class Object : MonoBehaviour Inheritance object Object Derived Button Inputbox SpikeScript Methods Dispose() protected virtual void Dispose() Init() public virtual void Init() useEvent<EventTy>(Action<EventTy>) protected void useEvent<EventTy>(Action<EventTy> handler) where EventTy : GameEvent Parameters handler Action<EventTy> Type Parameters EventTy"
+  },
+  "api/CurseR.Chapter1.Objects.Spike.SpikeScript.html": {
+    "href": "api/CurseR.Chapter1.Objects.Spike.SpikeScript.html",
+    "title": "Class SpikeScript | CurseR",
+    "summary": "Class SpikeScript Namespace CurseR.Chapter1.Objects.Spike public class SpikeScript : Object Inheritance object Object SpikeScript Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Object.Dispose() Methods Init() public override void Init()"
+  },
+  "api/CurseR.Chapter1.Objects.Spike.html": {
+    "href": "api/CurseR.Chapter1.Objects.Spike.html",
+    "title": "Namespace CurseR.Chapter1.Objects.Spike | CurseR",
+    "summary": "Namespace CurseR.Chapter1.Objects.Spike Classes SpikeScript"
+  },
+  "api/CurseR.Chapter1.Objects.html": {
+    "href": "api/CurseR.Chapter1.Objects.html",
+    "title": "Namespace CurseR.Chapter1.Objects | CurseR",
+    "summary": "Namespace CurseR.Chapter1.Objects Classes Object"
+  },
+  "api/CurseR.Chapter1.Player.PlayerController.html": {
+    "href": "api/CurseR.Chapter1.Player.PlayerController.html",
+    "title": "Class PlayerController | CurseR",
+    "summary": "Class PlayerController Namespace CurseR.Chapter1.Player public class PlayerController : AbstractPlayerController Inheritance object AbstractPlayerController PlayerController Inherited Members AbstractPlayerController.IsDisabled Properties Fallgravity public float Fallgravity { get; } Property Value float IsGrounded public bool IsGrounded { get; } Property Value bool IsInWater public bool IsInWater { get; } Property Value bool IsJumping public bool IsJumping { get; } Property Value bool IsTouchingWall public bool IsTouchingWall { get; } Property Value bool JumpGravity public float JumpGravity { get; } Property Value float WallGravity public float WallGravity { get; } Property Value float WallStickGravity public float WallStickGravity { get; } Property Value float Methods Disable() public override void Disable() DisableInput() public void DisableInput() Enable() public override void Enable() EnableInput() public void EnableInput() Init() protected override void Init() Teleport(Vector2) public void Teleport(Vector2 position) Parameters position Vector2"
+  },
+  "api/CurseR.Chapter1.Player.html": {
+    "href": "api/CurseR.Chapter1.Player.html",
+    "title": "Namespace CurseR.Chapter1.Player | CurseR",
+    "summary": "Namespace CurseR.Chapter1.Player Classes PlayerController"
+  },
+  "api/CurseR.Chapter1.html": {
+    "href": "api/CurseR.Chapter1.html",
+    "title": "Namespace CurseR.Chapter1 | CurseR",
+    "summary": "Namespace CurseR.Chapter1 Classes ChapterManager1"
+  },
+  "api/CurseR.Core.AbstractChapterManager.html": {
+    "href": "api/CurseR.Core.AbstractChapterManager.html",
+    "title": "Class AbstractChapterManager | CurseR",
+    "summary": "Class AbstractChapterManager Namespace CurseR.Core public abstract class AbstractChapterManager : MonoBehaviour Inheritance object AbstractChapterManager Derived ChapterManager1 Fields _playedCutScenes protected HashSet<string> _playedCutScenes Field Value HashSet<string> Properties CheckPoint public WorldPoint CheckPoint { get; protected set; } Property Value WorldPoint CurrentChapter public virtual int CurrentChapter { get; } Property Value int Methods Dispose() protected virtual void Dispose() Init() protected virtual void Init() IsCutScenePlayed(CutSceneData) public bool IsCutScenePlayed(CutSceneData cutScene) Parameters cutScene CutSceneData Returns bool RestartFromCheckPoint() public IEnumerator RestartFromCheckPoint() Returns IEnumerator SetCheckPoint(Vector2) public void SetCheckPoint(Vector2 worldPos) Parameters worldPos Vector2 SetCutScenePlayed(CutSceneData, bool) public void SetCutScenePlayed(CutSceneData cutScene, bool isPlayed = true) Parameters cutScene CutSceneData isPlayed bool"
+  },
+  "api/CurseR.Core.AbstractPlayerController.html": {
+    "href": "api/CurseR.Core.AbstractPlayerController.html",
+    "title": "Class AbstractPlayerController | CurseR",
+    "summary": "Class AbstractPlayerController Namespace CurseR.Core public abstract class AbstractPlayerController : MonoBehaviour Inheritance object AbstractPlayerController Derived PlayerController Properties IsDisabled public bool IsDisabled { get; protected set; } Property Value bool Methods Disable() public virtual void Disable() Enable() public virtual void Enable() Init() protected virtual void Init()"
+  },
+  "api/CurseR.Core.Camera.CameraBounds.html": {
+    "href": "api/CurseR.Core.Camera.CameraBounds.html",
+    "title": "Class CameraBounds | CurseR",
+    "summary": "Class CameraBounds Namespace CurseR.Core.Camera public class CameraBounds : MonoBehaviour Inheritance object CameraBounds"
+  },
+  "api/CurseR.Core.Camera.MainCamera.html": {
+    "href": "api/CurseR.Core.Camera.MainCamera.html",
+    "title": "Class MainCamera | CurseR",
+    "summary": "Class MainCamera Namespace CurseR.Core.Camera public class MainCamera : MonoBehaviour Inheritance object MainCamera"
+  },
+  "api/CurseR.Core.Camera.VirtualCamera.html": {
+    "href": "api/CurseR.Core.Camera.VirtualCamera.html",
+    "title": "Class VirtualCamera | CurseR",
+    "summary": "Class VirtualCamera Namespace CurseR.Core.Camera public class VirtualCamera : MonoBehaviour Inheritance object VirtualCamera Properties IsShaking public bool IsShaking { get; } Property Value bool Methods Shake(float, float, float, float) public void Shake(float duration, float transition, float maxAmp, float maxFreq = 1) Parameters duration float transition float maxAmp float maxFreq float"
+  },
+  "api/CurseR.Core.Camera.html": {
+    "href": "api/CurseR.Core.Camera.html",
+    "title": "Namespace CurseR.Core.Camera | CurseR",
+    "summary": "Namespace CurseR.Core.Camera Classes CameraBounds MainCamera VirtualCamera"
+  },
+  "api/CurseR.Core.CutScene.Camera.CameraMoveData.html": {
+    "href": "api/CurseR.Core.CutScene.Camera.CameraMoveData.html",
+    "title": "Class CameraMoveData | CurseR",
+    "summary": "Class CameraMoveData Namespace CurseR.Core.CutScene.Camera [Serializable] public class CameraMoveData Inheritance object CameraMoveData Constructors CameraMoveData(string, float, float, float?) public CameraMoveData(string focusPointId, float duration, float zoom = 1, float? blendTime = null) Parameters focusPointId string duration float zoom float blendTime float? Properties BlendTime public float? BlendTime { get; } Property Value float? Duration public float Duration { get; } Property Value float FocusPointId public string FocusPointId { get; } Property Value string Zoom public float Zoom { get; } Property Value float"
+  },
+  "api/CurseR.Core.CutScene.Camera.CameraSequence.html": {
+    "href": "api/CurseR.Core.CutScene.Camera.CameraSequence.html",
+    "title": "Class CameraSequence | CurseR",
+    "summary": "Class CameraSequence Namespace CurseR.Core.CutScene.Camera [Serializable] public class CameraSequence : CutSceneSequence Inheritance object CutSceneSequence CameraSequence Inherited Members CutSceneSequence.Enabled Constructors CameraSequence() public CameraSequence() CameraSequence(List<CameraMoveData>) public CameraSequence(List<CameraMoveData> cameraMoves) Parameters cameraMoves List<CameraMoveData> Properties CameraMoves public List<CameraMoveData> CameraMoves { get; } Property Value List<CameraMoveData> SequenceType public override SequenceType SequenceType { get; } Property Value SequenceType Methods AddCameraMove(CameraMoveData) public void AddCameraMove(CameraMoveData cameraMove) Parameters cameraMove CameraMoveData"
+  },
+  "api/CurseR.Core.CutScene.Camera.CutSceneFocusPoint.html": {
+    "href": "api/CurseR.Core.CutScene.Camera.CutSceneFocusPoint.html",
+    "title": "Class CutSceneFocusPoint | CurseR",
+    "summary": "Class CutSceneFocusPoint Namespace CurseR.Core.CutScene.Camera public class CutSceneFocusPoint : MonoBehaviour Inheritance object CutSceneFocusPoint Properties Id public string Id { get; } Property Value string Methods Focus(float, float, float?, Handle) public IEnumerator Focus(float duration, float zoom, float? blendTime, SharedFlag.Handle handle) Parameters duration float zoom float blendTime float? handle SharedFlag.Handle Returns IEnumerator"
+  },
+  "api/CurseR.Core.CutScene.Camera.html": {
+    "href": "api/CurseR.Core.CutScene.Camera.html",
+    "title": "Namespace CurseR.Core.CutScene.Camera | CurseR",
+    "summary": "Namespace CurseR.Core.CutScene.Camera Classes CameraMoveData CameraSequence CutSceneFocusPoint"
+  },
+  "api/CurseR.Core.CutScene.Conversation.ConversationSequence.html": {
+    "href": "api/CurseR.Core.CutScene.Conversation.ConversationSequence.html",
+    "title": "Class ConversationSequence | CurseR",
+    "summary": "Class ConversationSequence Namespace CurseR.Core.CutScene.Conversation [Serializable] public class ConversationSequence : CutSceneSequence Inheritance object CutSceneSequence ConversationSequence Inherited Members CutSceneSequence.Enabled Constructors ConversationSequence() public ConversationSequence() ConversationSequence(List<DialogData>) public ConversationSequence(List<DialogData> dialogs) Parameters dialogs List<DialogData> Properties Dialogs public List<DialogData> Dialogs { get; } Property Value List<DialogData> SequenceType public override SequenceType SequenceType { get; } Property Value SequenceType Methods AddDialog(DialogData) public void AddDialog(DialogData dialog) Parameters dialog DialogData"
+  },
+  "api/CurseR.Core.CutScene.Conversation.DialogBubble.html": {
+    "href": "api/CurseR.Core.CutScene.Conversation.DialogBubble.html",
+    "title": "Class DialogBubble | CurseR",
+    "summary": "Class DialogBubble Namespace CurseR.Core.CutScene.Conversation public class DialogBubble : MonoBehaviour Inheritance object DialogBubble Methods Disable() public void Disable() SetDirection(bool) public void SetDirection(bool isRight) Parameters isRight bool ShowText(string, Action) public void ShowText(string text, Action onComplete = null) Parameters text string onComplete Action SkipTyping() public void SkipTyping()"
+  },
+  "api/CurseR.Core.CutScene.Conversation.DialogData.html": {
+    "href": "api/CurseR.Core.CutScene.Conversation.DialogData.html",
+    "title": "Class DialogData | CurseR",
+    "summary": "Class DialogData Namespace CurseR.Core.CutScene.Conversation [Serializable] public class DialogData Inheritance object DialogData Constructors DialogData(DialogSpeaker, string, DialogData, float) public DialogData(DialogSpeaker speaker, string content, DialogData interruptDialog = null, float interruptInterval = 0) Parameters speaker DialogSpeaker content string interruptDialog DialogData interruptInterval float Properties Content public string Content { get; } Property Value string InterruptDialog public DialogData InterruptDialog { get; } Property Value DialogData InterruptInterval public float InterruptInterval { get; } Property Value float Speaker public DialogSpeaker Speaker { get; } Property Value DialogSpeaker"
+  },
+  "api/CurseR.Core.CutScene.Conversation.DialogSpeaker.html": {
+    "href": "api/CurseR.Core.CutScene.Conversation.DialogSpeaker.html",
+    "title": "Enum DialogSpeaker | CurseR",
+    "summary": "Enum DialogSpeaker Namespace CurseR.Core.CutScene.Conversation public enum DialogSpeaker Fields None = 0 Player = 1"
+  },
+  "api/CurseR.Core.CutScene.Conversation.html": {
+    "href": "api/CurseR.Core.CutScene.Conversation.html",
+    "title": "Namespace CurseR.Core.CutScene.Conversation | CurseR",
+    "summary": "Namespace CurseR.Core.CutScene.Conversation Classes ConversationSequence DialogBubble DialogData Enums DialogSpeaker"
+  },
+  "api/CurseR.Core.CutScene.CutSceneData.html": {
+    "href": "api/CurseR.Core.CutScene.CutSceneData.html",
+    "title": "Class CutSceneData | CurseR",
+    "summary": "Class CutSceneData Namespace CurseR.Core.CutScene [Serializable] public class CutSceneData Inheritance object CutSceneData Constructors CutSceneData() public CutSceneData() CutSceneData(string, List<CutSceneSequence>) public CutSceneData(string id, List<CutSceneSequence> sequences) Parameters id string sequences List<CutSceneSequence> Properties Id public string Id { get; } Property Value string Sequences public List<CutSceneSequence> Sequences { get; } Property Value List<CutSceneSequence> Methods FromTextAsset(TextAsset) public static CutSceneData FromTextAsset(UnityEngine.TextAsset textAsset) Parameters textAsset TextAsset Returns CutSceneData"
+  },
+  "api/CurseR.Core.CutScene.CutSceneManager.html": {
+    "href": "api/CurseR.Core.CutScene.CutSceneManager.html",
+    "title": "Class CutSceneManager | CurseR",
+    "summary": "Class CutSceneManager Namespace CurseR.Core.CutScene public class CutSceneManager : MonoBehaviour Inheritance object CutSceneManager Properties IsPlaying public bool IsPlaying { get; } Property Value bool Methods PlayCutScene(CutSceneData, bool) public void PlayCutScene(CutSceneData cutScene, bool interrupt = false) Parameters cutScene CutSceneData interrupt bool RegisterDialogBubble(DialogSpeaker, DialogBubble) public void RegisterDialogBubble(DialogSpeaker speaker, DialogBubble bubble) Parameters speaker DialogSpeaker bubble DialogBubble"
+  },
+  "api/CurseR.Core.CutScene.CutSceneSequence.html": {
+    "href": "api/CurseR.Core.CutScene.CutSceneSequence.html",
+    "title": "Class CutSceneSequence | CurseR",
+    "summary": "Class CutSceneSequence Namespace CurseR.Core.CutScene [Serializable] public abstract class CutSceneSequence Inheritance object CutSceneSequence Derived CameraSequence ConversationSequence DelaySequence Properties Enabled public bool Enabled { get; set; } Property Value bool SequenceType public abstract SequenceType SequenceType { get; } Property Value SequenceType"
+  },
+  "api/CurseR.Core.CutScene.CutSceneTrigger.html": {
+    "href": "api/CurseR.Core.CutScene.CutSceneTrigger.html",
+    "title": "Class CutSceneTrigger | CurseR",
+    "summary": "Class CutSceneTrigger Namespace CurseR.Core.CutScene public class CutSceneTrigger : MonoBehaviour Inheritance object CutSceneTrigger"
+  },
+  "api/CurseR.Core.CutScene.DelaySequence.html": {
+    "href": "api/CurseR.Core.CutScene.DelaySequence.html",
+    "title": "Class DelaySequence | CurseR",
+    "summary": "Class DelaySequence Namespace CurseR.Core.CutScene [Serializable] public class DelaySequence : CutSceneSequence Inheritance object CutSceneSequence DelaySequence Inherited Members CutSceneSequence.Enabled Constructors DelaySequence(float) public DelaySequence(float duration) Parameters duration float Properties Duration public float Duration { get; } Property Value float SequenceType public override SequenceType SequenceType { get; } Property Value SequenceType"
+  },
+  "api/CurseR.Core.CutScene.SequenceType.html": {
+    "href": "api/CurseR.Core.CutScene.SequenceType.html",
+    "title": "Enum SequenceType | CurseR",
+    "summary": "Enum SequenceType Namespace CurseR.Core.CutScene public enum SequenceType Fields Camera = 1 Conversation = 2 Delay = 0"
+  },
+  "api/CurseR.Core.CutScene.html": {
+    "href": "api/CurseR.Core.CutScene.html",
+    "title": "Namespace CurseR.Core.CutScene | CurseR",
+    "summary": "Namespace CurseR.Core.CutScene Classes CutSceneData CutSceneManager CutSceneSequence CutSceneTrigger DelaySequence Enums SequenceType"
+  },
+  "api/CurseR.Core.GameEvent.html": {
+    "href": "api/CurseR.Core.GameEvent.html",
+    "title": "Class GameEvent | CurseR",
+    "summary": "Class GameEvent Namespace CurseR.Core public abstract class GameEvent Inheritance object GameEvent Derived ClickPressEvent ClickReleaseEvent DeathEvent JumpPressEvent JumpReleaseEvent WaterEnterEvent WaterExitEvent Properties Name public abstract string Name { get; } Property Value string"
+  },
+  "api/CurseR.Core.GameEventBus.html": {
+    "href": "api/CurseR.Core.GameEventBus.html",
+    "title": "Class GameEventBus | CurseR",
+    "summary": "Class GameEventBus Namespace CurseR.Core public class GameEventBus : MonoBehaviour Inheritance object GameEventBus Methods Publish<EventTy>(EventTy) public void Publish<EventTy>(EventTy e) where EventTy : GameEvent Parameters e EventTy Type Parameters EventTy Subscribe<EventTy>(Action<EventTy>) public void Subscribe<EventTy>(Action<EventTy> handler) where EventTy : GameEvent Parameters handler Action<EventTy> Type Parameters EventTy Unsubscribe<EventTy>(Action<EventTy>) public void Unsubscribe<EventTy>(Action<EventTy> handler) where EventTy : GameEvent Parameters handler Action<EventTy> Type Parameters EventTy"
+  },
+  "api/CurseR.Core.GameServices.html": {
+    "href": "api/CurseR.Core.GameServices.html",
+    "title": "Class GameServices | CurseR",
+    "summary": "Class GameServices Namespace CurseR.Core public static class GameServices Inheritance object GameServices Fields OnReady public static Action OnReady Field Value Action Properties ChapterManager public static AbstractChapterManager ChapterManager { get; } Property Value AbstractChapterManager CutSceneManager public static CutSceneManager CutSceneManager { get; } Property Value CutSceneManager EventBus public static GameEventBus EventBus { get; } Property Value GameEventBus MainCamera public static GameObject MainCamera { get; } Property Value GameObject Player public static GameObject Player { get; } Property Value GameObject SceneController public static SceneController SceneController { get; } Property Value SceneController TransitionManager public static TransitionManager TransitionManager { get; } Property Value TransitionManager VirtualCamera public static VirtualCamera VirtualCamera { get; } Property Value VirtualCamera Methods GetChapterManager<T>() public static T GetChapterManager<T>() where T : AbstractChapterManager Returns T Type Parameters T RegisterChapterManager(AbstractChapterManager) public static void RegisterChapterManager(AbstractChapterManager manager) Parameters manager AbstractChapterManager RegisterCutSceneManager(CutSceneManager) public static void RegisterCutSceneManager(CutSceneManager manager) Parameters manager CutSceneManager RegisterEventBus(GameEventBus) public static void RegisterEventBus(GameEventBus eventBus) Parameters eventBus GameEventBus RegisterMainCamera(GameObject) public static void RegisterMainCamera(GameObject camera) Parameters camera GameObject RegisterPlayer(GameObject) public static void RegisterPlayer(GameObject player) Parameters player GameObject RegisterSceneController(SceneController) public static void RegisterSceneController(SceneController controller) Parameters controller SceneController RegisterTransitionManager(TransitionManager) public static void RegisterTransitionManager(TransitionManager transitionManager) Parameters transitionManager TransitionManager SetVirtualCamera(VirtualCamera) public static void SetVirtualCamera(VirtualCamera cam) Parameters cam VirtualCamera"
+  },
+  "api/CurseR.Core.Scene.CheckPoint.html": {
+    "href": "api/CurseR.Core.Scene.CheckPoint.html",
+    "title": "Class CheckPoint | CurseR",
+    "summary": "Class CheckPoint Namespace CurseR.Core.Scene public class CheckPoint : MonoBehaviour Inheritance object CheckPoint"
+  },
+  "api/CurseR.Core.Scene.EditorStartPoint.html": {
+    "href": "api/CurseR.Core.Scene.EditorStartPoint.html",
+    "title": "Class EditorStartPoint | CurseR",
+    "summary": "Class EditorStartPoint Namespace CurseR.Core.Scene public class EditorStartPoint : MonoBehaviour Inheritance object EditorStartPoint"
+  },
+  "api/CurseR.Core.Scene.SceneArea.html": {
+    "href": "api/CurseR.Core.Scene.SceneArea.html",
+    "title": "Class SceneArea | CurseR",
+    "summary": "Class SceneArea Namespace CurseR.Core.Scene public class SceneArea : MonoBehaviour Inheritance object SceneArea Fields OnStay public Action OnStay Field Value Action"
+  },
+  "api/CurseR.Core.Scene.SceneController.html": {
+    "href": "api/CurseR.Core.Scene.SceneController.html",
+    "title": "Class SceneController | CurseR",
+    "summary": "Class SceneController Namespace CurseR.Core.Scene public class SceneController : MonoBehaviour Inheritance object SceneController Methods FlushAsync() public IEnumerator FlushAsync() Returns IEnumerator GetCurrentCameraBounds() public Collider2D GetCurrentCameraBounds() Returns Collider2D GetCurrentRoot() public GameObject GetCurrentRoot() Returns GameObject Init(string, Vector2, bool, Action) public void Init(string sceneName, Vector2 position, bool isEditor, Action onComplete = null) Parameters sceneName string position Vector2 isEditor bool onComplete Action InitAsync(string, Vector2, bool, Action) public IEnumerator InitAsync(string sceneName, Vector2 position, bool isEditor, Action onComplete = null) Parameters sceneName string position Vector2 isEditor bool onComplete Action Returns IEnumerator LoadPersistentScene(int) public static void LoadPersistentScene(int chapter) Parameters chapter int Move(ScenePoint) public void Move(ScenePoint point) Parameters point ScenePoint"
+  },
+  "api/CurseR.Core.Scene.ScenePoint.html": {
+    "href": "api/CurseR.Core.Scene.ScenePoint.html",
+    "title": "Class ScenePoint | CurseR",
+    "summary": "Class ScenePoint Namespace CurseR.Core.Scene public class ScenePoint : MonoBehaviour Inheritance object ScenePoint Fields Id public string Id Field Value string IsDisabled public bool IsDisabled Field Value bool MoveDirection public Direction MoveDirection Field Value Direction OnExit public Action OnExit Field Value Action SceneName public string SceneName Field Value string"
+  },
+  "api/CurseR.Core.Scene.html": {
+    "href": "api/CurseR.Core.Scene.html",
+    "title": "Namespace CurseR.Core.Scene | CurseR",
+    "summary": "Namespace CurseR.Core.Scene Classes CheckPoint EditorStartPoint SceneArea SceneController ScenePoint"
+  },
+  "api/CurseR.Core.TransitionManager.html": {
+    "href": "api/CurseR.Core.TransitionManager.html",
+    "title": "Class TransitionManager | CurseR",
+    "summary": "Class TransitionManager Namespace CurseR.Core public class TransitionManager : MonoBehaviour Inheritance object TransitionManager Properties IsFading public bool IsFading { get; } Property Value bool Methods FadeInAsync(float) public IEnumerator FadeInAsync(float fadeDuration = 0.5) Parameters fadeDuration float Returns IEnumerator FadeOut(float) public void FadeOut(float fadeDuration = 0.5) Parameters fadeDuration float FadeOutAsync(float) public IEnumerator FadeOutAsync(float fadeDuration = 0.5) Parameters fadeDuration float Returns IEnumerator FadeOutThenIn(float, float) public void FadeOutThenIn(float fadeDuration = 0.5, float holdTime = 1) Parameters fadeDuration float holdTime float FadeOutThenInAsync(float, float) public IEnumerator FadeOutThenInAsync(float fadeDuration = 0.5, float holdTime = 1) Parameters fadeDuration float holdTime float Returns IEnumerator"
+  },
+  "api/CurseR.Core.Utils.Direction.html": {
+    "href": "api/CurseR.Core.Utils.Direction.html",
+    "title": "Enum Direction | CurseR",
+    "summary": "Enum Direction Namespace CurseR.Core.Utils public enum Direction Fields Down = 1 Left = 2 Right = 3 Up = 0"
+  },
+  "api/CurseR.Core.Utils.SharedFlag.Handle.html": {
+    "href": "api/CurseR.Core.Utils.SharedFlag.Handle.html",
+    "title": "Class SharedFlag.Handle | CurseR",
+    "summary": "Class SharedFlag.Handle Namespace CurseR.Core.Utils public class SharedFlag.Handle Inheritance object SharedFlag.Handle Constructors Handle(SharedFlag) public Handle(SharedFlag flag) Parameters flag SharedFlag Methods Dispose() Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. public void Dispose() GetValue() public bool GetValue() Returns bool"
+  },
+  "api/CurseR.Core.Utils.SharedFlag.html": {
+    "href": "api/CurseR.Core.Utils.SharedFlag.html",
+    "title": "Class SharedFlag | CurseR",
+    "summary": "Class SharedFlag Namespace CurseR.Core.Utils public class SharedFlag Inheritance object SharedFlag Constructors SharedFlag(bool) public SharedFlag(bool defaultValue) Parameters defaultValue bool Methods Acquire() public SharedFlag.Handle Acquire() Returns SharedFlag.Handle GetValue(Handle) public bool GetValue(SharedFlag.Handle handle) Parameters handle SharedFlag.Handle Returns bool Release(Handle) public void Release(SharedFlag.Handle handle) Parameters handle SharedFlag.Handle Set() public void Set()"
+  },
+  "api/CurseR.Core.Utils.Utils.html": {
+    "href": "api/CurseR.Core.Utils.Utils.html",
+    "title": "Class Utils | CurseR",
+    "summary": "Class Utils Namespace CurseR.Core.Utils public static class Utils Inheritance object Utils Methods ByPlayer(Collider2D) public static bool ByPlayer(this Collider2D collision) Parameters collision Collider2D Returns bool ByPlayer(Collision2D) public static bool ByPlayer(this Collision2D collision) Parameters collision Collision2D Returns bool GetComponentInCurrentScene<T>(MonoBehaviour, bool) public static T GetComponentInCurrentScene<T>(this MonoBehaviour mono, bool includeInactive) where T : Component Parameters mono MonoBehaviour includeInactive bool Returns T Type Parameters T GetComponentsInCurrentScene<T>(MonoBehaviour, bool) public static T[] GetComponentsInCurrentScene<T>(this MonoBehaviour mono, bool includeInactive = false) where T : Component Parameters mono MonoBehaviour includeInactive bool Returns T[] Type Parameters T GetRoot(Scene) public static GameObject GetRoot(this UnityEngine.SceneManagement.Scene scene) Parameters scene Scene Returns GameObject ToVector2(Vector3) public static Vector2 ToVector2(this Vector3 vector3) Parameters vector3 Vector3 Returns Vector2"
+  },
+  "api/CurseR.Core.Utils.WaitForAtLeastSeconds.html": {
+    "href": "api/CurseR.Core.Utils.WaitForAtLeastSeconds.html",
+    "title": "Class WaitForAtLeastSeconds | CurseR",
+    "summary": "Class WaitForAtLeastSeconds Namespace CurseR.Core.Utils public class WaitForAtLeastSeconds : CustomYieldInstruction Inheritance object WaitForAtLeastSeconds Constructors WaitForAtLeastSeconds(float, float) public WaitForAtLeastSeconds(float startTime, float seconds) Parameters startTime float seconds float Properties keepWaiting public override bool keepWaiting { get; } Property Value bool Methods FromNow(float) public static WaitForAtLeastSeconds FromNow(float seconds) Parameters seconds float Returns WaitForAtLeastSeconds"
+  },
+  "api/CurseR.Core.Utils.WaitForSecondsWithCancel.html": {
+    "href": "api/CurseR.Core.Utils.WaitForSecondsWithCancel.html",
+    "title": "Class WaitForSecondsWithCancel | CurseR",
+    "summary": "Class WaitForSecondsWithCancel Namespace CurseR.Core.Utils public class WaitForSecondsWithCancel : CustomYieldInstruction Inheritance object WaitForSecondsWithCancel Constructors WaitForSecondsWithCancel(float, Func<bool>) public WaitForSecondsWithCancel(float seconds, Func<bool> isCancelled) Parameters seconds float isCancelled Func<bool> Properties keepWaiting public override bool keepWaiting { get; } Property Value bool"
+  },
+  "api/CurseR.Core.Utils.WaitUntilWithCancel.html": {
+    "href": "api/CurseR.Core.Utils.WaitUntilWithCancel.html",
+    "title": "Class WaitUntilWithCancel | CurseR",
+    "summary": "Class WaitUntilWithCancel Namespace CurseR.Core.Utils public class WaitUntilWithCancel : CustomYieldInstruction Inheritance object WaitUntilWithCancel Constructors WaitUntilWithCancel(Func<bool>, Func<bool>, float) public WaitUntilWithCancel(Func<bool> condition, Func<bool> isCancelled, float timeout = Infinity) Parameters condition Func<bool> isCancelled Func<bool> timeout float Properties IsCancelled public bool IsCancelled { get; } Property Value bool IsDone public bool IsDone { get; } Property Value bool keepWaiting public override bool keepWaiting { get; } Property Value bool"
+  },
+  "api/CurseR.Core.Utils.WorldPoint.html": {
+    "href": "api/CurseR.Core.Utils.WorldPoint.html",
+    "title": "Struct WorldPoint | CurseR",
+    "summary": "Struct WorldPoint Namespace CurseR.Core.Utils public struct WorldPoint Fields Position public Vector2 Position Field Value Vector2 SceneName public string SceneName Field Value string"
+  },
+  "api/CurseR.Core.Utils.html": {
+    "href": "api/CurseR.Core.Utils.html",
+    "title": "Namespace CurseR.Core.Utils | CurseR",
+    "summary": "Namespace CurseR.Core.Utils Classes SharedFlag SharedFlag.Handle Utils WaitForAtLeastSeconds WaitForSecondsWithCancel WaitUntilWithCancel Structs WorldPoint Enums Direction"
+  },
+  "api/CurseR.Core.html": {
+    "href": "api/CurseR.Core.html",
+    "title": "Namespace CurseR.Core | CurseR",
+    "summary": "Namespace CurseR.Core Classes AbstractChapterManager AbstractPlayerController GameEvent GameEventBus GameServices TransitionManager"
+  },
+  "api/Features.Core.Utils.TextAssetExtensionFilterAttribute.html": {
+    "href": "api/Features.Core.Utils.TextAssetExtensionFilterAttribute.html",
+    "title": "Class TextAssetExtensionFilterAttribute | CurseR",
+    "summary": "Class TextAssetExtensionFilterAttribute Namespace Features.Core.Utils TextAsset 필드에 특정 확장자만 허용하도록 필터링하는 어트리뷰트 public class TextAssetExtensionFilterAttribute : PropertyAttribute Inheritance object TextAssetExtensionFilterAttribute Constructors TextAssetExtensionFilterAttribute(params string[]) TextAsset 필드에 특정 확장자만 허용 public TextAssetExtensionFilterAttribute(params string[] allowedExtensions) Parameters allowedExtensions string[] 허용할 확장자 배열 (예: \"txt\", \"json\", \"xml\") Properties AllowedExtensions public string[] AllowedExtensions { get; } Property Value string[]"
+  },
+  "api/Features.Core.Utils.html": {
+    "href": "api/Features.Core.Utils.html",
+    "title": "Namespace Features.Core.Utils | CurseR",
+    "summary": "Namespace Features.Core.Utils Classes TextAssetExtensionFilterAttribute TextAsset 필드에 특정 확장자만 허용하도록 필터링하는 어트리뷰트"
+  },
   "api/index.html": {
     "href": "api/index.html",
     "title": "API Reference | CurseR",
-    "summary": "API Reference API documentation will be generated here."
-  },
-  "articles/getting-started.html": {
-    "href": "articles/getting-started.html",
-    "title": "Getting Started | CurseR",
-    "summary": "Getting Started"
+    "summary": "API Reference CurseR API documentation."
   },
   "articles/introduction.html": {
     "href": "articles/introduction.html",
