@@ -782,6 +782,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Utils.TextAssetExtensionFilterAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Utils.TextAssetExtensionFilterAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Utils.TextAssetExtensionFilterAttribute",
+      "Summary": "<p sourcefile=\"api/CurseR.Core.Utils.TextAssetExtensionFilterAttribute.yml\" sourcestartlinenumber=\"1\">TextAsset 필드에 특정 확장자만 허용하도록 필터링하는 어트리뷰트</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CurseR.Core.Utils.Utils.yml",
       "output": {
         ".html": {
@@ -806,7 +820,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "CurseR.Core.Utils.WaitForAtLeastSeconds",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/CurseR.Core.Utils.WaitForAtLeastSeconds.yml\" sourcestartlinenumber=\"1\">시작 시점으로부터 최소 대기 시간 보장</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -820,7 +834,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "CurseR.Core.Utils.WaitForSecondsWithCancel",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/CurseR.Core.Utils.WaitForSecondsWithCancel.yml\" sourcestartlinenumber=\"1\">중간 취소 가능한 WaitForSeconds</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -834,7 +848,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "CurseR.Core.Utils.WaitUntilWithCancel",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/CurseR.Core.Utils.WaitUntilWithCancel.yml\" sourcestartlinenumber=\"1\">중간 취소 가능한 WaitUntil</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -880,30 +894,16 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Features.Core.Utils.TextAssetExtensionFilterAttribute.yml",
+      "source_relative_path": "api/CurseR.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Features.Core.Utils.TextAssetExtensionFilterAttribute.html"
+          "relative_path": "api/CurseR.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Features.Core.Utils.TextAssetExtensionFilterAttribute",
-      "Summary": "<p sourcefile=\"api/Features.Core.Utils.TextAssetExtensionFilterAttribute.yml\" sourcestartlinenumber=\"1\">TextAsset 필드에 특정 확장자만 허용하도록 필터링하는 어트리뷰트</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Features.Core.Utils.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Features.Core.Utils.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Features.Core.Utils",
+      "Title": null,
       "Summary": null
     },
     {

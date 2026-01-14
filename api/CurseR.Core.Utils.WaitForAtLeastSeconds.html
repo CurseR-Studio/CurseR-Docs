@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class WaitForAtLeastSeconds | CurseR ">
       
-      
+      <meta name="description" content="시작 시점으로부터 최소 대기 시간 보장">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="CurseR_Core_Utils_WaitForAtLeastSeconds" data-uid="CurseR.Core.Utils.WaitForAtLeastSeconds" class="text-break">
-Class WaitForAtLeastSeconds  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/YieldInstruction.cs/#L58"><i class="bi bi-code-slash"></i></a>
+Class WaitForAtLeastSeconds  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/YieldInstruction.cs/#L80"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,8 @@ Class WaitForAtLeastSeconds  <a class="header-action link-secondary" title="View
   
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>시작 시점으로부터 최소 대기 시간 보장</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -121,6 +122,12 @@ Class WaitForAtLeastSeconds  <a class="header-action link-secondary" title="View
 
 
 
+  <h2 id="CurseR_Core_Utils_WaitForAtLeastSeconds_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>Example:</p>
+<pre><code class="lang-csharp">var wait = WaitForAtLeastSeconds.FromNow(2f);
+// Do something
+yield return wait;</code></pre>
+</div>
 
 
   <h2 class="section" id="constructors">Constructors
@@ -131,7 +138,7 @@ Class WaitForAtLeastSeconds  <a class="header-action link-secondary" title="View
 
   <h3 id="CurseR_Core_Utils_WaitForAtLeastSeconds__ctor_System_Single_System_Single_" data-uid="CurseR.Core.Utils.WaitForAtLeastSeconds.#ctor(System.Single,System.Single)">
   WaitForAtLeastSeconds(float, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/YieldInstruction.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/YieldInstruction.cs/#L88"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -144,9 +151,11 @@ Class WaitForAtLeastSeconds  <a class="header-action link-secondary" title="View
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>startTime</code> <span class="xref">float</span></dt>
-    <dd></dd>
+    <dd><p><code>Time.time</code>으로 얻은 시작 시점</p>
+</dd>
     <dt><code>seconds</code> <span class="xref">float</span></dt>
-    <dd></dd>
+    <dd><p>최소 대기 시간</p>
+</dd>
   </dl>
 
 
@@ -168,7 +177,7 @@ Class WaitForAtLeastSeconds  <a class="header-action link-secondary" title="View
 
   <h3 id="CurseR_Core_Utils_WaitForAtLeastSeconds_keepWaiting" data-uid="CurseR.Core.Utils.WaitForAtLeastSeconds.keepWaiting">
   keepWaiting
-  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/YieldInstruction.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/YieldInstruction.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -203,7 +212,7 @@ Class WaitForAtLeastSeconds  <a class="header-action link-secondary" title="View
 
   <h3 id="CurseR_Core_Utils_WaitForAtLeastSeconds_FromNow_System_Single_" data-uid="CurseR.Core.Utils.WaitForAtLeastSeconds.FromNow(System.Single)">
   FromNow(float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/YieldInstruction.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/YieldInstruction.cs/#L93"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -239,7 +248,7 @@ Class WaitForAtLeastSeconds  <a class="header-action link-secondary" title="View
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/YieldInstruction.cs/#L58" class="edit-link">Edit this page</a>
+          <a href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/YieldInstruction.cs/#L80" class="edit-link">Edit this page</a>
         </div>
 
 

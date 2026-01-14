@@ -1,6 +1,9 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: CurseR
+  name: CurseR
+  href: api/CurseR.html
 - uid: CurseR.Chapter1
   name: CurseR.Chapter1
   href: api/CurseR.Chapter1.html
@@ -2236,6 +2239,44 @@ references:
   isSpec: "True"
   fullName: CurseR.Core.Utils.SharedFlag.Set
   nameWithType: SharedFlag.Set
+- uid: CurseR.Core.Utils.TextAssetExtensionFilterAttribute
+  name: TextAssetExtensionFilterAttribute
+  href: api/CurseR.Core.Utils.TextAssetExtensionFilterAttribute.html
+  commentId: T:CurseR.Core.Utils.TextAssetExtensionFilterAttribute
+  fullName: CurseR.Core.Utils.TextAssetExtensionFilterAttribute
+  nameWithType: TextAssetExtensionFilterAttribute
+- uid: CurseR.Core.Utils.TextAssetExtensionFilterAttribute.#ctor(System.String[])
+  name: TextAssetExtensionFilterAttribute(params string[])
+  href: api/CurseR.Core.Utils.TextAssetExtensionFilterAttribute.html#CurseR_Core_Utils_TextAssetExtensionFilterAttribute__ctor_System_String___
+  commentId: M:CurseR.Core.Utils.TextAssetExtensionFilterAttribute.#ctor(System.String[])
+  name.vb: New(ParamArray String())
+  fullName: CurseR.Core.Utils.TextAssetExtensionFilterAttribute.TextAssetExtensionFilterAttribute(params string[])
+  fullName.vb: CurseR.Core.Utils.TextAssetExtensionFilterAttribute.New(ParamArray String())
+  nameWithType: TextAssetExtensionFilterAttribute.TextAssetExtensionFilterAttribute(params string[])
+  nameWithType.vb: TextAssetExtensionFilterAttribute.New(ParamArray String())
+- uid: CurseR.Core.Utils.TextAssetExtensionFilterAttribute.#ctor*
+  name: TextAssetExtensionFilterAttribute
+  href: api/CurseR.Core.Utils.TextAssetExtensionFilterAttribute.html#CurseR_Core_Utils_TextAssetExtensionFilterAttribute__ctor_
+  commentId: Overload:CurseR.Core.Utils.TextAssetExtensionFilterAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CurseR.Core.Utils.TextAssetExtensionFilterAttribute.TextAssetExtensionFilterAttribute
+  fullName.vb: CurseR.Core.Utils.TextAssetExtensionFilterAttribute.New
+  nameWithType: TextAssetExtensionFilterAttribute.TextAssetExtensionFilterAttribute
+  nameWithType.vb: TextAssetExtensionFilterAttribute.New
+- uid: CurseR.Core.Utils.TextAssetExtensionFilterAttribute.AllowedExtensions
+  name: AllowedExtensions
+  href: api/CurseR.Core.Utils.TextAssetExtensionFilterAttribute.html#CurseR_Core_Utils_TextAssetExtensionFilterAttribute_AllowedExtensions
+  commentId: P:CurseR.Core.Utils.TextAssetExtensionFilterAttribute.AllowedExtensions
+  fullName: CurseR.Core.Utils.TextAssetExtensionFilterAttribute.AllowedExtensions
+  nameWithType: TextAssetExtensionFilterAttribute.AllowedExtensions
+- uid: CurseR.Core.Utils.TextAssetExtensionFilterAttribute.AllowedExtensions*
+  name: AllowedExtensions
+  href: api/CurseR.Core.Utils.TextAssetExtensionFilterAttribute.html#CurseR_Core_Utils_TextAssetExtensionFilterAttribute_AllowedExtensions_
+  commentId: Overload:CurseR.Core.Utils.TextAssetExtensionFilterAttribute.AllowedExtensions
+  isSpec: "True"
+  fullName: CurseR.Core.Utils.TextAssetExtensionFilterAttribute.AllowedExtensions
+  nameWithType: TextAssetExtensionFilterAttribute.AllowedExtensions
 - uid: CurseR.Core.Utils.Utils
   name: Utils
   href: api/CurseR.Core.Utils.Utils.html
@@ -2493,47 +2534,3 @@ references:
   commentId: F:CurseR.Core.Utils.WorldPoint.SceneName
   fullName: CurseR.Core.Utils.WorldPoint.SceneName
   nameWithType: WorldPoint.SceneName
-- uid: Features.Core.Utils
-  name: Features.Core.Utils
-  href: api/Features.Core.Utils.html
-  commentId: N:Features.Core.Utils
-  fullName: Features.Core.Utils
-  nameWithType: Features.Core.Utils
-- uid: Features.Core.Utils.TextAssetExtensionFilterAttribute
-  name: TextAssetExtensionFilterAttribute
-  href: api/Features.Core.Utils.TextAssetExtensionFilterAttribute.html
-  commentId: T:Features.Core.Utils.TextAssetExtensionFilterAttribute
-  fullName: Features.Core.Utils.TextAssetExtensionFilterAttribute
-  nameWithType: TextAssetExtensionFilterAttribute
-- uid: Features.Core.Utils.TextAssetExtensionFilterAttribute.#ctor(System.String[])
-  name: TextAssetExtensionFilterAttribute(params string[])
-  href: api/Features.Core.Utils.TextAssetExtensionFilterAttribute.html#Features_Core_Utils_TextAssetExtensionFilterAttribute__ctor_System_String___
-  commentId: M:Features.Core.Utils.TextAssetExtensionFilterAttribute.#ctor(System.String[])
-  name.vb: New(ParamArray String())
-  fullName: Features.Core.Utils.TextAssetExtensionFilterAttribute.TextAssetExtensionFilterAttribute(params string[])
-  fullName.vb: Features.Core.Utils.TextAssetExtensionFilterAttribute.New(ParamArray String())
-  nameWithType: TextAssetExtensionFilterAttribute.TextAssetExtensionFilterAttribute(params string[])
-  nameWithType.vb: TextAssetExtensionFilterAttribute.New(ParamArray String())
-- uid: Features.Core.Utils.TextAssetExtensionFilterAttribute.#ctor*
-  name: TextAssetExtensionFilterAttribute
-  href: api/Features.Core.Utils.TextAssetExtensionFilterAttribute.html#Features_Core_Utils_TextAssetExtensionFilterAttribute__ctor_
-  commentId: Overload:Features.Core.Utils.TextAssetExtensionFilterAttribute.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Features.Core.Utils.TextAssetExtensionFilterAttribute.TextAssetExtensionFilterAttribute
-  fullName.vb: Features.Core.Utils.TextAssetExtensionFilterAttribute.New
-  nameWithType: TextAssetExtensionFilterAttribute.TextAssetExtensionFilterAttribute
-  nameWithType.vb: TextAssetExtensionFilterAttribute.New
-- uid: Features.Core.Utils.TextAssetExtensionFilterAttribute.AllowedExtensions
-  name: AllowedExtensions
-  href: api/Features.Core.Utils.TextAssetExtensionFilterAttribute.html#Features_Core_Utils_TextAssetExtensionFilterAttribute_AllowedExtensions
-  commentId: P:Features.Core.Utils.TextAssetExtensionFilterAttribute.AllowedExtensions
-  fullName: Features.Core.Utils.TextAssetExtensionFilterAttribute.AllowedExtensions
-  nameWithType: TextAssetExtensionFilterAttribute.AllowedExtensions
-- uid: Features.Core.Utils.TextAssetExtensionFilterAttribute.AllowedExtensions*
-  name: AllowedExtensions
-  href: api/Features.Core.Utils.TextAssetExtensionFilterAttribute.html#Features_Core_Utils_TextAssetExtensionFilterAttribute_AllowedExtensions_
-  commentId: Overload:Features.Core.Utils.TextAssetExtensionFilterAttribute.AllowedExtensions
-  isSpec: "True"
-  fullName: Features.Core.Utils.TextAssetExtensionFilterAttribute.AllowedExtensions
-  nameWithType: TextAssetExtensionFilterAttribute.AllowedExtensions

@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class WaitUntilWithCancel | CurseR ">
       
-      
+      <meta name="description" content="중간 취소 가능한 WaitUntil">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="CurseR_Core_Utils_WaitUntilWithCancel" data-uid="CurseR.Core.Utils.WaitUntilWithCancel" class="text-break">
-Class WaitUntilWithCancel  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/YieldInstruction.cs/#L20"><i class="bi bi-code-slash"></i></a>
+Class WaitUntilWithCancel  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/YieldInstruction.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,8 @@ Class WaitUntilWithCancel  <a class="header-action link-secondary" title="View s
   
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>중간 취소 가능한 WaitUntil</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -131,7 +132,7 @@ Class WaitUntilWithCancel  <a class="header-action link-secondary" title="View s
 
   <h3 id="CurseR_Core_Utils_WaitUntilWithCancel__ctor_System_Func_System_Boolean__System_Func_System_Boolean__System_Single_" data-uid="CurseR.Core.Utils.WaitUntilWithCancel.#ctor(System.Func{System.Boolean},System.Func{System.Boolean},System.Single)">
   WaitUntilWithCancel(Func&lt;bool&gt;, Func&lt;bool&gt;, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/YieldInstruction.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/YieldInstruction.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -144,11 +145,14 @@ Class WaitUntilWithCancel  <a class="header-action link-secondary" title="View s
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>condition</code> <span class="xref">Func</span>&lt;<span class="xref">bool</span>&gt;</dt>
-    <dd></dd>
+    <dd><p>기다릴 조건. true 시 종료</p>
+</dd>
     <dt><code>isCancelled</code> <span class="xref">Func</span>&lt;<span class="xref">bool</span>&gt;</dt>
-    <dd></dd>
+    <dd><p>취소되었는지 확인할 함수</p>
+</dd>
     <dt><code>timeout</code> <span class="xref">float</span></dt>
-    <dd></dd>
+    <dd><p>최대 대기 시간</p>
+</dd>
   </dl>
 
 
@@ -170,7 +174,7 @@ Class WaitUntilWithCancel  <a class="header-action link-secondary" title="View s
 
   <h3 id="CurseR_Core_Utils_WaitUntilWithCancel_IsCancelled" data-uid="CurseR.Core.Utils.WaitUntilWithCancel.IsCancelled">
   IsCancelled
-  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/YieldInstruction.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/YieldInstruction.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -201,7 +205,7 @@ Class WaitUntilWithCancel  <a class="header-action link-secondary" title="View s
 
   <h3 id="CurseR_Core_Utils_WaitUntilWithCancel_IsDone" data-uid="CurseR.Core.Utils.WaitUntilWithCancel.IsDone">
   IsDone
-  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/YieldInstruction.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/YieldInstruction.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -232,7 +236,7 @@ Class WaitUntilWithCancel  <a class="header-action link-secondary" title="View s
 
   <h3 id="CurseR_Core_Utils_WaitUntilWithCancel_keepWaiting" data-uid="CurseR.Core.Utils.WaitUntilWithCancel.keepWaiting">
   keepWaiting
-  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/YieldInstruction.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/YieldInstruction.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -263,7 +267,7 @@ Class WaitUntilWithCancel  <a class="header-action link-secondary" title="View s
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/YieldInstruction.cs/#L20" class="edit-link">Edit this page</a>
+          <a href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/YieldInstruction.cs/#L28" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -2,7 +2,7 @@
   "api/CurseR.Chapter1.ChapterManager1.html": {
     "href": "api/CurseR.Chapter1.ChapterManager1.html",
     "title": "Class ChapterManager1 | CurseR",
-    "summary": "Class ChapterManager1 Namespace CurseR.Chapter1 public class ChapterManager1 : AbstractChapterManager Inheritance object AbstractChapterManager ChapterManager1 Inherited Members AbstractChapterManager.CheckPoint AbstractChapterManager._playedCutScenes AbstractChapterManager.SetCheckPoint(Vector2) AbstractChapterManager.RestartFromCheckPoint() AbstractChapterManager.IsCutScenePlayed(CutSceneData) AbstractChapterManager.SetCutScenePlayed(CutSceneData, bool) Properties AreObjectsActivated public bool AreObjectsActivated { get; } Property Value bool CurrentChapter public override int CurrentChapter { get; } Property Value int Methods Dispose() protected override void Dispose() Init() protected override void Init()"
+    "summary": "Class ChapterManager1 Namespace CurseR.Chapter1 public class ChapterManager1 : AbstractChapterManager Inheritance object AbstractChapterManager ChapterManager1 Inherited Members AbstractChapterManager.CheckPoint AbstractChapterManager._playedCutScenes AbstractChapterManager.SetCheckPoint(Vector2) AbstractChapterManager.RestartFromCheckPoint() AbstractChapterManager.IsCutScenePlayed(CutSceneData) AbstractChapterManager.SetCutScenePlayed(CutSceneData, bool) Properties AreObjectsActivated 오브젝트 활성화/비활성화 상태 public bool AreObjectsActivated { get; } Property Value bool CurrentChapter public override int CurrentChapter { get; } Property Value int Methods Dispose() protected override void Dispose() Init() protected override void Init()"
   },
   "api/CurseR.Chapter1.Events.ClickPressEvent.html": {
     "href": "api/CurseR.Chapter1.Events.ClickPressEvent.html",
@@ -47,7 +47,7 @@
   "api/CurseR.Chapter1.Objects.Button.Button.html": {
     "href": "api/CurseR.Chapter1.Objects.Button.Button.html",
     "title": "Class Button | CurseR",
-    "summary": "Class Button Namespace CurseR.Chapter1.Objects.Button public class Button : Object Inheritance object Object Button Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Object.Dispose() Fields SlowdownCooltime public float SlowdownCooltime Field Value float buttonCooltime public float buttonCooltime Field Value float buttonCoyoteTime public float buttonCoyoteTime Field Value float buttonPower public float buttonPower Field Value float buttonSwimPower public float buttonSwimPower Field Value float innerGravity public float innerGravity Field Value float innerVelocityMultiplier public float innerVelocityMultiplier Field Value float inputBufferTime public float inputBufferTime Field Value float isActivated public bool isActivated Field Value bool minFallingSpeed public float minFallingSpeed Field Value float Methods Init() public override void Init()"
+    "summary": "Class Button Namespace CurseR.Chapter1.Objects.Button public class Button : Object Inheritance object Object Button Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Object.Dispose() Fields SlowdownCooltime public float SlowdownCooltime Field Value float buttonCooltime public float buttonCooltime Field Value float buttonCoyoteTime public float buttonCoyoteTime Field Value float buttonPower public float buttonPower Field Value float buttonSwimPower public float buttonSwimPower Field Value float innerGravity public float innerGravity Field Value float innerVelocityMultiplier public float innerVelocityMultiplier Field Value float inputBufferTime public float inputBufferTime Field Value float isActivated public bool isActivated Field Value bool minFallingSpeed public float minFallingSpeed Field Value float Methods Init() Object 초기화 코드 여기에 작성. Start 시점에서 실행됨. public override void Init()"
   },
   "api/CurseR.Chapter1.Objects.Button.html": {
     "href": "api/CurseR.Chapter1.Objects.Button.html",
@@ -57,7 +57,7 @@
   "api/CurseR.Chapter1.Objects.Inputbox.Inputbox.html": {
     "href": "api/CurseR.Chapter1.Objects.Inputbox.Inputbox.html",
     "title": "Class Inputbox | CurseR",
-    "summary": "Class Inputbox Namespace CurseR.Chapter1.Objects.Inputbox public class Inputbox : Object Inheritance object Object Inputbox Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Object.Dispose() Methods Init() public override void Init()"
+    "summary": "Class Inputbox Namespace CurseR.Chapter1.Objects.Inputbox public class Inputbox : Object Inheritance object Object Inputbox Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Object.Dispose() Methods Init() Object 초기화 코드 여기에 작성. Start 시점에서 실행됨. public override void Init()"
   },
   "api/CurseR.Chapter1.Objects.Inputbox.html": {
     "href": "api/CurseR.Chapter1.Objects.Inputbox.html",
@@ -67,12 +67,12 @@
   "api/CurseR.Chapter1.Objects.Object.html": {
     "href": "api/CurseR.Chapter1.Objects.Object.html",
     "title": "Class Object | CurseR",
-    "summary": "Class Object Namespace CurseR.Chapter1.Objects public class Object : MonoBehaviour Inheritance object Object Derived Button Inputbox SpikeScript Methods Dispose() protected virtual void Dispose() Init() public virtual void Init() useEvent<EventTy>(Action<EventTy>) protected void useEvent<EventTy>(Action<EventTy> handler) where EventTy : GameEvent Parameters handler Action<EventTy> Type Parameters EventTy"
+    "summary": "Class Object Namespace CurseR.Chapter1.Objects public class Object : MonoBehaviour Inheritance object Object Derived Button Inputbox SpikeScript Methods Dispose() Object 소멸 코드 여기에 작성. OnDestroy 사용하면 문제 생김. protected virtual void Dispose() Init() Object 초기화 코드 여기에 작성. Start 시점에서 실행됨. public virtual void Init() useEvent<EventTy>(Action<EventTy>) EventBus에 이벤트 구독. OnDestroy에서 자동으로 이벤트 구독 해제됨. protected void useEvent<EventTy>(Action<EventTy> handler) where EventTy : GameEvent Parameters handler Action<EventTy> 이벤트 핸들러 Type Parameters EventTy 이벤트 타입"
   },
   "api/CurseR.Chapter1.Objects.Spike.SpikeScript.html": {
     "href": "api/CurseR.Chapter1.Objects.Spike.SpikeScript.html",
     "title": "Class SpikeScript | CurseR",
-    "summary": "Class SpikeScript Namespace CurseR.Chapter1.Objects.Spike public class SpikeScript : Object Inheritance object Object SpikeScript Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Object.Dispose() Methods Init() public override void Init()"
+    "summary": "Class SpikeScript Namespace CurseR.Chapter1.Objects.Spike public class SpikeScript : Object Inheritance object Object SpikeScript Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Object.Dispose() Methods Init() Object 초기화 코드 여기에 작성. Start 시점에서 실행됨. public override void Init()"
   },
   "api/CurseR.Chapter1.Objects.Spike.html": {
     "href": "api/CurseR.Chapter1.Objects.Spike.html",
@@ -82,12 +82,12 @@
   "api/CurseR.Chapter1.Objects.html": {
     "href": "api/CurseR.Chapter1.Objects.html",
     "title": "Namespace CurseR.Chapter1.Objects | CurseR",
-    "summary": "Namespace CurseR.Chapter1.Objects Classes Object"
+    "summary": "Namespace CurseR.Chapter1.Objects Namespaces CurseR.Chapter1.Objects.Button CurseR.Chapter1.Objects.Inputbox CurseR.Chapter1.Objects.Spike Classes Object"
   },
   "api/CurseR.Chapter1.Player.PlayerController.html": {
     "href": "api/CurseR.Chapter1.Player.PlayerController.html",
     "title": "Class PlayerController | CurseR",
-    "summary": "Class PlayerController Namespace CurseR.Chapter1.Player public class PlayerController : AbstractPlayerController Inheritance object AbstractPlayerController PlayerController Inherited Members AbstractPlayerController.IsDisabled Properties Fallgravity public float Fallgravity { get; } Property Value float IsGrounded public bool IsGrounded { get; } Property Value bool IsInWater public bool IsInWater { get; } Property Value bool IsJumping public bool IsJumping { get; } Property Value bool IsTouchingWall public bool IsTouchingWall { get; } Property Value bool JumpGravity public float JumpGravity { get; } Property Value float WallGravity public float WallGravity { get; } Property Value float WallStickGravity public float WallStickGravity { get; } Property Value float Methods Disable() public override void Disable() DisableInput() public void DisableInput() Enable() public override void Enable() EnableInput() public void EnableInput() Init() protected override void Init() Teleport(Vector2) public void Teleport(Vector2 position) Parameters position Vector2"
+    "summary": "Class PlayerController Namespace CurseR.Chapter1.Player public class PlayerController : AbstractPlayerController Inheritance object AbstractPlayerController PlayerController Inherited Members AbstractPlayerController.IsDisabled Properties Fallgravity public float Fallgravity { get; } Property Value float IsGrounded public bool IsGrounded { get; } Property Value bool IsInWater public bool IsInWater { get; } Property Value bool IsJumping public bool IsJumping { get; } Property Value bool IsTouchingWall public bool IsTouchingWall { get; } Property Value bool JumpGravity public float JumpGravity { get; } Property Value float WallGravity public float WallGravity { get; } Property Value float WallStickGravity public float WallStickGravity { get; } Property Value float Methods Disable() public override void Disable() DisableInput() public void DisableInput() Enable() public override void Enable() EnableInput() public void EnableInput() Init() protected override void Init() Teleport(Vector2) 플레이어를 지정한 위치로 이동시킴. 이동하는 동안 물리 연산 꺼짐. public void Teleport(Vector2 position) Parameters position Vector2 이동시킬 위치"
   },
   "api/CurseR.Chapter1.Player.html": {
     "href": "api/CurseR.Chapter1.Player.html",
@@ -97,7 +97,7 @@
   "api/CurseR.Chapter1.html": {
     "href": "api/CurseR.Chapter1.html",
     "title": "Namespace CurseR.Chapter1 | CurseR",
-    "summary": "Namespace CurseR.Chapter1 Classes ChapterManager1"
+    "summary": "Namespace CurseR.Chapter1 Namespaces CurseR.Chapter1.Events CurseR.Chapter1.Objects CurseR.Chapter1.Player Classes ChapterManager1"
   },
   "api/CurseR.Core.AbstractChapterManager.html": {
     "href": "api/CurseR.Core.AbstractChapterManager.html",
@@ -207,7 +207,7 @@
   "api/CurseR.Core.CutScene.html": {
     "href": "api/CurseR.Core.CutScene.html",
     "title": "Namespace CurseR.Core.CutScene | CurseR",
-    "summary": "Namespace CurseR.Core.CutScene Classes CutSceneData CutSceneManager CutSceneSequence CutSceneTrigger DelaySequence Enums SequenceType"
+    "summary": "Namespace CurseR.Core.CutScene Namespaces CurseR.Core.CutScene.Camera CurseR.Core.CutScene.Conversation Classes CutSceneData CutSceneManager CutSceneSequence CutSceneTrigger DelaySequence Enums SequenceType"
   },
   "api/CurseR.Core.GameEvent.html": {
     "href": "api/CurseR.Core.GameEvent.html",
@@ -217,12 +217,12 @@
   "api/CurseR.Core.GameEventBus.html": {
     "href": "api/CurseR.Core.GameEventBus.html",
     "title": "Class GameEventBus | CurseR",
-    "summary": "Class GameEventBus Namespace CurseR.Core public class GameEventBus : MonoBehaviour Inheritance object GameEventBus Methods Publish<EventTy>(EventTy) public void Publish<EventTy>(EventTy e) where EventTy : GameEvent Parameters e EventTy Type Parameters EventTy Subscribe<EventTy>(Action<EventTy>) public void Subscribe<EventTy>(Action<EventTy> handler) where EventTy : GameEvent Parameters handler Action<EventTy> Type Parameters EventTy Unsubscribe<EventTy>(Action<EventTy>) public void Unsubscribe<EventTy>(Action<EventTy> handler) where EventTy : GameEvent Parameters handler Action<EventTy> Type Parameters EventTy"
+    "summary": "Class GameEventBus Namespace CurseR.Core public class GameEventBus : MonoBehaviour Inheritance object GameEventBus Methods Publish<EventTy>(EventTy) 이벤트 발생 public void Publish<EventTy>(EventTy e) where EventTy : GameEvent Parameters e EventTy 전달할 이벤트 객체 Type Parameters EventTy 이벤트 타입 Subscribe<EventTy>(Action<EventTy>) 이벤트 구독 public void Subscribe<EventTy>(Action<EventTy> handler) where EventTy : GameEvent Parameters handler Action<EventTy> 이벤트 핸들러 Type Parameters EventTy 이벤트 타입 Unsubscribe<EventTy>(Action<EventTy>) 이벤트 구독 해제 public void Unsubscribe<EventTy>(Action<EventTy> handler) where EventTy : GameEvent Parameters handler Action<EventTy> 이벤트 핸들러 Type Parameters EventTy 이벤트 타입"
   },
   "api/CurseR.Core.GameServices.html": {
     "href": "api/CurseR.Core.GameServices.html",
     "title": "Class GameServices | CurseR",
-    "summary": "Class GameServices Namespace CurseR.Core public static class GameServices Inheritance object GameServices Fields OnReady public static Action OnReady Field Value Action Properties ChapterManager public static AbstractChapterManager ChapterManager { get; } Property Value AbstractChapterManager CutSceneManager public static CutSceneManager CutSceneManager { get; } Property Value CutSceneManager EventBus public static GameEventBus EventBus { get; } Property Value GameEventBus MainCamera public static GameObject MainCamera { get; } Property Value GameObject Player public static GameObject Player { get; } Property Value GameObject SceneController public static SceneController SceneController { get; } Property Value SceneController TransitionManager public static TransitionManager TransitionManager { get; } Property Value TransitionManager VirtualCamera public static VirtualCamera VirtualCamera { get; } Property Value VirtualCamera Methods GetChapterManager<T>() public static T GetChapterManager<T>() where T : AbstractChapterManager Returns T Type Parameters T RegisterChapterManager(AbstractChapterManager) public static void RegisterChapterManager(AbstractChapterManager manager) Parameters manager AbstractChapterManager RegisterCutSceneManager(CutSceneManager) public static void RegisterCutSceneManager(CutSceneManager manager) Parameters manager CutSceneManager RegisterEventBus(GameEventBus) public static void RegisterEventBus(GameEventBus eventBus) Parameters eventBus GameEventBus RegisterMainCamera(GameObject) public static void RegisterMainCamera(GameObject camera) Parameters camera GameObject RegisterPlayer(GameObject) public static void RegisterPlayer(GameObject player) Parameters player GameObject RegisterSceneController(SceneController) public static void RegisterSceneController(SceneController controller) Parameters controller SceneController RegisterTransitionManager(TransitionManager) public static void RegisterTransitionManager(TransitionManager transitionManager) Parameters transitionManager TransitionManager SetVirtualCamera(VirtualCamera) public static void SetVirtualCamera(VirtualCamera cam) Parameters cam VirtualCamera"
+    "summary": "Class GameServices Namespace CurseR.Core public static class GameServices Inheritance object GameServices Fields OnReady public static Action OnReady Field Value Action Properties ChapterManager public static AbstractChapterManager ChapterManager { get; } Property Value AbstractChapterManager CutSceneManager public static CutSceneManager CutSceneManager { get; } Property Value CutSceneManager EventBus public static GameEventBus EventBus { get; } Property Value GameEventBus MainCamera public static GameObject MainCamera { get; } Property Value GameObject Player public static GameObject Player { get; } Property Value GameObject SceneController public static SceneController SceneController { get; } Property Value SceneController TransitionManager public static TransitionManager TransitionManager { get; } Property Value TransitionManager VirtualCamera 현재 활성화된 씬의 Virtual Camera public static VirtualCamera VirtualCamera { get; } Property Value VirtualCamera Methods GetChapterManager<T>() 특정 챕터의 ChapterManager가 필요할 때 직접 AbstractChapterManager 캐스팅하지 말고 사용. public static T GetChapterManager<T>() where T : AbstractChapterManager Returns T Type Parameters T 챕터 매니저 타입 RegisterChapterManager(AbstractChapterManager) public static void RegisterChapterManager(AbstractChapterManager manager) Parameters manager AbstractChapterManager RegisterCutSceneManager(CutSceneManager) public static void RegisterCutSceneManager(CutSceneManager manager) Parameters manager CutSceneManager RegisterEventBus(GameEventBus) public static void RegisterEventBus(GameEventBus eventBus) Parameters eventBus GameEventBus RegisterMainCamera(GameObject) public static void RegisterMainCamera(GameObject camera) Parameters camera GameObject RegisterPlayer(GameObject) public static void RegisterPlayer(GameObject player) Parameters player GameObject RegisterSceneController(SceneController) public static void RegisterSceneController(SceneController controller) Parameters controller SceneController RegisterTransitionManager(TransitionManager) public static void RegisterTransitionManager(TransitionManager transitionManager) Parameters transitionManager TransitionManager SetVirtualCamera(VirtualCamera) public static void SetVirtualCamera(VirtualCamera cam) Parameters cam VirtualCamera"
   },
   "api/CurseR.Core.Scene.CheckPoint.html": {
     "href": "api/CurseR.Core.Scene.CheckPoint.html",
@@ -274,25 +274,30 @@
     "title": "Class SharedFlag | CurseR",
     "summary": "Class SharedFlag Namespace CurseR.Core.Utils public class SharedFlag Inheritance object SharedFlag Constructors SharedFlag(bool) public SharedFlag(bool defaultValue) Parameters defaultValue bool Methods Acquire() public SharedFlag.Handle Acquire() Returns SharedFlag.Handle GetValue(Handle) public bool GetValue(SharedFlag.Handle handle) Parameters handle SharedFlag.Handle Returns bool Release(Handle) public void Release(SharedFlag.Handle handle) Parameters handle SharedFlag.Handle Set() public void Set()"
   },
+  "api/CurseR.Core.Utils.TextAssetExtensionFilterAttribute.html": {
+    "href": "api/CurseR.Core.Utils.TextAssetExtensionFilterAttribute.html",
+    "title": "Class TextAssetExtensionFilterAttribute | CurseR",
+    "summary": "Class TextAssetExtensionFilterAttribute Namespace CurseR.Core.Utils TextAsset 필드에 특정 확장자만 허용하도록 필터링하는 어트리뷰트 public class TextAssetExtensionFilterAttribute : PropertyAttribute Inheritance object TextAssetExtensionFilterAttribute Constructors TextAssetExtensionFilterAttribute(params string[]) TextAsset 필드에 특정 확장자만 허용 public TextAssetExtensionFilterAttribute(params string[] allowedExtensions) Parameters allowedExtensions string[] 허용할 확장자 배열 (예: \"txt\", \"json\", \"xml\") Properties AllowedExtensions public string[] AllowedExtensions { get; } Property Value string[]"
+  },
   "api/CurseR.Core.Utils.Utils.html": {
     "href": "api/CurseR.Core.Utils.Utils.html",
     "title": "Class Utils | CurseR",
-    "summary": "Class Utils Namespace CurseR.Core.Utils public static class Utils Inheritance object Utils Methods ByPlayer(Collider2D) public static bool ByPlayer(this Collider2D collision) Parameters collision Collider2D Returns bool ByPlayer(Collision2D) public static bool ByPlayer(this Collision2D collision) Parameters collision Collision2D Returns bool GetComponentInCurrentScene<T>(MonoBehaviour, bool) public static T GetComponentInCurrentScene<T>(this MonoBehaviour mono, bool includeInactive) where T : Component Parameters mono MonoBehaviour includeInactive bool Returns T Type Parameters T GetComponentsInCurrentScene<T>(MonoBehaviour, bool) public static T[] GetComponentsInCurrentScene<T>(this MonoBehaviour mono, bool includeInactive = false) where T : Component Parameters mono MonoBehaviour includeInactive bool Returns T[] Type Parameters T GetRoot(Scene) public static GameObject GetRoot(this UnityEngine.SceneManagement.Scene scene) Parameters scene Scene Returns GameObject ToVector2(Vector3) public static Vector2 ToVector2(this Vector3 vector3) Parameters vector3 Vector3 Returns Vector2"
+    "summary": "Class Utils Namespace CurseR.Core.Utils public static class Utils Inheritance object Utils Methods ByPlayer(Collider2D) Trigger 대상이 플레이어인지 체크 public static bool ByPlayer(this Collider2D collision) Parameters collision Collider2D Returns bool ByPlayer(Collision2D) 충돌 대상이 플레이어인지 체크 public static bool ByPlayer(this Collision2D collision) Parameters collision Collision2D Returns bool GetComponentInCurrentScene<T>(MonoBehaviour, bool) public static T GetComponentInCurrentScene<T>(this MonoBehaviour mono, bool includeInactive) where T : Component Parameters mono MonoBehaviour includeInactive bool Returns T Type Parameters T GetComponentsInCurrentScene<T>(MonoBehaviour, bool) public static T[] GetComponentsInCurrentScene<T>(this MonoBehaviour mono, bool includeInactive = false) where T : Component Parameters mono MonoBehaviour includeInactive bool Returns T[] Type Parameters T GetRoot(Scene) public static GameObject GetRoot(this UnityEngine.SceneManagement.Scene scene) Parameters scene Scene Returns GameObject ToVector2(Vector3) public static Vector2 ToVector2(this Vector3 vector3) Parameters vector3 Vector3 Returns Vector2"
   },
   "api/CurseR.Core.Utils.WaitForAtLeastSeconds.html": {
     "href": "api/CurseR.Core.Utils.WaitForAtLeastSeconds.html",
     "title": "Class WaitForAtLeastSeconds | CurseR",
-    "summary": "Class WaitForAtLeastSeconds Namespace CurseR.Core.Utils public class WaitForAtLeastSeconds : CustomYieldInstruction Inheritance object WaitForAtLeastSeconds Constructors WaitForAtLeastSeconds(float, float) public WaitForAtLeastSeconds(float startTime, float seconds) Parameters startTime float seconds float Properties keepWaiting public override bool keepWaiting { get; } Property Value bool Methods FromNow(float) public static WaitForAtLeastSeconds FromNow(float seconds) Parameters seconds float Returns WaitForAtLeastSeconds"
+    "summary": "Class WaitForAtLeastSeconds Namespace CurseR.Core.Utils 시작 시점으로부터 최소 대기 시간 보장 public class WaitForAtLeastSeconds : CustomYieldInstruction Inheritance object WaitForAtLeastSeconds Remarks Example: var wait = WaitForAtLeastSeconds.FromNow(2f); // Do something yield return wait; Constructors WaitForAtLeastSeconds(float, float) public WaitForAtLeastSeconds(float startTime, float seconds) Parameters startTime float Time.time으로 얻은 시작 시점 seconds float 최소 대기 시간 Properties keepWaiting public override bool keepWaiting { get; } Property Value bool Methods FromNow(float) public static WaitForAtLeastSeconds FromNow(float seconds) Parameters seconds float Returns WaitForAtLeastSeconds"
   },
   "api/CurseR.Core.Utils.WaitForSecondsWithCancel.html": {
     "href": "api/CurseR.Core.Utils.WaitForSecondsWithCancel.html",
     "title": "Class WaitForSecondsWithCancel | CurseR",
-    "summary": "Class WaitForSecondsWithCancel Namespace CurseR.Core.Utils public class WaitForSecondsWithCancel : CustomYieldInstruction Inheritance object WaitForSecondsWithCancel Constructors WaitForSecondsWithCancel(float, Func<bool>) public WaitForSecondsWithCancel(float seconds, Func<bool> isCancelled) Parameters seconds float isCancelled Func<bool> Properties keepWaiting public override bool keepWaiting { get; } Property Value bool"
+    "summary": "Class WaitForSecondsWithCancel Namespace CurseR.Core.Utils 중간 취소 가능한 WaitForSeconds public class WaitForSecondsWithCancel : CustomYieldInstruction Inheritance object WaitForSecondsWithCancel Constructors WaitForSecondsWithCancel(float, Func<bool>) public WaitForSecondsWithCancel(float seconds, Func<bool> isCancelled) Parameters seconds float 기다릴 시간 isCancelled Func<bool> 취소되었는지 확인할 함수 Properties keepWaiting public override bool keepWaiting { get; } Property Value bool"
   },
   "api/CurseR.Core.Utils.WaitUntilWithCancel.html": {
     "href": "api/CurseR.Core.Utils.WaitUntilWithCancel.html",
     "title": "Class WaitUntilWithCancel | CurseR",
-    "summary": "Class WaitUntilWithCancel Namespace CurseR.Core.Utils public class WaitUntilWithCancel : CustomYieldInstruction Inheritance object WaitUntilWithCancel Constructors WaitUntilWithCancel(Func<bool>, Func<bool>, float) public WaitUntilWithCancel(Func<bool> condition, Func<bool> isCancelled, float timeout = Infinity) Parameters condition Func<bool> isCancelled Func<bool> timeout float Properties IsCancelled public bool IsCancelled { get; } Property Value bool IsDone public bool IsDone { get; } Property Value bool keepWaiting public override bool keepWaiting { get; } Property Value bool"
+    "summary": "Class WaitUntilWithCancel Namespace CurseR.Core.Utils 중간 취소 가능한 WaitUntil public class WaitUntilWithCancel : CustomYieldInstruction Inheritance object WaitUntilWithCancel Constructors WaitUntilWithCancel(Func<bool>, Func<bool>, float) public WaitUntilWithCancel(Func<bool> condition, Func<bool> isCancelled, float timeout = Infinity) Parameters condition Func<bool> 기다릴 조건. true 시 종료 isCancelled Func<bool> 취소되었는지 확인할 함수 timeout float 최대 대기 시간 Properties IsCancelled public bool IsCancelled { get; } Property Value bool IsDone public bool IsDone { get; } Property Value bool keepWaiting public override bool keepWaiting { get; } Property Value bool"
   },
   "api/CurseR.Core.Utils.WorldPoint.html": {
     "href": "api/CurseR.Core.Utils.WorldPoint.html",
@@ -302,22 +307,17 @@
   "api/CurseR.Core.Utils.html": {
     "href": "api/CurseR.Core.Utils.html",
     "title": "Namespace CurseR.Core.Utils | CurseR",
-    "summary": "Namespace CurseR.Core.Utils Classes SharedFlag SharedFlag.Handle Utils WaitForAtLeastSeconds WaitForSecondsWithCancel WaitUntilWithCancel Structs WorldPoint Enums Direction"
+    "summary": "Namespace CurseR.Core.Utils Classes SharedFlag SharedFlag.Handle TextAssetExtensionFilterAttribute TextAsset 필드에 특정 확장자만 허용하도록 필터링하는 어트리뷰트 Utils WaitForAtLeastSeconds 시작 시점으로부터 최소 대기 시간 보장 WaitForSecondsWithCancel 중간 취소 가능한 WaitForSeconds WaitUntilWithCancel 중간 취소 가능한 WaitUntil Structs WorldPoint Enums Direction"
   },
   "api/CurseR.Core.html": {
     "href": "api/CurseR.Core.html",
     "title": "Namespace CurseR.Core | CurseR",
-    "summary": "Namespace CurseR.Core Classes AbstractChapterManager AbstractPlayerController GameEvent GameEventBus GameServices TransitionManager"
+    "summary": "Namespace CurseR.Core Namespaces CurseR.Core.Camera CurseR.Core.CutScene CurseR.Core.Scene CurseR.Core.Utils Classes AbstractChapterManager AbstractPlayerController GameEvent GameEventBus GameServices TransitionManager"
   },
-  "api/Features.Core.Utils.TextAssetExtensionFilterAttribute.html": {
-    "href": "api/Features.Core.Utils.TextAssetExtensionFilterAttribute.html",
-    "title": "Class TextAssetExtensionFilterAttribute | CurseR",
-    "summary": "Class TextAssetExtensionFilterAttribute Namespace Features.Core.Utils TextAsset 필드에 특정 확장자만 허용하도록 필터링하는 어트리뷰트 public class TextAssetExtensionFilterAttribute : PropertyAttribute Inheritance object TextAssetExtensionFilterAttribute Constructors TextAssetExtensionFilterAttribute(params string[]) TextAsset 필드에 특정 확장자만 허용 public TextAssetExtensionFilterAttribute(params string[] allowedExtensions) Parameters allowedExtensions string[] 허용할 확장자 배열 (예: \"txt\", \"json\", \"xml\") Properties AllowedExtensions public string[] AllowedExtensions { get; } Property Value string[]"
-  },
-  "api/Features.Core.Utils.html": {
-    "href": "api/Features.Core.Utils.html",
-    "title": "Namespace Features.Core.Utils | CurseR",
-    "summary": "Namespace Features.Core.Utils Classes TextAssetExtensionFilterAttribute TextAsset 필드에 특정 확장자만 허용하도록 필터링하는 어트리뷰트"
+  "api/CurseR.html": {
+    "href": "api/CurseR.html",
+    "title": "Namespace CurseR | CurseR",
+    "summary": "Namespace CurseR Namespaces CurseR.Chapter1 CurseR.Core"
   },
   "api/index.html": {
     "href": "api/index.html",

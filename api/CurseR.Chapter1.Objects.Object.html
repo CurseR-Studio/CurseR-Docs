@@ -139,10 +139,11 @@ Class Object  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="CurseR_Chapter1_Objects_Object_Dispose" data-uid="CurseR.Chapter1.Objects.Object.Dispose">
   Dispose()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Chapter1/Objects/Object.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Chapter1/Objects/Object.cs/#L48"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Object 소멸 코드 여기에 작성. OnDestroy 사용하면 문제 생김.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -165,10 +166,11 @@ Class Object  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="CurseR_Chapter1_Objects_Object_Init" data-uid="CurseR.Chapter1.Objects.Object.Init">
   Init()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Chapter1/Objects/Object.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Chapter1/Objects/Object.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Object 초기화 코드 여기에 작성. Start 시점에서 실행됨.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -191,10 +193,12 @@ Class Object  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="CurseR_Chapter1_Objects_Object_useEvent__1_System_Action___0__" data-uid="CurseR.Chapter1.Objects.Object.useEvent``1(System.Action{``0})">
   useEvent&lt;EventTy&gt;(Action&lt;EventTy&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Chapter1/Objects/Object.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Chapter1/Objects/Object.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>EventBus에 이벤트 구독.
+OnDestroy에서 자동으로 이벤트 구독 해제됨.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -204,14 +208,16 @@ Class Object  <a class="header-action link-secondary" title="View source" href="
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>handler</code> <span class="xref">Action</span>&lt;EventTy&gt;</dt>
-    <dd></dd>
+    <dd><p>이벤트 핸들러</p>
+</dd>
   </dl>
 
 
   <h4 class="section">Type Parameters</h4>
   <dl class="parameters">
     <dt><code>EventTy</code></dt>
-    <dd></dd>
+    <dd><p>이벤트 타입</p>
+</dd>
   </dl>
 
 
