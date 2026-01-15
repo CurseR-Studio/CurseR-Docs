@@ -19,6 +19,16 @@
     "title": "Class DeathEvent | CurseR",
     "summary": "Class DeathEvent Namespace CurseR.Chapter1.Events public class DeathEvent : GameEvent Inheritance object GameEvent DeathEvent Properties Name public override string Name { get; } Property Value string"
   },
+  "api/CurseR.Chapter1.Events.InputBoxEnterEvent.html": {
+    "href": "api/CurseR.Chapter1.Events.InputBoxEnterEvent.html",
+    "title": "Class InputBoxEnterEvent | CurseR",
+    "summary": "Class InputBoxEnterEvent Namespace CurseR.Chapter1.Events public class InputBoxEnterEvent : GameEvent Inheritance object GameEvent InputBoxEnterEvent Properties Name public override string Name { get; } Property Value string"
+  },
+  "api/CurseR.Chapter1.Events.InputBoxExitEvent.html": {
+    "href": "api/CurseR.Chapter1.Events.InputBoxExitEvent.html",
+    "title": "Class InputBoxExitEvent | CurseR",
+    "summary": "Class InputBoxExitEvent Namespace CurseR.Chapter1.Events public class InputBoxExitEvent : GameEvent Inheritance object GameEvent InputBoxExitEvent Properties Name public override string Name { get; } Property Value string"
+  },
   "api/CurseR.Chapter1.Events.JumpPressEvent.html": {
     "href": "api/CurseR.Chapter1.Events.JumpPressEvent.html",
     "title": "Class JumpPressEvent | CurseR",
@@ -42,7 +52,7 @@
   "api/CurseR.Chapter1.Events.html": {
     "href": "api/CurseR.Chapter1.Events.html",
     "title": "Namespace CurseR.Chapter1.Events | CurseR",
-    "summary": "Namespace CurseR.Chapter1.Events Classes ClickPressEvent ClickReleaseEvent DeathEvent JumpPressEvent JumpReleaseEvent WaterEnterEvent WaterExitEvent"
+    "summary": "Namespace CurseR.Chapter1.Events Classes ClickPressEvent ClickReleaseEvent DeathEvent InputBoxEnterEvent InputBoxExitEvent JumpPressEvent JumpReleaseEvent WaterEnterEvent WaterExitEvent"
   },
   "api/CurseR.Chapter1.ObjectType.html": {
     "href": "api/CurseR.Chapter1.ObjectType.html",
@@ -52,7 +62,7 @@
   "api/CurseR.Chapter1.Objects.Button.Button.html": {
     "href": "api/CurseR.Chapter1.Objects.Button.Button.html",
     "title": "Class Button | CurseR",
-    "summary": "Class Button Namespace CurseR.Chapter1.Objects.Button public class Button : Object Inheritance object Object Button Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Object.Dispose() Fields SlowdownCooltime public float SlowdownCooltime Field Value float buttonCooltime public float buttonCooltime Field Value float buttonCoyoteTime public float buttonCoyoteTime Field Value float buttonPower public float buttonPower Field Value float buttonSwimPower public float buttonSwimPower Field Value float innerGravity public float innerGravity Field Value float innerVelocityMultiplier public float innerVelocityMultiplier Field Value float inputBufferTime public float inputBufferTime Field Value float isActivated public bool isActivated Field Value bool minFallingSpeed public float minFallingSpeed Field Value float Methods Init() Object 초기화 코드 여기에 작성. Start 시점에서 실행됨. public override void Init()"
+    "summary": "Class Button Namespace CurseR.Chapter1.Objects.Button public class Button : Object Inheritance object Object Button Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Object.Dispose() Fields SlowdownCooltime public float SlowdownCooltime Field Value float buttonCooltime public float buttonCooltime Field Value float buttonCoyoteTime public float buttonCoyoteTime Field Value float buttonPower public float buttonPower Field Value float buttonSwimPower public float buttonSwimPower Field Value float clickBufferTime public float clickBufferTime Field Value float innerGravity public float innerGravity Field Value float innerVelocityMultiplier public float innerVelocityMultiplier Field Value float isActivated public bool isActivated Field Value bool minFallingSpeed public float minFallingSpeed Field Value float Methods Init() Object 초기화 코드 여기에 작성. Start 시점에서 실행됨. public override void Init()"
   },
   "api/CurseR.Chapter1.Objects.Button.html": {
     "href": "api/CurseR.Chapter1.Objects.Button.html",
@@ -64,10 +74,20 @@
     "title": "Class Inputbox | CurseR",
     "summary": "Class Inputbox Namespace CurseR.Chapter1.Objects.Inputbox public class Inputbox : Object Inheritance object Object Inputbox Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Object.Dispose() Methods Init() Object 초기화 코드 여기에 작성. Start 시점에서 실행됨. public override void Init()"
   },
+  "api/CurseR.Chapter1.Objects.Inputbox.InputboxState.html": {
+    "href": "api/CurseR.Chapter1.Objects.Inputbox.InputboxState.html",
+    "title": "Enum InputboxState | CurseR",
+    "summary": "Enum InputboxState Namespace CurseR.Chapter1.Objects.Inputbox public enum InputboxState Fields Aiming = 2 Disabled = 0 Idle = 1 Launching = 3"
+  },
+  "api/CurseR.Chapter1.Objects.Inputbox.LaunchDirection.html": {
+    "href": "api/CurseR.Chapter1.Objects.Inputbox.LaunchDirection.html",
+    "title": "Enum LaunchDirection | CurseR",
+    "summary": "Enum LaunchDirection Namespace CurseR.Chapter1.Objects.Inputbox public enum LaunchDirection Fields Left = 1 Right = 0"
+  },
   "api/CurseR.Chapter1.Objects.Inputbox.html": {
     "href": "api/CurseR.Chapter1.Objects.Inputbox.html",
     "title": "Namespace CurseR.Chapter1.Objects.Inputbox | CurseR",
-    "summary": "Namespace CurseR.Chapter1.Objects.Inputbox Classes Inputbox"
+    "summary": "Namespace CurseR.Chapter1.Objects.Inputbox Classes Inputbox Enums InputboxState LaunchDirection"
   },
   "api/CurseR.Chapter1.Objects.Object.html": {
     "href": "api/CurseR.Chapter1.Objects.Object.html",
@@ -92,7 +112,7 @@
   "api/CurseR.Chapter1.Player.PlayerController.html": {
     "href": "api/CurseR.Chapter1.Player.PlayerController.html",
     "title": "Class PlayerController | CurseR",
-    "summary": "Class PlayerController Namespace CurseR.Chapter1.Player public class PlayerController : AbstractPlayerController Inheritance object AbstractPlayerController PlayerController Inherited Members AbstractPlayerController.IsDisabled Properties Fallgravity public float Fallgravity { get; } Property Value float IsGrounded public bool IsGrounded { get; } Property Value bool IsInWater public bool IsInWater { get; } Property Value bool IsJumping public bool IsJumping { get; } Property Value bool IsTouchingWall public bool IsTouchingWall { get; } Property Value bool JumpGravity public float JumpGravity { get; } Property Value float WallGravity public float WallGravity { get; } Property Value float WallStickGravity public float WallStickGravity { get; } Property Value float Methods Disable() public override void Disable() DisableInput() public void DisableInput() Enable() public override void Enable() EnableInput() public void EnableInput() Init() protected override void Init() Teleport(Vector2) 플레이어를 지정한 위치로 이동시킴. 이동하는 동안 물리 연산 꺼짐. public void Teleport(Vector2 position) Parameters position Vector2 이동시킬 위치"
+    "summary": "Class PlayerController Namespace CurseR.Chapter1.Player public class PlayerController : AbstractPlayerController Inheritance object AbstractPlayerController PlayerController Inherited Members AbstractPlayerController.IsDisabled Properties Fallgravity public float Fallgravity { get; } Property Value float IsGrounded public bool IsGrounded { get; } Property Value bool IsInInputBox public bool IsInInputBox { get; } Property Value bool IsInWater public bool IsInWater { get; } Property Value bool IsJumping public bool IsJumping { get; } Property Value bool IsTouchingWall public bool IsTouchingWall { get; } Property Value bool JumpGravity public float JumpGravity { get; } Property Value float WallGravity public float WallGravity { get; } Property Value float WallStickGravity public float WallStickGravity { get; } Property Value float Methods Disable() public override void Disable() DisableInput() public void DisableInput() Enable() public override void Enable() EnableInput() public void EnableInput() Init() protected override void Init() Teleport(Vector2) public void Teleport(Vector2 position) Parameters position Vector2"
   },
   "api/CurseR.Chapter1.Player.html": {
     "href": "api/CurseR.Chapter1.Player.html",
@@ -217,7 +237,7 @@
   "api/CurseR.Core.GameEvent.html": {
     "href": "api/CurseR.Core.GameEvent.html",
     "title": "Class GameEvent | CurseR",
-    "summary": "Class GameEvent Namespace CurseR.Core public abstract class GameEvent Inheritance object GameEvent Derived ClickPressEvent ClickReleaseEvent DeathEvent JumpPressEvent JumpReleaseEvent WaterEnterEvent WaterExitEvent Properties Name public abstract string Name { get; } Property Value string"
+    "summary": "Class GameEvent Namespace CurseR.Core public abstract class GameEvent Inheritance object GameEvent Derived ClickPressEvent ClickReleaseEvent DeathEvent InputBoxEnterEvent InputBoxExitEvent JumpPressEvent JumpReleaseEvent WaterEnterEvent WaterExitEvent Properties Name public abstract string Name { get; } Property Value string"
   },
   "api/CurseR.Core.GameEventBus.html": {
     "href": "api/CurseR.Core.GameEventBus.html",

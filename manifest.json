@@ -68,6 +68,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Events.InputBoxEnterEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Events.InputBoxEnterEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Events.InputBoxEnterEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Events.InputBoxExitEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Events.InputBoxExitEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Events.InputBoxExitEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CurseR.Chapter1.Events.JumpPressEvent.yml",
       "output": {
         ".html": {
@@ -190,6 +218,34 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "CurseR.Chapter1.Objects.Inputbox.Inputbox",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Objects.Inputbox.InputboxState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Objects.Inputbox.InputboxState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Objects.Inputbox.InputboxState",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Objects.Inputbox.LaunchDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Objects.Inputbox.LaunchDirection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Objects.Inputbox.LaunchDirection",
       "Summary": null
     },
     {

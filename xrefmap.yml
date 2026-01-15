@@ -144,6 +144,44 @@ references:
   isSpec: "True"
   fullName: CurseR.Chapter1.Events.DeathEvent.Name
   nameWithType: DeathEvent.Name
+- uid: CurseR.Chapter1.Events.InputBoxEnterEvent
+  name: InputBoxEnterEvent
+  href: api/CurseR.Chapter1.Events.InputBoxEnterEvent.html
+  commentId: T:CurseR.Chapter1.Events.InputBoxEnterEvent
+  fullName: CurseR.Chapter1.Events.InputBoxEnterEvent
+  nameWithType: InputBoxEnterEvent
+- uid: CurseR.Chapter1.Events.InputBoxEnterEvent.Name
+  name: Name
+  href: api/CurseR.Chapter1.Events.InputBoxEnterEvent.html#CurseR_Chapter1_Events_InputBoxEnterEvent_Name
+  commentId: P:CurseR.Chapter1.Events.InputBoxEnterEvent.Name
+  fullName: CurseR.Chapter1.Events.InputBoxEnterEvent.Name
+  nameWithType: InputBoxEnterEvent.Name
+- uid: CurseR.Chapter1.Events.InputBoxEnterEvent.Name*
+  name: Name
+  href: api/CurseR.Chapter1.Events.InputBoxEnterEvent.html#CurseR_Chapter1_Events_InputBoxEnterEvent_Name_
+  commentId: Overload:CurseR.Chapter1.Events.InputBoxEnterEvent.Name
+  isSpec: "True"
+  fullName: CurseR.Chapter1.Events.InputBoxEnterEvent.Name
+  nameWithType: InputBoxEnterEvent.Name
+- uid: CurseR.Chapter1.Events.InputBoxExitEvent
+  name: InputBoxExitEvent
+  href: api/CurseR.Chapter1.Events.InputBoxExitEvent.html
+  commentId: T:CurseR.Chapter1.Events.InputBoxExitEvent
+  fullName: CurseR.Chapter1.Events.InputBoxExitEvent
+  nameWithType: InputBoxExitEvent
+- uid: CurseR.Chapter1.Events.InputBoxExitEvent.Name
+  name: Name
+  href: api/CurseR.Chapter1.Events.InputBoxExitEvent.html#CurseR_Chapter1_Events_InputBoxExitEvent_Name
+  commentId: P:CurseR.Chapter1.Events.InputBoxExitEvent.Name
+  fullName: CurseR.Chapter1.Events.InputBoxExitEvent.Name
+  nameWithType: InputBoxExitEvent.Name
+- uid: CurseR.Chapter1.Events.InputBoxExitEvent.Name*
+  name: Name
+  href: api/CurseR.Chapter1.Events.InputBoxExitEvent.html#CurseR_Chapter1_Events_InputBoxExitEvent_Name_
+  commentId: Overload:CurseR.Chapter1.Events.InputBoxExitEvent.Name
+  isSpec: "True"
+  fullName: CurseR.Chapter1.Events.InputBoxExitEvent.Name
+  nameWithType: InputBoxExitEvent.Name
 - uid: CurseR.Chapter1.Events.JumpPressEvent
   name: JumpPressEvent
   href: api/CurseR.Chapter1.Events.JumpPressEvent.html
@@ -299,6 +337,12 @@ references:
   commentId: F:CurseR.Chapter1.Objects.Button.Button.buttonSwimPower
   fullName: CurseR.Chapter1.Objects.Button.Button.buttonSwimPower
   nameWithType: Button.buttonSwimPower
+- uid: CurseR.Chapter1.Objects.Button.Button.clickBufferTime
+  name: clickBufferTime
+  href: api/CurseR.Chapter1.Objects.Button.Button.html#CurseR_Chapter1_Objects_Button_Button_clickBufferTime
+  commentId: F:CurseR.Chapter1.Objects.Button.Button.clickBufferTime
+  fullName: CurseR.Chapter1.Objects.Button.Button.clickBufferTime
+  nameWithType: Button.clickBufferTime
 - uid: CurseR.Chapter1.Objects.Button.Button.innerGravity
   name: innerGravity
   href: api/CurseR.Chapter1.Objects.Button.Button.html#CurseR_Chapter1_Objects_Button_Button_innerGravity
@@ -311,12 +355,6 @@ references:
   commentId: F:CurseR.Chapter1.Objects.Button.Button.innerVelocityMultiplier
   fullName: CurseR.Chapter1.Objects.Button.Button.innerVelocityMultiplier
   nameWithType: Button.innerVelocityMultiplier
-- uid: CurseR.Chapter1.Objects.Button.Button.inputBufferTime
-  name: inputBufferTime
-  href: api/CurseR.Chapter1.Objects.Button.Button.html#CurseR_Chapter1_Objects_Button_Button_inputBufferTime
-  commentId: F:CurseR.Chapter1.Objects.Button.Button.inputBufferTime
-  fullName: CurseR.Chapter1.Objects.Button.Button.inputBufferTime
-  nameWithType: Button.inputBufferTime
 - uid: CurseR.Chapter1.Objects.Button.Button.isActivated
   name: isActivated
   href: api/CurseR.Chapter1.Objects.Button.Button.html#CurseR_Chapter1_Objects_Button_Button_isActivated
@@ -354,6 +392,54 @@ references:
   isSpec: "True"
   fullName: CurseR.Chapter1.Objects.Inputbox.Inputbox.Init
   nameWithType: Inputbox.Init
+- uid: CurseR.Chapter1.Objects.Inputbox.InputboxState
+  name: InputboxState
+  href: api/CurseR.Chapter1.Objects.Inputbox.InputboxState.html
+  commentId: T:CurseR.Chapter1.Objects.Inputbox.InputboxState
+  fullName: CurseR.Chapter1.Objects.Inputbox.InputboxState
+  nameWithType: InputboxState
+- uid: CurseR.Chapter1.Objects.Inputbox.InputboxState.Aiming
+  name: Aiming
+  href: api/CurseR.Chapter1.Objects.Inputbox.InputboxState.html#CurseR_Chapter1_Objects_Inputbox_InputboxState_Aiming
+  commentId: F:CurseR.Chapter1.Objects.Inputbox.InputboxState.Aiming
+  fullName: CurseR.Chapter1.Objects.Inputbox.InputboxState.Aiming
+  nameWithType: InputboxState.Aiming
+- uid: CurseR.Chapter1.Objects.Inputbox.InputboxState.Disabled
+  name: Disabled
+  href: api/CurseR.Chapter1.Objects.Inputbox.InputboxState.html#CurseR_Chapter1_Objects_Inputbox_InputboxState_Disabled
+  commentId: F:CurseR.Chapter1.Objects.Inputbox.InputboxState.Disabled
+  fullName: CurseR.Chapter1.Objects.Inputbox.InputboxState.Disabled
+  nameWithType: InputboxState.Disabled
+- uid: CurseR.Chapter1.Objects.Inputbox.InputboxState.Idle
+  name: Idle
+  href: api/CurseR.Chapter1.Objects.Inputbox.InputboxState.html#CurseR_Chapter1_Objects_Inputbox_InputboxState_Idle
+  commentId: F:CurseR.Chapter1.Objects.Inputbox.InputboxState.Idle
+  fullName: CurseR.Chapter1.Objects.Inputbox.InputboxState.Idle
+  nameWithType: InputboxState.Idle
+- uid: CurseR.Chapter1.Objects.Inputbox.InputboxState.Launching
+  name: Launching
+  href: api/CurseR.Chapter1.Objects.Inputbox.InputboxState.html#CurseR_Chapter1_Objects_Inputbox_InputboxState_Launching
+  commentId: F:CurseR.Chapter1.Objects.Inputbox.InputboxState.Launching
+  fullName: CurseR.Chapter1.Objects.Inputbox.InputboxState.Launching
+  nameWithType: InputboxState.Launching
+- uid: CurseR.Chapter1.Objects.Inputbox.LaunchDirection
+  name: LaunchDirection
+  href: api/CurseR.Chapter1.Objects.Inputbox.LaunchDirection.html
+  commentId: T:CurseR.Chapter1.Objects.Inputbox.LaunchDirection
+  fullName: CurseR.Chapter1.Objects.Inputbox.LaunchDirection
+  nameWithType: LaunchDirection
+- uid: CurseR.Chapter1.Objects.Inputbox.LaunchDirection.Left
+  name: Left
+  href: api/CurseR.Chapter1.Objects.Inputbox.LaunchDirection.html#CurseR_Chapter1_Objects_Inputbox_LaunchDirection_Left
+  commentId: F:CurseR.Chapter1.Objects.Inputbox.LaunchDirection.Left
+  fullName: CurseR.Chapter1.Objects.Inputbox.LaunchDirection.Left
+  nameWithType: LaunchDirection.Left
+- uid: CurseR.Chapter1.Objects.Inputbox.LaunchDirection.Right
+  name: Right
+  href: api/CurseR.Chapter1.Objects.Inputbox.LaunchDirection.html#CurseR_Chapter1_Objects_Inputbox_LaunchDirection_Right
+  commentId: F:CurseR.Chapter1.Objects.Inputbox.LaunchDirection.Right
+  fullName: CurseR.Chapter1.Objects.Inputbox.LaunchDirection.Right
+  nameWithType: LaunchDirection.Right
 - uid: CurseR.Chapter1.Objects.Object
   name: Object
   href: api/CurseR.Chapter1.Objects.Object.html
@@ -530,6 +616,19 @@ references:
   isSpec: "True"
   fullName: CurseR.Chapter1.Player.PlayerController.IsGrounded
   nameWithType: PlayerController.IsGrounded
+- uid: CurseR.Chapter1.Player.PlayerController.IsInInputBox
+  name: IsInInputBox
+  href: api/CurseR.Chapter1.Player.PlayerController.html#CurseR_Chapter1_Player_PlayerController_IsInInputBox
+  commentId: P:CurseR.Chapter1.Player.PlayerController.IsInInputBox
+  fullName: CurseR.Chapter1.Player.PlayerController.IsInInputBox
+  nameWithType: PlayerController.IsInInputBox
+- uid: CurseR.Chapter1.Player.PlayerController.IsInInputBox*
+  name: IsInInputBox
+  href: api/CurseR.Chapter1.Player.PlayerController.html#CurseR_Chapter1_Player_PlayerController_IsInInputBox_
+  commentId: Overload:CurseR.Chapter1.Player.PlayerController.IsInInputBox
+  isSpec: "True"
+  fullName: CurseR.Chapter1.Player.PlayerController.IsInInputBox
+  nameWithType: PlayerController.IsInInputBox
 - uid: CurseR.Chapter1.Player.PlayerController.IsInWater
   name: IsInWater
   href: api/CurseR.Chapter1.Player.PlayerController.html#CurseR_Chapter1_Player_PlayerController_IsInWater
