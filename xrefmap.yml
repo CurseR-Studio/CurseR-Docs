@@ -810,6 +810,12 @@ references:
   isSpec: "True"
   fullName: CurseR.Core.AbstractChapterManager.RestartFromCheckPoint
   nameWithType: AbstractChapterManager.RestartFromCheckPoint
+- uid: CurseR.Core.AbstractChapterManager.SetCheckPoint(CurseR.Core.Scene.CheckPoint)
+  name: SetCheckPoint(CheckPoint)
+  href: api/CurseR.Core.AbstractChapterManager.html#CurseR_Core_AbstractChapterManager_SetCheckPoint_CurseR_Core_Scene_CheckPoint_
+  commentId: M:CurseR.Core.AbstractChapterManager.SetCheckPoint(CurseR.Core.Scene.CheckPoint)
+  fullName: CurseR.Core.AbstractChapterManager.SetCheckPoint(CurseR.Core.Scene.CheckPoint)
+  nameWithType: AbstractChapterManager.SetCheckPoint(CheckPoint)
 - uid: CurseR.Core.AbstractChapterManager.SetCheckPoint(Vector2)
   name: SetCheckPoint(Vector2)
   href: api/CurseR.Core.AbstractChapterManager.html#CurseR_Core_AbstractChapterManager_SetCheckPoint_Vector2_
@@ -2506,6 +2512,22 @@ references:
   isSpec: "True"
   fullName: CurseR.Core.Utils.Utils.ToVector2
   nameWithType: Utils.ToVector2
+- uid: CurseR.Core.Utils.Utils.WaitForCompletionAll(MonoBehaviour,System.Collections.IEnumerator[])
+  name: WaitForCompletionAll(MonoBehaviour, params IEnumerator[])
+  href: api/CurseR.Core.Utils.Utils.html#CurseR_Core_Utils_Utils_WaitForCompletionAll_MonoBehaviour_System_Collections_IEnumerator___
+  commentId: M:CurseR.Core.Utils.Utils.WaitForCompletionAll(MonoBehaviour,System.Collections.IEnumerator[])
+  name.vb: WaitForCompletionAll(MonoBehaviour, ParamArray IEnumerator())
+  fullName: CurseR.Core.Utils.Utils.WaitForCompletionAll(MonoBehaviour, params System.Collections.IEnumerator[])
+  fullName.vb: CurseR.Core.Utils.Utils.WaitForCompletionAll(MonoBehaviour, ParamArray System.Collections.IEnumerator())
+  nameWithType: Utils.WaitForCompletionAll(MonoBehaviour, params IEnumerator[])
+  nameWithType.vb: Utils.WaitForCompletionAll(MonoBehaviour, ParamArray IEnumerator())
+- uid: CurseR.Core.Utils.Utils.WaitForCompletionAll*
+  name: WaitForCompletionAll
+  href: api/CurseR.Core.Utils.Utils.html#CurseR_Core_Utils_Utils_WaitForCompletionAll_
+  commentId: Overload:CurseR.Core.Utils.Utils.WaitForCompletionAll
+  isSpec: "True"
+  fullName: CurseR.Core.Utils.Utils.WaitForCompletionAll
+  nameWithType: Utils.WaitForCompletionAll
 - uid: CurseR.Core.Utils.WaitForAtLeastSeconds
   name: WaitForAtLeastSeconds
   href: api/CurseR.Core.Utils.WaitForAtLeastSeconds.html
