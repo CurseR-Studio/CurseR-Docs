@@ -681,6 +681,19 @@ references:
   isSpec: "True"
   fullName: CurseR.Chapter1.Player.PlayerController.JumpGravity
   nameWithType: PlayerController.JumpGravity
+- uid: CurseR.Chapter1.Player.PlayerController.MoveDirection
+  name: MoveDirection
+  href: api/CurseR.Chapter1.Player.PlayerController.html#CurseR_Chapter1_Player_PlayerController_MoveDirection
+  commentId: P:CurseR.Chapter1.Player.PlayerController.MoveDirection
+  fullName: CurseR.Chapter1.Player.PlayerController.MoveDirection
+  nameWithType: PlayerController.MoveDirection
+- uid: CurseR.Chapter1.Player.PlayerController.MoveDirection*
+  name: MoveDirection
+  href: api/CurseR.Chapter1.Player.PlayerController.html#CurseR_Chapter1_Player_PlayerController_MoveDirection_
+  commentId: Overload:CurseR.Chapter1.Player.PlayerController.MoveDirection
+  isSpec: "True"
+  fullName: CurseR.Chapter1.Player.PlayerController.MoveDirection
+  nameWithType: PlayerController.MoveDirection
 - uid: CurseR.Chapter1.Player.PlayerController.Teleport(Vector2)
   name: Teleport(Vector2)
   href: api/CurseR.Chapter1.Player.PlayerController.html#CurseR_Chapter1_Player_PlayerController_Teleport_Vector2_
@@ -851,64 +864,6 @@ references:
   commentId: F:CurseR.Core.AbstractChapterManager._playedCutScenes
   fullName: CurseR.Core.AbstractChapterManager._playedCutScenes
   nameWithType: AbstractChapterManager._playedCutScenes
-- uid: CurseR.Core.AbstractPlayerController
-  name: AbstractPlayerController
-  href: api/CurseR.Core.AbstractPlayerController.html
-  commentId: T:CurseR.Core.AbstractPlayerController
-  fullName: CurseR.Core.AbstractPlayerController
-  nameWithType: AbstractPlayerController
-- uid: CurseR.Core.AbstractPlayerController.Disable
-  name: Disable()
-  href: api/CurseR.Core.AbstractPlayerController.html#CurseR_Core_AbstractPlayerController_Disable
-  commentId: M:CurseR.Core.AbstractPlayerController.Disable
-  fullName: CurseR.Core.AbstractPlayerController.Disable()
-  nameWithType: AbstractPlayerController.Disable()
-- uid: CurseR.Core.AbstractPlayerController.Disable*
-  name: Disable
-  href: api/CurseR.Core.AbstractPlayerController.html#CurseR_Core_AbstractPlayerController_Disable_
-  commentId: Overload:CurseR.Core.AbstractPlayerController.Disable
-  isSpec: "True"
-  fullName: CurseR.Core.AbstractPlayerController.Disable
-  nameWithType: AbstractPlayerController.Disable
-- uid: CurseR.Core.AbstractPlayerController.Enable
-  name: Enable()
-  href: api/CurseR.Core.AbstractPlayerController.html#CurseR_Core_AbstractPlayerController_Enable
-  commentId: M:CurseR.Core.AbstractPlayerController.Enable
-  fullName: CurseR.Core.AbstractPlayerController.Enable()
-  nameWithType: AbstractPlayerController.Enable()
-- uid: CurseR.Core.AbstractPlayerController.Enable*
-  name: Enable
-  href: api/CurseR.Core.AbstractPlayerController.html#CurseR_Core_AbstractPlayerController_Enable_
-  commentId: Overload:CurseR.Core.AbstractPlayerController.Enable
-  isSpec: "True"
-  fullName: CurseR.Core.AbstractPlayerController.Enable
-  nameWithType: AbstractPlayerController.Enable
-- uid: CurseR.Core.AbstractPlayerController.Init
-  name: Init()
-  href: api/CurseR.Core.AbstractPlayerController.html#CurseR_Core_AbstractPlayerController_Init
-  commentId: M:CurseR.Core.AbstractPlayerController.Init
-  fullName: CurseR.Core.AbstractPlayerController.Init()
-  nameWithType: AbstractPlayerController.Init()
-- uid: CurseR.Core.AbstractPlayerController.Init*
-  name: Init
-  href: api/CurseR.Core.AbstractPlayerController.html#CurseR_Core_AbstractPlayerController_Init_
-  commentId: Overload:CurseR.Core.AbstractPlayerController.Init
-  isSpec: "True"
-  fullName: CurseR.Core.AbstractPlayerController.Init
-  nameWithType: AbstractPlayerController.Init
-- uid: CurseR.Core.AbstractPlayerController.IsDisabled
-  name: IsDisabled
-  href: api/CurseR.Core.AbstractPlayerController.html#CurseR_Core_AbstractPlayerController_IsDisabled
-  commentId: P:CurseR.Core.AbstractPlayerController.IsDisabled
-  fullName: CurseR.Core.AbstractPlayerController.IsDisabled
-  nameWithType: AbstractPlayerController.IsDisabled
-- uid: CurseR.Core.AbstractPlayerController.IsDisabled*
-  name: IsDisabled
-  href: api/CurseR.Core.AbstractPlayerController.html#CurseR_Core_AbstractPlayerController_IsDisabled_
-  commentId: Overload:CurseR.Core.AbstractPlayerController.IsDisabled
-  isSpec: "True"
-  fullName: CurseR.Core.AbstractPlayerController.IsDisabled
-  nameWithType: AbstractPlayerController.IsDisabled
 - uid: CurseR.Core.Camera
   name: CurseR.Core.Camera
   href: api/CurseR.Core.Camera.html
@@ -1940,6 +1895,153 @@ references:
   isSpec: "True"
   fullName: CurseR.Core.GameServices.VirtualCamera
   nameWithType: GameServices.VirtualCamera
+- uid: CurseR.Core.Player
+  name: CurseR.Core.Player
+  href: api/CurseR.Core.Player.html
+  commentId: N:CurseR.Core.Player
+  fullName: CurseR.Core.Player
+  nameWithType: CurseR.Core.Player
+- uid: CurseR.Core.Player.AbstractPlayerController
+  name: AbstractPlayerController
+  href: api/CurseR.Core.Player.AbstractPlayerController.html
+  commentId: T:CurseR.Core.Player.AbstractPlayerController
+  fullName: CurseR.Core.Player.AbstractPlayerController
+  nameWithType: AbstractPlayerController
+- uid: CurseR.Core.Player.AbstractPlayerController.Disable
+  name: Disable()
+  href: api/CurseR.Core.Player.AbstractPlayerController.html#CurseR_Core_Player_AbstractPlayerController_Disable
+  commentId: M:CurseR.Core.Player.AbstractPlayerController.Disable
+  fullName: CurseR.Core.Player.AbstractPlayerController.Disable()
+  nameWithType: AbstractPlayerController.Disable()
+- uid: CurseR.Core.Player.AbstractPlayerController.Disable*
+  name: Disable
+  href: api/CurseR.Core.Player.AbstractPlayerController.html#CurseR_Core_Player_AbstractPlayerController_Disable_
+  commentId: Overload:CurseR.Core.Player.AbstractPlayerController.Disable
+  isSpec: "True"
+  fullName: CurseR.Core.Player.AbstractPlayerController.Disable
+  nameWithType: AbstractPlayerController.Disable
+- uid: CurseR.Core.Player.AbstractPlayerController.Enable
+  name: Enable()
+  href: api/CurseR.Core.Player.AbstractPlayerController.html#CurseR_Core_Player_AbstractPlayerController_Enable
+  commentId: M:CurseR.Core.Player.AbstractPlayerController.Enable
+  fullName: CurseR.Core.Player.AbstractPlayerController.Enable()
+  nameWithType: AbstractPlayerController.Enable()
+- uid: CurseR.Core.Player.AbstractPlayerController.Enable*
+  name: Enable
+  href: api/CurseR.Core.Player.AbstractPlayerController.html#CurseR_Core_Player_AbstractPlayerController_Enable_
+  commentId: Overload:CurseR.Core.Player.AbstractPlayerController.Enable
+  isSpec: "True"
+  fullName: CurseR.Core.Player.AbstractPlayerController.Enable
+  nameWithType: AbstractPlayerController.Enable
+- uid: CurseR.Core.Player.AbstractPlayerController.Init
+  name: Init()
+  href: api/CurseR.Core.Player.AbstractPlayerController.html#CurseR_Core_Player_AbstractPlayerController_Init
+  commentId: M:CurseR.Core.Player.AbstractPlayerController.Init
+  fullName: CurseR.Core.Player.AbstractPlayerController.Init()
+  nameWithType: AbstractPlayerController.Init()
+- uid: CurseR.Core.Player.AbstractPlayerController.Init*
+  name: Init
+  href: api/CurseR.Core.Player.AbstractPlayerController.html#CurseR_Core_Player_AbstractPlayerController_Init_
+  commentId: Overload:CurseR.Core.Player.AbstractPlayerController.Init
+  isSpec: "True"
+  fullName: CurseR.Core.Player.AbstractPlayerController.Init
+  nameWithType: AbstractPlayerController.Init
+- uid: CurseR.Core.Player.AbstractPlayerController.IsDisabled
+  name: IsDisabled
+  href: api/CurseR.Core.Player.AbstractPlayerController.html#CurseR_Core_Player_AbstractPlayerController_IsDisabled
+  commentId: P:CurseR.Core.Player.AbstractPlayerController.IsDisabled
+  fullName: CurseR.Core.Player.AbstractPlayerController.IsDisabled
+  nameWithType: AbstractPlayerController.IsDisabled
+- uid: CurseR.Core.Player.AbstractPlayerController.IsDisabled*
+  name: IsDisabled
+  href: api/CurseR.Core.Player.AbstractPlayerController.html#CurseR_Core_Player_AbstractPlayerController_IsDisabled_
+  commentId: Overload:CurseR.Core.Player.AbstractPlayerController.IsDisabled
+  isSpec: "True"
+  fullName: CurseR.Core.Player.AbstractPlayerController.IsDisabled
+  nameWithType: AbstractPlayerController.IsDisabled
+- uid: CurseR.Core.Player.AbstractPlayerController.MoveDirection
+  name: MoveDirection
+  href: api/CurseR.Core.Player.AbstractPlayerController.html#CurseR_Core_Player_AbstractPlayerController_MoveDirection
+  commentId: P:CurseR.Core.Player.AbstractPlayerController.MoveDirection
+  fullName: CurseR.Core.Player.AbstractPlayerController.MoveDirection
+  nameWithType: AbstractPlayerController.MoveDirection
+- uid: CurseR.Core.Player.AbstractPlayerController.MoveDirection*
+  name: MoveDirection
+  href: api/CurseR.Core.Player.AbstractPlayerController.html#CurseR_Core_Player_AbstractPlayerController_MoveDirection_
+  commentId: Overload:CurseR.Core.Player.AbstractPlayerController.MoveDirection
+  isSpec: "True"
+  fullName: CurseR.Core.Player.AbstractPlayerController.MoveDirection
+  nameWithType: AbstractPlayerController.MoveDirection
+- uid: CurseR.Core.Player.AbstractPlayerController.RegisterFollower(CurseR.Core.Player.Follower.PlayerFollower)
+  name: RegisterFollower(PlayerFollower)
+  href: api/CurseR.Core.Player.AbstractPlayerController.html#CurseR_Core_Player_AbstractPlayerController_RegisterFollower_CurseR_Core_Player_Follower_PlayerFollower_
+  commentId: M:CurseR.Core.Player.AbstractPlayerController.RegisterFollower(CurseR.Core.Player.Follower.PlayerFollower)
+  fullName: CurseR.Core.Player.AbstractPlayerController.RegisterFollower(CurseR.Core.Player.Follower.PlayerFollower)
+  nameWithType: AbstractPlayerController.RegisterFollower(PlayerFollower)
+- uid: CurseR.Core.Player.AbstractPlayerController.RegisterFollower*
+  name: RegisterFollower
+  href: api/CurseR.Core.Player.AbstractPlayerController.html#CurseR_Core_Player_AbstractPlayerController_RegisterFollower_
+  commentId: Overload:CurseR.Core.Player.AbstractPlayerController.RegisterFollower
+  isSpec: "True"
+  fullName: CurseR.Core.Player.AbstractPlayerController.RegisterFollower
+  nameWithType: AbstractPlayerController.RegisterFollower
+- uid: CurseR.Core.Player.AbstractPlayerController.UnregisterFollower(CurseR.Core.Player.Follower.PlayerFollower)
+  name: UnregisterFollower(PlayerFollower)
+  href: api/CurseR.Core.Player.AbstractPlayerController.html#CurseR_Core_Player_AbstractPlayerController_UnregisterFollower_CurseR_Core_Player_Follower_PlayerFollower_
+  commentId: M:CurseR.Core.Player.AbstractPlayerController.UnregisterFollower(CurseR.Core.Player.Follower.PlayerFollower)
+  fullName: CurseR.Core.Player.AbstractPlayerController.UnregisterFollower(CurseR.Core.Player.Follower.PlayerFollower)
+  nameWithType: AbstractPlayerController.UnregisterFollower(PlayerFollower)
+- uid: CurseR.Core.Player.AbstractPlayerController.UnregisterFollower*
+  name: UnregisterFollower
+  href: api/CurseR.Core.Player.AbstractPlayerController.html#CurseR_Core_Player_AbstractPlayerController_UnregisterFollower_
+  commentId: Overload:CurseR.Core.Player.AbstractPlayerController.UnregisterFollower
+  isSpec: "True"
+  fullName: CurseR.Core.Player.AbstractPlayerController.UnregisterFollower
+  nameWithType: AbstractPlayerController.UnregisterFollower
+- uid: CurseR.Core.Player.AbstractPlayerController.followers
+  name: followers
+  href: api/CurseR.Core.Player.AbstractPlayerController.html#CurseR_Core_Player_AbstractPlayerController_followers
+  commentId: F:CurseR.Core.Player.AbstractPlayerController.followers
+  fullName: CurseR.Core.Player.AbstractPlayerController.followers
+  nameWithType: AbstractPlayerController.followers
+- uid: CurseR.Core.Player.Follower
+  name: CurseR.Core.Player.Follower
+  href: api/CurseR.Core.Player.Follower.html
+  commentId: N:CurseR.Core.Player.Follower
+  fullName: CurseR.Core.Player.Follower
+  nameWithType: CurseR.Core.Player.Follower
+- uid: CurseR.Core.Player.Follower.PlayerFollower
+  name: PlayerFollower
+  href: api/CurseR.Core.Player.Follower.PlayerFollower.html
+  commentId: T:CurseR.Core.Player.Follower.PlayerFollower
+  fullName: CurseR.Core.Player.Follower.PlayerFollower
+  nameWithType: PlayerFollower
+- uid: CurseR.Core.Player.Follower.PlayerFollower.TeleportToPlayerPos(Vector2)
+  name: TeleportToPlayerPos(Vector2)
+  href: api/CurseR.Core.Player.Follower.PlayerFollower.html#CurseR_Core_Player_Follower_PlayerFollower_TeleportToPlayerPos_Vector2_
+  commentId: M:CurseR.Core.Player.Follower.PlayerFollower.TeleportToPlayerPos(Vector2)
+  fullName: CurseR.Core.Player.Follower.PlayerFollower.TeleportToPlayerPos(Vector2)
+  nameWithType: PlayerFollower.TeleportToPlayerPos(Vector2)
+- uid: CurseR.Core.Player.Follower.PlayerFollower.TeleportToPlayerPos*
+  name: TeleportToPlayerPos
+  href: api/CurseR.Core.Player.Follower.PlayerFollower.html#CurseR_Core_Player_Follower_PlayerFollower_TeleportToPlayerPos_
+  commentId: Overload:CurseR.Core.Player.Follower.PlayerFollower.TeleportToPlayerPos
+  isSpec: "True"
+  fullName: CurseR.Core.Player.Follower.PlayerFollower.TeleportToPlayerPos
+  nameWithType: PlayerFollower.TeleportToPlayerPos
+- uid: CurseR.Core.Player.Follower.PlayerFollower.TeleportToWorldPos(Vector2)
+  name: TeleportToWorldPos(Vector2)
+  href: api/CurseR.Core.Player.Follower.PlayerFollower.html#CurseR_Core_Player_Follower_PlayerFollower_TeleportToWorldPos_Vector2_
+  commentId: M:CurseR.Core.Player.Follower.PlayerFollower.TeleportToWorldPos(Vector2)
+  fullName: CurseR.Core.Player.Follower.PlayerFollower.TeleportToWorldPos(Vector2)
+  nameWithType: PlayerFollower.TeleportToWorldPos(Vector2)
+- uid: CurseR.Core.Player.Follower.PlayerFollower.TeleportToWorldPos*
+  name: TeleportToWorldPos
+  href: api/CurseR.Core.Player.Follower.PlayerFollower.html#CurseR_Core_Player_Follower_PlayerFollower_TeleportToWorldPos_
+  commentId: Overload:CurseR.Core.Player.Follower.PlayerFollower.TeleportToWorldPos
+  isSpec: "True"
+  fullName: CurseR.Core.Player.Follower.PlayerFollower.TeleportToWorldPos
+  nameWithType: PlayerFollower.TeleportToWorldPos
 - uid: CurseR.Core.Scene
   name: CurseR.Core.Scene
   href: api/CurseR.Core.Scene.html
@@ -2263,6 +2365,128 @@ references:
   commentId: F:CurseR.Core.Utils.Direction.Up
   fullName: CurseR.Core.Utils.Direction.Up
   nameWithType: Direction.Up
+- uid: CurseR.Core.Utils.PriorityQueue`2
+  name: PriorityQueue<TElement, TPriority>
+  href: api/CurseR.Core.Utils.PriorityQueue-2.html
+  commentId: T:CurseR.Core.Utils.PriorityQueue`2
+  name.vb: PriorityQueue(Of TElement, TPriority)
+  fullName: CurseR.Core.Utils.PriorityQueue<TElement, TPriority>
+  fullName.vb: CurseR.Core.Utils.PriorityQueue(Of TElement, TPriority)
+  nameWithType: PriorityQueue<TElement, TPriority>
+  nameWithType.vb: PriorityQueue(Of TElement, TPriority)
+- uid: CurseR.Core.Utils.PriorityQueue`2.#ctor
+  name: PriorityQueue()
+  href: api/CurseR.Core.Utils.PriorityQueue-2.html#CurseR_Core_Utils_PriorityQueue_2__ctor
+  commentId: M:CurseR.Core.Utils.PriorityQueue`2.#ctor
+  name.vb: New()
+  fullName: CurseR.Core.Utils.PriorityQueue<TElement, TPriority>.PriorityQueue()
+  fullName.vb: CurseR.Core.Utils.PriorityQueue(Of TElement, TPriority).New()
+  nameWithType: PriorityQueue<TElement, TPriority>.PriorityQueue()
+  nameWithType.vb: PriorityQueue(Of TElement, TPriority).New()
+- uid: CurseR.Core.Utils.PriorityQueue`2.#ctor(System.Int32)
+  name: PriorityQueue(int)
+  href: api/CurseR.Core.Utils.PriorityQueue-2.html#CurseR_Core_Utils_PriorityQueue_2__ctor_System_Int32_
+  commentId: M:CurseR.Core.Utils.PriorityQueue`2.#ctor(System.Int32)
+  name.vb: New(Integer)
+  fullName: CurseR.Core.Utils.PriorityQueue<TElement, TPriority>.PriorityQueue(int)
+  fullName.vb: CurseR.Core.Utils.PriorityQueue(Of TElement, TPriority).New(Integer)
+  nameWithType: PriorityQueue<TElement, TPriority>.PriorityQueue(int)
+  nameWithType.vb: PriorityQueue(Of TElement, TPriority).New(Integer)
+- uid: CurseR.Core.Utils.PriorityQueue`2.#ctor*
+  name: PriorityQueue
+  href: api/CurseR.Core.Utils.PriorityQueue-2.html#CurseR_Core_Utils_PriorityQueue_2__ctor_
+  commentId: Overload:CurseR.Core.Utils.PriorityQueue`2.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CurseR.Core.Utils.PriorityQueue<TElement, TPriority>.PriorityQueue
+  fullName.vb: CurseR.Core.Utils.PriorityQueue(Of TElement, TPriority).New
+  nameWithType: PriorityQueue<TElement, TPriority>.PriorityQueue
+  nameWithType.vb: PriorityQueue(Of TElement, TPriority).New
+- uid: CurseR.Core.Utils.PriorityQueue`2.Clear
+  name: Clear()
+  href: api/CurseR.Core.Utils.PriorityQueue-2.html#CurseR_Core_Utils_PriorityQueue_2_Clear
+  commentId: M:CurseR.Core.Utils.PriorityQueue`2.Clear
+  fullName: CurseR.Core.Utils.PriorityQueue<TElement, TPriority>.Clear()
+  fullName.vb: CurseR.Core.Utils.PriorityQueue(Of TElement, TPriority).Clear()
+  nameWithType: PriorityQueue<TElement, TPriority>.Clear()
+  nameWithType.vb: PriorityQueue(Of TElement, TPriority).Clear()
+- uid: CurseR.Core.Utils.PriorityQueue`2.Clear*
+  name: Clear
+  href: api/CurseR.Core.Utils.PriorityQueue-2.html#CurseR_Core_Utils_PriorityQueue_2_Clear_
+  commentId: Overload:CurseR.Core.Utils.PriorityQueue`2.Clear
+  isSpec: "True"
+  fullName: CurseR.Core.Utils.PriorityQueue<TElement, TPriority>.Clear
+  fullName.vb: CurseR.Core.Utils.PriorityQueue(Of TElement, TPriority).Clear
+  nameWithType: PriorityQueue<TElement, TPriority>.Clear
+  nameWithType.vb: PriorityQueue(Of TElement, TPriority).Clear
+- uid: CurseR.Core.Utils.PriorityQueue`2.Count
+  name: Count
+  href: api/CurseR.Core.Utils.PriorityQueue-2.html#CurseR_Core_Utils_PriorityQueue_2_Count
+  commentId: P:CurseR.Core.Utils.PriorityQueue`2.Count
+  fullName: CurseR.Core.Utils.PriorityQueue<TElement, TPriority>.Count
+  fullName.vb: CurseR.Core.Utils.PriorityQueue(Of TElement, TPriority).Count
+  nameWithType: PriorityQueue<TElement, TPriority>.Count
+  nameWithType.vb: PriorityQueue(Of TElement, TPriority).Count
+- uid: CurseR.Core.Utils.PriorityQueue`2.Count*
+  name: Count
+  href: api/CurseR.Core.Utils.PriorityQueue-2.html#CurseR_Core_Utils_PriorityQueue_2_Count_
+  commentId: Overload:CurseR.Core.Utils.PriorityQueue`2.Count
+  isSpec: "True"
+  fullName: CurseR.Core.Utils.PriorityQueue<TElement, TPriority>.Count
+  fullName.vb: CurseR.Core.Utils.PriorityQueue(Of TElement, TPriority).Count
+  nameWithType: PriorityQueue<TElement, TPriority>.Count
+  nameWithType.vb: PriorityQueue(Of TElement, TPriority).Count
+- uid: CurseR.Core.Utils.PriorityQueue`2.Dequeue
+  name: Dequeue()
+  href: api/CurseR.Core.Utils.PriorityQueue-2.html#CurseR_Core_Utils_PriorityQueue_2_Dequeue
+  commentId: M:CurseR.Core.Utils.PriorityQueue`2.Dequeue
+  fullName: CurseR.Core.Utils.PriorityQueue<TElement, TPriority>.Dequeue()
+  fullName.vb: CurseR.Core.Utils.PriorityQueue(Of TElement, TPriority).Dequeue()
+  nameWithType: PriorityQueue<TElement, TPriority>.Dequeue()
+  nameWithType.vb: PriorityQueue(Of TElement, TPriority).Dequeue()
+- uid: CurseR.Core.Utils.PriorityQueue`2.Dequeue*
+  name: Dequeue
+  href: api/CurseR.Core.Utils.PriorityQueue-2.html#CurseR_Core_Utils_PriorityQueue_2_Dequeue_
+  commentId: Overload:CurseR.Core.Utils.PriorityQueue`2.Dequeue
+  isSpec: "True"
+  fullName: CurseR.Core.Utils.PriorityQueue<TElement, TPriority>.Dequeue
+  fullName.vb: CurseR.Core.Utils.PriorityQueue(Of TElement, TPriority).Dequeue
+  nameWithType: PriorityQueue<TElement, TPriority>.Dequeue
+  nameWithType.vb: PriorityQueue(Of TElement, TPriority).Dequeue
+- uid: CurseR.Core.Utils.PriorityQueue`2.Enqueue(`0,`1)
+  name: Enqueue(TElement, TPriority)
+  href: api/CurseR.Core.Utils.PriorityQueue-2.html#CurseR_Core_Utils_PriorityQueue_2_Enqueue__0__1_
+  commentId: M:CurseR.Core.Utils.PriorityQueue`2.Enqueue(`0,`1)
+  fullName: CurseR.Core.Utils.PriorityQueue<TElement, TPriority>.Enqueue(TElement, TPriority)
+  fullName.vb: CurseR.Core.Utils.PriorityQueue(Of TElement, TPriority).Enqueue(TElement, TPriority)
+  nameWithType: PriorityQueue<TElement, TPriority>.Enqueue(TElement, TPriority)
+  nameWithType.vb: PriorityQueue(Of TElement, TPriority).Enqueue(TElement, TPriority)
+- uid: CurseR.Core.Utils.PriorityQueue`2.Enqueue*
+  name: Enqueue
+  href: api/CurseR.Core.Utils.PriorityQueue-2.html#CurseR_Core_Utils_PriorityQueue_2_Enqueue_
+  commentId: Overload:CurseR.Core.Utils.PriorityQueue`2.Enqueue
+  isSpec: "True"
+  fullName: CurseR.Core.Utils.PriorityQueue<TElement, TPriority>.Enqueue
+  fullName.vb: CurseR.Core.Utils.PriorityQueue(Of TElement, TPriority).Enqueue
+  nameWithType: PriorityQueue<TElement, TPriority>.Enqueue
+  nameWithType.vb: PriorityQueue(Of TElement, TPriority).Enqueue
+- uid: CurseR.Core.Utils.PriorityQueue`2.Peek
+  name: Peek()
+  href: api/CurseR.Core.Utils.PriorityQueue-2.html#CurseR_Core_Utils_PriorityQueue_2_Peek
+  commentId: M:CurseR.Core.Utils.PriorityQueue`2.Peek
+  fullName: CurseR.Core.Utils.PriorityQueue<TElement, TPriority>.Peek()
+  fullName.vb: CurseR.Core.Utils.PriorityQueue(Of TElement, TPriority).Peek()
+  nameWithType: PriorityQueue<TElement, TPriority>.Peek()
+  nameWithType.vb: PriorityQueue(Of TElement, TPriority).Peek()
+- uid: CurseR.Core.Utils.PriorityQueue`2.Peek*
+  name: Peek
+  href: api/CurseR.Core.Utils.PriorityQueue-2.html#CurseR_Core_Utils_PriorityQueue_2_Peek_
+  commentId: Overload:CurseR.Core.Utils.PriorityQueue`2.Peek
+  isSpec: "True"
+  fullName: CurseR.Core.Utils.PriorityQueue<TElement, TPriority>.Peek
+  fullName.vb: CurseR.Core.Utils.PriorityQueue(Of TElement, TPriority).Peek
+  nameWithType: PriorityQueue<TElement, TPriority>.Peek
+  nameWithType.vb: PriorityQueue(Of TElement, TPriority).Peek
 - uid: CurseR.Core.Utils.SharedFlag
   name: SharedFlag
   href: api/CurseR.Core.Utils.SharedFlag.html
@@ -2499,6 +2723,19 @@ references:
   isSpec: "True"
   fullName: CurseR.Core.Utils.Utils.GetRoot
   nameWithType: Utils.GetRoot
+- uid: CurseR.Core.Utils.Utils.Teleport(Rigidbody2D,Vector2)
+  name: Teleport(Rigidbody2D, Vector2)
+  href: api/CurseR.Core.Utils.Utils.html#CurseR_Core_Utils_Utils_Teleport_Rigidbody2D_Vector2_
+  commentId: M:CurseR.Core.Utils.Utils.Teleport(Rigidbody2D,Vector2)
+  fullName: CurseR.Core.Utils.Utils.Teleport(Rigidbody2D, Vector2)
+  nameWithType: Utils.Teleport(Rigidbody2D, Vector2)
+- uid: CurseR.Core.Utils.Utils.Teleport*
+  name: Teleport
+  href: api/CurseR.Core.Utils.Utils.html#CurseR_Core_Utils_Utils_Teleport_
+  commentId: Overload:CurseR.Core.Utils.Utils.Teleport
+  isSpec: "True"
+  fullName: CurseR.Core.Utils.Utils.Teleport
+  nameWithType: Utils.Teleport
 - uid: CurseR.Core.Utils.Utils.ToVector2(Vector3)
   name: ToVector2(Vector3)
   href: api/CurseR.Core.Utils.Utils.html#CurseR_Core_Utils_Utils_ToVector2_Vector3_

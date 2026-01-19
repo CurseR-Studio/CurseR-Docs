@@ -376,20 +376,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CurseR.Core.AbstractPlayerController.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CurseR.Core.AbstractPlayerController.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CurseR.Core.AbstractPlayerController",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/CurseR.Core.Camera.CameraBounds.yml",
       "output": {
         ".html": {
@@ -712,6 +698,62 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Player.AbstractPlayerController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Player.AbstractPlayerController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Player.AbstractPlayerController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Player.Follower.PlayerFollower.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Player.Follower.PlayerFollower.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Player.Follower.PlayerFollower",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Player.Follower.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Player.Follower.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Player.Follower",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Player.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Player",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CurseR.Core.Scene.CheckPoint.yml",
       "output": {
         ".html": {
@@ -821,6 +863,20 @@
       "IsMRef": true,
       "Title": "CurseR.Core.Utils.Direction",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Utils.PriorityQueue-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Utils.PriorityQueue-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Utils.PriorityQueue<TElement, TPriority>",
+      "Summary": "<p sourcefile=\"api/CurseR.Core.Utils.PriorityQueue-2.yml\" sourcestartlinenumber=\"1\">Min-heap based priority queue implementation\nLower priority values are dequeued first</p>\n"
     },
     {
       "type": "ManagedReference",

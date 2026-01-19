@@ -112,7 +112,7 @@
   "api/CurseR.Chapter1.Player.PlayerController.html": {
     "href": "api/CurseR.Chapter1.Player.PlayerController.html",
     "title": "Class PlayerController | CurseR",
-    "summary": "Class PlayerController Namespace CurseR.Chapter1.Player public class PlayerController : AbstractPlayerController Inheritance object AbstractPlayerController PlayerController Inherited Members AbstractPlayerController.IsDisabled Properties Fallgravity public float Fallgravity { get; } Property Value float IsGrounded public bool IsGrounded { get; } Property Value bool IsInInputBox public bool IsInInputBox { get; } Property Value bool IsInWater public bool IsInWater { get; } Property Value bool IsJumping public bool IsJumping { get; } Property Value bool IsTouchingWall public bool IsTouchingWall { get; } Property Value bool JumpGravity public float JumpGravity { get; } Property Value float WallGravity public float WallGravity { get; } Property Value float WallStickGravity public float WallStickGravity { get; } Property Value float Methods Disable() public override void Disable() DisableInput() public void DisableInput() Enable() public override void Enable() EnableInput() public void EnableInput() Init() protected override void Init() Teleport(Vector2) public void Teleport(Vector2 position) Parameters position Vector2"
+    "summary": "Class PlayerController Namespace CurseR.Chapter1.Player public class PlayerController : AbstractPlayerController Inheritance object AbstractPlayerController PlayerController Inherited Members AbstractPlayerController.IsDisabled AbstractPlayerController.followers AbstractPlayerController.RegisterFollower(PlayerFollower) AbstractPlayerController.UnregisterFollower(PlayerFollower) Properties Fallgravity public float Fallgravity { get; } Property Value float IsGrounded public bool IsGrounded { get; } Property Value bool IsInInputBox public bool IsInInputBox { get; } Property Value bool IsInWater public bool IsInWater { get; } Property Value bool IsJumping public bool IsJumping { get; } Property Value bool IsTouchingWall public bool IsTouchingWall { get; } Property Value bool JumpGravity public float JumpGravity { get; } Property Value float MoveDirection 플레이어의 이동 방향. 오른쪽으로 이동: +1 왼쪽으로 이동: -1 public override float MoveDirection { get; protected set; } Property Value float WallGravity public float WallGravity { get; } Property Value float WallStickGravity public float WallStickGravity { get; } Property Value float Methods Disable() public override void Disable() DisableInput() public void DisableInput() Enable() public override void Enable() EnableInput() public void EnableInput() Init() protected override void Init() Teleport(Vector2) public void Teleport(Vector2 position) Parameters position Vector2"
   },
   "api/CurseR.Chapter1.Player.html": {
     "href": "api/CurseR.Chapter1.Player.html",
@@ -128,11 +128,6 @@
     "href": "api/CurseR.Core.AbstractChapterManager.html",
     "title": "Class AbstractChapterManager | CurseR",
     "summary": "Class AbstractChapterManager Namespace CurseR.Core public abstract class AbstractChapterManager : MonoBehaviour Inheritance object AbstractChapterManager Derived ChapterManager1 Fields _playedCutScenes protected HashSet<string> _playedCutScenes Field Value HashSet<string> Properties CheckPoint public WorldPoint CheckPoint { get; protected set; } Property Value WorldPoint CurrentChapter public virtual int CurrentChapter { get; } Property Value int Methods Dispose() protected virtual void Dispose() Init() protected virtual void Init() IsCutScenePlayed(CutSceneData) 재생된 적 있는 컷씬인지 판별 public bool IsCutScenePlayed(CutSceneData cutScene) Parameters cutScene CutSceneData 컷씬 데이터 Returns bool 재생 여부 RestartFromCheckPoint() 마지막으로 저장된 체크포인트로부터 재시작 public IEnumerator RestartFromCheckPoint() Returns IEnumerator SetCheckPoint(CheckPoint) CheckPoint 컴포넌트로 체크포인트를 설정함. public void SetCheckPoint(CheckPoint checkPoint) Parameters checkPoint CheckPoint CheckPoint 컴포넌트 SetCheckPoint(Vector2) 월드 좌표 기준으로 체크포인트 지정. 현재 활성화 씬에 체크포인트가 존재하는 것으로 처리함. public void SetCheckPoint(Vector2 worldPos) Parameters worldPos Vector2 월드 좌표 SetCutScenePlayed(CutSceneData, bool) 특정 컷씬의 재생 여부를 설정함. public void SetCutScenePlayed(CutSceneData cutScene, bool isPlayed = true) Parameters cutScene CutSceneData 컷씬 데이터 isPlayed bool 재생 여부"
-  },
-  "api/CurseR.Core.AbstractPlayerController.html": {
-    "href": "api/CurseR.Core.AbstractPlayerController.html",
-    "title": "Class AbstractPlayerController | CurseR",
-    "summary": "Class AbstractPlayerController Namespace CurseR.Core public abstract class AbstractPlayerController : MonoBehaviour Inheritance object AbstractPlayerController Derived PlayerController Properties IsDisabled public bool IsDisabled { get; protected set; } Property Value bool Methods Disable() public virtual void Disable() Enable() public virtual void Enable() Init() protected virtual void Init()"
   },
   "api/CurseR.Core.Camera.CameraBounds.html": {
     "href": "api/CurseR.Core.Camera.CameraBounds.html",
@@ -249,6 +244,26 @@
     "title": "Class GameServices | CurseR",
     "summary": "Class GameServices Namespace CurseR.Core public static class GameServices Inheritance object GameServices Fields OnReady public static Action OnReady Field Value Action Properties ChapterManager public static AbstractChapterManager ChapterManager { get; } Property Value AbstractChapterManager CutSceneManager public static CutSceneManager CutSceneManager { get; } Property Value CutSceneManager EventBus public static GameEventBus EventBus { get; } Property Value GameEventBus MainCamera public static GameObject MainCamera { get; } Property Value GameObject Player public static GameObject Player { get; } Property Value GameObject SceneController public static SceneController SceneController { get; } Property Value SceneController TransitionManager public static TransitionManager TransitionManager { get; } Property Value TransitionManager VirtualCamera 현재 활성화된 씬의 Virtual Camera public static VirtualCamera VirtualCamera { get; } Property Value VirtualCamera Methods GetChapterManager<T>() 특정 챕터의 ChapterManager가 필요할 때 직접 AbstractChapterManager 캐스팅하지 말고 사용. public static T GetChapterManager<T>() where T : AbstractChapterManager Returns T Type Parameters T 챕터 매니저 타입 RegisterChapterManager(AbstractChapterManager) public static void RegisterChapterManager(AbstractChapterManager manager) Parameters manager AbstractChapterManager RegisterCutSceneManager(CutSceneManager) public static void RegisterCutSceneManager(CutSceneManager manager) Parameters manager CutSceneManager RegisterEventBus(GameEventBus) public static void RegisterEventBus(GameEventBus eventBus) Parameters eventBus GameEventBus RegisterMainCamera(GameObject) public static void RegisterMainCamera(GameObject camera) Parameters camera GameObject RegisterPlayer(GameObject) public static void RegisterPlayer(GameObject player) Parameters player GameObject RegisterSceneController(SceneController) public static void RegisterSceneController(SceneController controller) Parameters controller SceneController RegisterTransitionManager(TransitionManager) public static void RegisterTransitionManager(TransitionManager transitionManager) Parameters transitionManager TransitionManager SetVirtualCamera(VirtualCamera) public static void SetVirtualCamera(VirtualCamera cam) Parameters cam VirtualCamera"
   },
+  "api/CurseR.Core.Player.AbstractPlayerController.html": {
+    "href": "api/CurseR.Core.Player.AbstractPlayerController.html",
+    "title": "Class AbstractPlayerController | CurseR",
+    "summary": "Class AbstractPlayerController Namespace CurseR.Core.Player public abstract class AbstractPlayerController : MonoBehaviour Inheritance object AbstractPlayerController Derived PlayerController Fields followers protected List<PlayerFollower> followers Field Value List<PlayerFollower> Properties IsDisabled public bool IsDisabled { get; protected set; } Property Value bool MoveDirection 플레이어의 이동 방향. 오른쪽으로 이동: +1 왼쪽으로 이동: -1 public abstract float MoveDirection { get; protected set; } Property Value float Methods Disable() public virtual void Disable() Enable() public virtual void Enable() Init() protected virtual void Init() RegisterFollower(PlayerFollower) Follower 등록 public void RegisterFollower(PlayerFollower follower) Parameters follower PlayerFollower UnregisterFollower(PlayerFollower) Follower 등록 해제 public void UnregisterFollower(PlayerFollower follower) Parameters follower PlayerFollower"
+  },
+  "api/CurseR.Core.Player.Follower.PlayerFollower.html": {
+    "href": "api/CurseR.Core.Player.Follower.PlayerFollower.html",
+    "title": "Class PlayerFollower | CurseR",
+    "summary": "Class PlayerFollower Namespace CurseR.Core.Player.Follower public class PlayerFollower : MonoBehaviour Inheritance object PlayerFollower Methods TeleportToPlayerPos(Vector2) 주어진 좌표를 타겟 플레이어의 좌표로 삼아 텔레포트. public void TeleportToPlayerPos(Vector2 playerPos) Parameters playerPos Vector2 TeleportToWorldPos(Vector2) 월드 좌표 기준으로 텔레포트 public void TeleportToWorldPos(Vector2 worldPos) Parameters worldPos Vector2"
+  },
+  "api/CurseR.Core.Player.Follower.html": {
+    "href": "api/CurseR.Core.Player.Follower.html",
+    "title": "Namespace CurseR.Core.Player.Follower | CurseR",
+    "summary": "Namespace CurseR.Core.Player.Follower Classes PlayerFollower"
+  },
+  "api/CurseR.Core.Player.html": {
+    "href": "api/CurseR.Core.Player.html",
+    "title": "Namespace CurseR.Core.Player | CurseR",
+    "summary": "Namespace CurseR.Core.Player Namespaces CurseR.Core.Player.Follower Classes AbstractPlayerController"
+  },
   "api/CurseR.Core.Scene.CheckPoint.html": {
     "href": "api/CurseR.Core.Scene.CheckPoint.html",
     "title": "Class CheckPoint | CurseR",
@@ -289,6 +304,11 @@
     "title": "Enum Direction | CurseR",
     "summary": "Enum Direction Namespace CurseR.Core.Utils public enum Direction Fields Down = 1 Left = 2 Right = 3 Up = 0"
   },
+  "api/CurseR.Core.Utils.PriorityQueue-2.html": {
+    "href": "api/CurseR.Core.Utils.PriorityQueue-2.html",
+    "title": "Class PriorityQueue<TElement, TPriority> | CurseR",
+    "summary": "Class PriorityQueue<TElement, TPriority> Namespace CurseR.Core.Utils Min-heap based priority queue implementation Lower priority values are dequeued first public class PriorityQueue<TElement, TPriority> where TPriority : IComparable<TPriority> Type Parameters TElement Type of elements in the queue TPriority Type of priority (must be comparable) Inheritance object PriorityQueue<TElement, TPriority> Constructors PriorityQueue() public PriorityQueue() PriorityQueue(int) public PriorityQueue(int initialCapacity) Parameters initialCapacity int Properties Count public int Count { get; } Property Value int Methods Clear() Remove all elements from the queue public void Clear() Dequeue() Remove and return the element with the lowest priority public TElement Dequeue() Returns TElement Enqueue(TElement, TPriority) Add an element with the given priority public void Enqueue(TElement element, TPriority priority) Parameters element TElement priority TPriority Peek() Get the element with the lowest priority without removing it public TElement Peek() Returns TElement"
+  },
   "api/CurseR.Core.Utils.SharedFlag.Handle.html": {
     "href": "api/CurseR.Core.Utils.SharedFlag.Handle.html",
     "title": "Class SharedFlag.Handle | CurseR",
@@ -307,7 +327,7 @@
   "api/CurseR.Core.Utils.Utils.html": {
     "href": "api/CurseR.Core.Utils.Utils.html",
     "title": "Class Utils | CurseR",
-    "summary": "Class Utils Namespace CurseR.Core.Utils public static class Utils Inheritance object Utils Methods ByPlayer(Collider2D) Trigger 대상이 플레이어인지 체크 public static bool ByPlayer(this Collider2D collision) Parameters collision Collider2D Returns bool ByPlayer(Collision2D) 충돌 대상이 플레이어인지 체크 public static bool ByPlayer(this Collision2D collision) Parameters collision Collision2D Returns bool GetComponentInCurrentScene<T>(MonoBehaviour, bool) public static T GetComponentInCurrentScene<T>(this MonoBehaviour mono, bool includeInactive) where T : Component Parameters mono MonoBehaviour includeInactive bool Returns T Type Parameters T GetComponentsInCurrentScene<T>(MonoBehaviour, bool) public static T[] GetComponentsInCurrentScene<T>(this MonoBehaviour mono, bool includeInactive = false) where T : Component Parameters mono MonoBehaviour includeInactive bool Returns T[] Type Parameters T GetRoot(Scene) public static GameObject GetRoot(this UnityEngine.SceneManagement.Scene scene) Parameters scene Scene Returns GameObject ToVector2(Vector3) public static Vector2 ToVector2(this Vector3 vector3) Parameters vector3 Vector3 Returns Vector2 WaitForCompletionAll(MonoBehaviour, params IEnumerator[]) public static IEnumerator WaitForCompletionAll(this MonoBehaviour mono, params IEnumerator[] coroutines) Parameters mono MonoBehaviour coroutines IEnumerator[] Returns IEnumerator"
+    "summary": "Class Utils Namespace CurseR.Core.Utils public static class Utils Inheritance object Utils Methods ByPlayer(Collider2D) Trigger 대상이 플레이어인지 체크 public static bool ByPlayer(this Collider2D collision) Parameters collision Collider2D Returns bool ByPlayer(Collision2D) 충돌 대상이 플레이어인지 체크 public static bool ByPlayer(this Collision2D collision) Parameters collision Collision2D Returns bool GetComponentInCurrentScene<T>(MonoBehaviour, bool) public static T GetComponentInCurrentScene<T>(this MonoBehaviour mono, bool includeInactive) where T : Component Parameters mono MonoBehaviour includeInactive bool Returns T Type Parameters T GetComponentsInCurrentScene<T>(MonoBehaviour, bool) public static T[] GetComponentsInCurrentScene<T>(this MonoBehaviour mono, bool includeInactive = false) where T : Component Parameters mono MonoBehaviour includeInactive bool Returns T[] Type Parameters T GetRoot(Scene) public static GameObject GetRoot(this UnityEngine.SceneManagement.Scene scene) Parameters scene Scene Returns GameObject Teleport(Rigidbody2D, Vector2) public static IEnumerator Teleport(this Rigidbody2D rb, Vector2 position) Parameters rb Rigidbody2D position Vector2 Returns IEnumerator ToVector2(Vector3) public static Vector2 ToVector2(this Vector3 vector3) Parameters vector3 Vector3 Returns Vector2 WaitForCompletionAll(MonoBehaviour, params IEnumerator[]) public static IEnumerator WaitForCompletionAll(this MonoBehaviour mono, params IEnumerator[] coroutines) Parameters mono MonoBehaviour coroutines IEnumerator[] Returns IEnumerator"
   },
   "api/CurseR.Core.Utils.WaitForAtLeastSeconds.html": {
     "href": "api/CurseR.Core.Utils.WaitForAtLeastSeconds.html",
@@ -332,12 +352,12 @@
   "api/CurseR.Core.Utils.html": {
     "href": "api/CurseR.Core.Utils.html",
     "title": "Namespace CurseR.Core.Utils | CurseR",
-    "summary": "Namespace CurseR.Core.Utils Classes SharedFlag SharedFlag.Handle TextAssetExtensionFilterAttribute TextAsset 필드에 특정 확장자만 허용하도록 필터링하는 어트리뷰트 Utils WaitForAtLeastSeconds 시작 시점으로부터 최소 대기 시간 보장 WaitForSecondsWithCancel 중간 취소 가능한 WaitForSeconds WaitUntilWithCancel 중간 취소 가능한 WaitUntil Structs WorldPoint Enums Direction"
+    "summary": "Namespace CurseR.Core.Utils Classes PriorityQueue<TElement, TPriority> Min-heap based priority queue implementation Lower priority values are dequeued first SharedFlag SharedFlag.Handle TextAssetExtensionFilterAttribute TextAsset 필드에 특정 확장자만 허용하도록 필터링하는 어트리뷰트 Utils WaitForAtLeastSeconds 시작 시점으로부터 최소 대기 시간 보장 WaitForSecondsWithCancel 중간 취소 가능한 WaitForSeconds WaitUntilWithCancel 중간 취소 가능한 WaitUntil Structs WorldPoint Enums Direction"
   },
   "api/CurseR.Core.html": {
     "href": "api/CurseR.Core.html",
     "title": "Namespace CurseR.Core | CurseR",
-    "summary": "Namespace CurseR.Core Namespaces CurseR.Core.Camera CurseR.Core.CutScene CurseR.Core.Scene CurseR.Core.Utils Classes AbstractChapterManager AbstractPlayerController GameEvent GameEventBus GameServices TransitionManager"
+    "summary": "Namespace CurseR.Core Namespaces CurseR.Core.Camera CurseR.Core.CutScene CurseR.Core.Player CurseR.Core.Scene CurseR.Core.Utils Classes AbstractChapterManager GameEvent GameEventBus GameServices TransitionManager"
   },
   "api/CurseR.html": {
     "href": "api/CurseR.html",
