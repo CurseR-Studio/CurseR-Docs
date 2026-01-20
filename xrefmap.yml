@@ -422,24 +422,6 @@ references:
   commentId: F:CurseR.Chapter1.Objects.Inputbox.InputboxState.Launching
   fullName: CurseR.Chapter1.Objects.Inputbox.InputboxState.Launching
   nameWithType: InputboxState.Launching
-- uid: CurseR.Chapter1.Objects.Inputbox.LaunchDirection
-  name: LaunchDirection
-  href: api/CurseR.Chapter1.Objects.Inputbox.LaunchDirection.html
-  commentId: T:CurseR.Chapter1.Objects.Inputbox.LaunchDirection
-  fullName: CurseR.Chapter1.Objects.Inputbox.LaunchDirection
-  nameWithType: LaunchDirection
-- uid: CurseR.Chapter1.Objects.Inputbox.LaunchDirection.Left
-  name: Left
-  href: api/CurseR.Chapter1.Objects.Inputbox.LaunchDirection.html#CurseR_Chapter1_Objects_Inputbox_LaunchDirection_Left
-  commentId: F:CurseR.Chapter1.Objects.Inputbox.LaunchDirection.Left
-  fullName: CurseR.Chapter1.Objects.Inputbox.LaunchDirection.Left
-  nameWithType: LaunchDirection.Left
-- uid: CurseR.Chapter1.Objects.Inputbox.LaunchDirection.Right
-  name: Right
-  href: api/CurseR.Chapter1.Objects.Inputbox.LaunchDirection.html#CurseR_Chapter1_Objects_Inputbox_LaunchDirection_Right
-  commentId: F:CurseR.Chapter1.Objects.Inputbox.LaunchDirection.Right
-  fullName: CurseR.Chapter1.Objects.Inputbox.LaunchDirection.Right
-  nameWithType: LaunchDirection.Right
 - uid: CurseR.Chapter1.Objects.Object
   name: Object
   href: api/CurseR.Chapter1.Objects.Object.html
@@ -733,6 +715,18 @@ references:
   isSpec: "True"
   fullName: CurseR.Chapter1.Player.PlayerController.WallStickGravity
   nameWithType: PlayerController.WallStickGravity
+- uid: CurseR.Chapter1.Player.PlayerRespawn
+  name: PlayerRespawn
+  href: api/CurseR.Chapter1.Player.PlayerRespawn.html
+  commentId: T:CurseR.Chapter1.Player.PlayerRespawn
+  fullName: CurseR.Chapter1.Player.PlayerRespawn
+  nameWithType: PlayerRespawn
+- uid: CurseR.Chapter1.Player.PlayerRespawn.spawnPos
+  name: spawnPos
+  href: api/CurseR.Chapter1.Player.PlayerRespawn.html#CurseR_Chapter1_Player_PlayerRespawn_spawnPos
+  commentId: F:CurseR.Chapter1.Player.PlayerRespawn.spawnPos
+  fullName: CurseR.Chapter1.Player.PlayerRespawn.spawnPos
+  nameWithType: PlayerRespawn.spawnPos
 - uid: CurseR.Core
   name: CurseR.Core
   href: api/CurseR.Core.html

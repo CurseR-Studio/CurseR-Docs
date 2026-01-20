@@ -79,15 +79,10 @@
     "title": "Enum InputboxState | CurseR",
     "summary": "Enum InputboxState Namespace CurseR.Chapter1.Objects.Inputbox public enum InputboxState Fields Aiming = 2 Disabled = 0 Idle = 1 Launching = 3"
   },
-  "api/CurseR.Chapter1.Objects.Inputbox.LaunchDirection.html": {
-    "href": "api/CurseR.Chapter1.Objects.Inputbox.LaunchDirection.html",
-    "title": "Enum LaunchDirection | CurseR",
-    "summary": "Enum LaunchDirection Namespace CurseR.Chapter1.Objects.Inputbox public enum LaunchDirection Fields Left = 1 Right = 0"
-  },
   "api/CurseR.Chapter1.Objects.Inputbox.html": {
     "href": "api/CurseR.Chapter1.Objects.Inputbox.html",
     "title": "Namespace CurseR.Chapter1.Objects.Inputbox | CurseR",
-    "summary": "Namespace CurseR.Chapter1.Objects.Inputbox Classes Inputbox Enums InputboxState LaunchDirection"
+    "summary": "Namespace CurseR.Chapter1.Objects.Inputbox Classes Inputbox Enums InputboxState"
   },
   "api/CurseR.Chapter1.Objects.Object.html": {
     "href": "api/CurseR.Chapter1.Objects.Object.html",
@@ -114,10 +109,15 @@
     "title": "Class PlayerController | CurseR",
     "summary": "Class PlayerController Namespace CurseR.Chapter1.Player public class PlayerController : AbstractPlayerController Inheritance object AbstractPlayerController PlayerController Inherited Members AbstractPlayerController.IsDisabled AbstractPlayerController.followers AbstractPlayerController.RegisterFollower(PlayerFollower) AbstractPlayerController.UnregisterFollower(PlayerFollower) Properties Fallgravity public float Fallgravity { get; } Property Value float IsGrounded public bool IsGrounded { get; } Property Value bool IsInInputBox public bool IsInInputBox { get; } Property Value bool IsInWater public bool IsInWater { get; } Property Value bool IsJumping public bool IsJumping { get; } Property Value bool IsTouchingWall public bool IsTouchingWall { get; } Property Value bool JumpGravity public float JumpGravity { get; } Property Value float MoveDirection 플레이어의 이동 방향. 오른쪽으로 이동: +1 왼쪽으로 이동: -1 public override float MoveDirection { get; protected set; } Property Value float WallGravity public float WallGravity { get; } Property Value float WallStickGravity public float WallStickGravity { get; } Property Value float Methods Disable() public override void Disable() DisableInput() public void DisableInput() Enable() public override void Enable() EnableInput() public void EnableInput() Init() protected override void Init() Teleport(Vector2) public void Teleport(Vector2 position) Parameters position Vector2"
   },
+  "api/CurseR.Chapter1.Player.PlayerRespawn.html": {
+    "href": "api/CurseR.Chapter1.Player.PlayerRespawn.html",
+    "title": "Class PlayerRespawn | CurseR",
+    "summary": "Class PlayerRespawn Namespace CurseR.Chapter1.Player public class PlayerRespawn : MonoBehaviour Inheritance object PlayerRespawn Fields spawnPos public Vector2 spawnPos Field Value Vector2"
+  },
   "api/CurseR.Chapter1.Player.html": {
     "href": "api/CurseR.Chapter1.Player.html",
     "title": "Namespace CurseR.Chapter1.Player | CurseR",
-    "summary": "Namespace CurseR.Chapter1.Player Classes PlayerController"
+    "summary": "Namespace CurseR.Chapter1.Player Classes PlayerController PlayerRespawn"
   },
   "api/CurseR.Chapter1.html": {
     "href": "api/CurseR.Chapter1.html",
