@@ -236,6 +236,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Objects.Inputbox.LaunchDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Objects.Inputbox.LaunchDirection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Objects.Inputbox.LaunchDirection",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CurseR.Chapter1.Objects.Inputbox.yml",
       "output": {
         ".html": {
@@ -316,20 +330,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "CurseR.Chapter1.Player.PlayerController",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CurseR.Chapter1.Player.PlayerRespawn.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CurseR.Chapter1.Player.PlayerRespawn.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CurseR.Chapter1.Player.PlayerRespawn",
       "Summary": null
     },
     {
