@@ -866,6 +866,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Utils.HistoryValue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Utils.HistoryValue-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Utils.HistoryValue<T>",
+      "Summary": "<p sourcefile=\"api/CurseR.Core.Utils.HistoryValue-1.yml\" sourcestartlinenumber=\"1\">과거 값을 내부적으로 캐싱</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CurseR.Core.Utils.PriorityQueue-2.yml",
       "output": {
         ".html": {

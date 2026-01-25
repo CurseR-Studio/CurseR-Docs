@@ -609,6 +609,19 @@ references:
   isSpec: "True"
   fullName: CurseR.Chapter1.Player.PlayerController.Init
   nameWithType: PlayerController.Init
+- uid: CurseR.Chapter1.Player.PlayerController.IsClimbingWall
+  name: IsClimbingWall
+  href: api/CurseR.Chapter1.Player.PlayerController.html#CurseR_Chapter1_Player_PlayerController_IsClimbingWall
+  commentId: P:CurseR.Chapter1.Player.PlayerController.IsClimbingWall
+  fullName: CurseR.Chapter1.Player.PlayerController.IsClimbingWall
+  nameWithType: PlayerController.IsClimbingWall
+- uid: CurseR.Chapter1.Player.PlayerController.IsClimbingWall*
+  name: IsClimbingWall
+  href: api/CurseR.Chapter1.Player.PlayerController.html#CurseR_Chapter1_Player_PlayerController_IsClimbingWall_
+  commentId: Overload:CurseR.Chapter1.Player.PlayerController.IsClimbingWall
+  isSpec: "True"
+  fullName: CurseR.Chapter1.Player.PlayerController.IsClimbingWall
+  nameWithType: PlayerController.IsClimbingWall
 - uid: CurseR.Chapter1.Player.PlayerController.IsGrounded
   name: IsGrounded
   href: api/CurseR.Chapter1.Player.PlayerController.html#CurseR_Chapter1_Player_PlayerController_IsGrounded
@@ -2371,6 +2384,170 @@ references:
   commentId: F:CurseR.Core.Utils.Direction.Up
   fullName: CurseR.Core.Utils.Direction.Up
   nameWithType: Direction.Up
+- uid: CurseR.Core.Utils.HistoryValue`1
+  name: HistoryValue<T>
+  href: api/CurseR.Core.Utils.HistoryValue-1.html
+  commentId: T:CurseR.Core.Utils.HistoryValue`1
+  name.vb: HistoryValue(Of T)
+  fullName: CurseR.Core.Utils.HistoryValue<T>
+  fullName.vb: CurseR.Core.Utils.HistoryValue(Of T)
+  nameWithType: HistoryValue<T>
+  nameWithType.vb: HistoryValue(Of T)
+- uid: CurseR.Core.Utils.HistoryValue`1.#ctor(System.Int32)
+  name: HistoryValue(int)
+  href: api/CurseR.Core.Utils.HistoryValue-1.html#CurseR_Core_Utils_HistoryValue_1__ctor_System_Int32_
+  commentId: M:CurseR.Core.Utils.HistoryValue`1.#ctor(System.Int32)
+  name.vb: New(Integer)
+  fullName: CurseR.Core.Utils.HistoryValue<T>.HistoryValue(int)
+  fullName.vb: CurseR.Core.Utils.HistoryValue(Of T).New(Integer)
+  nameWithType: HistoryValue<T>.HistoryValue(int)
+  nameWithType.vb: HistoryValue(Of T).New(Integer)
+- uid: CurseR.Core.Utils.HistoryValue`1.#ctor(`0,System.Int32)
+  name: HistoryValue(T, int)
+  href: api/CurseR.Core.Utils.HistoryValue-1.html#CurseR_Core_Utils_HistoryValue_1__ctor__0_System_Int32_
+  commentId: M:CurseR.Core.Utils.HistoryValue`1.#ctor(`0,System.Int32)
+  name.vb: New(T, Integer)
+  fullName: CurseR.Core.Utils.HistoryValue<T>.HistoryValue(T, int)
+  fullName.vb: CurseR.Core.Utils.HistoryValue(Of T).New(T, Integer)
+  nameWithType: HistoryValue<T>.HistoryValue(T, int)
+  nameWithType.vb: HistoryValue(Of T).New(T, Integer)
+- uid: CurseR.Core.Utils.HistoryValue`1.#ctor*
+  name: HistoryValue
+  href: api/CurseR.Core.Utils.HistoryValue-1.html#CurseR_Core_Utils_HistoryValue_1__ctor_
+  commentId: Overload:CurseR.Core.Utils.HistoryValue`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CurseR.Core.Utils.HistoryValue<T>.HistoryValue
+  fullName.vb: CurseR.Core.Utils.HistoryValue(Of T).New
+  nameWithType: HistoryValue<T>.HistoryValue
+  nameWithType.vb: HistoryValue(Of T).New
+- uid: CurseR.Core.Utils.HistoryValue`1.AtTime(System.Int32)
+  name: AtTime(int)
+  href: api/CurseR.Core.Utils.HistoryValue-1.html#CurseR_Core_Utils_HistoryValue_1_AtTime_System_Int32_
+  commentId: M:CurseR.Core.Utils.HistoryValue`1.AtTime(System.Int32)
+  name.vb: AtTime(Integer)
+  fullName: CurseR.Core.Utils.HistoryValue<T>.AtTime(int)
+  fullName.vb: CurseR.Core.Utils.HistoryValue(Of T).AtTime(Integer)
+  nameWithType: HistoryValue<T>.AtTime(int)
+  nameWithType.vb: HistoryValue(Of T).AtTime(Integer)
+- uid: CurseR.Core.Utils.HistoryValue`1.AtTime*
+  name: AtTime
+  href: api/CurseR.Core.Utils.HistoryValue-1.html#CurseR_Core_Utils_HistoryValue_1_AtTime_
+  commentId: Overload:CurseR.Core.Utils.HistoryValue`1.AtTime
+  isSpec: "True"
+  fullName: CurseR.Core.Utils.HistoryValue<T>.AtTime
+  fullName.vb: CurseR.Core.Utils.HistoryValue(Of T).AtTime
+  nameWithType: HistoryValue<T>.AtTime
+  nameWithType.vb: HistoryValue(Of T).AtTime
+- uid: CurseR.Core.Utils.HistoryValue`1.Delta*
+  name: Delta
+  href: api/CurseR.Core.Utils.HistoryValue-1.html#CurseR_Core_Utils_HistoryValue_1_Delta_
+  commentId: Overload:CurseR.Core.Utils.HistoryValue`1.Delta
+  isSpec: "True"
+  fullName: CurseR.Core.Utils.HistoryValue<T>.Delta
+  fullName.vb: CurseR.Core.Utils.HistoryValue(Of T).Delta
+  nameWithType: HistoryValue<T>.Delta
+  nameWithType.vb: HistoryValue(Of T).Delta
+- uid: CurseR.Core.Utils.HistoryValue`1.Delta``1(System.Func{`0,`0,``0})
+  name: Delta<U>(Func<T, T, U>)
+  href: api/CurseR.Core.Utils.HistoryValue-1.html#CurseR_Core_Utils_HistoryValue_1_Delta__1_System_Func__0__0___0__
+  commentId: M:CurseR.Core.Utils.HistoryValue`1.Delta``1(System.Func{`0,`0,``0})
+  name.vb: Delta(Of U)(Func(Of T, T, U))
+  fullName: CurseR.Core.Utils.HistoryValue<T>.Delta<U>(System.Func<T, T, U>)
+  fullName.vb: CurseR.Core.Utils.HistoryValue(Of T).Delta(Of U)(System.Func(Of T, T, U))
+  nameWithType: HistoryValue<T>.Delta<U>(Func<T, T, U>)
+  nameWithType.vb: HistoryValue(Of T).Delta(Of U)(Func(Of T, T, U))
+- uid: CurseR.Core.Utils.HistoryValue`1.Item(System.Int32)
+  name: this[int]
+  href: api/CurseR.Core.Utils.HistoryValue-1.html#CurseR_Core_Utils_HistoryValue_1_Item_System_Int32_
+  commentId: P:CurseR.Core.Utils.HistoryValue`1.Item(System.Int32)
+  name.vb: this[](Integer)
+  fullName: CurseR.Core.Utils.HistoryValue<T>.this[int]
+  fullName.vb: CurseR.Core.Utils.HistoryValue(Of T).this[](Integer)
+  nameWithType: HistoryValue<T>.this[int]
+  nameWithType.vb: HistoryValue(Of T).this[](Integer)
+- uid: CurseR.Core.Utils.HistoryValue`1.Item*
+  name: this
+  href: api/CurseR.Core.Utils.HistoryValue-1.html#CurseR_Core_Utils_HistoryValue_1_Item_
+  commentId: Overload:CurseR.Core.Utils.HistoryValue`1.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: CurseR.Core.Utils.HistoryValue<T>.this
+  fullName.vb: CurseR.Core.Utils.HistoryValue(Of T).this[]
+  nameWithType: HistoryValue<T>.this
+  nameWithType.vb: HistoryValue(Of T).this[]
+- uid: CurseR.Core.Utils.HistoryValue`1.MaxSize
+  name: MaxSize
+  href: api/CurseR.Core.Utils.HistoryValue-1.html#CurseR_Core_Utils_HistoryValue_1_MaxSize
+  commentId: P:CurseR.Core.Utils.HistoryValue`1.MaxSize
+  fullName: CurseR.Core.Utils.HistoryValue<T>.MaxSize
+  fullName.vb: CurseR.Core.Utils.HistoryValue(Of T).MaxSize
+  nameWithType: HistoryValue<T>.MaxSize
+  nameWithType.vb: HistoryValue(Of T).MaxSize
+- uid: CurseR.Core.Utils.HistoryValue`1.MaxSize*
+  name: MaxSize
+  href: api/CurseR.Core.Utils.HistoryValue-1.html#CurseR_Core_Utils_HistoryValue_1_MaxSize_
+  commentId: Overload:CurseR.Core.Utils.HistoryValue`1.MaxSize
+  isSpec: "True"
+  fullName: CurseR.Core.Utils.HistoryValue<T>.MaxSize
+  fullName.vb: CurseR.Core.Utils.HistoryValue(Of T).MaxSize
+  nameWithType: HistoryValue<T>.MaxSize
+  nameWithType.vb: HistoryValue(Of T).MaxSize
+- uid: CurseR.Core.Utils.HistoryValue`1.Set(`0)
+  name: Set(T)
+  href: api/CurseR.Core.Utils.HistoryValue-1.html#CurseR_Core_Utils_HistoryValue_1_Set__0_
+  commentId: M:CurseR.Core.Utils.HistoryValue`1.Set(`0)
+  fullName: CurseR.Core.Utils.HistoryValue<T>.Set(T)
+  fullName.vb: CurseR.Core.Utils.HistoryValue(Of T).Set(T)
+  nameWithType: HistoryValue<T>.Set(T)
+  nameWithType.vb: HistoryValue(Of T).Set(T)
+- uid: CurseR.Core.Utils.HistoryValue`1.Set*
+  name: Set
+  href: api/CurseR.Core.Utils.HistoryValue-1.html#CurseR_Core_Utils_HistoryValue_1_Set_
+  commentId: Overload:CurseR.Core.Utils.HistoryValue`1.Set
+  isSpec: "True"
+  fullName: CurseR.Core.Utils.HistoryValue<T>.Set
+  fullName.vb: CurseR.Core.Utils.HistoryValue(Of T).Set
+  nameWithType: HistoryValue<T>.Set
+  nameWithType.vb: HistoryValue(Of T).Set
+- uid: CurseR.Core.Utils.HistoryValue`1.op_Addition(CurseR.Core.Utils.HistoryValue{`0},`0)
+  name: operator +(HistoryValue<T>, T)
+  href: api/CurseR.Core.Utils.HistoryValue-1.html#CurseR_Core_Utils_HistoryValue_1_op_Addition_CurseR_Core_Utils_HistoryValue__0___0_
+  commentId: M:CurseR.Core.Utils.HistoryValue`1.op_Addition(CurseR.Core.Utils.HistoryValue{`0},`0)
+  name.vb: +(HistoryValue(Of T), T)
+  fullName: CurseR.Core.Utils.HistoryValue<T>.operator +(CurseR.Core.Utils.HistoryValue<T>, T)
+  fullName.vb: CurseR.Core.Utils.HistoryValue(Of T).+(CurseR.Core.Utils.HistoryValue(Of T), T)
+  nameWithType: HistoryValue<T>.operator +(HistoryValue<T>, T)
+  nameWithType.vb: HistoryValue(Of T).+(HistoryValue(Of T), T)
+- uid: CurseR.Core.Utils.HistoryValue`1.op_Addition*
+  name: operator +
+  href: api/CurseR.Core.Utils.HistoryValue-1.html#CurseR_Core_Utils_HistoryValue_1_op_Addition_
+  commentId: Overload:CurseR.Core.Utils.HistoryValue`1.op_Addition
+  isSpec: "True"
+  name.vb: +
+  fullName: CurseR.Core.Utils.HistoryValue<T>.operator +
+  fullName.vb: CurseR.Core.Utils.HistoryValue(Of T).+
+  nameWithType: HistoryValue<T>.operator +
+  nameWithType.vb: HistoryValue(Of T).+
+- uid: CurseR.Core.Utils.HistoryValue`1.op_Implicit(CurseR.Core.Utils.HistoryValue{`0})~`0
+  name: implicit operator T(HistoryValue<T>)
+  href: api/CurseR.Core.Utils.HistoryValue-1.html#CurseR_Core_Utils_HistoryValue_1_op_Implicit_CurseR_Core_Utils_HistoryValue__0____0
+  commentId: M:CurseR.Core.Utils.HistoryValue`1.op_Implicit(CurseR.Core.Utils.HistoryValue{`0})~`0
+  name.vb: CType(HistoryValue(Of T))
+  fullName: CurseR.Core.Utils.HistoryValue<T>.implicit operator T(CurseR.Core.Utils.HistoryValue<T>)
+  fullName.vb: CurseR.Core.Utils.HistoryValue(Of T).CType(CurseR.Core.Utils.HistoryValue(Of T))
+  nameWithType: HistoryValue<T>.implicit operator T(HistoryValue<T>)
+  nameWithType.vb: HistoryValue(Of T).CType(HistoryValue(Of T))
+- uid: CurseR.Core.Utils.HistoryValue`1.op_Implicit*
+  name: implicit operator
+  href: api/CurseR.Core.Utils.HistoryValue-1.html#CurseR_Core_Utils_HistoryValue_1_op_Implicit_
+  commentId: Overload:CurseR.Core.Utils.HistoryValue`1.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: CurseR.Core.Utils.HistoryValue<T>.implicit operator
+  fullName.vb: CurseR.Core.Utils.HistoryValue(Of T).CType
+  nameWithType: HistoryValue<T>.implicit operator
+  nameWithType.vb: HistoryValue(Of T).CType
 - uid: CurseR.Core.Utils.PriorityQueue`2
   name: PriorityQueue<TElement, TPriority>
   href: api/CurseR.Core.Utils.PriorityQueue-2.html
@@ -2729,6 +2906,19 @@ references:
   isSpec: "True"
   fullName: CurseR.Core.Utils.Utils.GetRoot
   nameWithType: Utils.GetRoot
+- uid: CurseR.Core.Utils.Utils.GetSurfaceAngle(RaycastHit2D)
+  name: GetSurfaceAngle(RaycastHit2D)
+  href: api/CurseR.Core.Utils.Utils.html#CurseR_Core_Utils_Utils_GetSurfaceAngle_RaycastHit2D_
+  commentId: M:CurseR.Core.Utils.Utils.GetSurfaceAngle(RaycastHit2D)
+  fullName: CurseR.Core.Utils.Utils.GetSurfaceAngle(RaycastHit2D)
+  nameWithType: Utils.GetSurfaceAngle(RaycastHit2D)
+- uid: CurseR.Core.Utils.Utils.GetSurfaceAngle*
+  name: GetSurfaceAngle
+  href: api/CurseR.Core.Utils.Utils.html#CurseR_Core_Utils_Utils_GetSurfaceAngle_
+  commentId: Overload:CurseR.Core.Utils.Utils.GetSurfaceAngle
+  isSpec: "True"
+  fullName: CurseR.Core.Utils.Utils.GetSurfaceAngle
+  nameWithType: Utils.GetSurfaceAngle
 - uid: CurseR.Core.Utils.Utils.Teleport(Rigidbody2D,Vector2)
   name: Teleport(Rigidbody2D, Vector2)
   href: api/CurseR.Core.Utils.Utils.html#CurseR_Core_Utils_Utils_Teleport_Rigidbody2D_Vector2_
