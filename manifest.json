@@ -194,6 +194,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Objects.Button.ButtonHighlight.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Objects.Button.ButtonHighlight.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Objects.Button.ButtonHighlight",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CurseR.Chapter1.Objects.Button.yml",
       "output": {
         ".html": {

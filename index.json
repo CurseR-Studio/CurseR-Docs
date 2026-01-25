@@ -64,10 +64,15 @@
     "title": "Class Button | CurseR",
     "summary": "Class Button Namespace CurseR.Chapter1.Objects.Button public class Button : Object Inheritance object Object Button Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Fields SlowdownCooltime public float SlowdownCooltime Field Value float buttonCooltime public float buttonCooltime Field Value float buttonCoyoteTime public float buttonCoyoteTime Field Value float buttonPower public float buttonPower Field Value float buttonSwimPower public float buttonSwimPower Field Value float clickBufferTime public float clickBufferTime Field Value float innerGravity public float innerGravity Field Value float innerVelocityMultiplier public float innerVelocityMultiplier Field Value float minFallingSpeed public float minFallingSpeed Field Value float shrinkAmount public float shrinkAmount Field Value float Methods Dispose() Object 소멸 코드 여기에 작성. OnDestroy 사용하면 문제 생김. protected override void Dispose() Init() Object 초기화 코드 여기에 작성. Start 시점에서 실행됨. protected override void Init()"
   },
+  "api/CurseR.Chapter1.Objects.Button.ButtonHighlight.html": {
+    "href": "api/CurseR.Chapter1.Objects.Button.ButtonHighlight.html",
+    "title": "Class ButtonHighlight | CurseR",
+    "summary": "Class ButtonHighlight Namespace CurseR.Chapter1.Objects.Button public class ButtonHighlight : MonoBehaviour Inheritance object ButtonHighlight"
+  },
   "api/CurseR.Chapter1.Objects.Button.html": {
     "href": "api/CurseR.Chapter1.Objects.Button.html",
     "title": "Namespace CurseR.Chapter1.Objects.Button | CurseR",
-    "summary": "Namespace CurseR.Chapter1.Objects.Button Classes Button"
+    "summary": "Namespace CurseR.Chapter1.Objects.Button Classes Button ButtonHighlight"
   },
   "api/CurseR.Chapter1.Objects.Inputbox.Inputbox.html": {
     "href": "api/CurseR.Chapter1.Objects.Inputbox.Inputbox.html",

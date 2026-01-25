@@ -406,6 +406,12 @@ references:
   commentId: F:CurseR.Chapter1.Objects.Button.Button.shrinkAmount
   fullName: CurseR.Chapter1.Objects.Button.Button.shrinkAmount
   nameWithType: Button.shrinkAmount
+- uid: CurseR.Chapter1.Objects.Button.ButtonHighlight
+  name: ButtonHighlight
+  href: api/CurseR.Chapter1.Objects.Button.ButtonHighlight.html
+  commentId: T:CurseR.Chapter1.Objects.Button.ButtonHighlight
+  fullName: CurseR.Chapter1.Objects.Button.ButtonHighlight
+  nameWithType: ButtonHighlight
 - uid: CurseR.Chapter1.Objects.Inputbox
   name: CurseR.Chapter1.Objects.Inputbox
   href: api/CurseR.Chapter1.Objects.Inputbox.html
