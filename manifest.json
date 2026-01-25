@@ -278,16 +278,44 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CurseR.Chapter1.Objects.Spike.SpikeScript.yml",
+      "source_relative_path": "api/CurseR.Chapter1.Objects.RepairButton.RepairButton.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CurseR.Chapter1.Objects.Spike.SpikeScript.html"
+          "relative_path": "api/CurseR.Chapter1.Objects.RepairButton.RepairButton.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "CurseR.Chapter1.Objects.Spike.SpikeScript",
+      "Title": "CurseR.Chapter1.Objects.RepairButton.RepairButton",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Objects.RepairButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Objects.RepairButton.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Objects.RepairButton",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Objects.Spike.Spike.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Objects.Spike.Spike.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Objects.Spike.Spike",
       "Summary": null
     },
     {

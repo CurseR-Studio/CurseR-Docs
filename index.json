@@ -2,7 +2,7 @@
   "api/CurseR.Chapter1.ChapterManager1.html": {
     "href": "api/CurseR.Chapter1.ChapterManager1.html",
     "title": "Class ChapterManager1 | CurseR",
-    "summary": "Class ChapterManager1 Namespace CurseR.Chapter1 public class ChapterManager1 : AbstractChapterManager Inheritance object AbstractChapterManager ChapterManager1 Inherited Members AbstractChapterManager.CheckPoint AbstractChapterManager._playedCutScenes AbstractChapterManager.SetCheckPoint(CheckPoint) AbstractChapterManager.SetCheckPoint(Vector2) AbstractChapterManager.RestartFromCheckPoint() AbstractChapterManager.IsCutScenePlayed(CutSceneData) AbstractChapterManager.SetCutScenePlayed(CutSceneData, bool) Properties CurrentChapter public override int CurrentChapter { get; } Property Value int Methods ActivateObject(ObjectType) 특정 오브젝트 활성화 public void ActivateObject(ObjectType type) Parameters type ObjectType 활성화시킬 오브젝트 종류 Dispose() protected override void Dispose() Init() protected override void Init() IsObjectActivated(ObjectType) 오브젝트가 활성화 되었는지 여부 구하기 public bool IsObjectActivated(ObjectType type) Parameters type ObjectType 오브젝트 종류 Returns bool"
+    "summary": "Class ChapterManager1 Namespace CurseR.Chapter1 public class ChapterManager1 : AbstractChapterManager Inheritance object AbstractChapterManager ChapterManager1 Inherited Members AbstractChapterManager.CheckPoint AbstractChapterManager._playedCutScenes AbstractChapterManager.SetCheckPoint(CheckPoint) AbstractChapterManager.SetCheckPoint(Vector2) AbstractChapterManager.RestartFromCheckPoint() AbstractChapterManager.IsCutScenePlayed(CutSceneData) AbstractChapterManager.SetCutScenePlayed(CutSceneData, bool) Properties CurrentChapter public override int CurrentChapter { get; } Property Value int Methods ActivateObject(ObjectType) 특정 오브젝트 활성화 public void ActivateObject(ObjectType type) Parameters type ObjectType 활성화시킬 오브젝트 종류 Dispose() protected override void Dispose() Init() protected override void Init() IsObjectActivated(ObjectType) 오브젝트가 활성화 되었는지 여부 구하기 public bool IsObjectActivated(ObjectType type) Parameters type ObjectType 오브젝트 종류 Returns bool SubscribeObjectActivation(ObjectType, Action) 오브젝트 활성화 이벤트 리스너 등록 public void SubscribeObjectActivation(ObjectType type, Action handler) Parameters type ObjectType handler Action UnsubscribeObjectActivation(ObjectType, Action) 오브젝트 활성화 이벤트 리스너 해제 public void UnsubscribeObjectActivation(ObjectType type, Action handler) Parameters type ObjectType handler Action"
   },
   "api/CurseR.Chapter1.Events.ClickPressEvent.html": {
     "href": "api/CurseR.Chapter1.Events.ClickPressEvent.html",
@@ -62,7 +62,7 @@
   "api/CurseR.Chapter1.Objects.Button.Button.html": {
     "href": "api/CurseR.Chapter1.Objects.Button.Button.html",
     "title": "Class Button | CurseR",
-    "summary": "Class Button Namespace CurseR.Chapter1.Objects.Button public class Button : Object Inheritance object Object Button Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Object.Dispose() Fields SlowdownCooltime public float SlowdownCooltime Field Value float buttonCooltime public float buttonCooltime Field Value float buttonCoyoteTime public float buttonCoyoteTime Field Value float buttonPower public float buttonPower Field Value float buttonSwimPower public float buttonSwimPower Field Value float clickBufferTime public float clickBufferTime Field Value float innerGravity public float innerGravity Field Value float innerVelocityMultiplier public float innerVelocityMultiplier Field Value float isActivated public bool isActivated Field Value bool minFallingSpeed public float minFallingSpeed Field Value float shrinkAmount public float shrinkAmount Field Value float Methods Init() Object 초기화 코드 여기에 작성. Start 시점에서 실행됨. public override void Init()"
+    "summary": "Class Button Namespace CurseR.Chapter1.Objects.Button public class Button : Object Inheritance object Object Button Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Fields SlowdownCooltime public float SlowdownCooltime Field Value float buttonCooltime public float buttonCooltime Field Value float buttonCoyoteTime public float buttonCoyoteTime Field Value float buttonPower public float buttonPower Field Value float buttonSwimPower public float buttonSwimPower Field Value float clickBufferTime public float clickBufferTime Field Value float innerGravity public float innerGravity Field Value float innerVelocityMultiplier public float innerVelocityMultiplier Field Value float minFallingSpeed public float minFallingSpeed Field Value float shrinkAmount public float shrinkAmount Field Value float Methods Dispose() Object 소멸 코드 여기에 작성. OnDestroy 사용하면 문제 생김. protected override void Dispose() Init() Object 초기화 코드 여기에 작성. Start 시점에서 실행됨. protected override void Init()"
   },
   "api/CurseR.Chapter1.Objects.Button.html": {
     "href": "api/CurseR.Chapter1.Objects.Button.html",
@@ -72,7 +72,7 @@
   "api/CurseR.Chapter1.Objects.Inputbox.Inputbox.html": {
     "href": "api/CurseR.Chapter1.Objects.Inputbox.Inputbox.html",
     "title": "Class Inputbox | CurseR",
-    "summary": "Class Inputbox Namespace CurseR.Chapter1.Objects.Inputbox public class Inputbox : Object Inheritance object Object Inputbox Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Object.Dispose() Methods Init() Object 초기화 코드 여기에 작성. Start 시점에서 실행됨. public override void Init()"
+    "summary": "Class Inputbox Namespace CurseR.Chapter1.Objects.Inputbox public class Inputbox : Object Inheritance object Object Inputbox Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Methods Dispose() Object 소멸 코드 여기에 작성. OnDestroy 사용하면 문제 생김. protected override void Dispose() Init() Object 초기화 코드 여기에 작성. Start 시점에서 실행됨. protected override void Init()"
   },
   "api/CurseR.Chapter1.Objects.Inputbox.InputboxState.html": {
     "href": "api/CurseR.Chapter1.Objects.Inputbox.InputboxState.html",
@@ -92,22 +92,32 @@
   "api/CurseR.Chapter1.Objects.Object.html": {
     "href": "api/CurseR.Chapter1.Objects.Object.html",
     "title": "Class Object | CurseR",
-    "summary": "Class Object Namespace CurseR.Chapter1.Objects public class Object : MonoBehaviour Inheritance object Object Derived Button Inputbox SpikeScript Methods Dispose() Object 소멸 코드 여기에 작성. OnDestroy 사용하면 문제 생김. protected virtual void Dispose() Init() Object 초기화 코드 여기에 작성. Start 시점에서 실행됨. public virtual void Init() useEvent<EventTy>(Action<EventTy>) EventBus에 이벤트 구독. OnDestroy에서 자동으로 이벤트 구독 해제됨. protected void useEvent<EventTy>(Action<EventTy> handler) where EventTy : GameEvent Parameters handler Action<EventTy> 이벤트 핸들러 Type Parameters EventTy 이벤트 타입"
+    "summary": "Class Object Namespace CurseR.Chapter1.Objects public class Object : MonoBehaviour Inheritance object Object Derived Button Inputbox RepairButton Spike Methods Dispose() Object 소멸 코드 여기에 작성. OnDestroy 사용하면 문제 생김. protected virtual void Dispose() Init() Object 초기화 코드 여기에 작성. Start 시점에서 실행됨. protected virtual void Init() useEvent<EventTy>(Action<EventTy>) EventBus에 이벤트 구독. OnDestroy에서 자동으로 이벤트 구독 해제됨. protected void useEvent<EventTy>(Action<EventTy> handler) where EventTy : GameEvent Parameters handler Action<EventTy> 이벤트 핸들러 Type Parameters EventTy 이벤트 타입"
   },
-  "api/CurseR.Chapter1.Objects.Spike.SpikeScript.html": {
-    "href": "api/CurseR.Chapter1.Objects.Spike.SpikeScript.html",
-    "title": "Class SpikeScript | CurseR",
-    "summary": "Class SpikeScript Namespace CurseR.Chapter1.Objects.Spike public class SpikeScript : Object Inheritance object Object SpikeScript Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Object.Dispose() Methods Init() Object 초기화 코드 여기에 작성. Start 시점에서 실행됨. public override void Init()"
+  "api/CurseR.Chapter1.Objects.RepairButton.RepairButton.html": {
+    "href": "api/CurseR.Chapter1.Objects.RepairButton.RepairButton.html",
+    "title": "Class RepairButton | CurseR",
+    "summary": "Class RepairButton Namespace CurseR.Chapter1.Objects.RepairButton public class RepairButton : Object Inheritance object Object RepairButton Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Object.Dispose() Methods Init() Object 초기화 코드 여기에 작성. Start 시점에서 실행됨. protected override void Init()"
+  },
+  "api/CurseR.Chapter1.Objects.RepairButton.html": {
+    "href": "api/CurseR.Chapter1.Objects.RepairButton.html",
+    "title": "Namespace CurseR.Chapter1.Objects.RepairButton | CurseR",
+    "summary": "Namespace CurseR.Chapter1.Objects.RepairButton Classes RepairButton"
+  },
+  "api/CurseR.Chapter1.Objects.Spike.Spike.html": {
+    "href": "api/CurseR.Chapter1.Objects.Spike.Spike.html",
+    "title": "Class Spike | CurseR",
+    "summary": "Class Spike Namespace CurseR.Chapter1.Objects.Spike public class Spike : Object Inheritance object Object Spike Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Object.Init() Object.Dispose()"
   },
   "api/CurseR.Chapter1.Objects.Spike.html": {
     "href": "api/CurseR.Chapter1.Objects.Spike.html",
     "title": "Namespace CurseR.Chapter1.Objects.Spike | CurseR",
-    "summary": "Namespace CurseR.Chapter1.Objects.Spike Classes SpikeScript"
+    "summary": "Namespace CurseR.Chapter1.Objects.Spike Classes Spike"
   },
   "api/CurseR.Chapter1.Objects.html": {
     "href": "api/CurseR.Chapter1.Objects.html",
     "title": "Namespace CurseR.Chapter1.Objects | CurseR",
-    "summary": "Namespace CurseR.Chapter1.Objects Namespaces CurseR.Chapter1.Objects.Button CurseR.Chapter1.Objects.Inputbox CurseR.Chapter1.Objects.Spike Classes Object"
+    "summary": "Namespace CurseR.Chapter1.Objects Namespaces CurseR.Chapter1.Objects.Button CurseR.Chapter1.Objects.Inputbox CurseR.Chapter1.Objects.RepairButton CurseR.Chapter1.Objects.Spike Classes Object"
   },
   "api/CurseR.Chapter1.Piyu.PiyuController.html": {
     "href": "api/CurseR.Chapter1.Piyu.PiyuController.html",

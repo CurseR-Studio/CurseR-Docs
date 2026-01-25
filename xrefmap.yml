@@ -81,6 +81,32 @@ references:
   isSpec: "True"
   fullName: CurseR.Chapter1.ChapterManager1.IsObjectActivated
   nameWithType: ChapterManager1.IsObjectActivated
+- uid: CurseR.Chapter1.ChapterManager1.SubscribeObjectActivation(CurseR.Chapter1.ObjectType,System.Action)
+  name: SubscribeObjectActivation(ObjectType, Action)
+  href: api/CurseR.Chapter1.ChapterManager1.html#CurseR_Chapter1_ChapterManager1_SubscribeObjectActivation_CurseR_Chapter1_ObjectType_System_Action_
+  commentId: M:CurseR.Chapter1.ChapterManager1.SubscribeObjectActivation(CurseR.Chapter1.ObjectType,System.Action)
+  fullName: CurseR.Chapter1.ChapterManager1.SubscribeObjectActivation(CurseR.Chapter1.ObjectType, System.Action)
+  nameWithType: ChapterManager1.SubscribeObjectActivation(ObjectType, Action)
+- uid: CurseR.Chapter1.ChapterManager1.SubscribeObjectActivation*
+  name: SubscribeObjectActivation
+  href: api/CurseR.Chapter1.ChapterManager1.html#CurseR_Chapter1_ChapterManager1_SubscribeObjectActivation_
+  commentId: Overload:CurseR.Chapter1.ChapterManager1.SubscribeObjectActivation
+  isSpec: "True"
+  fullName: CurseR.Chapter1.ChapterManager1.SubscribeObjectActivation
+  nameWithType: ChapterManager1.SubscribeObjectActivation
+- uid: CurseR.Chapter1.ChapterManager1.UnsubscribeObjectActivation(CurseR.Chapter1.ObjectType,System.Action)
+  name: UnsubscribeObjectActivation(ObjectType, Action)
+  href: api/CurseR.Chapter1.ChapterManager1.html#CurseR_Chapter1_ChapterManager1_UnsubscribeObjectActivation_CurseR_Chapter1_ObjectType_System_Action_
+  commentId: M:CurseR.Chapter1.ChapterManager1.UnsubscribeObjectActivation(CurseR.Chapter1.ObjectType,System.Action)
+  fullName: CurseR.Chapter1.ChapterManager1.UnsubscribeObjectActivation(CurseR.Chapter1.ObjectType, System.Action)
+  nameWithType: ChapterManager1.UnsubscribeObjectActivation(ObjectType, Action)
+- uid: CurseR.Chapter1.ChapterManager1.UnsubscribeObjectActivation*
+  name: UnsubscribeObjectActivation
+  href: api/CurseR.Chapter1.ChapterManager1.html#CurseR_Chapter1_ChapterManager1_UnsubscribeObjectActivation_
+  commentId: Overload:CurseR.Chapter1.ChapterManager1.UnsubscribeObjectActivation
+  isSpec: "True"
+  fullName: CurseR.Chapter1.ChapterManager1.UnsubscribeObjectActivation
+  nameWithType: ChapterManager1.UnsubscribeObjectActivation
 - uid: CurseR.Chapter1.Events
   name: CurseR.Chapter1.Events
   href: api/CurseR.Chapter1.Events.html
@@ -294,6 +320,19 @@ references:
   commentId: T:CurseR.Chapter1.Objects.Button.Button
   fullName: CurseR.Chapter1.Objects.Button.Button
   nameWithType: Button
+- uid: CurseR.Chapter1.Objects.Button.Button.Dispose
+  name: Dispose()
+  href: api/CurseR.Chapter1.Objects.Button.Button.html#CurseR_Chapter1_Objects_Button_Button_Dispose
+  commentId: M:CurseR.Chapter1.Objects.Button.Button.Dispose
+  fullName: CurseR.Chapter1.Objects.Button.Button.Dispose()
+  nameWithType: Button.Dispose()
+- uid: CurseR.Chapter1.Objects.Button.Button.Dispose*
+  name: Dispose
+  href: api/CurseR.Chapter1.Objects.Button.Button.html#CurseR_Chapter1_Objects_Button_Button_Dispose_
+  commentId: Overload:CurseR.Chapter1.Objects.Button.Button.Dispose
+  isSpec: "True"
+  fullName: CurseR.Chapter1.Objects.Button.Button.Dispose
+  nameWithType: Button.Dispose
 - uid: CurseR.Chapter1.Objects.Button.Button.Init
   name: Init()
   href: api/CurseR.Chapter1.Objects.Button.Button.html#CurseR_Chapter1_Objects_Button_Button_Init
@@ -355,12 +394,6 @@ references:
   commentId: F:CurseR.Chapter1.Objects.Button.Button.innerVelocityMultiplier
   fullName: CurseR.Chapter1.Objects.Button.Button.innerVelocityMultiplier
   nameWithType: Button.innerVelocityMultiplier
-- uid: CurseR.Chapter1.Objects.Button.Button.isActivated
-  name: isActivated
-  href: api/CurseR.Chapter1.Objects.Button.Button.html#CurseR_Chapter1_Objects_Button_Button_isActivated
-  commentId: F:CurseR.Chapter1.Objects.Button.Button.isActivated
-  fullName: CurseR.Chapter1.Objects.Button.Button.isActivated
-  nameWithType: Button.isActivated
 - uid: CurseR.Chapter1.Objects.Button.Button.minFallingSpeed
   name: minFallingSpeed
   href: api/CurseR.Chapter1.Objects.Button.Button.html#CurseR_Chapter1_Objects_Button_Button_minFallingSpeed
@@ -385,6 +418,19 @@ references:
   commentId: T:CurseR.Chapter1.Objects.Inputbox.Inputbox
   fullName: CurseR.Chapter1.Objects.Inputbox.Inputbox
   nameWithType: Inputbox
+- uid: CurseR.Chapter1.Objects.Inputbox.Inputbox.Dispose
+  name: Dispose()
+  href: api/CurseR.Chapter1.Objects.Inputbox.Inputbox.html#CurseR_Chapter1_Objects_Inputbox_Inputbox_Dispose
+  commentId: M:CurseR.Chapter1.Objects.Inputbox.Inputbox.Dispose
+  fullName: CurseR.Chapter1.Objects.Inputbox.Inputbox.Dispose()
+  nameWithType: Inputbox.Dispose()
+- uid: CurseR.Chapter1.Objects.Inputbox.Inputbox.Dispose*
+  name: Dispose
+  href: api/CurseR.Chapter1.Objects.Inputbox.Inputbox.html#CurseR_Chapter1_Objects_Inputbox_Inputbox_Dispose_
+  commentId: Overload:CurseR.Chapter1.Objects.Inputbox.Inputbox.Dispose
+  isSpec: "True"
+  fullName: CurseR.Chapter1.Objects.Inputbox.Inputbox.Dispose
+  nameWithType: Inputbox.Dispose
 - uid: CurseR.Chapter1.Objects.Inputbox.Inputbox.Init
   name: Init()
   href: api/CurseR.Chapter1.Objects.Inputbox.Inputbox.html#CurseR_Chapter1_Objects_Inputbox_Inputbox_Init
@@ -494,31 +540,43 @@ references:
   fullName.vb: CurseR.Chapter1.Objects.Object.useEvent(Of EventTy)(System.Action(Of EventTy))
   nameWithType: Object.useEvent<EventTy>(Action<EventTy>)
   nameWithType.vb: Object.useEvent(Of EventTy)(Action(Of EventTy))
+- uid: CurseR.Chapter1.Objects.RepairButton
+  name: CurseR.Chapter1.Objects.RepairButton
+  href: api/CurseR.Chapter1.Objects.RepairButton.html
+  commentId: N:CurseR.Chapter1.Objects.RepairButton
+  fullName: CurseR.Chapter1.Objects.RepairButton
+  nameWithType: CurseR.Chapter1.Objects.RepairButton
+- uid: CurseR.Chapter1.Objects.RepairButton.RepairButton
+  name: RepairButton
+  href: api/CurseR.Chapter1.Objects.RepairButton.RepairButton.html
+  commentId: T:CurseR.Chapter1.Objects.RepairButton.RepairButton
+  fullName: CurseR.Chapter1.Objects.RepairButton.RepairButton
+  nameWithType: RepairButton
+- uid: CurseR.Chapter1.Objects.RepairButton.RepairButton.Init
+  name: Init()
+  href: api/CurseR.Chapter1.Objects.RepairButton.RepairButton.html#CurseR_Chapter1_Objects_RepairButton_RepairButton_Init
+  commentId: M:CurseR.Chapter1.Objects.RepairButton.RepairButton.Init
+  fullName: CurseR.Chapter1.Objects.RepairButton.RepairButton.Init()
+  nameWithType: RepairButton.Init()
+- uid: CurseR.Chapter1.Objects.RepairButton.RepairButton.Init*
+  name: Init
+  href: api/CurseR.Chapter1.Objects.RepairButton.RepairButton.html#CurseR_Chapter1_Objects_RepairButton_RepairButton_Init_
+  commentId: Overload:CurseR.Chapter1.Objects.RepairButton.RepairButton.Init
+  isSpec: "True"
+  fullName: CurseR.Chapter1.Objects.RepairButton.RepairButton.Init
+  nameWithType: RepairButton.Init
 - uid: CurseR.Chapter1.Objects.Spike
   name: CurseR.Chapter1.Objects.Spike
   href: api/CurseR.Chapter1.Objects.Spike.html
   commentId: N:CurseR.Chapter1.Objects.Spike
   fullName: CurseR.Chapter1.Objects.Spike
   nameWithType: CurseR.Chapter1.Objects.Spike
-- uid: CurseR.Chapter1.Objects.Spike.SpikeScript
-  name: SpikeScript
-  href: api/CurseR.Chapter1.Objects.Spike.SpikeScript.html
-  commentId: T:CurseR.Chapter1.Objects.Spike.SpikeScript
-  fullName: CurseR.Chapter1.Objects.Spike.SpikeScript
-  nameWithType: SpikeScript
-- uid: CurseR.Chapter1.Objects.Spike.SpikeScript.Init
-  name: Init()
-  href: api/CurseR.Chapter1.Objects.Spike.SpikeScript.html#CurseR_Chapter1_Objects_Spike_SpikeScript_Init
-  commentId: M:CurseR.Chapter1.Objects.Spike.SpikeScript.Init
-  fullName: CurseR.Chapter1.Objects.Spike.SpikeScript.Init()
-  nameWithType: SpikeScript.Init()
-- uid: CurseR.Chapter1.Objects.Spike.SpikeScript.Init*
-  name: Init
-  href: api/CurseR.Chapter1.Objects.Spike.SpikeScript.html#CurseR_Chapter1_Objects_Spike_SpikeScript_Init_
-  commentId: Overload:CurseR.Chapter1.Objects.Spike.SpikeScript.Init
-  isSpec: "True"
-  fullName: CurseR.Chapter1.Objects.Spike.SpikeScript.Init
-  nameWithType: SpikeScript.Init
+- uid: CurseR.Chapter1.Objects.Spike.Spike
+  name: Spike
+  href: api/CurseR.Chapter1.Objects.Spike.Spike.html
+  commentId: T:CurseR.Chapter1.Objects.Spike.Spike
+  fullName: CurseR.Chapter1.Objects.Spike.Spike
+  nameWithType: Spike
 - uid: CurseR.Chapter1.Piyu
   name: CurseR.Chapter1.Piyu
   href: api/CurseR.Chapter1.Piyu.html
