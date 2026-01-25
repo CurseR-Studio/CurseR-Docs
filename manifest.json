@@ -320,6 +320,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Piyu.PiyuController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Piyu.PiyuController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Piyu.PiyuController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Piyu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Piyu.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Piyu",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CurseR.Chapter1.Player.PlayerController.yml",
       "output": {
         ".html": {

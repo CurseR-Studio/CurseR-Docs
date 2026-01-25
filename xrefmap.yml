@@ -519,6 +519,18 @@ references:
   isSpec: "True"
   fullName: CurseR.Chapter1.Objects.Spike.SpikeScript.Init
   nameWithType: SpikeScript.Init
+- uid: CurseR.Chapter1.Piyu
+  name: CurseR.Chapter1.Piyu
+  href: api/CurseR.Chapter1.Piyu.html
+  commentId: N:CurseR.Chapter1.Piyu
+  fullName: CurseR.Chapter1.Piyu
+  nameWithType: CurseR.Chapter1.Piyu
+- uid: CurseR.Chapter1.Piyu.PiyuController
+  name: PiyuController
+  href: api/CurseR.Chapter1.Piyu.PiyuController.html
+  commentId: T:CurseR.Chapter1.Piyu.PiyuController
+  fullName: CurseR.Chapter1.Piyu.PiyuController
+  nameWithType: PiyuController
 - uid: CurseR.Chapter1.Player
   name: CurseR.Chapter1.Player
   href: api/CurseR.Chapter1.Player.html
@@ -2035,6 +2047,57 @@ references:
   commentId: T:CurseR.Core.Player.Follower.PlayerFollower
   fullName: CurseR.Core.Player.Follower.PlayerFollower
   nameWithType: PlayerFollower
+- uid: CurseR.Core.Player.Follower.PlayerFollower.CurrentTarget
+  name: CurrentTarget
+  href: api/CurseR.Core.Player.Follower.PlayerFollower.html#CurseR_Core_Player_Follower_PlayerFollower_CurrentTarget
+  commentId: P:CurseR.Core.Player.Follower.PlayerFollower.CurrentTarget
+  fullName: CurseR.Core.Player.Follower.PlayerFollower.CurrentTarget
+  nameWithType: PlayerFollower.CurrentTarget
+- uid: CurseR.Core.Player.Follower.PlayerFollower.CurrentTarget*
+  name: CurrentTarget
+  href: api/CurseR.Core.Player.Follower.PlayerFollower.html#CurseR_Core_Player_Follower_PlayerFollower_CurrentTarget_
+  commentId: Overload:CurseR.Core.Player.Follower.PlayerFollower.CurrentTarget
+  isSpec: "True"
+  fullName: CurseR.Core.Player.Follower.PlayerFollower.CurrentTarget
+  nameWithType: PlayerFollower.CurrentTarget
+- uid: CurseR.Core.Player.Follower.PlayerFollower.IsMoving
+  name: IsMoving
+  href: api/CurseR.Core.Player.Follower.PlayerFollower.html#CurseR_Core_Player_Follower_PlayerFollower_IsMoving
+  commentId: P:CurseR.Core.Player.Follower.PlayerFollower.IsMoving
+  fullName: CurseR.Core.Player.Follower.PlayerFollower.IsMoving
+  nameWithType: PlayerFollower.IsMoving
+- uid: CurseR.Core.Player.Follower.PlayerFollower.IsMoving*
+  name: IsMoving
+  href: api/CurseR.Core.Player.Follower.PlayerFollower.html#CurseR_Core_Player_Follower_PlayerFollower_IsMoving_
+  commentId: Overload:CurseR.Core.Player.Follower.PlayerFollower.IsMoving
+  isSpec: "True"
+  fullName: CurseR.Core.Player.Follower.PlayerFollower.IsMoving
+  nameWithType: PlayerFollower.IsMoving
+- uid: CurseR.Core.Player.Follower.PlayerFollower.OnMovementStarted
+  name: OnMovementStarted
+  href: api/CurseR.Core.Player.Follower.PlayerFollower.html#CurseR_Core_Player_Follower_PlayerFollower_OnMovementStarted
+  commentId: E:CurseR.Core.Player.Follower.PlayerFollower.OnMovementStarted
+  fullName: CurseR.Core.Player.Follower.PlayerFollower.OnMovementStarted
+  nameWithType: PlayerFollower.OnMovementStarted
+- uid: CurseR.Core.Player.Follower.PlayerFollower.OnMovementStopped
+  name: OnMovementStopped
+  href: api/CurseR.Core.Player.Follower.PlayerFollower.html#CurseR_Core_Player_Follower_PlayerFollower_OnMovementStopped
+  commentId: E:CurseR.Core.Player.Follower.PlayerFollower.OnMovementStopped
+  fullName: CurseR.Core.Player.Follower.PlayerFollower.OnMovementStopped
+  nameWithType: PlayerFollower.OnMovementStopped
+- uid: CurseR.Core.Player.Follower.PlayerFollower.RecentTarget
+  name: RecentTarget
+  href: api/CurseR.Core.Player.Follower.PlayerFollower.html#CurseR_Core_Player_Follower_PlayerFollower_RecentTarget
+  commentId: P:CurseR.Core.Player.Follower.PlayerFollower.RecentTarget
+  fullName: CurseR.Core.Player.Follower.PlayerFollower.RecentTarget
+  nameWithType: PlayerFollower.RecentTarget
+- uid: CurseR.Core.Player.Follower.PlayerFollower.RecentTarget*
+  name: RecentTarget
+  href: api/CurseR.Core.Player.Follower.PlayerFollower.html#CurseR_Core_Player_Follower_PlayerFollower_RecentTarget_
+  commentId: Overload:CurseR.Core.Player.Follower.PlayerFollower.RecentTarget
+  isSpec: "True"
+  fullName: CurseR.Core.Player.Follower.PlayerFollower.RecentTarget
+  nameWithType: PlayerFollower.RecentTarget
 - uid: CurseR.Core.Player.Follower.PlayerFollower.TeleportToPlayerPos(Vector2)
   name: TeleportToPlayerPos(Vector2)
   href: api/CurseR.Core.Player.Follower.PlayerFollower.html#CurseR_Core_Player_Follower_PlayerFollower_TeleportToPlayerPos_Vector2_

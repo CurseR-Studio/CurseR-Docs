@@ -109,6 +109,16 @@
     "title": "Namespace CurseR.Chapter1.Objects | CurseR",
     "summary": "Namespace CurseR.Chapter1.Objects Namespaces CurseR.Chapter1.Objects.Button CurseR.Chapter1.Objects.Inputbox CurseR.Chapter1.Objects.Spike Classes Object"
   },
+  "api/CurseR.Chapter1.Piyu.PiyuController.html": {
+    "href": "api/CurseR.Chapter1.Piyu.PiyuController.html",
+    "title": "Class PiyuController | CurseR",
+    "summary": "Class PiyuController Namespace CurseR.Chapter1.Piyu public class PiyuController : MonoBehaviour Inheritance object PiyuController"
+  },
+  "api/CurseR.Chapter1.Piyu.html": {
+    "href": "api/CurseR.Chapter1.Piyu.html",
+    "title": "Namespace CurseR.Chapter1.Piyu | CurseR",
+    "summary": "Namespace CurseR.Chapter1.Piyu Classes PiyuController"
+  },
   "api/CurseR.Chapter1.Player.PlayerController.html": {
     "href": "api/CurseR.Chapter1.Player.PlayerController.html",
     "title": "Class PlayerController | CurseR",
@@ -122,7 +132,7 @@
   "api/CurseR.Chapter1.html": {
     "href": "api/CurseR.Chapter1.html",
     "title": "Namespace CurseR.Chapter1 | CurseR",
-    "summary": "Namespace CurseR.Chapter1 Namespaces CurseR.Chapter1.Events CurseR.Chapter1.Objects CurseR.Chapter1.Player Classes ChapterManager1 Enums ObjectType"
+    "summary": "Namespace CurseR.Chapter1 Namespaces CurseR.Chapter1.Events CurseR.Chapter1.Objects CurseR.Chapter1.Piyu CurseR.Chapter1.Player Classes ChapterManager1 Enums ObjectType"
   },
   "api/CurseR.Core.AbstractChapterManager.html": {
     "href": "api/CurseR.Core.AbstractChapterManager.html",
@@ -252,7 +262,7 @@
   "api/CurseR.Core.Player.Follower.PlayerFollower.html": {
     "href": "api/CurseR.Core.Player.Follower.PlayerFollower.html",
     "title": "Class PlayerFollower | CurseR",
-    "summary": "Class PlayerFollower Namespace CurseR.Core.Player.Follower public class PlayerFollower : MonoBehaviour Inheritance object PlayerFollower Methods TeleportToPlayerPos(Vector2) 주어진 좌표를 타겟 플레이어의 좌표로 삼아 텔레포트. public void TeleportToPlayerPos(Vector2 playerPos) Parameters playerPos Vector2 TeleportToWorldPos(Vector2) 월드 좌표 기준으로 텔레포트 public void TeleportToWorldPos(Vector2 worldPos) Parameters worldPos Vector2"
+    "summary": "Class PlayerFollower Namespace CurseR.Core.Player.Follower public class PlayerFollower : MonoBehaviour Inheritance object PlayerFollower Properties CurrentTarget 현재 이동 목표 public Vector2 CurrentTarget { get; } Property Value Vector2 IsMoving public bool IsMoving { get; } Property Value bool RecentTarget 가장 최근에 갱신된 최종 목표 public Vector2 RecentTarget { get; } Property Value Vector2 Methods TeleportToPlayerPos(Vector2) 주어진 좌표를 타겟 플레이어의 좌표로 삼아 텔레포트. public void TeleportToPlayerPos(Vector2 playerPos) Parameters playerPos Vector2 TeleportToWorldPos(Vector2) 월드 좌표 기준으로 텔레포트 public void TeleportToWorldPos(Vector2 worldPos) Parameters worldPos Vector2 Events OnMovementStarted public event Action OnMovementStarted Event Type Action OnMovementStopped public event Action OnMovementStopped Event Type Action"
   },
   "api/CurseR.Core.Player.Follower.html": {
     "href": "api/CurseR.Core.Player.Follower.html",

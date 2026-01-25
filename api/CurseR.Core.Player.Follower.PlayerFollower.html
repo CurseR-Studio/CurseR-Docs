@@ -89,7 +89,7 @@
 
 
   <h1 id="CurseR_Core_Player_Follower_PlayerFollower" data-uid="CurseR.Core.Player.Follower.PlayerFollower" class="text-break">
-Class PlayerFollower  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Player/Follower/PlayerFollower.cs/#L10"><i class="bi bi-code-slash"></i></a>
+Class PlayerFollower  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Player/Follower/PlayerFollower.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -123,6 +123,105 @@ Class PlayerFollower  <a class="header-action link-secondary" title="View source
 
 
 
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CurseR_Core_Player_Follower_PlayerFollower_CurrentTarget_" data-uid="CurseR.Core.Player.Follower.PlayerFollower.CurrentTarget*"></a>
+
+  <h3 id="CurseR_Core_Player_Follower_PlayerFollower_CurrentTarget" data-uid="CurseR.Core.Player.Follower.PlayerFollower.CurrentTarget">
+  CurrentTarget
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Player/Follower/PlayerFollower.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>현재 이동 목표</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 CurrentTarget { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CurseR_Core_Player_Follower_PlayerFollower_IsMoving_" data-uid="CurseR.Core.Player.Follower.PlayerFollower.IsMoving*"></a>
+
+  <h3 id="CurseR_Core_Player_Follower_PlayerFollower_IsMoving" data-uid="CurseR.Core.Player.Follower.PlayerFollower.IsMoving">
+  IsMoving
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Player/Follower/PlayerFollower.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsMoving { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CurseR_Core_Player_Follower_PlayerFollower_RecentTarget_" data-uid="CurseR.Core.Player.Follower.PlayerFollower.RecentTarget*"></a>
+
+  <h3 id="CurseR_Core_Player_Follower_PlayerFollower_RecentTarget" data-uid="CurseR.Core.Player.Follower.PlayerFollower.RecentTarget">
+  RecentTarget
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Player/Follower/PlayerFollower.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>가장 최근에 갱신된 최종 목표</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 RecentTarget { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -131,7 +230,7 @@ Class PlayerFollower  <a class="header-action link-secondary" title="View source
 
   <h3 id="CurseR_Core_Player_Follower_PlayerFollower_TeleportToPlayerPos_Vector2_" data-uid="CurseR.Core.Player.Follower.PlayerFollower.TeleportToPlayerPos(Vector2)">
   TeleportToPlayerPos(Vector2)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Player/Follower/PlayerFollower.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Player/Follower/PlayerFollower.cs/#L188"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>주어진 좌표를 타겟 플레이어의 좌표로 삼아 텔레포트.</p>
@@ -163,7 +262,7 @@ Class PlayerFollower  <a class="header-action link-secondary" title="View source
 
   <h3 id="CurseR_Core_Player_Follower_PlayerFollower_TeleportToWorldPos_Vector2_" data-uid="CurseR.Core.Player.Follower.PlayerFollower.TeleportToWorldPos(Vector2)">
   TeleportToWorldPos(Vector2)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Player/Follower/PlayerFollower.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Player/Follower/PlayerFollower.cs/#L167"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>월드 좌표 기준으로 텔레포트</p>
@@ -191,11 +290,75 @@ Class PlayerFollower  <a class="header-action link-secondary" title="View source
 
 
 
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="CurseR_Core_Player_Follower_PlayerFollower_OnMovementStarted" data-uid="CurseR.Core.Player.Follower.PlayerFollower.OnMovementStarted">
+  OnMovementStarted
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Player/Follower/PlayerFollower.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action OnMovementStarted</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Action</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="CurseR_Core_Player_Follower_PlayerFollower_OnMovementStopped" data-uid="CurseR.Core.Player.Follower.PlayerFollower.OnMovementStopped">
+  OnMovementStopped
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Player/Follower/PlayerFollower.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action OnMovementStopped</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Action</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Player/Follower/PlayerFollower.cs/#L10" class="edit-link">Edit this page</a>
+          <a href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Player/Follower/PlayerFollower.cs/#L11" class="edit-link">Edit this page</a>
         </div>
 
 
