@@ -1377,6 +1377,12 @@ references:
   commentId: F:CurseR.Core.CutScene.Conversation.DialogSpeaker.None
   fullName: CurseR.Core.CutScene.Conversation.DialogSpeaker.None
   nameWithType: DialogSpeaker.None
+- uid: CurseR.Core.CutScene.Conversation.DialogSpeaker.Piyu
+  name: Piyu
+  href: api/CurseR.Core.CutScene.Conversation.DialogSpeaker.html#CurseR_Core_CutScene_Conversation_DialogSpeaker_Piyu
+  commentId: F:CurseR.Core.CutScene.Conversation.DialogSpeaker.Piyu
+  fullName: CurseR.Core.CutScene.Conversation.DialogSpeaker.Piyu
+  nameWithType: DialogSpeaker.Piyu
 - uid: CurseR.Core.CutScene.Conversation.DialogSpeaker.Player
   name: Player
   href: api/CurseR.Core.CutScene.Conversation.DialogSpeaker.html#CurseR_Core_CutScene_Conversation_DialogSpeaker_Player

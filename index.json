@@ -197,7 +197,7 @@
   "api/CurseR.Core.CutScene.Conversation.DialogSpeaker.html": {
     "href": "api/CurseR.Core.CutScene.Conversation.DialogSpeaker.html",
     "title": "Enum DialogSpeaker | CurseR",
-    "summary": "Enum DialogSpeaker Namespace CurseR.Core.CutScene.Conversation public enum DialogSpeaker Fields None = 0 Player = 1"
+    "summary": "Enum DialogSpeaker Namespace CurseR.Core.CutScene.Conversation public enum DialogSpeaker Fields None = 0 Piyu = 2 Player = 1"
   },
   "api/CurseR.Core.CutScene.Conversation.html": {
     "href": "api/CurseR.Core.CutScene.Conversation.html",
