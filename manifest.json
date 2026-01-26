@@ -78,7 +78,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "CurseR.Chapter1.Events.InputBoxEnterEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/CurseR.Chapter1.Events.InputBoxEnterEvent.yml\" sourcestartlinenumber=\"1\">입력창을 클릭해서 들어갈 때 이벤트 호출</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -92,7 +92,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "CurseR.Chapter1.Events.InputBoxExitEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/CurseR.Chapter1.Events.InputBoxExitEvent.yml\" sourcestartlinenumber=\"1\">입력창에서 발사되거나 클릭해서 나올 때 이벤트 호출</p>\n"
     },
     {
       "type": "ManagedReference",

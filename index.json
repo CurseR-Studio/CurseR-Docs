@@ -22,12 +22,12 @@
   "api/CurseR.Chapter1.Events.InputBoxEnterEvent.html": {
     "href": "api/CurseR.Chapter1.Events.InputBoxEnterEvent.html",
     "title": "Class InputBoxEnterEvent | CurseR",
-    "summary": "Class InputBoxEnterEvent Namespace CurseR.Chapter1.Events public class InputBoxEnterEvent : GameEvent Inheritance object GameEvent InputBoxEnterEvent Properties Name public override string Name { get; } Property Value string"
+    "summary": "Class InputBoxEnterEvent Namespace CurseR.Chapter1.Events 입력창을 클릭해서 들어갈 때 이벤트 호출 public class InputBoxEnterEvent : GameEvent Inheritance object GameEvent InputBoxEnterEvent Properties Name public override string Name { get; } Property Value string"
   },
   "api/CurseR.Chapter1.Events.InputBoxExitEvent.html": {
     "href": "api/CurseR.Chapter1.Events.InputBoxExitEvent.html",
     "title": "Class InputBoxExitEvent | CurseR",
-    "summary": "Class InputBoxExitEvent Namespace CurseR.Chapter1.Events public class InputBoxExitEvent : GameEvent Inheritance object GameEvent InputBoxExitEvent Properties Name public override string Name { get; } Property Value string"
+    "summary": "Class InputBoxExitEvent Namespace CurseR.Chapter1.Events 입력창에서 발사되거나 클릭해서 나올 때 이벤트 호출 public class InputBoxExitEvent : GameEvent Inheritance object GameEvent InputBoxExitEvent Properties Name public override string Name { get; } Property Value string"
   },
   "api/CurseR.Chapter1.Events.JumpPressEvent.html": {
     "href": "api/CurseR.Chapter1.Events.JumpPressEvent.html",
@@ -52,7 +52,7 @@
   "api/CurseR.Chapter1.Events.html": {
     "href": "api/CurseR.Chapter1.Events.html",
     "title": "Namespace CurseR.Chapter1.Events | CurseR",
-    "summary": "Namespace CurseR.Chapter1.Events Classes ClickPressEvent ClickReleaseEvent DeathEvent InputBoxEnterEvent InputBoxExitEvent JumpPressEvent JumpReleaseEvent WaterEnterEvent WaterExitEvent"
+    "summary": "Namespace CurseR.Chapter1.Events Classes ClickPressEvent ClickReleaseEvent DeathEvent InputBoxEnterEvent 입력창을 클릭해서 들어갈 때 이벤트 호출 InputBoxExitEvent 입력창에서 발사되거나 클릭해서 나올 때 이벤트 호출 JumpPressEvent JumpReleaseEvent WaterEnterEvent WaterExitEvent"
   },
   "api/CurseR.Chapter1.ObjectType.html": {
     "href": "api/CurseR.Chapter1.ObjectType.html",
