@@ -131,7 +131,7 @@ Class CutSceneFocusPoint  <a class="header-action link-secondary" title="View so
 
   <h3 id="CurseR_Core_CutScene_Camera_CutSceneFocusPoint_Id" data-uid="CurseR.Core.CutScene.Camera.CutSceneFocusPoint.Id">
   Id
-  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/CutScene/Camera/CutSceneFocusPoint.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/CutScene/Camera/CutSceneFocusPoint.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -162,37 +162,56 @@ Class CutSceneFocusPoint  <a class="header-action link-secondary" title="View so
 </h2>
 
 
-  <a id="CurseR_Core_CutScene_Camera_CutSceneFocusPoint_Focus_" data-uid="CurseR.Core.CutScene.Camera.CutSceneFocusPoint.Focus*"></a>
+  <a id="CurseR_Core_CutScene_Camera_CutSceneFocusPoint_DisableCamera_" data-uid="CurseR.Core.CutScene.Camera.CutSceneFocusPoint.DisableCamera*"></a>
 
-  <h3 id="CurseR_Core_CutScene_Camera_CutSceneFocusPoint_Focus_System_Single_System_Single_System_Nullable_System_Single__CurseR_Core_Utils_SharedFlag_Handle_" data-uid="CurseR.Core.CutScene.Camera.CutSceneFocusPoint.Focus(System.Single,System.Single,System.Nullable{System.Single},CurseR.Core.Utils.SharedFlag.Handle)">
-  Focus(float, float, float?, Handle)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/CutScene/Camera/CutSceneFocusPoint.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CurseR_Core_CutScene_Camera_CutSceneFocusPoint_DisableCamera" data-uid="CurseR.Core.CutScene.Camera.CutSceneFocusPoint.DisableCamera">
+  DisableCamera()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/CutScene/Camera/CutSceneFocusPoint.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerator Focus(float duration, float zoom, float? blendTime, SharedFlag.Handle handle)</code></pre>
+    <pre><code class="lang-csharp hljs">public void DisableCamera()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CurseR_Core_CutScene_Camera_CutSceneFocusPoint_EnableCamera_" data-uid="CurseR.Core.CutScene.Camera.CutSceneFocusPoint.EnableCamera*"></a>
+
+  <h3 id="CurseR_Core_CutScene_Camera_CutSceneFocusPoint_EnableCamera_System_Single_System_Nullable_System_Single__System_Int32_" data-uid="CurseR.Core.CutScene.Camera.CutSceneFocusPoint.EnableCamera(System.Single,System.Nullable{System.Single},System.Int32)">
+  EnableCamera(float, float?, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/CutScene/Camera/CutSceneFocusPoint.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EnableCamera(float zoom, float? blendTime, int priority)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>duration</code> <span class="xref">float</span></dt>
-    <dd></dd>
     <dt><code>zoom</code> <span class="xref">float</span></dt>
     <dd></dd>
     <dt><code>blendTime</code> <span class="xref">float</span>?</dt>
     <dd></dd>
-    <dt><code>handle</code> <a class="xref" href="CurseR.Core.Utils.SharedFlag.html">SharedFlag</a>.<a class="xref" href="CurseR.Core.Utils.SharedFlag.Handle.html">Handle</a></dt>
+    <dt><code>priority</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">IEnumerator</span></dt>
-    <dd></dd>
-  </dl>
 
 
 

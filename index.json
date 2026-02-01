@@ -177,7 +177,7 @@
   "api/CurseR.Core.CutScene.Camera.CameraMoveData.html": {
     "href": "api/CurseR.Core.CutScene.Camera.CameraMoveData.html",
     "title": "Class CameraMoveData | CurseR",
-    "summary": "Class CameraMoveData Namespace CurseR.Core.CutScene.Camera [Serializable] public class CameraMoveData Inheritance object CameraMoveData Constructors CameraMoveData(string, float, float, float?) public CameraMoveData(string focusPointId, float duration, float zoom = 1, float? blendTime = null) Parameters focusPointId string duration float zoom float blendTime float? Properties BlendTime public float? BlendTime { get; } Property Value float? Duration public float Duration { get; } Property Value float FocusPointId public string FocusPointId { get; } Property Value string Zoom public float Zoom { get; } Property Value float"
+    "summary": "Class CameraMoveData Namespace CurseR.Core.CutScene.Camera [Serializable] public class CameraMoveData Inheritance object CameraMoveData Constructors CameraMoveData(string, List<CutSceneSequence>, float, float?) public CameraMoveData(string focusPointId, List<CutSceneSequence> sequences, float zoom = 1, float? blendTime = null) Parameters focusPointId string sequences List<CutSceneSequence> zoom float blendTime float? Properties BlendTime public float? BlendTime { get; } Property Value float? FocusPointId public string FocusPointId { get; } Property Value string Sequences public List<CutSceneSequence> Sequences { get; } Property Value List<CutSceneSequence> Zoom public float Zoom { get; } Property Value float"
   },
   "api/CurseR.Core.CutScene.Camera.CameraSequence.html": {
     "href": "api/CurseR.Core.CutScene.Camera.CameraSequence.html",
@@ -187,7 +187,7 @@
   "api/CurseR.Core.CutScene.Camera.CutSceneFocusPoint.html": {
     "href": "api/CurseR.Core.CutScene.Camera.CutSceneFocusPoint.html",
     "title": "Class CutSceneFocusPoint | CurseR",
-    "summary": "Class CutSceneFocusPoint Namespace CurseR.Core.CutScene.Camera public class CutSceneFocusPoint : MonoBehaviour Inheritance object CutSceneFocusPoint Properties Id public string Id { get; } Property Value string Methods Focus(float, float, float?, Handle) public IEnumerator Focus(float duration, float zoom, float? blendTime, SharedFlag.Handle handle) Parameters duration float zoom float blendTime float? handle SharedFlag.Handle Returns IEnumerator"
+    "summary": "Class CutSceneFocusPoint Namespace CurseR.Core.CutScene.Camera public class CutSceneFocusPoint : MonoBehaviour Inheritance object CutSceneFocusPoint Properties Id public string Id { get; } Property Value string Methods DisableCamera() public void DisableCamera() EnableCamera(float, float?, int) public void EnableCamera(float zoom, float? blendTime, int priority) Parameters zoom float blendTime float? priority int"
   },
   "api/CurseR.Core.CutScene.Camera.html": {
     "href": "api/CurseR.Core.CutScene.Camera.html",

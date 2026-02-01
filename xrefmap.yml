@@ -1030,15 +1030,15 @@ references:
   commentId: T:CurseR.Core.CutScene.Camera.CameraMoveData
   fullName: CurseR.Core.CutScene.Camera.CameraMoveData
   nameWithType: CameraMoveData
-- uid: CurseR.Core.CutScene.Camera.CameraMoveData.#ctor(System.String,System.Single,System.Single,System.Nullable{System.Single})
-  name: CameraMoveData(string, float, float, float?)
-  href: api/CurseR.Core.CutScene.Camera.CameraMoveData.html#CurseR_Core_CutScene_Camera_CameraMoveData__ctor_System_String_System_Single_System_Single_System_Nullable_System_Single__
-  commentId: M:CurseR.Core.CutScene.Camera.CameraMoveData.#ctor(System.String,System.Single,System.Single,System.Nullable{System.Single})
-  name.vb: New(String, Single, Single, Single?)
-  fullName: CurseR.Core.CutScene.Camera.CameraMoveData.CameraMoveData(string, float, float, float?)
-  fullName.vb: CurseR.Core.CutScene.Camera.CameraMoveData.New(String, Single, Single, Single?)
-  nameWithType: CameraMoveData.CameraMoveData(string, float, float, float?)
-  nameWithType.vb: CameraMoveData.New(String, Single, Single, Single?)
+- uid: CurseR.Core.CutScene.Camera.CameraMoveData.#ctor(System.String,System.Collections.Generic.List{CurseR.Core.CutScene.CutSceneSequence},System.Single,System.Nullable{System.Single})
+  name: CameraMoveData(string, List<CutSceneSequence>, float, float?)
+  href: api/CurseR.Core.CutScene.Camera.CameraMoveData.html#CurseR_Core_CutScene_Camera_CameraMoveData__ctor_System_String_System_Collections_Generic_List_CurseR_Core_CutScene_CutSceneSequence__System_Single_System_Nullable_System_Single__
+  commentId: M:CurseR.Core.CutScene.Camera.CameraMoveData.#ctor(System.String,System.Collections.Generic.List{CurseR.Core.CutScene.CutSceneSequence},System.Single,System.Nullable{System.Single})
+  name.vb: New(String, List(Of CutSceneSequence), Single, Single?)
+  fullName: CurseR.Core.CutScene.Camera.CameraMoveData.CameraMoveData(string, System.Collections.Generic.List<CurseR.Core.CutScene.CutSceneSequence>, float, float?)
+  fullName.vb: CurseR.Core.CutScene.Camera.CameraMoveData.New(String, System.Collections.Generic.List(Of CurseR.Core.CutScene.CutSceneSequence), Single, Single?)
+  nameWithType: CameraMoveData.CameraMoveData(string, List<CutSceneSequence>, float, float?)
+  nameWithType.vb: CameraMoveData.New(String, List(Of CutSceneSequence), Single, Single?)
 - uid: CurseR.Core.CutScene.Camera.CameraMoveData.#ctor*
   name: CameraMoveData
   href: api/CurseR.Core.CutScene.Camera.CameraMoveData.html#CurseR_Core_CutScene_Camera_CameraMoveData__ctor_
@@ -1062,19 +1062,6 @@ references:
   isSpec: "True"
   fullName: CurseR.Core.CutScene.Camera.CameraMoveData.BlendTime
   nameWithType: CameraMoveData.BlendTime
-- uid: CurseR.Core.CutScene.Camera.CameraMoveData.Duration
-  name: Duration
-  href: api/CurseR.Core.CutScene.Camera.CameraMoveData.html#CurseR_Core_CutScene_Camera_CameraMoveData_Duration
-  commentId: P:CurseR.Core.CutScene.Camera.CameraMoveData.Duration
-  fullName: CurseR.Core.CutScene.Camera.CameraMoveData.Duration
-  nameWithType: CameraMoveData.Duration
-- uid: CurseR.Core.CutScene.Camera.CameraMoveData.Duration*
-  name: Duration
-  href: api/CurseR.Core.CutScene.Camera.CameraMoveData.html#CurseR_Core_CutScene_Camera_CameraMoveData_Duration_
-  commentId: Overload:CurseR.Core.CutScene.Camera.CameraMoveData.Duration
-  isSpec: "True"
-  fullName: CurseR.Core.CutScene.Camera.CameraMoveData.Duration
-  nameWithType: CameraMoveData.Duration
 - uid: CurseR.Core.CutScene.Camera.CameraMoveData.FocusPointId
   name: FocusPointId
   href: api/CurseR.Core.CutScene.Camera.CameraMoveData.html#CurseR_Core_CutScene_Camera_CameraMoveData_FocusPointId
@@ -1088,6 +1075,19 @@ references:
   isSpec: "True"
   fullName: CurseR.Core.CutScene.Camera.CameraMoveData.FocusPointId
   nameWithType: CameraMoveData.FocusPointId
+- uid: CurseR.Core.CutScene.Camera.CameraMoveData.Sequences
+  name: Sequences
+  href: api/CurseR.Core.CutScene.Camera.CameraMoveData.html#CurseR_Core_CutScene_Camera_CameraMoveData_Sequences
+  commentId: P:CurseR.Core.CutScene.Camera.CameraMoveData.Sequences
+  fullName: CurseR.Core.CutScene.Camera.CameraMoveData.Sequences
+  nameWithType: CameraMoveData.Sequences
+- uid: CurseR.Core.CutScene.Camera.CameraMoveData.Sequences*
+  name: Sequences
+  href: api/CurseR.Core.CutScene.Camera.CameraMoveData.html#CurseR_Core_CutScene_Camera_CameraMoveData_Sequences_
+  commentId: Overload:CurseR.Core.CutScene.Camera.CameraMoveData.Sequences
+  isSpec: "True"
+  fullName: CurseR.Core.CutScene.Camera.CameraMoveData.Sequences
+  nameWithType: CameraMoveData.Sequences
 - uid: CurseR.Core.CutScene.Camera.CameraMoveData.Zoom
   name: Zoom
   href: api/CurseR.Core.CutScene.Camera.CameraMoveData.html#CurseR_Core_CutScene_Camera_CameraMoveData_Zoom
@@ -1180,22 +1180,35 @@ references:
   commentId: T:CurseR.Core.CutScene.Camera.CutSceneFocusPoint
   fullName: CurseR.Core.CutScene.Camera.CutSceneFocusPoint
   nameWithType: CutSceneFocusPoint
-- uid: CurseR.Core.CutScene.Camera.CutSceneFocusPoint.Focus(System.Single,System.Single,System.Nullable{System.Single},CurseR.Core.Utils.SharedFlag.Handle)
-  name: Focus(float, float, float?, Handle)
-  href: api/CurseR.Core.CutScene.Camera.CutSceneFocusPoint.html#CurseR_Core_CutScene_Camera_CutSceneFocusPoint_Focus_System_Single_System_Single_System_Nullable_System_Single__CurseR_Core_Utils_SharedFlag_Handle_
-  commentId: M:CurseR.Core.CutScene.Camera.CutSceneFocusPoint.Focus(System.Single,System.Single,System.Nullable{System.Single},CurseR.Core.Utils.SharedFlag.Handle)
-  name.vb: Focus(Single, Single, Single?, Handle)
-  fullName: CurseR.Core.CutScene.Camera.CutSceneFocusPoint.Focus(float, float, float?, CurseR.Core.Utils.SharedFlag.Handle)
-  fullName.vb: CurseR.Core.CutScene.Camera.CutSceneFocusPoint.Focus(Single, Single, Single?, CurseR.Core.Utils.SharedFlag.Handle)
-  nameWithType: CutSceneFocusPoint.Focus(float, float, float?, SharedFlag.Handle)
-  nameWithType.vb: CutSceneFocusPoint.Focus(Single, Single, Single?, SharedFlag.Handle)
-- uid: CurseR.Core.CutScene.Camera.CutSceneFocusPoint.Focus*
-  name: Focus
-  href: api/CurseR.Core.CutScene.Camera.CutSceneFocusPoint.html#CurseR_Core_CutScene_Camera_CutSceneFocusPoint_Focus_
-  commentId: Overload:CurseR.Core.CutScene.Camera.CutSceneFocusPoint.Focus
+- uid: CurseR.Core.CutScene.Camera.CutSceneFocusPoint.DisableCamera
+  name: DisableCamera()
+  href: api/CurseR.Core.CutScene.Camera.CutSceneFocusPoint.html#CurseR_Core_CutScene_Camera_CutSceneFocusPoint_DisableCamera
+  commentId: M:CurseR.Core.CutScene.Camera.CutSceneFocusPoint.DisableCamera
+  fullName: CurseR.Core.CutScene.Camera.CutSceneFocusPoint.DisableCamera()
+  nameWithType: CutSceneFocusPoint.DisableCamera()
+- uid: CurseR.Core.CutScene.Camera.CutSceneFocusPoint.DisableCamera*
+  name: DisableCamera
+  href: api/CurseR.Core.CutScene.Camera.CutSceneFocusPoint.html#CurseR_Core_CutScene_Camera_CutSceneFocusPoint_DisableCamera_
+  commentId: Overload:CurseR.Core.CutScene.Camera.CutSceneFocusPoint.DisableCamera
   isSpec: "True"
-  fullName: CurseR.Core.CutScene.Camera.CutSceneFocusPoint.Focus
-  nameWithType: CutSceneFocusPoint.Focus
+  fullName: CurseR.Core.CutScene.Camera.CutSceneFocusPoint.DisableCamera
+  nameWithType: CutSceneFocusPoint.DisableCamera
+- uid: CurseR.Core.CutScene.Camera.CutSceneFocusPoint.EnableCamera(System.Single,System.Nullable{System.Single},System.Int32)
+  name: EnableCamera(float, float?, int)
+  href: api/CurseR.Core.CutScene.Camera.CutSceneFocusPoint.html#CurseR_Core_CutScene_Camera_CutSceneFocusPoint_EnableCamera_System_Single_System_Nullable_System_Single__System_Int32_
+  commentId: M:CurseR.Core.CutScene.Camera.CutSceneFocusPoint.EnableCamera(System.Single,System.Nullable{System.Single},System.Int32)
+  name.vb: EnableCamera(Single, Single?, Integer)
+  fullName: CurseR.Core.CutScene.Camera.CutSceneFocusPoint.EnableCamera(float, float?, int)
+  fullName.vb: CurseR.Core.CutScene.Camera.CutSceneFocusPoint.EnableCamera(Single, Single?, Integer)
+  nameWithType: CutSceneFocusPoint.EnableCamera(float, float?, int)
+  nameWithType.vb: CutSceneFocusPoint.EnableCamera(Single, Single?, Integer)
+- uid: CurseR.Core.CutScene.Camera.CutSceneFocusPoint.EnableCamera*
+  name: EnableCamera
+  href: api/CurseR.Core.CutScene.Camera.CutSceneFocusPoint.html#CurseR_Core_CutScene_Camera_CutSceneFocusPoint_EnableCamera_
+  commentId: Overload:CurseR.Core.CutScene.Camera.CutSceneFocusPoint.EnableCamera
+  isSpec: "True"
+  fullName: CurseR.Core.CutScene.Camera.CutSceneFocusPoint.EnableCamera
+  nameWithType: CutSceneFocusPoint.EnableCamera
 - uid: CurseR.Core.CutScene.Camera.CutSceneFocusPoint.Id
   name: Id
   href: api/CurseR.Core.CutScene.Camera.CutSceneFocusPoint.html#CurseR_Core_CutScene_Camera_CutSceneFocusPoint_Id
