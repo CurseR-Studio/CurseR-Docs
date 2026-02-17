@@ -320,6 +320,62 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Objects.RotatingBlade.RotatingBlade.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Objects.RotatingBlade.RotatingBlade.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Objects.RotatingBlade.RotatingBlade",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Objects.RotatingBlade.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Objects.RotatingBlade.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Objects.RotatingBlade",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Objects.Slime.Slime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Objects.Slime.Slime.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Objects.Slime.Slime",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Objects.Slime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Objects.Slime.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Objects.Slime",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CurseR.Chapter1.Objects.Spike.Spike.yml",
       "output": {
         ".html": {

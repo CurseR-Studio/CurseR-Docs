@@ -109,6 +109,26 @@
     "title": "Namespace CurseR.Chapter1.Objects.RepairButton | CurseR",
     "summary": "Namespace CurseR.Chapter1.Objects.RepairButton Classes RepairButton"
   },
+  "api/CurseR.Chapter1.Objects.RotatingBlade.RotatingBlade.html": {
+    "href": "api/CurseR.Chapter1.Objects.RotatingBlade.RotatingBlade.html",
+    "title": "Class RotatingBlade | CurseR",
+    "summary": "Class RotatingBlade Namespace CurseR.Chapter1.Objects.RotatingBlade public class RotatingBlade : MonoBehaviour Inheritance object RotatingBlade Fields isClockwise public bool isClockwise Field Value bool rotationSpeed public float rotationSpeed Field Value float"
+  },
+  "api/CurseR.Chapter1.Objects.RotatingBlade.html": {
+    "href": "api/CurseR.Chapter1.Objects.RotatingBlade.html",
+    "title": "Namespace CurseR.Chapter1.Objects.RotatingBlade | CurseR",
+    "summary": "Namespace CurseR.Chapter1.Objects.RotatingBlade Classes RotatingBlade"
+  },
+  "api/CurseR.Chapter1.Objects.Slime.Slime.html": {
+    "href": "api/CurseR.Chapter1.Objects.Slime.Slime.html",
+    "title": "Class Slime | CurseR",
+    "summary": "Class Slime Namespace CurseR.Chapter1.Objects.Slime public class Slime : MonoBehaviour Inheritance object Slime Fields arriveDistance public float arriveDistance Field Value float endPoints public List<Transform> endPoints Field Value List<Transform> moveSpeed public float moveSpeed Field Value float rayLength public float rayLength Field Value float raySpacing public float raySpacing Field Value float rotateSpeed public float rotateSpeed Field Value float terrainLayer public LayerMask terrainLayer Field Value LayerMask"
+  },
+  "api/CurseR.Chapter1.Objects.Slime.html": {
+    "href": "api/CurseR.Chapter1.Objects.Slime.html",
+    "title": "Namespace CurseR.Chapter1.Objects.Slime | CurseR",
+    "summary": "Namespace CurseR.Chapter1.Objects.Slime Classes Slime"
+  },
   "api/CurseR.Chapter1.Objects.Spike.Spike.html": {
     "href": "api/CurseR.Chapter1.Objects.Spike.Spike.html",
     "title": "Class Spike | CurseR",
@@ -122,7 +142,7 @@
   "api/CurseR.Chapter1.Objects.html": {
     "href": "api/CurseR.Chapter1.Objects.html",
     "title": "Namespace CurseR.Chapter1.Objects | CurseR",
-    "summary": "Namespace CurseR.Chapter1.Objects Namespaces CurseR.Chapter1.Objects.Button CurseR.Chapter1.Objects.Inputbox CurseR.Chapter1.Objects.RepairButton CurseR.Chapter1.Objects.Spike Classes Object"
+    "summary": "Namespace CurseR.Chapter1.Objects Namespaces CurseR.Chapter1.Objects.Button CurseR.Chapter1.Objects.Inputbox CurseR.Chapter1.Objects.RepairButton CurseR.Chapter1.Objects.RotatingBlade CurseR.Chapter1.Objects.Slime CurseR.Chapter1.Objects.Spike Classes Object"
   },
   "api/CurseR.Chapter1.Piyu.PiyuController.html": {
     "href": "api/CurseR.Chapter1.Piyu.PiyuController.html",
