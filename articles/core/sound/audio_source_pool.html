@@ -2,21 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Spike | CurseR </title>
+      <title>Audio Source Pool | CurseR </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Spike | CurseR ">
+      <meta name="title" content="Audio Source Pool | CurseR ">
       
       
-      <link rel="icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../public/docfx.min.css">
-      <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="../toc.html">
-      <meta name="docfx:tocrel" content="toc.html">
+      <link rel="icon" href="../../../favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
       
-      <meta name="docfx:rel" content="../">
+      <meta name="docfx:rel" content="../../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/CurseR-Studio/CurseR/new/develop/apiSpec/new?filename=CurseR_Chapter1_Objects_Spike_Spike.md&amp;value=---%0Auid%3A%20CurseR.Chapter1.Objects.Spike.Spike%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/CurseR-Studio/CurseR/blob/develop/Documentation/articles/core/sound/audio_source_pool.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -30,7 +30,7 @@
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
 
-      <script type="module" src="./../public/docfx.min.js"></script>
+      <script type="module" src="./../../../public/docfx.min.js"></script>
 
       <script>
         const theme = localStorage.getItem('theme') || 'auto'
@@ -39,12 +39,12 @@
 
   </head>
 
-  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="CurseR">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../logo.svg" alt="CurseR">
             CurseR
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,69 +84,53 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="CurseR.Chapter1.Objects.Spike.Spike">
+        <article data-uid="">
+<h1 id="audio-source-pool">Audio Source Pool</h1>
 
+<p><code>AudioSource</code> 컴포넌트를 미리 생성해두고 재사용하는 풀.
+<code>AudioEmitter</code>가 내부적으로 사용하며, 독립적으로도 활용 가능하다.</p>
+<h2 id="생성">생성</h2>
+<p><code>AudioSourcePool</code>은 일반 C# 클래스로, <code>GameObject</code>를 받아 초기화한다.</p>
+<pre><code class="lang-cs">var pool = new AudioSourcePool(gameObject, initialSize: 4);
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>파라미터</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>owner</code></td>
+<td>AudioSource 컴포넌트를 붙일 GameObject</td>
+</tr>
+<tr>
+<td><code>initialSize</code></td>
+<td>초기 풀 크기 (기본값 4)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="빌리기--반납">빌리기 / 반납</h2>
+<pre><code class="lang-cs">// 풀에서 AudioSource 빌려옴 (풀이 비면 자동 확장)
+AudioSource source = pool.Get();
 
-
-  <h1 id="CurseR_Chapter1_Objects_Spike_Spike" data-uid="CurseR.Chapter1.Objects.Spike.Spike" class="text-break">
-Class Spike  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Chapter1/Objects/Spike/Spike.cs/#L8"><i class="bi bi-code-slash"></i></a>
-  </h1>
-
-  <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="CurseR.html">CurseR</a>.<a class="xref" href="CurseR.Chapter1.html">Chapter1</a>.<a class="xref" href="CurseR.Chapter1.Objects.html">Objects</a>.<a class="xref" href="CurseR.Chapter1.Objects.Spike.html">Spike</a></dd></dl>
-  
-  </div>
-
-  <div class="markdown summary"></div>
-  <div class="markdown conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Spike : Object</code></pre>
-  </div>
-
-
-
-
-  <dl class="typelist inheritance">
-    <dt>Inheritance</dt>
-    <dd>
-      <div><span class="xref">object</span></div>
-      <div><a class="xref" href="CurseR.Chapter1.Objects.Object.html">Object</a></div>
-      <div><span class="xref">Spike</span></div>
-    </dd>
-  </dl>
-
-
-
-  <dl class="typelist inheritedMembers">
-    <dt>Inherited Members</dt>
-    <dd>
-    <div>
-      <a class="xref" href="CurseR.Chapter1.Objects.Object.html#CurseR_Chapter1_Objects_Object_useEvent__1_System_Action___0__">Object.useEvent&lt;EventTy&gt;(Action&lt;EventTy&gt;)</a>
-    </div>
-    <div>
-      <a class="xref" href="CurseR.Chapter1.Objects.Object.html#CurseR_Chapter1_Objects_Object_useSound">Object.useSound()</a>
-    </div>
-    <div>
-      <a class="xref" href="CurseR.Chapter1.Objects.Object.html#CurseR_Chapter1_Objects_Object_Init">Object.Init()</a>
-    </div>
-    <div>
-      <a class="xref" href="CurseR.Chapter1.Objects.Object.html#CurseR_Chapter1_Objects_Object_Dispose">Object.Dispose()</a>
-    </div>
-  </dd></dl>
-
-
-
-
-
-
+// 사용 후 반납 (Stop + 초기화, Destroy 없음)
+pool.Release(source);
+</code></pre>
+<div class="WARNING">
+<h5>Warning</h5>
+<p><code>Get()</code>으로 빌린 AudioSource는 반드시 <code>Release()</code>로 반납해야 한다.
+반납하지 않으면 풀이 고갈되어 계속 새로 생성된다.</p>
+</div>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Chapter1/Objects/Spike/Spike.cs/#L8" class="edit-link">Edit this page</a>
+          <a href="https://github.com/CurseR-Studio/CurseR/blob/develop/Documentation/articles/core/sound/audio_source_pool.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
 
       </div>
 

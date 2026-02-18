@@ -62,7 +62,7 @@
   "api/CurseR.Chapter1.Objects.Button.Button.html": {
     "href": "api/CurseR.Chapter1.Objects.Button.Button.html",
     "title": "Class Button | CurseR",
-    "summary": "Class Button Namespace CurseR.Chapter1.Objects.Button public class Button : Object Inheritance object Object Button Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Fields SlowdownCooltime public float SlowdownCooltime Field Value float buttonCooltime public float buttonCooltime Field Value float buttonCoyoteTime public float buttonCoyoteTime Field Value float buttonPower public float buttonPower Field Value float buttonSwimPower public float buttonSwimPower Field Value float clickBufferTime public float clickBufferTime Field Value float innerGravity public float innerGravity Field Value float innerVelocityMultiplier public float innerVelocityMultiplier Field Value float minFallingSpeed public float minFallingSpeed Field Value float shrinkAmount public float shrinkAmount Field Value float Methods Dispose() Object 소멸 코드 여기에 작성. OnDestroy 사용하면 문제 생김. protected override void Dispose() Init() Object 초기화 코드 여기에 작성. Start 시점에서 실행됨. protected override void Init()"
+    "summary": "Class Button Namespace CurseR.Chapter1.Objects.Button public class Button : Object Inheritance object Object Button Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Object.useSound() Fields SlowdownCooltime public float SlowdownCooltime Field Value float buttonCooltime public float buttonCooltime Field Value float buttonCoyoteTime public float buttonCoyoteTime Field Value float buttonPower public float buttonPower Field Value float buttonSwimPower public float buttonSwimPower Field Value float clickBufferTime public float clickBufferTime Field Value float innerGravity public float innerGravity Field Value float innerVelocityMultiplier public float innerVelocityMultiplier Field Value float minFallingSpeed public float minFallingSpeed Field Value float shrinkAmount public float shrinkAmount Field Value float Methods Dispose() Object 소멸 코드 여기에 작성. OnDestroy 사용하면 문제 생김. protected override void Dispose() Init() Object 초기화 코드 여기에 작성. Start 시점에서 실행됨. protected override void Init()"
   },
   "api/CurseR.Chapter1.Objects.Button.ButtonHighlight.html": {
     "href": "api/CurseR.Chapter1.Objects.Button.ButtonHighlight.html",
@@ -77,7 +77,7 @@
   "api/CurseR.Chapter1.Objects.Inputbox.Inputbox.html": {
     "href": "api/CurseR.Chapter1.Objects.Inputbox.Inputbox.html",
     "title": "Class Inputbox | CurseR",
-    "summary": "Class Inputbox Namespace CurseR.Chapter1.Objects.Inputbox public class Inputbox : Object Inheritance object Object Inputbox Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Methods Dispose() Object 소멸 코드 여기에 작성. OnDestroy 사용하면 문제 생김. protected override void Dispose() Init() Object 초기화 코드 여기에 작성. Start 시점에서 실행됨. protected override void Init()"
+    "summary": "Class Inputbox Namespace CurseR.Chapter1.Objects.Inputbox public class Inputbox : Object Inheritance object Object Inputbox Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Object.useSound() Methods Dispose() Object 소멸 코드 여기에 작성. OnDestroy 사용하면 문제 생김. protected override void Dispose() Init() Object 초기화 코드 여기에 작성. Start 시점에서 실행됨. protected override void Init()"
   },
   "api/CurseR.Chapter1.Objects.Inputbox.InputboxState.html": {
     "href": "api/CurseR.Chapter1.Objects.Inputbox.InputboxState.html",
@@ -97,12 +97,12 @@
   "api/CurseR.Chapter1.Objects.Object.html": {
     "href": "api/CurseR.Chapter1.Objects.Object.html",
     "title": "Class Object | CurseR",
-    "summary": "Class Object Namespace CurseR.Chapter1.Objects public class Object : MonoBehaviour Inheritance object Object Derived Button Inputbox RepairButton Spike Methods Dispose() Object 소멸 코드 여기에 작성. OnDestroy 사용하면 문제 생김. protected virtual void Dispose() Init() Object 초기화 코드 여기에 작성. Start 시점에서 실행됨. protected virtual void Init() useEvent<EventTy>(Action<EventTy>) EventBus에 이벤트 구독. OnDestroy에서 자동으로 이벤트 구독 해제됨. protected void useEvent<EventTy>(Action<EventTy> handler) where EventTy : GameEvent Parameters handler Action<EventTy> 이벤트 핸들러 Type Parameters EventTy 이벤트 타입"
+    "summary": "Class Object Namespace CurseR.Chapter1.Objects public class Object : MonoBehaviour Inheritance object Object Derived Button Inputbox RepairButton Spike Methods Dispose() Object 소멸 코드 여기에 작성. OnDestroy 사용하면 문제 생김. protected virtual void Dispose() Init() Object 초기화 코드 여기에 작성. Start 시점에서 실행됨. protected virtual void Init() useEvent<EventTy>(Action<EventTy>) EventBus에 이벤트 구독. OnDestroy에서 자동으로 이벤트 구독 해제됨. protected void useEvent<EventTy>(Action<EventTy> handler) where EventTy : GameEvent Parameters handler Action<EventTy> 이벤트 핸들러 Type Parameters EventTy 이벤트 타입 useSound() AudioEmitter 컴포넌트를 캐싱해서 반환. Init()에서 호출해 _sound를 초기화하는 용도. protected AudioEmitter useSound() Returns AudioEmitter"
   },
   "api/CurseR.Chapter1.Objects.RepairButton.RepairButton.html": {
     "href": "api/CurseR.Chapter1.Objects.RepairButton.RepairButton.html",
     "title": "Class RepairButton | CurseR",
-    "summary": "Class RepairButton Namespace CurseR.Chapter1.Objects.RepairButton public class RepairButton : Object Inheritance object Object RepairButton Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Object.Dispose() Methods Init() Object 초기화 코드 여기에 작성. Start 시점에서 실행됨. protected override void Init()"
+    "summary": "Class RepairButton Namespace CurseR.Chapter1.Objects.RepairButton public class RepairButton : Object Inheritance object Object RepairButton Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Object.useSound() Object.Dispose() Methods Init() Object 초기화 코드 여기에 작성. Start 시점에서 실행됨. protected override void Init()"
   },
   "api/CurseR.Chapter1.Objects.RepairButton.html": {
     "href": "api/CurseR.Chapter1.Objects.RepairButton.html",
@@ -132,7 +132,7 @@
   "api/CurseR.Chapter1.Objects.Spike.Spike.html": {
     "href": "api/CurseR.Chapter1.Objects.Spike.Spike.html",
     "title": "Class Spike | CurseR",
-    "summary": "Class Spike Namespace CurseR.Chapter1.Objects.Spike public class Spike : Object Inheritance object Object Spike Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Object.Init() Object.Dispose()"
+    "summary": "Class Spike Namespace CurseR.Chapter1.Objects.Spike public class Spike : Object Inheritance object Object Spike Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Object.useSound() Object.Init() Object.Dispose()"
   },
   "api/CurseR.Chapter1.Objects.Spike.html": {
     "href": "api/CurseR.Chapter1.Objects.Spike.html",
@@ -339,6 +339,26 @@
     "title": "Namespace CurseR.Core.Scene | CurseR",
     "summary": "Namespace CurseR.Core.Scene Classes CheckPoint EditorStartPoint SceneArea SceneController ScenePoint"
   },
+  "api/CurseR.Core.Sound.AudioEmitter.html": {
+    "href": "api/CurseR.Core.Sound.AudioEmitter.html",
+    "title": "Class AudioEmitter | CurseR",
+    "summary": "Class AudioEmitter Namespace CurseR.Core.Sound public class AudioEmitter : MonoBehaviour Inheritance object AudioEmitter Fields sounds protected SoundEntry[] sounds Field Value SoundEntry[] Methods Awake() protected virtual void Awake() OnDestroy() protected virtual void OnDestroy() Play(string) 효과음 재생. 겹쳐서 재생 가능하며 Stop 불가. public virtual void Play(string key) Parameters key string PlayLoop(string) 루프 사운드 시작. 이미 재생 중이면 무시. public virtual void PlayLoop(string key) Parameters key string StopAllLoops() 모든 루프 사운드 중지. public virtual void StopAllLoops() StopLoop(string) 특정 루프 사운드 중지. public virtual void StopLoop(string key) Parameters key string"
+  },
+  "api/CurseR.Core.Sound.AudioSourcePool.html": {
+    "href": "api/CurseR.Core.Sound.AudioSourcePool.html",
+    "title": "Class AudioSourcePool | CurseR",
+    "summary": "Class AudioSourcePool Namespace CurseR.Core.Sound AudioSource 컴포넌트 풀. Get()으로 빌리고, Release()로 반납. 부족하면 자동 확장. 일반 C# 클래스로, 생성자에서 관리할 GameObject를 받음. public class AudioSourcePool Inheritance object AudioSourcePool Constructors AudioSourcePool(GameObject, int) 생성자. public AudioSourcePool(GameObject owner, int initialSize = 4) Parameters owner GameObject AudioSource를 붙일 GameObject initialSize int 초기 풀 크기 Methods Get() 풀에서 AudioSource를 빌려옴. 풀이 비어있으면 새로 생성. public AudioSource Get() Returns AudioSource Release(AudioSource) 사용 완료된 AudioSource를 풀에 반납. public void Release(AudioSource source) Parameters source AudioSource"
+  },
+  "api/CurseR.Core.Sound.SoundEntry.html": {
+    "href": "api/CurseR.Core.Sound.SoundEntry.html",
+    "title": "Class SoundEntry | CurseR",
+    "summary": "Class SoundEntry Namespace CurseR.Core.Sound [Serializable] public class SoundEntry Inheritance object SoundEntry Fields clip public AudioClip clip Field Value AudioClip key public string key Field Value string volume public float volume Field Value float"
+  },
+  "api/CurseR.Core.Sound.html": {
+    "href": "api/CurseR.Core.Sound.html",
+    "title": "Namespace CurseR.Core.Sound | CurseR",
+    "summary": "Namespace CurseR.Core.Sound Classes AudioEmitter AudioSourcePool AudioSource 컴포넌트 풀. Get()으로 빌리고, Release()로 반납. 부족하면 자동 확장. 일반 C# 클래스로, 생성자에서 관리할 GameObject를 받음. SoundEntry"
+  },
   "api/CurseR.Core.TransitionManager.html": {
     "href": "api/CurseR.Core.TransitionManager.html",
     "title": "Class TransitionManager | CurseR",
@@ -407,7 +427,7 @@
   "api/CurseR.Core.html": {
     "href": "api/CurseR.Core.html",
     "title": "Namespace CurseR.Core | CurseR",
-    "summary": "Namespace CurseR.Core Namespaces CurseR.Core.Camera CurseR.Core.CutScene CurseR.Core.Player CurseR.Core.Scene CurseR.Core.Utils Classes AbstractChapterManager GameEvent GameEventBus GameServices TransitionManager"
+    "summary": "Namespace CurseR.Core Namespaces CurseR.Core.Camera CurseR.Core.CutScene CurseR.Core.Player CurseR.Core.Scene CurseR.Core.Sound CurseR.Core.Utils Classes AbstractChapterManager GameEvent GameEventBus GameServices TransitionManager"
   },
   "api/CurseR.html": {
     "href": "api/CurseR.html",
@@ -428,6 +448,16 @@
     "href": "articles/chapter_1/player/check_collision.html",
     "title": "플레이어 충돌 체크하기 | CurseR",
     "summary": "충돌 체크하기 확장 메소드 Collision2D.ByPlayer() 사용 void OnCollisionEnter2D(Collision2D collision) { if (collision.ByPlayer()) { // Do something } } 트리거 체크하기 확장 메소드 Collider2D.ByPlayer() 사용 void OnTriggerEnter2D(Collider2D collision) { if (collision.ByPlayer()) { // Do something } }"
+  },
+  "articles/core/sound/audio_emitter.html": {
+    "href": "articles/core/sound/audio_emitter.html",
+    "title": "Audio Emitter | CurseR",
+    "summary": "Audio Emitter 상호작용 오브젝트에서 효과음과 루프 사운드를 재생하는 컴포넌트. AudioSourcePool을 내부적으로 사용해 루프 사운드의 AudioSource를 재사용한다. 설정 GameObject에 AudioEmitter 컴포넌트를 추가하면 AudioSourcePool이 자동으로 함께 추가된다. Inspector의 Sounds 배열에 키-클립 쌍을 등록한다. 필드 설명 key 코드에서 사운드를 식별하는 문자열 clip 재생할 AudioClip volume 볼륨 (0~1, 기본값 1) Object에서 사용하기 Object를 상속하는 컴포넌트에서는 useSound()로 AudioEmitter를 캐싱해 사용한다. private AudioEmitter _sound; protected override void Init() { _sound = useSound(); } 효과음 재생 겹쳐서 재생 가능. 재생 중 Stop 불가. _sound?.Play(\"hit\"); 루프 사운드 // 시작 _sound?.PlayLoop(\"ambient\"); // 특정 키 중지 _sound?.StopLoop(\"ambient\"); // 전체 중지 _sound?.StopAllLoops(); Note 같은 키로 PlayLoop()를 중복 호출하면 무시된다. 상속 확장 메서드를 override해 동작을 확장할 수 있다. public class ButtonAudioEmitter : AudioEmitter { public override void Play(string key) { base.Play(key); // 추가 처리 (예: 파티클 연동) } }"
+  },
+  "articles/core/sound/audio_source_pool.html": {
+    "href": "articles/core/sound/audio_source_pool.html",
+    "title": "Audio Source Pool | CurseR",
+    "summary": "Audio Source Pool AudioSource 컴포넌트를 미리 생성해두고 재사용하는 풀. AudioEmitter가 내부적으로 사용하며, 독립적으로도 활용 가능하다. 생성 AudioSourcePool은 일반 C# 클래스로, GameObject를 받아 초기화한다. var pool = new AudioSourcePool(gameObject, initialSize: 4); 파라미터 설명 owner AudioSource 컴포넌트를 붙일 GameObject initialSize 초기 풀 크기 (기본값 4) 빌리기 / 반납 // 풀에서 AudioSource 빌려옴 (풀이 비면 자동 확장) AudioSource source = pool.Get(); // 사용 후 반납 (Stop + 초기화, Destroy 없음) pool.Release(source); Warning Get()으로 빌린 AudioSource는 반드시 Release()로 반납해야 한다. 반납하지 않으면 풀이 고갈되어 계속 새로 생성된다."
   },
   "articles/introduction.html": {
     "href": "articles/introduction.html",

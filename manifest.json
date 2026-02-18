@@ -964,6 +964,62 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Sound.AudioEmitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Sound.AudioEmitter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Sound.AudioEmitter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Sound.AudioSourcePool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Sound.AudioSourcePool.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Sound.AudioSourcePool",
+      "Summary": "<p sourcefile=\"api/CurseR.Core.Sound.AudioSourcePool.yml\" sourcestartlinenumber=\"1\">AudioSource 컴포넌트 풀.\nGet()으로 빌리고, Release()로 반납. 부족하면 자동 확장.\n일반 C# 클래스로, 생성자에서 관리할 GameObject를 받음.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Sound.SoundEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Sound.SoundEntry.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Sound.SoundEntry",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Sound.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Sound.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Sound",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CurseR.Core.TransitionManager.yml",
       "output": {
         ".html": {
@@ -1211,6 +1267,26 @@
       "output": {
         ".html": {
           "relative_path": "articles/chapter_1/player/check_collision.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/core/sound/audio_emitter.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/core/sound/audio_emitter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/core/sound/audio_source_pool.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/core/sound/audio_source_pool.html"
         }
       },
       "version": ""

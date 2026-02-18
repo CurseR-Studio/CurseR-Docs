@@ -2,21 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Spike | CurseR </title>
+      <title>Audio Emitter | CurseR </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Spike | CurseR ">
+      <meta name="title" content="Audio Emitter | CurseR ">
       
       
-      <link rel="icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../public/docfx.min.css">
-      <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="../toc.html">
-      <meta name="docfx:tocrel" content="toc.html">
+      <link rel="icon" href="../../../favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
       
-      <meta name="docfx:rel" content="../">
+      <meta name="docfx:rel" content="../../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/CurseR-Studio/CurseR/new/develop/apiSpec/new?filename=CurseR_Chapter1_Objects_Spike_Spike.md&amp;value=---%0Auid%3A%20CurseR.Chapter1.Objects.Spike.Spike%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/CurseR-Studio/CurseR/blob/develop/Documentation/articles/core/sound/audio_emitter.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -30,7 +30,7 @@
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
 
-      <script type="module" src="./../public/docfx.min.js"></script>
+      <script type="module" src="./../../../public/docfx.min.js"></script>
 
       <script>
         const theme = localStorage.getItem('theme') || 'auto'
@@ -39,12 +39,12 @@
 
   </head>
 
-  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="CurseR">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../logo.svg" alt="CurseR">
             CurseR
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,69 +84,82 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="CurseR.Chapter1.Objects.Spike.Spike">
+        <article data-uid="">
+<h1 id="audio-emitter">Audio Emitter</h1>
 
+<p>상호작용 오브젝트에서 효과음과 루프 사운드를 재생하는 컴포넌트.
+<code>AudioSourcePool</code>을 내부적으로 사용해 루프 사운드의 AudioSource를 재사용한다.</p>
+<h2 id="설정">설정</h2>
+<p>GameObject에 <code>AudioEmitter</code> 컴포넌트를 추가하면 <code>AudioSourcePool</code>이 자동으로 함께 추가된다.
+Inspector의 <code>Sounds</code> 배열에 키-클립 쌍을 등록한다.</p>
+<table>
+<thead>
+<tr>
+<th>필드</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>key</code></td>
+<td>코드에서 사운드를 식별하는 문자열</td>
+</tr>
+<tr>
+<td><code>clip</code></td>
+<td>재생할 AudioClip</td>
+</tr>
+<tr>
+<td><code>volume</code></td>
+<td>볼륨 (0~1, 기본값 1)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="object에서-사용하기">Object에서 사용하기</h2>
+<p><code>Object</code>를 상속하는 컴포넌트에서는 <code>useSound()</code>로 <code>AudioEmitter</code>를 캐싱해 사용한다.</p>
+<pre><code class="lang-cs">private AudioEmitter _sound;
 
+protected override void Init()
+{
+    _sound = useSound();
+}
+</code></pre>
+<h2 id="효과음-재생">효과음 재생</h2>
+<p>겹쳐서 재생 가능. 재생 중 Stop 불가.</p>
+<pre><code class="lang-cs">_sound?.Play(&quot;hit&quot;);
+</code></pre>
+<h2 id="루프-사운드">루프 사운드</h2>
+<pre><code class="lang-cs">// 시작
+_sound?.PlayLoop(&quot;ambient&quot;);
 
-  <h1 id="CurseR_Chapter1_Objects_Spike_Spike" data-uid="CurseR.Chapter1.Objects.Spike.Spike" class="text-break">
-Class Spike  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Chapter1/Objects/Spike/Spike.cs/#L8"><i class="bi bi-code-slash"></i></a>
-  </h1>
+// 특정 키 중지
+_sound?.StopLoop(&quot;ambient&quot;);
 
-  <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="CurseR.html">CurseR</a>.<a class="xref" href="CurseR.Chapter1.html">Chapter1</a>.<a class="xref" href="CurseR.Chapter1.Objects.html">Objects</a>.<a class="xref" href="CurseR.Chapter1.Objects.Spike.html">Spike</a></dd></dl>
-  
-  </div>
-
-  <div class="markdown summary"></div>
-  <div class="markdown conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Spike : Object</code></pre>
-  </div>
-
-
-
-
-  <dl class="typelist inheritance">
-    <dt>Inheritance</dt>
-    <dd>
-      <div><span class="xref">object</span></div>
-      <div><a class="xref" href="CurseR.Chapter1.Objects.Object.html">Object</a></div>
-      <div><span class="xref">Spike</span></div>
-    </dd>
-  </dl>
-
-
-
-  <dl class="typelist inheritedMembers">
-    <dt>Inherited Members</dt>
-    <dd>
-    <div>
-      <a class="xref" href="CurseR.Chapter1.Objects.Object.html#CurseR_Chapter1_Objects_Object_useEvent__1_System_Action___0__">Object.useEvent&lt;EventTy&gt;(Action&lt;EventTy&gt;)</a>
-    </div>
-    <div>
-      <a class="xref" href="CurseR.Chapter1.Objects.Object.html#CurseR_Chapter1_Objects_Object_useSound">Object.useSound()</a>
-    </div>
-    <div>
-      <a class="xref" href="CurseR.Chapter1.Objects.Object.html#CurseR_Chapter1_Objects_Object_Init">Object.Init()</a>
-    </div>
-    <div>
-      <a class="xref" href="CurseR.Chapter1.Objects.Object.html#CurseR_Chapter1_Objects_Object_Dispose">Object.Dispose()</a>
-    </div>
-  </dd></dl>
-
-
-
-
-
-
+// 전체 중지
+_sound?.StopAllLoops();
+</code></pre>
+<div class="NOTE">
+<h5>Note</h5>
+<p>같은 키로 <code>PlayLoop()</code>를 중복 호출하면 무시된다.</p>
+</div>
+<h2 id="상속-확장">상속 확장</h2>
+<p>메서드를 <code>override</code>해 동작을 확장할 수 있다.</p>
+<pre><code class="lang-cs">public class ButtonAudioEmitter : AudioEmitter
+{
+    public override void Play(string key)
+    {
+        base.Play(key);
+        // 추가 처리 (예: 파티클 연동)
+    }
+}
+</code></pre>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Chapter1/Objects/Spike/Spike.cs/#L8" class="edit-link">Edit this page</a>
+          <a href="https://github.com/CurseR-Studio/CurseR/blob/develop/Documentation/articles/core/sound/audio_emitter.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
 
       </div>
 
