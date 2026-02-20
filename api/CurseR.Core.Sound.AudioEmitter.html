@@ -191,7 +191,7 @@ Class AudioEmitter  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="CurseR_Core_Sound_AudioEmitter_OnDestroy" data-uid="CurseR.Core.Sound.AudioEmitter.OnDestroy">
   OnDestroy()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Sound/AudioEmitter.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Sound/AudioEmitter.cs/#L156"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -217,10 +217,10 @@ Class AudioEmitter  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="CurseR_Core_Sound_AudioEmitter_Play_System_String_" data-uid="CurseR.Core.Sound.AudioEmitter.Play(System.String)">
   Play(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Sound/AudioEmitter.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Sound/AudioEmitter.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>효과음 재생. 겹쳐서 재생 가능하며 Stop 불가.</p>
+  <div class="markdown level1 summary"><p>효과음 재생. 겹쳐서 재생 가능하며, Stop(key)를 통해 중지 가능.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -249,7 +249,7 @@ Class AudioEmitter  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="CurseR_Core_Sound_AudioEmitter_PlayLoop_System_String_" data-uid="CurseR.Core.Sound.AudioEmitter.PlayLoop(System.String)">
   PlayLoop(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Sound/AudioEmitter.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Sound/AudioEmitter.cs/#L120"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>루프 사운드 시작. 이미 재생 중이면 무시.</p>
@@ -277,11 +277,43 @@ Class AudioEmitter  <a class="header-action link-secondary" title="View source" 
 
 
 
+  <a id="CurseR_Core_Sound_AudioEmitter_Stop_" data-uid="CurseR.Core.Sound.AudioEmitter.Stop*"></a>
+
+  <h3 id="CurseR_Core_Sound_AudioEmitter_Stop_System_String_" data-uid="CurseR.Core.Sound.AudioEmitter.Stop(System.String)">
+  Stop(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Sound/AudioEmitter.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>특정 단발성 사운드 중지.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Stop(string key)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="CurseR_Core_Sound_AudioEmitter_StopAllLoops_" data-uid="CurseR.Core.Sound.AudioEmitter.StopAllLoops*"></a>
 
   <h3 id="CurseR_Core_Sound_AudioEmitter_StopAllLoops" data-uid="CurseR.Core.Sound.AudioEmitter.StopAllLoops">
   StopAllLoops()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Sound/AudioEmitter.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Sound/AudioEmitter.cs/#L149"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>모든 루프 사운드 중지.</p>
@@ -304,11 +336,38 @@ Class AudioEmitter  <a class="header-action link-secondary" title="View source" 
 
 
 
+  <a id="CurseR_Core_Sound_AudioEmitter_StopAllPlays_" data-uid="CurseR.Core.Sound.AudioEmitter.StopAllPlays*"></a>
+
+  <h3 id="CurseR_Core_Sound_AudioEmitter_StopAllPlays" data-uid="CurseR.Core.Sound.AudioEmitter.StopAllPlays">
+  StopAllPlays()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Sound/AudioEmitter.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>모든 단발성 사운드 중지.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void StopAllPlays()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="CurseR_Core_Sound_AudioEmitter_StopLoop_" data-uid="CurseR.Core.Sound.AudioEmitter.StopLoop*"></a>
 
   <h3 id="CurseR_Core_Sound_AudioEmitter_StopLoop_System_String_" data-uid="CurseR.Core.Sound.AudioEmitter.StopLoop(System.String)">
   StopLoop(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Sound/AudioEmitter.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Sound/AudioEmitter.cs/#L137"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>특정 루프 사운드 중지.</p>

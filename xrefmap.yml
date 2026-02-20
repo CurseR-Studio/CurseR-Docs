@@ -2540,6 +2540,22 @@ references:
   isSpec: "True"
   fullName: CurseR.Core.Sound.AudioEmitter.PlayLoop
   nameWithType: AudioEmitter.PlayLoop
+- uid: CurseR.Core.Sound.AudioEmitter.Stop(System.String)
+  name: Stop(string)
+  href: api/CurseR.Core.Sound.AudioEmitter.html#CurseR_Core_Sound_AudioEmitter_Stop_System_String_
+  commentId: M:CurseR.Core.Sound.AudioEmitter.Stop(System.String)
+  name.vb: Stop(String)
+  fullName: CurseR.Core.Sound.AudioEmitter.Stop(string)
+  fullName.vb: CurseR.Core.Sound.AudioEmitter.Stop(String)
+  nameWithType: AudioEmitter.Stop(string)
+  nameWithType.vb: AudioEmitter.Stop(String)
+- uid: CurseR.Core.Sound.AudioEmitter.Stop*
+  name: Stop
+  href: api/CurseR.Core.Sound.AudioEmitter.html#CurseR_Core_Sound_AudioEmitter_Stop_
+  commentId: Overload:CurseR.Core.Sound.AudioEmitter.Stop
+  isSpec: "True"
+  fullName: CurseR.Core.Sound.AudioEmitter.Stop
+  nameWithType: AudioEmitter.Stop
 - uid: CurseR.Core.Sound.AudioEmitter.StopAllLoops
   name: StopAllLoops()
   href: api/CurseR.Core.Sound.AudioEmitter.html#CurseR_Core_Sound_AudioEmitter_StopAllLoops
@@ -2553,6 +2569,19 @@ references:
   isSpec: "True"
   fullName: CurseR.Core.Sound.AudioEmitter.StopAllLoops
   nameWithType: AudioEmitter.StopAllLoops
+- uid: CurseR.Core.Sound.AudioEmitter.StopAllPlays
+  name: StopAllPlays()
+  href: api/CurseR.Core.Sound.AudioEmitter.html#CurseR_Core_Sound_AudioEmitter_StopAllPlays
+  commentId: M:CurseR.Core.Sound.AudioEmitter.StopAllPlays
+  fullName: CurseR.Core.Sound.AudioEmitter.StopAllPlays()
+  nameWithType: AudioEmitter.StopAllPlays()
+- uid: CurseR.Core.Sound.AudioEmitter.StopAllPlays*
+  name: StopAllPlays
+  href: api/CurseR.Core.Sound.AudioEmitter.html#CurseR_Core_Sound_AudioEmitter_StopAllPlays_
+  commentId: Overload:CurseR.Core.Sound.AudioEmitter.StopAllPlays
+  isSpec: "True"
+  fullName: CurseR.Core.Sound.AudioEmitter.StopAllPlays
+  nameWithType: AudioEmitter.StopAllPlays
 - uid: CurseR.Core.Sound.AudioEmitter.StopLoop(System.String)
   name: StopLoop(string)
   href: api/CurseR.Core.Sound.AudioEmitter.html#CurseR_Core_Sound_AudioEmitter_StopLoop_System_String_

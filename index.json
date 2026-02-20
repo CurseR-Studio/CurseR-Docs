@@ -342,7 +342,7 @@
   "api/CurseR.Core.Sound.AudioEmitter.html": {
     "href": "api/CurseR.Core.Sound.AudioEmitter.html",
     "title": "Class AudioEmitter | CurseR",
-    "summary": "Class AudioEmitter Namespace CurseR.Core.Sound public class AudioEmitter : MonoBehaviour Inheritance object AudioEmitter Fields sounds protected SoundEntry[] sounds Field Value SoundEntry[] Methods Awake() protected virtual void Awake() OnDestroy() protected virtual void OnDestroy() Play(string) 효과음 재생. 겹쳐서 재생 가능하며 Stop 불가. public virtual void Play(string key) Parameters key string PlayLoop(string) 루프 사운드 시작. 이미 재생 중이면 무시. public virtual void PlayLoop(string key) Parameters key string StopAllLoops() 모든 루프 사운드 중지. public virtual void StopAllLoops() StopLoop(string) 특정 루프 사운드 중지. public virtual void StopLoop(string key) Parameters key string"
+    "summary": "Class AudioEmitter Namespace CurseR.Core.Sound public class AudioEmitter : MonoBehaviour Inheritance object AudioEmitter Fields sounds protected SoundEntry[] sounds Field Value SoundEntry[] Methods Awake() protected virtual void Awake() OnDestroy() protected virtual void OnDestroy() Play(string) 효과음 재생. 겹쳐서 재생 가능하며, Stop(key)를 통해 중지 가능. public virtual void Play(string key) Parameters key string PlayLoop(string) 루프 사운드 시작. 이미 재생 중이면 무시. public virtual void PlayLoop(string key) Parameters key string Stop(string) 특정 단발성 사운드 중지. public virtual void Stop(string key) Parameters key string StopAllLoops() 모든 루프 사운드 중지. public virtual void StopAllLoops() StopAllPlays() 모든 단발성 사운드 중지. public virtual void StopAllPlays() StopLoop(string) 특정 루프 사운드 중지. public virtual void StopLoop(string key) Parameters key string"
   },
   "api/CurseR.Core.Sound.AudioSourcePool.html": {
     "href": "api/CurseR.Core.Sound.AudioSourcePool.html",
