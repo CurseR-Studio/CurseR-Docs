@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class CutSceneManager | CurseR </title>
+      <title>Class DialogBubble | CurseR </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class CutSceneManager | CurseR ">
+      <meta name="title" content="Class DialogBubble | CurseR ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/CurseR-Studio/CurseR/new/develop/apiSpec/new?filename=CurseR_Core_CutScene_CutSceneManager.md&amp;value=---%0Auid%3A%20CurseR.Core.CutScene.CutSceneManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/CurseR-Studio/CurseR/new/develop/apiSpec/new?filename=CurseR_Core_Conversation_DialogBubble.md&amp;value=---%0Auid%3A%20CurseR.Core.Conversation.DialogBubble%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,16 +84,16 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="CurseR.Core.CutScene.CutSceneManager">
+        <article data-uid="CurseR.Core.Conversation.DialogBubble">
 
 
 
-  <h1 id="CurseR_Core_CutScene_CutSceneManager" data-uid="CurseR.Core.CutScene.CutSceneManager" class="text-break">
-Class CutSceneManager  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/CutScene/CutSceneManager.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <h1 id="CurseR_Core_Conversation_DialogBubble" data-uid="CurseR.Core.Conversation.DialogBubble" class="text-break">
+Class DialogBubble  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Conversation/DialogBubble.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="CurseR.html">CurseR</a>.<a class="xref" href="CurseR.Core.html">Core</a>.<a class="xref" href="CurseR.Core.CutScene.html">CutScene</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CurseR.html">CurseR</a>.<a class="xref" href="CurseR.Core.html">Core</a>.<a class="xref" href="CurseR.Core.Conversation.html">Conversation</a></dd></dl>
   
   </div>
 
@@ -101,7 +101,7 @@ Class CutSceneManager  <a class="header-action link-secondary" title="View sourc
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CutSceneManager : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class DialogBubble : DialogBubbleBase</code></pre>
   </div>
 
 
@@ -111,47 +111,23 @@ Class CutSceneManager  <a class="header-action link-secondary" title="View sourc
     <dt>Inheritance</dt>
     <dd>
       <div><span class="xref">object</span></div>
-      <div><span class="xref">CutSceneManager</span></div>
+      <div><a class="xref" href="CurseR.Core.Conversation.DialogBubbleBase.html">DialogBubbleBase</a></div>
+      <div><span class="xref">DialogBubble</span></div>
     </dd>
   </dl>
 
 
 
-
-
-
-
-
-
-  <h2 class="section" id="properties">Properties
-</h2>
-
-
-  <a id="CurseR_Core_CutScene_CutSceneManager_IsPlaying_" data-uid="CurseR.Core.CutScene.CutSceneManager.IsPlaying*"></a>
-
-  <h3 id="CurseR_Core_CutScene_CutSceneManager_IsPlaying" data-uid="CurseR.Core.CutScene.CutSceneManager.IsPlaying">
-  IsPlaying
-  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/CutScene/CutSceneManager.cs/#L33"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsPlaying { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">bool</span></dt>
-    <dd></dd>
-  </dl>
-
-
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="CurseR.Core.Conversation.DialogBubbleBase.html#CurseR_Core_Conversation_DialogBubbleBase__text">DialogBubbleBase._text</a>
+    </div>
+    <div>
+      <a class="xref" href="CurseR.Core.Conversation.DialogBubbleBase.html#CurseR_Core_Conversation_DialogBubbleBase_SetDirection_System_Boolean_">DialogBubbleBase.SetDirection(bool)</a>
+    </div>
+  </dd></dl>
 
 
 
@@ -162,25 +138,51 @@ Class CutSceneManager  <a class="header-action link-secondary" title="View sourc
 </h2>
 
 
-  <a id="CurseR_Core_CutScene_CutSceneManager_PlayCutScene_" data-uid="CurseR.Core.CutScene.CutSceneManager.PlayCutScene*"></a>
+  <a id="CurseR_Core_Conversation_DialogBubble_Disable_" data-uid="CurseR.Core.Conversation.DialogBubble.Disable*"></a>
 
-  <h3 id="CurseR_Core_CutScene_CutSceneManager_PlayCutScene_CurseR_Core_CutScene_CutSceneData_System_Boolean_" data-uid="CurseR.Core.CutScene.CutSceneManager.PlayCutScene(CurseR.Core.CutScene.CutSceneData,System.Boolean)">
-  PlayCutScene(CutSceneData, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/CutScene/CutSceneManager.cs/#L274"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CurseR_Core_Conversation_DialogBubble_Disable" data-uid="CurseR.Core.Conversation.DialogBubble.Disable">
+  Disable()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Conversation/DialogBubble.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void PlayCutScene(CutSceneData cutScene, bool interrupt = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Disable()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CurseR_Core_Conversation_DialogBubble_ShowText_" data-uid="CurseR.Core.Conversation.DialogBubble.ShowText*"></a>
+
+  <h3 id="CurseR_Core_Conversation_DialogBubble_ShowText_System_String_System_Action_" data-uid="CurseR.Core.Conversation.DialogBubble.ShowText(System.String,System.Action)">
+  ShowText(string, Action)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Conversation/DialogBubble.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void ShowText(string text, Action onComplete = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>cutScene</code> <a class="xref" href="CurseR.Core.CutScene.CutSceneData.html">CutSceneData</a></dt>
+    <dt><code>text</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>interrupt</code> <span class="xref">bool</span></dt>
+    <dt><code>onComplete</code> <span class="xref">Action</span></dt>
     <dd></dd>
   </dl>
 
@@ -195,27 +197,46 @@ Class CutSceneManager  <a class="header-action link-secondary" title="View sourc
 
 
 
-  <a id="CurseR_Core_CutScene_CutSceneManager_RegisterDialogBubble_" data-uid="CurseR.Core.CutScene.CutSceneManager.RegisterDialogBubble*"></a>
+  <a id="CurseR_Core_Conversation_DialogBubble_SkipTyping_" data-uid="CurseR.Core.Conversation.DialogBubble.SkipTyping*"></a>
 
-  <h3 id="CurseR_Core_CutScene_CutSceneManager_RegisterDialogBubble_CurseR_Core_CutScene_Conversation_DialogSpeaker_CurseR_Core_Conversation_DialogBubble_" data-uid="CurseR.Core.CutScene.CutSceneManager.RegisterDialogBubble(CurseR.Core.CutScene.Conversation.DialogSpeaker,CurseR.Core.Conversation.DialogBubble)">
-  RegisterDialogBubble(DialogSpeaker, DialogBubble)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/CutScene/CutSceneManager.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CurseR_Core_Conversation_DialogBubble_SkipTyping" data-uid="CurseR.Core.Conversation.DialogBubble.SkipTyping">
+  SkipTyping()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Conversation/DialogBubble.cs/#L63"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RegisterDialogBubble(DialogSpeaker speaker, DialogBubble bubble)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SkipTyping()</code></pre>
   </div>
 
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>speaker</code> <a class="xref" href="CurseR.Core.CutScene.Conversation.DialogSpeaker.html">DialogSpeaker</a></dt>
-    <dd></dd>
-    <dt><code>bubble</code> <a class="xref" href="CurseR.Core.Conversation.DialogBubble.html">DialogBubble</a></dt>
-    <dd></dd>
-  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CurseR_Core_Conversation_DialogBubble_Start_" data-uid="CurseR.Core.Conversation.DialogBubble.Start*"></a>
+
+  <h3 id="CurseR_Core_Conversation_DialogBubble_Start" data-uid="CurseR.Core.Conversation.DialogBubble.Start">
+  Start()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Conversation/DialogBubble.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Start()</code></pre>
+  </div>
+
 
 
 
@@ -232,7 +253,7 @@ Class CutSceneManager  <a class="header-action link-secondary" title="View sourc
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/CutScene/CutSceneManager.cs/#L18" class="edit-link">Edit this page</a>
+          <a href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Conversation/DialogBubble.cs/#L9" class="edit-link">Edit this page</a>
         </div>
 
 

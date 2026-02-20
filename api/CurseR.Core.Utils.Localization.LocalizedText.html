@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class CutSceneManager | CurseR </title>
+      <title>Class LocalizedText | CurseR </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class CutSceneManager | CurseR ">
+      <meta name="title" content="Class LocalizedText | CurseR ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/CurseR-Studio/CurseR/new/develop/apiSpec/new?filename=CurseR_Core_CutScene_CutSceneManager.md&amp;value=---%0Auid%3A%20CurseR.Core.CutScene.CutSceneManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/CurseR-Studio/CurseR/new/develop/apiSpec/new?filename=CurseR_Core_Utils_Localization_LocalizedText.md&amp;value=---%0Auid%3A%20CurseR.Core.Utils.Localization.LocalizedText%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,16 +84,16 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="CurseR.Core.CutScene.CutSceneManager">
+        <article data-uid="CurseR.Core.Utils.Localization.LocalizedText">
 
 
 
-  <h1 id="CurseR_Core_CutScene_CutSceneManager" data-uid="CurseR.Core.CutScene.CutSceneManager" class="text-break">
-Class CutSceneManager  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/CutScene/CutSceneManager.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <h1 id="CurseR_Core_Utils_Localization_LocalizedText" data-uid="CurseR.Core.Utils.Localization.LocalizedText" class="text-break">
+Class LocalizedText  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/Localization/LocalizedText.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="CurseR.html">CurseR</a>.<a class="xref" href="CurseR.Core.html">Core</a>.<a class="xref" href="CurseR.Core.CutScene.html">CutScene</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CurseR.html">CurseR</a>.<a class="xref" href="CurseR.Core.html">Core</a>.<a class="xref" href="CurseR.Core.Utils.html">Utils</a>.<a class="xref" href="CurseR.Core.Utils.Localization.html">Localization</a></dd></dl>
   
   </div>
 
@@ -101,7 +101,7 @@ Class CutSceneManager  <a class="header-action link-secondary" title="View sourc
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CutSceneManager : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class LocalizedText : MonoBehaviour</code></pre>
   </div>
 
 
@@ -111,45 +111,10 @@ Class CutSceneManager  <a class="header-action link-secondary" title="View sourc
     <dt>Inheritance</dt>
     <dd>
       <div><span class="xref">object</span></div>
-      <div><span class="xref">CutSceneManager</span></div>
+      <div><span class="xref">LocalizedText</span></div>
     </dd>
   </dl>
 
-
-
-
-
-
-
-
-
-  <h2 class="section" id="properties">Properties
-</h2>
-
-
-  <a id="CurseR_Core_CutScene_CutSceneManager_IsPlaying_" data-uid="CurseR.Core.CutScene.CutSceneManager.IsPlaying*"></a>
-
-  <h3 id="CurseR_Core_CutScene_CutSceneManager_IsPlaying" data-uid="CurseR.Core.CutScene.CutSceneManager.IsPlaying">
-  IsPlaying
-  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/CutScene/CutSceneManager.cs/#L33"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsPlaying { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">bool</span></dt>
-    <dd></dd>
-  </dl>
 
 
 
@@ -162,58 +127,52 @@ Class CutSceneManager  <a class="header-action link-secondary" title="View sourc
 </h2>
 
 
-  <a id="CurseR_Core_CutScene_CutSceneManager_PlayCutScene_" data-uid="CurseR.Core.CutScene.CutSceneManager.PlayCutScene*"></a>
+  <a id="CurseR_Core_Utils_Localization_LocalizedText_ApplyLocalization_" data-uid="CurseR.Core.Utils.Localization.LocalizedText.ApplyLocalization*"></a>
 
-  <h3 id="CurseR_Core_CutScene_CutSceneManager_PlayCutScene_CurseR_Core_CutScene_CutSceneData_System_Boolean_" data-uid="CurseR.Core.CutScene.CutSceneManager.PlayCutScene(CurseR.Core.CutScene.CutSceneData,System.Boolean)">
-  PlayCutScene(CutSceneData, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/CutScene/CutSceneManager.cs/#L274"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CurseR_Core_Utils_Localization_LocalizedText_ApplyLocalization" data-uid="CurseR.Core.Utils.Localization.LocalizedText.ApplyLocalization">
+  ApplyLocalization()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/Localization/LocalizedText.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>설정된 키 형식(테이블:키)을 기반으로 다운로드된 테이블을 찾아 로컬라이징 텍스트를 적용합니다.
+(테이블은 이미 로드되어 있다고 가정합니다)</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void PlayCutScene(CutSceneData cutScene, bool interrupt = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public void ApplyLocalization()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CurseR_Core_Utils_Localization_LocalizedText_SetKey_" data-uid="CurseR.Core.Utils.Localization.LocalizedText.SetKey*"></a>
+
+  <h3 id="CurseR_Core_Utils_Localization_LocalizedText_SetKey_System_String_" data-uid="CurseR.Core.Utils.Localization.LocalizedText.SetKey(System.String)">
+  SetKey(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/Localization/LocalizedText.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>런타임 중에 키를 변경하면서 텍스트를 업데이트할 때 사용합니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetKey(string newKey)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>cutScene</code> <a class="xref" href="CurseR.Core.CutScene.CutSceneData.html">CutSceneData</a></dt>
-    <dd></dd>
-    <dt><code>interrupt</code> <span class="xref">bool</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="CurseR_Core_CutScene_CutSceneManager_RegisterDialogBubble_" data-uid="CurseR.Core.CutScene.CutSceneManager.RegisterDialogBubble*"></a>
-
-  <h3 id="CurseR_Core_CutScene_CutSceneManager_RegisterDialogBubble_CurseR_Core_CutScene_Conversation_DialogSpeaker_CurseR_Core_Conversation_DialogBubble_" data-uid="CurseR.Core.CutScene.CutSceneManager.RegisterDialogBubble(CurseR.Core.CutScene.Conversation.DialogSpeaker,CurseR.Core.Conversation.DialogBubble)">
-  RegisterDialogBubble(DialogSpeaker, DialogBubble)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/CutScene/CutSceneManager.cs/#L77"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RegisterDialogBubble(DialogSpeaker speaker, DialogBubble bubble)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>speaker</code> <a class="xref" href="CurseR.Core.CutScene.Conversation.DialogSpeaker.html">DialogSpeaker</a></dt>
-    <dd></dd>
-    <dt><code>bubble</code> <a class="xref" href="CurseR.Core.Conversation.DialogBubble.html">DialogBubble</a></dt>
+    <dt><code>newKey</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -232,7 +191,7 @@ Class CutSceneManager  <a class="header-action link-secondary" title="View sourc
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/CutScene/CutSceneManager.cs/#L18" class="edit-link">Edit this page</a>
+          <a href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/Localization/LocalizedText.cs/#L6" class="edit-link">Edit this page</a>
         </div>
 
 

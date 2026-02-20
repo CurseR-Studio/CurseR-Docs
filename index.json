@@ -174,6 +174,16 @@
     "title": "Class AbstractChapterManager | CurseR",
     "summary": "Class AbstractChapterManager Namespace CurseR.Core public abstract class AbstractChapterManager : MonoBehaviour Inheritance object AbstractChapterManager Derived ChapterManager1 Fields _playedCutScenes protected HashSet<string> _playedCutScenes Field Value HashSet<string> Properties CheckPoint public WorldPoint CheckPoint { get; protected set; } Property Value WorldPoint CurrentChapter public virtual int CurrentChapter { get; } Property Value int Methods Dispose() protected virtual void Dispose() Init() protected virtual void Init() IsCutScenePlayed(CutSceneData) 재생된 적 있는 컷씬인지 판별 public bool IsCutScenePlayed(CutSceneData cutScene) Parameters cutScene CutSceneData 컷씬 데이터 Returns bool 재생 여부 RestartFromCheckPoint() 마지막으로 저장된 체크포인트로부터 재시작 public IEnumerator RestartFromCheckPoint() Returns IEnumerator SetCheckPoint(CheckPoint) CheckPoint 컴포넌트로 체크포인트를 설정함. public void SetCheckPoint(CheckPoint checkPoint) Parameters checkPoint CheckPoint CheckPoint 컴포넌트 SetCheckPoint(Vector2) 월드 좌표 기준으로 체크포인트 지정. 현재 활성화 씬에 체크포인트가 존재하는 것으로 처리함. public void SetCheckPoint(Vector2 worldPos) Parameters worldPos Vector2 월드 좌표 SetCutScenePlayed(CutSceneData, bool) 특정 컷씬의 재생 여부를 설정함. public void SetCutScenePlayed(CutSceneData cutScene, bool isPlayed = true) Parameters cutScene CutSceneData 컷씬 데이터 isPlayed bool 재생 여부"
   },
+  "api/CurseR.Core.Bootstrap.GameBootstrap.html": {
+    "href": "api/CurseR.Core.Bootstrap.GameBootstrap.html",
+    "title": "Class GameBootstrap | CurseR",
+    "summary": "Class GameBootstrap Namespace CurseR.Core.Bootstrap public class GameBootstrap : MonoBehaviour Inheritance object GameBootstrap"
+  },
+  "api/CurseR.Core.Bootstrap.html": {
+    "href": "api/CurseR.Core.Bootstrap.html",
+    "title": "Namespace CurseR.Core.Bootstrap | CurseR",
+    "summary": "Namespace CurseR.Core.Bootstrap Classes GameBootstrap"
+  },
   "api/CurseR.Core.Camera.CameraBounds.html": {
     "href": "api/CurseR.Core.Camera.CameraBounds.html",
     "title": "Class CameraBounds | CurseR",
@@ -193,6 +203,31 @@
     "href": "api/CurseR.Core.Camera.html",
     "title": "Namespace CurseR.Core.Camera | CurseR",
     "summary": "Namespace CurseR.Core.Camera Classes CameraBounds MainCamera VirtualCamera"
+  },
+  "api/CurseR.Core.Conversation.DialogBubble.html": {
+    "href": "api/CurseR.Core.Conversation.DialogBubble.html",
+    "title": "Class DialogBubble | CurseR",
+    "summary": "Class DialogBubble Namespace CurseR.Core.Conversation public class DialogBubble : DialogBubbleBase Inheritance object DialogBubbleBase DialogBubble Inherited Members DialogBubbleBase._text DialogBubbleBase.SetDirection(bool) Methods Disable() public override void Disable() ShowText(string, Action) public override void ShowText(string text, Action onComplete = null) Parameters text string onComplete Action SkipTyping() public void SkipTyping() Start() protected override void Start()"
+  },
+  "api/CurseR.Core.Conversation.DialogBubbleBase.html": {
+    "href": "api/CurseR.Core.Conversation.DialogBubbleBase.html",
+    "title": "Class DialogBubbleBase | CurseR",
+    "summary": "Class DialogBubbleBase Namespace CurseR.Core.Conversation public abstract class DialogBubbleBase : MonoBehaviour Inheritance object DialogBubbleBase Derived DialogBubble NPCDialogBubble Fields _text protected TMP_Text _text Field Value TMP_Text Methods Disable() public virtual void Disable() SetDirection(bool) public void SetDirection(bool isRight) Parameters isRight bool ShowText(string, Action) public abstract void ShowText(string text, Action onComplete = null) Parameters text string onComplete Action Start() protected virtual void Start()"
+  },
+  "api/CurseR.Core.Conversation.NPCConversation.html": {
+    "href": "api/CurseR.Core.Conversation.NPCConversation.html",
+    "title": "Class NPCConversation | CurseR",
+    "summary": "Class NPCConversation Namespace CurseR.Core.Conversation public class NPCConversation : MonoBehaviour Inheritance object NPCConversation Methods Stop() public void Stop()"
+  },
+  "api/CurseR.Core.Conversation.NPCDialogBubble.html": {
+    "href": "api/CurseR.Core.Conversation.NPCDialogBubble.html",
+    "title": "Class NPCDialogBubble | CurseR",
+    "summary": "Class NPCDialogBubble Namespace CurseR.Core.Conversation public class NPCDialogBubble : DialogBubbleBase Inheritance object DialogBubbleBase NPCDialogBubble Inherited Members DialogBubbleBase._text DialogBubbleBase.Start() DialogBubbleBase.SetDirection(bool) DialogBubbleBase.Disable() Methods ShowText(string, Action) public override void ShowText(string text, Action onComplete = null) Parameters text string onComplete Action"
+  },
+  "api/CurseR.Core.Conversation.html": {
+    "href": "api/CurseR.Core.Conversation.html",
+    "title": "Namespace CurseR.Core.Conversation | CurseR",
+    "summary": "Namespace CurseR.Core.Conversation Classes DialogBubble DialogBubbleBase NPCConversation NPCDialogBubble"
   },
   "api/CurseR.Core.CutScene.Camera.CameraMoveData.html": {
     "href": "api/CurseR.Core.CutScene.Camera.CameraMoveData.html",
@@ -219,11 +254,6 @@
     "title": "Class ConversationSequence | CurseR",
     "summary": "Class ConversationSequence Namespace CurseR.Core.CutScene.Conversation [Serializable] public class ConversationSequence : CutSceneSequence Inheritance object CutSceneSequence ConversationSequence Inherited Members CutSceneSequence.Enabled Constructors ConversationSequence() public ConversationSequence() ConversationSequence(List<DialogData>) public ConversationSequence(List<DialogData> dialogs) Parameters dialogs List<DialogData> Properties Dialogs public List<DialogData> Dialogs { get; } Property Value List<DialogData> SequenceType public override SequenceType SequenceType { get; } Property Value SequenceType Methods AddDialog(DialogData) public void AddDialog(DialogData dialog) Parameters dialog DialogData"
   },
-  "api/CurseR.Core.CutScene.Conversation.DialogBubble.html": {
-    "href": "api/CurseR.Core.CutScene.Conversation.DialogBubble.html",
-    "title": "Class DialogBubble | CurseR",
-    "summary": "Class DialogBubble Namespace CurseR.Core.CutScene.Conversation public class DialogBubble : MonoBehaviour Inheritance object DialogBubble Methods Disable() public void Disable() SetDirection(bool) public void SetDirection(bool isRight) Parameters isRight bool ShowText(string, Action) public void ShowText(string text, Action onComplete = null) Parameters text string onComplete Action SkipTyping() public void SkipTyping()"
-  },
   "api/CurseR.Core.CutScene.Conversation.DialogData.html": {
     "href": "api/CurseR.Core.CutScene.Conversation.DialogData.html",
     "title": "Class DialogData | CurseR",
@@ -237,7 +267,7 @@
   "api/CurseR.Core.CutScene.Conversation.html": {
     "href": "api/CurseR.Core.CutScene.Conversation.html",
     "title": "Namespace CurseR.Core.CutScene.Conversation | CurseR",
-    "summary": "Namespace CurseR.Core.CutScene.Conversation Classes ConversationSequence DialogBubble DialogData Enums DialogSpeaker"
+    "summary": "Namespace CurseR.Core.CutScene.Conversation Classes ConversationSequence DialogData Enums DialogSpeaker"
   },
   "api/CurseR.Core.CutScene.CutSceneData.html": {
     "href": "api/CurseR.Core.CutScene.CutSceneData.html",
@@ -374,6 +404,31 @@
     "title": "Class HistoryValue<T> | CurseR",
     "summary": "Class HistoryValue<T> Namespace CurseR.Core.Utils 과거 값을 내부적으로 캐싱 public class HistoryValue<T> Type Parameters T 데이터 타입 Inheritance object HistoryValue<T> Constructors HistoryValue(int) 캐싱할 과거 기록 개수 public HistoryValue(int maxSize) Parameters maxSize int HistoryValue(T, int) public HistoryValue(T value, int maxSize) Parameters value T maxSize int Properties this[int] public T this[int time] { get; } Parameters time int Property Value T MaxSize public int MaxSize { get; } Property Value int Methods AtTime(int) time 시점의 값 가져오기. public T AtTime(int time) Parameters time int 가져올 시점. 0은 현재, 1,2,3...은 과거 Returns T Delta<U>(Func<T, T, U>) public U Delta<U>(Func<T, T, U> calculator) Parameters calculator Func<T, T, U> Returns U Type Parameters U Set(T) public void Set(T value) Parameters value T Operators operator +(HistoryValue<T>, T) public static HistoryValue<T> operator +(HistoryValue<T> history, T value) Parameters history HistoryValue<T> value T Returns HistoryValue<T> implicit operator T(HistoryValue<T>) public static implicit operator T(HistoryValue<T> history) Parameters history HistoryValue<T> Returns T"
   },
+  "api/CurseR.Core.Utils.Localization.LocalizationManager.html": {
+    "href": "api/CurseR.Core.Utils.Localization.LocalizationManager.html",
+    "title": "Class LocalizationManager | CurseR",
+    "summary": "Class LocalizationManager Namespace CurseR.Core.Utils.Localization public static class LocalizationManager Inheritance object LocalizationManager Properties CurrentLanguage public static string CurrentLanguage { get; set; } Property Value string Methods ClearCache() public static void ClearCache() GetString(string, string) 동기식 방식이 아닌 비동기 로드 이후(LoadTableAsync 호출 후) 값을 꺼내올 때 사용합니다. 이미 로드되었다고 가정한 후 반환합니다. 아직 안 불려왔을 때는 tableName_key 를 반환합니다. public static string GetString(string tableName, string key) Parameters tableName string key string Returns string LoadTableAsync(string, Action<bool>) 테이블(JSON 파일) 로드를 비동기로 요청합니다. 먼저 호출해두고 완료 콜백을 받을 수 있습니다. public static void LoadTableAsync(string tableName, Action<bool> onComplete = null) Parameters tableName string onComplete Action<bool> Events OnLanguageChanged public static event Action OnLanguageChanged Event Type Action"
+  },
+  "api/CurseR.Core.Utils.Localization.LocalizationSettingsData.html": {
+    "href": "api/CurseR.Core.Utils.Localization.LocalizationSettingsData.html",
+    "title": "Class LocalizationSettingsData | CurseR",
+    "summary": "Class LocalizationSettingsData Namespace CurseR.Core.Utils.Localization [Serializable] public class LocalizationSettingsData Inheritance object LocalizationSettingsData Fields BaseUrl public string BaseUrl Field Value string OutputFolderPath public string OutputFolderPath Field Value string sheets public List<LocalizationSheetConfig> sheets Field Value List<LocalizationSheetConfig>"
+  },
+  "api/CurseR.Core.Utils.Localization.LocalizationSheetConfig.html": {
+    "href": "api/CurseR.Core.Utils.Localization.LocalizationSheetConfig.html",
+    "title": "Class LocalizationSheetConfig | CurseR",
+    "summary": "Class LocalizationSheetConfig Namespace CurseR.Core.Utils.Localization [Serializable] public class LocalizationSheetConfig Inheritance object LocalizationSheetConfig Fields Gid public string Gid Field Value string TableName public string TableName Field Value string"
+  },
+  "api/CurseR.Core.Utils.Localization.LocalizedText.html": {
+    "href": "api/CurseR.Core.Utils.Localization.LocalizedText.html",
+    "title": "Class LocalizedText | CurseR",
+    "summary": "Class LocalizedText Namespace CurseR.Core.Utils.Localization public class LocalizedText : MonoBehaviour Inheritance object LocalizedText Methods ApplyLocalization() 설정된 키 형식(테이블:키)을 기반으로 다운로드된 테이블을 찾아 로컬라이징 텍스트를 적용합니다. (테이블은 이미 로드되어 있다고 가정합니다) public void ApplyLocalization() SetKey(string) 런타임 중에 키를 변경하면서 텍스트를 업데이트할 때 사용합니다. public void SetKey(string newKey) Parameters newKey string"
+  },
+  "api/CurseR.Core.Utils.Localization.html": {
+    "href": "api/CurseR.Core.Utils.Localization.html",
+    "title": "Namespace CurseR.Core.Utils.Localization | CurseR",
+    "summary": "Namespace CurseR.Core.Utils.Localization Classes LocalizationManager LocalizationSettingsData LocalizationSheetConfig LocalizedText"
+  },
   "api/CurseR.Core.Utils.PriorityQueue-2.html": {
     "href": "api/CurseR.Core.Utils.PriorityQueue-2.html",
     "title": "Class PriorityQueue<TElement, TPriority> | CurseR",
@@ -422,12 +477,12 @@
   "api/CurseR.Core.Utils.html": {
     "href": "api/CurseR.Core.Utils.html",
     "title": "Namespace CurseR.Core.Utils | CurseR",
-    "summary": "Namespace CurseR.Core.Utils Classes HistoryValue<T> 과거 값을 내부적으로 캐싱 PriorityQueue<TElement, TPriority> Min-heap based priority queue implementation Lower priority values are dequeued first SharedFlag SharedFlag.Handle TextAssetExtensionFilterAttribute TextAsset 필드에 특정 확장자만 허용하도록 필터링하는 어트리뷰트 Utils WaitForAtLeastSeconds 시작 시점으로부터 최소 대기 시간 보장 WaitForSecondsWithCancel 중간 취소 가능한 WaitForSeconds WaitUntilWithCancel 중간 취소 가능한 WaitUntil Structs WorldPoint Enums Direction"
+    "summary": "Namespace CurseR.Core.Utils Namespaces CurseR.Core.Utils.Localization Classes HistoryValue<T> 과거 값을 내부적으로 캐싱 PriorityQueue<TElement, TPriority> Min-heap based priority queue implementation Lower priority values are dequeued first SharedFlag SharedFlag.Handle TextAssetExtensionFilterAttribute TextAsset 필드에 특정 확장자만 허용하도록 필터링하는 어트리뷰트 Utils WaitForAtLeastSeconds 시작 시점으로부터 최소 대기 시간 보장 WaitForSecondsWithCancel 중간 취소 가능한 WaitForSeconds WaitUntilWithCancel 중간 취소 가능한 WaitUntil Structs WorldPoint Enums Direction"
   },
   "api/CurseR.Core.html": {
     "href": "api/CurseR.Core.html",
     "title": "Namespace CurseR.Core | CurseR",
-    "summary": "Namespace CurseR.Core Namespaces CurseR.Core.Camera CurseR.Core.CutScene CurseR.Core.Player CurseR.Core.Scene CurseR.Core.Sound CurseR.Core.Utils Classes AbstractChapterManager GameEvent GameEventBus GameServices TransitionManager"
+    "summary": "Namespace CurseR.Core Namespaces CurseR.Core.Bootstrap CurseR.Core.Camera CurseR.Core.Conversation CurseR.Core.CutScene CurseR.Core.Player CurseR.Core.Scene CurseR.Core.Sound CurseR.Core.Utils Classes AbstractChapterManager GameEvent GameEventBus GameServices TransitionManager"
   },
   "api/CurseR.html": {
     "href": "api/CurseR.html",

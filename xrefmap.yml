@@ -1050,6 +1050,18 @@ references:
   commentId: F:CurseR.Core.AbstractChapterManager._playedCutScenes
   fullName: CurseR.Core.AbstractChapterManager._playedCutScenes
   nameWithType: AbstractChapterManager._playedCutScenes
+- uid: CurseR.Core.Bootstrap
+  name: CurseR.Core.Bootstrap
+  href: api/CurseR.Core.Bootstrap.html
+  commentId: N:CurseR.Core.Bootstrap
+  fullName: CurseR.Core.Bootstrap
+  nameWithType: CurseR.Core.Bootstrap
+- uid: CurseR.Core.Bootstrap.GameBootstrap
+  name: GameBootstrap
+  href: api/CurseR.Core.Bootstrap.GameBootstrap.html
+  commentId: T:CurseR.Core.Bootstrap.GameBootstrap
+  fullName: CurseR.Core.Bootstrap.GameBootstrap
+  nameWithType: GameBootstrap
 - uid: CurseR.Core.Camera
   name: CurseR.Core.Camera
   href: api/CurseR.Core.Camera.html
@@ -1103,6 +1115,184 @@ references:
   isSpec: "True"
   fullName: CurseR.Core.Camera.VirtualCamera.Shake
   nameWithType: VirtualCamera.Shake
+- uid: CurseR.Core.Conversation
+  name: CurseR.Core.Conversation
+  href: api/CurseR.Core.Conversation.html
+  commentId: N:CurseR.Core.Conversation
+  fullName: CurseR.Core.Conversation
+  nameWithType: CurseR.Core.Conversation
+- uid: CurseR.Core.Conversation.DialogBubble
+  name: DialogBubble
+  href: api/CurseR.Core.Conversation.DialogBubble.html
+  commentId: T:CurseR.Core.Conversation.DialogBubble
+  fullName: CurseR.Core.Conversation.DialogBubble
+  nameWithType: DialogBubble
+- uid: CurseR.Core.Conversation.DialogBubble.Disable
+  name: Disable()
+  href: api/CurseR.Core.Conversation.DialogBubble.html#CurseR_Core_Conversation_DialogBubble_Disable
+  commentId: M:CurseR.Core.Conversation.DialogBubble.Disable
+  fullName: CurseR.Core.Conversation.DialogBubble.Disable()
+  nameWithType: DialogBubble.Disable()
+- uid: CurseR.Core.Conversation.DialogBubble.Disable*
+  name: Disable
+  href: api/CurseR.Core.Conversation.DialogBubble.html#CurseR_Core_Conversation_DialogBubble_Disable_
+  commentId: Overload:CurseR.Core.Conversation.DialogBubble.Disable
+  isSpec: "True"
+  fullName: CurseR.Core.Conversation.DialogBubble.Disable
+  nameWithType: DialogBubble.Disable
+- uid: CurseR.Core.Conversation.DialogBubble.ShowText(System.String,System.Action)
+  name: ShowText(string, Action)
+  href: api/CurseR.Core.Conversation.DialogBubble.html#CurseR_Core_Conversation_DialogBubble_ShowText_System_String_System_Action_
+  commentId: M:CurseR.Core.Conversation.DialogBubble.ShowText(System.String,System.Action)
+  name.vb: ShowText(String, Action)
+  fullName: CurseR.Core.Conversation.DialogBubble.ShowText(string, System.Action)
+  fullName.vb: CurseR.Core.Conversation.DialogBubble.ShowText(String, System.Action)
+  nameWithType: DialogBubble.ShowText(string, Action)
+  nameWithType.vb: DialogBubble.ShowText(String, Action)
+- uid: CurseR.Core.Conversation.DialogBubble.ShowText*
+  name: ShowText
+  href: api/CurseR.Core.Conversation.DialogBubble.html#CurseR_Core_Conversation_DialogBubble_ShowText_
+  commentId: Overload:CurseR.Core.Conversation.DialogBubble.ShowText
+  isSpec: "True"
+  fullName: CurseR.Core.Conversation.DialogBubble.ShowText
+  nameWithType: DialogBubble.ShowText
+- uid: CurseR.Core.Conversation.DialogBubble.SkipTyping
+  name: SkipTyping()
+  href: api/CurseR.Core.Conversation.DialogBubble.html#CurseR_Core_Conversation_DialogBubble_SkipTyping
+  commentId: M:CurseR.Core.Conversation.DialogBubble.SkipTyping
+  fullName: CurseR.Core.Conversation.DialogBubble.SkipTyping()
+  nameWithType: DialogBubble.SkipTyping()
+- uid: CurseR.Core.Conversation.DialogBubble.SkipTyping*
+  name: SkipTyping
+  href: api/CurseR.Core.Conversation.DialogBubble.html#CurseR_Core_Conversation_DialogBubble_SkipTyping_
+  commentId: Overload:CurseR.Core.Conversation.DialogBubble.SkipTyping
+  isSpec: "True"
+  fullName: CurseR.Core.Conversation.DialogBubble.SkipTyping
+  nameWithType: DialogBubble.SkipTyping
+- uid: CurseR.Core.Conversation.DialogBubble.Start
+  name: Start()
+  href: api/CurseR.Core.Conversation.DialogBubble.html#CurseR_Core_Conversation_DialogBubble_Start
+  commentId: M:CurseR.Core.Conversation.DialogBubble.Start
+  fullName: CurseR.Core.Conversation.DialogBubble.Start()
+  nameWithType: DialogBubble.Start()
+- uid: CurseR.Core.Conversation.DialogBubble.Start*
+  name: Start
+  href: api/CurseR.Core.Conversation.DialogBubble.html#CurseR_Core_Conversation_DialogBubble_Start_
+  commentId: Overload:CurseR.Core.Conversation.DialogBubble.Start
+  isSpec: "True"
+  fullName: CurseR.Core.Conversation.DialogBubble.Start
+  nameWithType: DialogBubble.Start
+- uid: CurseR.Core.Conversation.DialogBubbleBase
+  name: DialogBubbleBase
+  href: api/CurseR.Core.Conversation.DialogBubbleBase.html
+  commentId: T:CurseR.Core.Conversation.DialogBubbleBase
+  fullName: CurseR.Core.Conversation.DialogBubbleBase
+  nameWithType: DialogBubbleBase
+- uid: CurseR.Core.Conversation.DialogBubbleBase.Disable
+  name: Disable()
+  href: api/CurseR.Core.Conversation.DialogBubbleBase.html#CurseR_Core_Conversation_DialogBubbleBase_Disable
+  commentId: M:CurseR.Core.Conversation.DialogBubbleBase.Disable
+  fullName: CurseR.Core.Conversation.DialogBubbleBase.Disable()
+  nameWithType: DialogBubbleBase.Disable()
+- uid: CurseR.Core.Conversation.DialogBubbleBase.Disable*
+  name: Disable
+  href: api/CurseR.Core.Conversation.DialogBubbleBase.html#CurseR_Core_Conversation_DialogBubbleBase_Disable_
+  commentId: Overload:CurseR.Core.Conversation.DialogBubbleBase.Disable
+  isSpec: "True"
+  fullName: CurseR.Core.Conversation.DialogBubbleBase.Disable
+  nameWithType: DialogBubbleBase.Disable
+- uid: CurseR.Core.Conversation.DialogBubbleBase.SetDirection(System.Boolean)
+  name: SetDirection(bool)
+  href: api/CurseR.Core.Conversation.DialogBubbleBase.html#CurseR_Core_Conversation_DialogBubbleBase_SetDirection_System_Boolean_
+  commentId: M:CurseR.Core.Conversation.DialogBubbleBase.SetDirection(System.Boolean)
+  name.vb: SetDirection(Boolean)
+  fullName: CurseR.Core.Conversation.DialogBubbleBase.SetDirection(bool)
+  fullName.vb: CurseR.Core.Conversation.DialogBubbleBase.SetDirection(Boolean)
+  nameWithType: DialogBubbleBase.SetDirection(bool)
+  nameWithType.vb: DialogBubbleBase.SetDirection(Boolean)
+- uid: CurseR.Core.Conversation.DialogBubbleBase.SetDirection*
+  name: SetDirection
+  href: api/CurseR.Core.Conversation.DialogBubbleBase.html#CurseR_Core_Conversation_DialogBubbleBase_SetDirection_
+  commentId: Overload:CurseR.Core.Conversation.DialogBubbleBase.SetDirection
+  isSpec: "True"
+  fullName: CurseR.Core.Conversation.DialogBubbleBase.SetDirection
+  nameWithType: DialogBubbleBase.SetDirection
+- uid: CurseR.Core.Conversation.DialogBubbleBase.ShowText(System.String,System.Action)
+  name: ShowText(string, Action)
+  href: api/CurseR.Core.Conversation.DialogBubbleBase.html#CurseR_Core_Conversation_DialogBubbleBase_ShowText_System_String_System_Action_
+  commentId: M:CurseR.Core.Conversation.DialogBubbleBase.ShowText(System.String,System.Action)
+  name.vb: ShowText(String, Action)
+  fullName: CurseR.Core.Conversation.DialogBubbleBase.ShowText(string, System.Action)
+  fullName.vb: CurseR.Core.Conversation.DialogBubbleBase.ShowText(String, System.Action)
+  nameWithType: DialogBubbleBase.ShowText(string, Action)
+  nameWithType.vb: DialogBubbleBase.ShowText(String, Action)
+- uid: CurseR.Core.Conversation.DialogBubbleBase.ShowText*
+  name: ShowText
+  href: api/CurseR.Core.Conversation.DialogBubbleBase.html#CurseR_Core_Conversation_DialogBubbleBase_ShowText_
+  commentId: Overload:CurseR.Core.Conversation.DialogBubbleBase.ShowText
+  isSpec: "True"
+  fullName: CurseR.Core.Conversation.DialogBubbleBase.ShowText
+  nameWithType: DialogBubbleBase.ShowText
+- uid: CurseR.Core.Conversation.DialogBubbleBase.Start
+  name: Start()
+  href: api/CurseR.Core.Conversation.DialogBubbleBase.html#CurseR_Core_Conversation_DialogBubbleBase_Start
+  commentId: M:CurseR.Core.Conversation.DialogBubbleBase.Start
+  fullName: CurseR.Core.Conversation.DialogBubbleBase.Start()
+  nameWithType: DialogBubbleBase.Start()
+- uid: CurseR.Core.Conversation.DialogBubbleBase.Start*
+  name: Start
+  href: api/CurseR.Core.Conversation.DialogBubbleBase.html#CurseR_Core_Conversation_DialogBubbleBase_Start_
+  commentId: Overload:CurseR.Core.Conversation.DialogBubbleBase.Start
+  isSpec: "True"
+  fullName: CurseR.Core.Conversation.DialogBubbleBase.Start
+  nameWithType: DialogBubbleBase.Start
+- uid: CurseR.Core.Conversation.DialogBubbleBase._text
+  name: _text
+  href: api/CurseR.Core.Conversation.DialogBubbleBase.html#CurseR_Core_Conversation_DialogBubbleBase__text
+  commentId: F:CurseR.Core.Conversation.DialogBubbleBase._text
+  fullName: CurseR.Core.Conversation.DialogBubbleBase._text
+  nameWithType: DialogBubbleBase._text
+- uid: CurseR.Core.Conversation.NPCConversation
+  name: NPCConversation
+  href: api/CurseR.Core.Conversation.NPCConversation.html
+  commentId: T:CurseR.Core.Conversation.NPCConversation
+  fullName: CurseR.Core.Conversation.NPCConversation
+  nameWithType: NPCConversation
+- uid: CurseR.Core.Conversation.NPCConversation.Stop
+  name: Stop()
+  href: api/CurseR.Core.Conversation.NPCConversation.html#CurseR_Core_Conversation_NPCConversation_Stop
+  commentId: M:CurseR.Core.Conversation.NPCConversation.Stop
+  fullName: CurseR.Core.Conversation.NPCConversation.Stop()
+  nameWithType: NPCConversation.Stop()
+- uid: CurseR.Core.Conversation.NPCConversation.Stop*
+  name: Stop
+  href: api/CurseR.Core.Conversation.NPCConversation.html#CurseR_Core_Conversation_NPCConversation_Stop_
+  commentId: Overload:CurseR.Core.Conversation.NPCConversation.Stop
+  isSpec: "True"
+  fullName: CurseR.Core.Conversation.NPCConversation.Stop
+  nameWithType: NPCConversation.Stop
+- uid: CurseR.Core.Conversation.NPCDialogBubble
+  name: NPCDialogBubble
+  href: api/CurseR.Core.Conversation.NPCDialogBubble.html
+  commentId: T:CurseR.Core.Conversation.NPCDialogBubble
+  fullName: CurseR.Core.Conversation.NPCDialogBubble
+  nameWithType: NPCDialogBubble
+- uid: CurseR.Core.Conversation.NPCDialogBubble.ShowText(System.String,System.Action)
+  name: ShowText(string, Action)
+  href: api/CurseR.Core.Conversation.NPCDialogBubble.html#CurseR_Core_Conversation_NPCDialogBubble_ShowText_System_String_System_Action_
+  commentId: M:CurseR.Core.Conversation.NPCDialogBubble.ShowText(System.String,System.Action)
+  name.vb: ShowText(String, Action)
+  fullName: CurseR.Core.Conversation.NPCDialogBubble.ShowText(string, System.Action)
+  fullName.vb: CurseR.Core.Conversation.NPCDialogBubble.ShowText(String, System.Action)
+  nameWithType: NPCDialogBubble.ShowText(string, Action)
+  nameWithType.vb: NPCDialogBubble.ShowText(String, Action)
+- uid: CurseR.Core.Conversation.NPCDialogBubble.ShowText*
+  name: ShowText
+  href: api/CurseR.Core.Conversation.NPCDialogBubble.html#CurseR_Core_Conversation_NPCDialogBubble_ShowText_
+  commentId: Overload:CurseR.Core.Conversation.NPCDialogBubble.ShowText
+  isSpec: "True"
+  fullName: CurseR.Core.Conversation.NPCDialogBubble.ShowText
+  nameWithType: NPCDialogBubble.ShowText
 - uid: CurseR.Core.CutScene
   name: CurseR.Core.CutScene
   href: api/CurseR.Core.CutScene.html
@@ -1392,70 +1582,6 @@ references:
   isSpec: "True"
   fullName: CurseR.Core.CutScene.Conversation.ConversationSequence.SequenceType
   nameWithType: ConversationSequence.SequenceType
-- uid: CurseR.Core.CutScene.Conversation.DialogBubble
-  name: DialogBubble
-  href: api/CurseR.Core.CutScene.Conversation.DialogBubble.html
-  commentId: T:CurseR.Core.CutScene.Conversation.DialogBubble
-  fullName: CurseR.Core.CutScene.Conversation.DialogBubble
-  nameWithType: DialogBubble
-- uid: CurseR.Core.CutScene.Conversation.DialogBubble.Disable
-  name: Disable()
-  href: api/CurseR.Core.CutScene.Conversation.DialogBubble.html#CurseR_Core_CutScene_Conversation_DialogBubble_Disable
-  commentId: M:CurseR.Core.CutScene.Conversation.DialogBubble.Disable
-  fullName: CurseR.Core.CutScene.Conversation.DialogBubble.Disable()
-  nameWithType: DialogBubble.Disable()
-- uid: CurseR.Core.CutScene.Conversation.DialogBubble.Disable*
-  name: Disable
-  href: api/CurseR.Core.CutScene.Conversation.DialogBubble.html#CurseR_Core_CutScene_Conversation_DialogBubble_Disable_
-  commentId: Overload:CurseR.Core.CutScene.Conversation.DialogBubble.Disable
-  isSpec: "True"
-  fullName: CurseR.Core.CutScene.Conversation.DialogBubble.Disable
-  nameWithType: DialogBubble.Disable
-- uid: CurseR.Core.CutScene.Conversation.DialogBubble.SetDirection(System.Boolean)
-  name: SetDirection(bool)
-  href: api/CurseR.Core.CutScene.Conversation.DialogBubble.html#CurseR_Core_CutScene_Conversation_DialogBubble_SetDirection_System_Boolean_
-  commentId: M:CurseR.Core.CutScene.Conversation.DialogBubble.SetDirection(System.Boolean)
-  name.vb: SetDirection(Boolean)
-  fullName: CurseR.Core.CutScene.Conversation.DialogBubble.SetDirection(bool)
-  fullName.vb: CurseR.Core.CutScene.Conversation.DialogBubble.SetDirection(Boolean)
-  nameWithType: DialogBubble.SetDirection(bool)
-  nameWithType.vb: DialogBubble.SetDirection(Boolean)
-- uid: CurseR.Core.CutScene.Conversation.DialogBubble.SetDirection*
-  name: SetDirection
-  href: api/CurseR.Core.CutScene.Conversation.DialogBubble.html#CurseR_Core_CutScene_Conversation_DialogBubble_SetDirection_
-  commentId: Overload:CurseR.Core.CutScene.Conversation.DialogBubble.SetDirection
-  isSpec: "True"
-  fullName: CurseR.Core.CutScene.Conversation.DialogBubble.SetDirection
-  nameWithType: DialogBubble.SetDirection
-- uid: CurseR.Core.CutScene.Conversation.DialogBubble.ShowText(System.String,System.Action)
-  name: ShowText(string, Action)
-  href: api/CurseR.Core.CutScene.Conversation.DialogBubble.html#CurseR_Core_CutScene_Conversation_DialogBubble_ShowText_System_String_System_Action_
-  commentId: M:CurseR.Core.CutScene.Conversation.DialogBubble.ShowText(System.String,System.Action)
-  name.vb: ShowText(String, Action)
-  fullName: CurseR.Core.CutScene.Conversation.DialogBubble.ShowText(string, System.Action)
-  fullName.vb: CurseR.Core.CutScene.Conversation.DialogBubble.ShowText(String, System.Action)
-  nameWithType: DialogBubble.ShowText(string, Action)
-  nameWithType.vb: DialogBubble.ShowText(String, Action)
-- uid: CurseR.Core.CutScene.Conversation.DialogBubble.ShowText*
-  name: ShowText
-  href: api/CurseR.Core.CutScene.Conversation.DialogBubble.html#CurseR_Core_CutScene_Conversation_DialogBubble_ShowText_
-  commentId: Overload:CurseR.Core.CutScene.Conversation.DialogBubble.ShowText
-  isSpec: "True"
-  fullName: CurseR.Core.CutScene.Conversation.DialogBubble.ShowText
-  nameWithType: DialogBubble.ShowText
-- uid: CurseR.Core.CutScene.Conversation.DialogBubble.SkipTyping
-  name: SkipTyping()
-  href: api/CurseR.Core.CutScene.Conversation.DialogBubble.html#CurseR_Core_CutScene_Conversation_DialogBubble_SkipTyping
-  commentId: M:CurseR.Core.CutScene.Conversation.DialogBubble.SkipTyping
-  fullName: CurseR.Core.CutScene.Conversation.DialogBubble.SkipTyping()
-  nameWithType: DialogBubble.SkipTyping()
-- uid: CurseR.Core.CutScene.Conversation.DialogBubble.SkipTyping*
-  name: SkipTyping
-  href: api/CurseR.Core.CutScene.Conversation.DialogBubble.html#CurseR_Core_CutScene_Conversation_DialogBubble_SkipTyping_
-  commentId: Overload:CurseR.Core.CutScene.Conversation.DialogBubble.SkipTyping
-  isSpec: "True"
-  fullName: CurseR.Core.CutScene.Conversation.DialogBubble.SkipTyping
-  nameWithType: DialogBubble.SkipTyping
 - uid: CurseR.Core.CutScene.Conversation.DialogData
   name: DialogData
   href: api/CurseR.Core.CutScene.Conversation.DialogData.html
@@ -1665,11 +1791,11 @@ references:
   isSpec: "True"
   fullName: CurseR.Core.CutScene.CutSceneManager.PlayCutScene
   nameWithType: CutSceneManager.PlayCutScene
-- uid: CurseR.Core.CutScene.CutSceneManager.RegisterDialogBubble(CurseR.Core.CutScene.Conversation.DialogSpeaker,CurseR.Core.CutScene.Conversation.DialogBubble)
+- uid: CurseR.Core.CutScene.CutSceneManager.RegisterDialogBubble(CurseR.Core.CutScene.Conversation.DialogSpeaker,CurseR.Core.Conversation.DialogBubble)
   name: RegisterDialogBubble(DialogSpeaker, DialogBubble)
-  href: api/CurseR.Core.CutScene.CutSceneManager.html#CurseR_Core_CutScene_CutSceneManager_RegisterDialogBubble_CurseR_Core_CutScene_Conversation_DialogSpeaker_CurseR_Core_CutScene_Conversation_DialogBubble_
-  commentId: M:CurseR.Core.CutScene.CutSceneManager.RegisterDialogBubble(CurseR.Core.CutScene.Conversation.DialogSpeaker,CurseR.Core.CutScene.Conversation.DialogBubble)
-  fullName: CurseR.Core.CutScene.CutSceneManager.RegisterDialogBubble(CurseR.Core.CutScene.Conversation.DialogSpeaker, CurseR.Core.CutScene.Conversation.DialogBubble)
+  href: api/CurseR.Core.CutScene.CutSceneManager.html#CurseR_Core_CutScene_CutSceneManager_RegisterDialogBubble_CurseR_Core_CutScene_Conversation_DialogSpeaker_CurseR_Core_Conversation_DialogBubble_
+  commentId: M:CurseR.Core.CutScene.CutSceneManager.RegisterDialogBubble(CurseR.Core.CutScene.Conversation.DialogSpeaker,CurseR.Core.Conversation.DialogBubble)
+  fullName: CurseR.Core.CutScene.CutSceneManager.RegisterDialogBubble(CurseR.Core.CutScene.Conversation.DialogSpeaker, CurseR.Core.Conversation.DialogBubble)
   nameWithType: CutSceneManager.RegisterDialogBubble(DialogSpeaker, DialogBubble)
 - uid: CurseR.Core.CutScene.CutSceneManager.RegisterDialogBubble*
   name: RegisterDialogBubble
@@ -2994,6 +3120,159 @@ references:
   fullName.vb: CurseR.Core.Utils.HistoryValue(Of T).CType
   nameWithType: HistoryValue<T>.implicit operator
   nameWithType.vb: HistoryValue(Of T).CType
+- uid: CurseR.Core.Utils.Localization
+  name: CurseR.Core.Utils.Localization
+  href: api/CurseR.Core.Utils.Localization.html
+  commentId: N:CurseR.Core.Utils.Localization
+  fullName: CurseR.Core.Utils.Localization
+  nameWithType: CurseR.Core.Utils.Localization
+- uid: CurseR.Core.Utils.Localization.LocalizationManager
+  name: LocalizationManager
+  href: api/CurseR.Core.Utils.Localization.LocalizationManager.html
+  commentId: T:CurseR.Core.Utils.Localization.LocalizationManager
+  fullName: CurseR.Core.Utils.Localization.LocalizationManager
+  nameWithType: LocalizationManager
+- uid: CurseR.Core.Utils.Localization.LocalizationManager.ClearCache
+  name: ClearCache()
+  href: api/CurseR.Core.Utils.Localization.LocalizationManager.html#CurseR_Core_Utils_Localization_LocalizationManager_ClearCache
+  commentId: M:CurseR.Core.Utils.Localization.LocalizationManager.ClearCache
+  fullName: CurseR.Core.Utils.Localization.LocalizationManager.ClearCache()
+  nameWithType: LocalizationManager.ClearCache()
+- uid: CurseR.Core.Utils.Localization.LocalizationManager.ClearCache*
+  name: ClearCache
+  href: api/CurseR.Core.Utils.Localization.LocalizationManager.html#CurseR_Core_Utils_Localization_LocalizationManager_ClearCache_
+  commentId: Overload:CurseR.Core.Utils.Localization.LocalizationManager.ClearCache
+  isSpec: "True"
+  fullName: CurseR.Core.Utils.Localization.LocalizationManager.ClearCache
+  nameWithType: LocalizationManager.ClearCache
+- uid: CurseR.Core.Utils.Localization.LocalizationManager.CurrentLanguage
+  name: CurrentLanguage
+  href: api/CurseR.Core.Utils.Localization.LocalizationManager.html#CurseR_Core_Utils_Localization_LocalizationManager_CurrentLanguage
+  commentId: P:CurseR.Core.Utils.Localization.LocalizationManager.CurrentLanguage
+  fullName: CurseR.Core.Utils.Localization.LocalizationManager.CurrentLanguage
+  nameWithType: LocalizationManager.CurrentLanguage
+- uid: CurseR.Core.Utils.Localization.LocalizationManager.CurrentLanguage*
+  name: CurrentLanguage
+  href: api/CurseR.Core.Utils.Localization.LocalizationManager.html#CurseR_Core_Utils_Localization_LocalizationManager_CurrentLanguage_
+  commentId: Overload:CurseR.Core.Utils.Localization.LocalizationManager.CurrentLanguage
+  isSpec: "True"
+  fullName: CurseR.Core.Utils.Localization.LocalizationManager.CurrentLanguage
+  nameWithType: LocalizationManager.CurrentLanguage
+- uid: CurseR.Core.Utils.Localization.LocalizationManager.GetString(System.String,System.String)
+  name: GetString(string, string)
+  href: api/CurseR.Core.Utils.Localization.LocalizationManager.html#CurseR_Core_Utils_Localization_LocalizationManager_GetString_System_String_System_String_
+  commentId: M:CurseR.Core.Utils.Localization.LocalizationManager.GetString(System.String,System.String)
+  name.vb: GetString(String, String)
+  fullName: CurseR.Core.Utils.Localization.LocalizationManager.GetString(string, string)
+  fullName.vb: CurseR.Core.Utils.Localization.LocalizationManager.GetString(String, String)
+  nameWithType: LocalizationManager.GetString(string, string)
+  nameWithType.vb: LocalizationManager.GetString(String, String)
+- uid: CurseR.Core.Utils.Localization.LocalizationManager.GetString*
+  name: GetString
+  href: api/CurseR.Core.Utils.Localization.LocalizationManager.html#CurseR_Core_Utils_Localization_LocalizationManager_GetString_
+  commentId: Overload:CurseR.Core.Utils.Localization.LocalizationManager.GetString
+  isSpec: "True"
+  fullName: CurseR.Core.Utils.Localization.LocalizationManager.GetString
+  nameWithType: LocalizationManager.GetString
+- uid: CurseR.Core.Utils.Localization.LocalizationManager.LoadTableAsync(System.String,System.Action{System.Boolean})
+  name: LoadTableAsync(string, Action<bool>)
+  href: api/CurseR.Core.Utils.Localization.LocalizationManager.html#CurseR_Core_Utils_Localization_LocalizationManager_LoadTableAsync_System_String_System_Action_System_Boolean__
+  commentId: M:CurseR.Core.Utils.Localization.LocalizationManager.LoadTableAsync(System.String,System.Action{System.Boolean})
+  name.vb: LoadTableAsync(String, Action(Of Boolean))
+  fullName: CurseR.Core.Utils.Localization.LocalizationManager.LoadTableAsync(string, System.Action<bool>)
+  fullName.vb: CurseR.Core.Utils.Localization.LocalizationManager.LoadTableAsync(String, System.Action(Of Boolean))
+  nameWithType: LocalizationManager.LoadTableAsync(string, Action<bool>)
+  nameWithType.vb: LocalizationManager.LoadTableAsync(String, Action(Of Boolean))
+- uid: CurseR.Core.Utils.Localization.LocalizationManager.LoadTableAsync*
+  name: LoadTableAsync
+  href: api/CurseR.Core.Utils.Localization.LocalizationManager.html#CurseR_Core_Utils_Localization_LocalizationManager_LoadTableAsync_
+  commentId: Overload:CurseR.Core.Utils.Localization.LocalizationManager.LoadTableAsync
+  isSpec: "True"
+  fullName: CurseR.Core.Utils.Localization.LocalizationManager.LoadTableAsync
+  nameWithType: LocalizationManager.LoadTableAsync
+- uid: CurseR.Core.Utils.Localization.LocalizationManager.OnLanguageChanged
+  name: OnLanguageChanged
+  href: api/CurseR.Core.Utils.Localization.LocalizationManager.html#CurseR_Core_Utils_Localization_LocalizationManager_OnLanguageChanged
+  commentId: E:CurseR.Core.Utils.Localization.LocalizationManager.OnLanguageChanged
+  fullName: CurseR.Core.Utils.Localization.LocalizationManager.OnLanguageChanged
+  nameWithType: LocalizationManager.OnLanguageChanged
+- uid: CurseR.Core.Utils.Localization.LocalizationSettingsData
+  name: LocalizationSettingsData
+  href: api/CurseR.Core.Utils.Localization.LocalizationSettingsData.html
+  commentId: T:CurseR.Core.Utils.Localization.LocalizationSettingsData
+  fullName: CurseR.Core.Utils.Localization.LocalizationSettingsData
+  nameWithType: LocalizationSettingsData
+- uid: CurseR.Core.Utils.Localization.LocalizationSettingsData.BaseUrl
+  name: BaseUrl
+  href: api/CurseR.Core.Utils.Localization.LocalizationSettingsData.html#CurseR_Core_Utils_Localization_LocalizationSettingsData_BaseUrl
+  commentId: F:CurseR.Core.Utils.Localization.LocalizationSettingsData.BaseUrl
+  fullName: CurseR.Core.Utils.Localization.LocalizationSettingsData.BaseUrl
+  nameWithType: LocalizationSettingsData.BaseUrl
+- uid: CurseR.Core.Utils.Localization.LocalizationSettingsData.OutputFolderPath
+  name: OutputFolderPath
+  href: api/CurseR.Core.Utils.Localization.LocalizationSettingsData.html#CurseR_Core_Utils_Localization_LocalizationSettingsData_OutputFolderPath
+  commentId: F:CurseR.Core.Utils.Localization.LocalizationSettingsData.OutputFolderPath
+  fullName: CurseR.Core.Utils.Localization.LocalizationSettingsData.OutputFolderPath
+  nameWithType: LocalizationSettingsData.OutputFolderPath
+- uid: CurseR.Core.Utils.Localization.LocalizationSettingsData.sheets
+  name: sheets
+  href: api/CurseR.Core.Utils.Localization.LocalizationSettingsData.html#CurseR_Core_Utils_Localization_LocalizationSettingsData_sheets
+  commentId: F:CurseR.Core.Utils.Localization.LocalizationSettingsData.sheets
+  fullName: CurseR.Core.Utils.Localization.LocalizationSettingsData.sheets
+  nameWithType: LocalizationSettingsData.sheets
+- uid: CurseR.Core.Utils.Localization.LocalizationSheetConfig
+  name: LocalizationSheetConfig
+  href: api/CurseR.Core.Utils.Localization.LocalizationSheetConfig.html
+  commentId: T:CurseR.Core.Utils.Localization.LocalizationSheetConfig
+  fullName: CurseR.Core.Utils.Localization.LocalizationSheetConfig
+  nameWithType: LocalizationSheetConfig
+- uid: CurseR.Core.Utils.Localization.LocalizationSheetConfig.Gid
+  name: Gid
+  href: api/CurseR.Core.Utils.Localization.LocalizationSheetConfig.html#CurseR_Core_Utils_Localization_LocalizationSheetConfig_Gid
+  commentId: F:CurseR.Core.Utils.Localization.LocalizationSheetConfig.Gid
+  fullName: CurseR.Core.Utils.Localization.LocalizationSheetConfig.Gid
+  nameWithType: LocalizationSheetConfig.Gid
+- uid: CurseR.Core.Utils.Localization.LocalizationSheetConfig.TableName
+  name: TableName
+  href: api/CurseR.Core.Utils.Localization.LocalizationSheetConfig.html#CurseR_Core_Utils_Localization_LocalizationSheetConfig_TableName
+  commentId: F:CurseR.Core.Utils.Localization.LocalizationSheetConfig.TableName
+  fullName: CurseR.Core.Utils.Localization.LocalizationSheetConfig.TableName
+  nameWithType: LocalizationSheetConfig.TableName
+- uid: CurseR.Core.Utils.Localization.LocalizedText
+  name: LocalizedText
+  href: api/CurseR.Core.Utils.Localization.LocalizedText.html
+  commentId: T:CurseR.Core.Utils.Localization.LocalizedText
+  fullName: CurseR.Core.Utils.Localization.LocalizedText
+  nameWithType: LocalizedText
+- uid: CurseR.Core.Utils.Localization.LocalizedText.ApplyLocalization
+  name: ApplyLocalization()
+  href: api/CurseR.Core.Utils.Localization.LocalizedText.html#CurseR_Core_Utils_Localization_LocalizedText_ApplyLocalization
+  commentId: M:CurseR.Core.Utils.Localization.LocalizedText.ApplyLocalization
+  fullName: CurseR.Core.Utils.Localization.LocalizedText.ApplyLocalization()
+  nameWithType: LocalizedText.ApplyLocalization()
+- uid: CurseR.Core.Utils.Localization.LocalizedText.ApplyLocalization*
+  name: ApplyLocalization
+  href: api/CurseR.Core.Utils.Localization.LocalizedText.html#CurseR_Core_Utils_Localization_LocalizedText_ApplyLocalization_
+  commentId: Overload:CurseR.Core.Utils.Localization.LocalizedText.ApplyLocalization
+  isSpec: "True"
+  fullName: CurseR.Core.Utils.Localization.LocalizedText.ApplyLocalization
+  nameWithType: LocalizedText.ApplyLocalization
+- uid: CurseR.Core.Utils.Localization.LocalizedText.SetKey(System.String)
+  name: SetKey(string)
+  href: api/CurseR.Core.Utils.Localization.LocalizedText.html#CurseR_Core_Utils_Localization_LocalizedText_SetKey_System_String_
+  commentId: M:CurseR.Core.Utils.Localization.LocalizedText.SetKey(System.String)
+  name.vb: SetKey(String)
+  fullName: CurseR.Core.Utils.Localization.LocalizedText.SetKey(string)
+  fullName.vb: CurseR.Core.Utils.Localization.LocalizedText.SetKey(String)
+  nameWithType: LocalizedText.SetKey(string)
+  nameWithType.vb: LocalizedText.SetKey(String)
+- uid: CurseR.Core.Utils.Localization.LocalizedText.SetKey*
+  name: SetKey
+  href: api/CurseR.Core.Utils.Localization.LocalizedText.html#CurseR_Core_Utils_Localization_LocalizedText_SetKey_
+  commentId: Overload:CurseR.Core.Utils.Localization.LocalizedText.SetKey
+  isSpec: "True"
+  fullName: CurseR.Core.Utils.Localization.LocalizedText.SetKey
+  nameWithType: LocalizedText.SetKey
 - uid: CurseR.Core.Utils.PriorityQueue`2
   name: PriorityQueue<TElement, TPriority>
   href: api/CurseR.Core.Utils.PriorityQueue-2.html

@@ -502,6 +502,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Bootstrap.GameBootstrap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Bootstrap.GameBootstrap.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Bootstrap.GameBootstrap",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Bootstrap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Bootstrap.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Bootstrap",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CurseR.Core.Camera.CameraBounds.yml",
       "output": {
         ".html": {
@@ -554,6 +582,76 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "CurseR.Core.Camera",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Conversation.DialogBubble.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Conversation.DialogBubble.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Conversation.DialogBubble",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Conversation.DialogBubbleBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Conversation.DialogBubbleBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Conversation.DialogBubbleBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Conversation.NPCConversation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Conversation.NPCConversation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Conversation.NPCConversation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Conversation.NPCDialogBubble.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Conversation.NPCDialogBubble.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Conversation.NPCDialogBubble",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Conversation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Conversation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Conversation",
       "Summary": null
     },
     {
@@ -624,20 +722,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "CurseR.Core.CutScene.Conversation.ConversationSequence",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CurseR.Core.CutScene.Conversation.DialogBubble.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CurseR.Core.CutScene.Conversation.DialogBubble.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CurseR.Core.CutScene.Conversation.DialogBubble",
       "Summary": null
     },
     {
@@ -1059,6 +1143,76 @@
       "IsMRef": true,
       "Title": "CurseR.Core.Utils.HistoryValue<T>",
       "Summary": "<p sourcefile=\"api/CurseR.Core.Utils.HistoryValue-1.yml\" sourcestartlinenumber=\"1\">과거 값을 내부적으로 캐싱</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Utils.Localization.LocalizationManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Utils.Localization.LocalizationManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Utils.Localization.LocalizationManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Utils.Localization.LocalizationSettingsData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Utils.Localization.LocalizationSettingsData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Utils.Localization.LocalizationSettingsData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Utils.Localization.LocalizationSheetConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Utils.Localization.LocalizationSheetConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Utils.Localization.LocalizationSheetConfig",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Utils.Localization.LocalizedText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Utils.Localization.LocalizedText.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Utils.Localization.LocalizedText",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Utils.Localization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Utils.Localization.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Utils.Localization",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
