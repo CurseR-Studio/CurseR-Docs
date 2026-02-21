@@ -908,6 +908,48 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Localization.LocalizationManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Localization.LocalizationManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Localization.LocalizationManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Localization.LocalizedText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Localization.LocalizedText.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Localization.LocalizedText",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Localization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Localization.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Localization",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CurseR.Core.Player.AbstractPlayerController.yml",
       "output": {
         ".html": {
@@ -1118,6 +1160,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Utils.CoreUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Utils.CoreUtils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Utils.CoreUtils",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CurseR.Core.Utils.Direction.yml",
       "output": {
         ".html": {
@@ -1143,76 +1199,6 @@
       "IsMRef": true,
       "Title": "CurseR.Core.Utils.HistoryValue<T>",
       "Summary": "<p sourcefile=\"api/CurseR.Core.Utils.HistoryValue-1.yml\" sourcestartlinenumber=\"1\">과거 값을 내부적으로 캐싱</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CurseR.Core.Utils.Localization.LocalizationManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CurseR.Core.Utils.Localization.LocalizationManager.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CurseR.Core.Utils.Localization.LocalizationManager",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CurseR.Core.Utils.Localization.LocalizationSettingsData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CurseR.Core.Utils.Localization.LocalizationSettingsData.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CurseR.Core.Utils.Localization.LocalizationSettingsData",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CurseR.Core.Utils.Localization.LocalizationSheetConfig.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CurseR.Core.Utils.Localization.LocalizationSheetConfig.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CurseR.Core.Utils.Localization.LocalizationSheetConfig",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CurseR.Core.Utils.Localization.LocalizedText.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CurseR.Core.Utils.Localization.LocalizedText.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CurseR.Core.Utils.Localization.LocalizedText",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CurseR.Core.Utils.Localization.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CurseR.Core.Utils.Localization.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CurseR.Core.Utils.Localization",
-      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1269,20 +1255,6 @@
       "IsMRef": true,
       "Title": "CurseR.Core.Utils.TextAssetExtensionFilterAttribute",
       "Summary": "<p sourcefile=\"api/CurseR.Core.Utils.TextAssetExtensionFilterAttribute.yml\" sourcestartlinenumber=\"1\">TextAsset 필드에 특정 확장자만 허용하도록 필터링하는 어트리뷰트</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CurseR.Core.Utils.Utils.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CurseR.Core.Utils.Utils.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CurseR.Core.Utils.Utils",
-      "Summary": null
     },
     {
       "type": "ManagedReference",

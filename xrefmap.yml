@@ -2226,6 +2226,126 @@ references:
   isSpec: "True"
   fullName: CurseR.Core.GameServices.VirtualCamera
   nameWithType: GameServices.VirtualCamera
+- uid: CurseR.Core.Localization
+  name: CurseR.Core.Localization
+  href: api/CurseR.Core.Localization.html
+  commentId: N:CurseR.Core.Localization
+  fullName: CurseR.Core.Localization
+  nameWithType: CurseR.Core.Localization
+- uid: CurseR.Core.Localization.LocalizationManager
+  name: LocalizationManager
+  href: api/CurseR.Core.Localization.LocalizationManager.html
+  commentId: T:CurseR.Core.Localization.LocalizationManager
+  fullName: CurseR.Core.Localization.LocalizationManager
+  nameWithType: LocalizationManager
+- uid: CurseR.Core.Localization.LocalizationManager.ClearCache
+  name: ClearCache()
+  href: api/CurseR.Core.Localization.LocalizationManager.html#CurseR_Core_Localization_LocalizationManager_ClearCache
+  commentId: M:CurseR.Core.Localization.LocalizationManager.ClearCache
+  fullName: CurseR.Core.Localization.LocalizationManager.ClearCache()
+  nameWithType: LocalizationManager.ClearCache()
+- uid: CurseR.Core.Localization.LocalizationManager.ClearCache*
+  name: ClearCache
+  href: api/CurseR.Core.Localization.LocalizationManager.html#CurseR_Core_Localization_LocalizationManager_ClearCache_
+  commentId: Overload:CurseR.Core.Localization.LocalizationManager.ClearCache
+  isSpec: "True"
+  fullName: CurseR.Core.Localization.LocalizationManager.ClearCache
+  nameWithType: LocalizationManager.ClearCache
+- uid: CurseR.Core.Localization.LocalizationManager.CurrentLanguage
+  name: CurrentLanguage
+  href: api/CurseR.Core.Localization.LocalizationManager.html#CurseR_Core_Localization_LocalizationManager_CurrentLanguage
+  commentId: P:CurseR.Core.Localization.LocalizationManager.CurrentLanguage
+  fullName: CurseR.Core.Localization.LocalizationManager.CurrentLanguage
+  nameWithType: LocalizationManager.CurrentLanguage
+- uid: CurseR.Core.Localization.LocalizationManager.CurrentLanguage*
+  name: CurrentLanguage
+  href: api/CurseR.Core.Localization.LocalizationManager.html#CurseR_Core_Localization_LocalizationManager_CurrentLanguage_
+  commentId: Overload:CurseR.Core.Localization.LocalizationManager.CurrentLanguage
+  isSpec: "True"
+  fullName: CurseR.Core.Localization.LocalizationManager.CurrentLanguage
+  nameWithType: LocalizationManager.CurrentLanguage
+- uid: CurseR.Core.Localization.LocalizationManager.GetString(System.String)
+  name: GetString(string)
+  href: api/CurseR.Core.Localization.LocalizationManager.html#CurseR_Core_Localization_LocalizationManager_GetString_System_String_
+  commentId: M:CurseR.Core.Localization.LocalizationManager.GetString(System.String)
+  name.vb: GetString(String)
+  fullName: CurseR.Core.Localization.LocalizationManager.GetString(string)
+  fullName.vb: CurseR.Core.Localization.LocalizationManager.GetString(String)
+  nameWithType: LocalizationManager.GetString(string)
+  nameWithType.vb: LocalizationManager.GetString(String)
+- uid: CurseR.Core.Localization.LocalizationManager.GetString(System.String,System.String)
+  name: GetString(string, string)
+  href: api/CurseR.Core.Localization.LocalizationManager.html#CurseR_Core_Localization_LocalizationManager_GetString_System_String_System_String_
+  commentId: M:CurseR.Core.Localization.LocalizationManager.GetString(System.String,System.String)
+  name.vb: GetString(String, String)
+  fullName: CurseR.Core.Localization.LocalizationManager.GetString(string, string)
+  fullName.vb: CurseR.Core.Localization.LocalizationManager.GetString(String, String)
+  nameWithType: LocalizationManager.GetString(string, string)
+  nameWithType.vb: LocalizationManager.GetString(String, String)
+- uid: CurseR.Core.Localization.LocalizationManager.GetString*
+  name: GetString
+  href: api/CurseR.Core.Localization.LocalizationManager.html#CurseR_Core_Localization_LocalizationManager_GetString_
+  commentId: Overload:CurseR.Core.Localization.LocalizationManager.GetString
+  isSpec: "True"
+  fullName: CurseR.Core.Localization.LocalizationManager.GetString
+  nameWithType: LocalizationManager.GetString
+- uid: CurseR.Core.Localization.LocalizationManager.LoadTableAsync(System.String,System.Action{System.Boolean})
+  name: LoadTableAsync(string, Action<bool>)
+  href: api/CurseR.Core.Localization.LocalizationManager.html#CurseR_Core_Localization_LocalizationManager_LoadTableAsync_System_String_System_Action_System_Boolean__
+  commentId: M:CurseR.Core.Localization.LocalizationManager.LoadTableAsync(System.String,System.Action{System.Boolean})
+  name.vb: LoadTableAsync(String, Action(Of Boolean))
+  fullName: CurseR.Core.Localization.LocalizationManager.LoadTableAsync(string, System.Action<bool>)
+  fullName.vb: CurseR.Core.Localization.LocalizationManager.LoadTableAsync(String, System.Action(Of Boolean))
+  nameWithType: LocalizationManager.LoadTableAsync(string, Action<bool>)
+  nameWithType.vb: LocalizationManager.LoadTableAsync(String, Action(Of Boolean))
+- uid: CurseR.Core.Localization.LocalizationManager.LoadTableAsync*
+  name: LoadTableAsync
+  href: api/CurseR.Core.Localization.LocalizationManager.html#CurseR_Core_Localization_LocalizationManager_LoadTableAsync_
+  commentId: Overload:CurseR.Core.Localization.LocalizationManager.LoadTableAsync
+  isSpec: "True"
+  fullName: CurseR.Core.Localization.LocalizationManager.LoadTableAsync
+  nameWithType: LocalizationManager.LoadTableAsync
+- uid: CurseR.Core.Localization.LocalizationManager.OnLanguageChanged
+  name: OnLanguageChanged
+  href: api/CurseR.Core.Localization.LocalizationManager.html#CurseR_Core_Localization_LocalizationManager_OnLanguageChanged
+  commentId: E:CurseR.Core.Localization.LocalizationManager.OnLanguageChanged
+  fullName: CurseR.Core.Localization.LocalizationManager.OnLanguageChanged
+  nameWithType: LocalizationManager.OnLanguageChanged
+- uid: CurseR.Core.Localization.LocalizedText
+  name: LocalizedText
+  href: api/CurseR.Core.Localization.LocalizedText.html
+  commentId: T:CurseR.Core.Localization.LocalizedText
+  fullName: CurseR.Core.Localization.LocalizedText
+  nameWithType: LocalizedText
+- uid: CurseR.Core.Localization.LocalizedText.ApplyLocalization
+  name: ApplyLocalization()
+  href: api/CurseR.Core.Localization.LocalizedText.html#CurseR_Core_Localization_LocalizedText_ApplyLocalization
+  commentId: M:CurseR.Core.Localization.LocalizedText.ApplyLocalization
+  fullName: CurseR.Core.Localization.LocalizedText.ApplyLocalization()
+  nameWithType: LocalizedText.ApplyLocalization()
+- uid: CurseR.Core.Localization.LocalizedText.ApplyLocalization*
+  name: ApplyLocalization
+  href: api/CurseR.Core.Localization.LocalizedText.html#CurseR_Core_Localization_LocalizedText_ApplyLocalization_
+  commentId: Overload:CurseR.Core.Localization.LocalizedText.ApplyLocalization
+  isSpec: "True"
+  fullName: CurseR.Core.Localization.LocalizedText.ApplyLocalization
+  nameWithType: LocalizedText.ApplyLocalization
+- uid: CurseR.Core.Localization.LocalizedText.SetKey(System.String)
+  name: SetKey(string)
+  href: api/CurseR.Core.Localization.LocalizedText.html#CurseR_Core_Localization_LocalizedText_SetKey_System_String_
+  commentId: M:CurseR.Core.Localization.LocalizedText.SetKey(System.String)
+  name.vb: SetKey(String)
+  fullName: CurseR.Core.Localization.LocalizedText.SetKey(string)
+  fullName.vb: CurseR.Core.Localization.LocalizedText.SetKey(String)
+  nameWithType: LocalizedText.SetKey(string)
+  nameWithType.vb: LocalizedText.SetKey(String)
+- uid: CurseR.Core.Localization.LocalizedText.SetKey*
+  name: SetKey
+  href: api/CurseR.Core.Localization.LocalizedText.html#CurseR_Core_Localization_LocalizedText_SetKey_
+  commentId: Overload:CurseR.Core.Localization.LocalizedText.SetKey
+  isSpec: "True"
+  fullName: CurseR.Core.Localization.LocalizedText.SetKey
+  nameWithType: LocalizedText.SetKey
 - uid: CurseR.Core.Player
   name: CurseR.Core.Player
   href: api/CurseR.Core.Player.html
@@ -2926,6 +3046,131 @@ references:
   commentId: N:CurseR.Core.Utils
   fullName: CurseR.Core.Utils
   nameWithType: CurseR.Core.Utils
+- uid: CurseR.Core.Utils.CoreUtils
+  name: CoreUtils
+  href: api/CurseR.Core.Utils.CoreUtils.html
+  commentId: T:CurseR.Core.Utils.CoreUtils
+  fullName: CurseR.Core.Utils.CoreUtils
+  nameWithType: CoreUtils
+- uid: CurseR.Core.Utils.CoreUtils.ByPlayer(Collider2D)
+  name: ByPlayer(Collider2D)
+  href: api/CurseR.Core.Utils.CoreUtils.html#CurseR_Core_Utils_CoreUtils_ByPlayer_Collider2D_
+  commentId: M:CurseR.Core.Utils.CoreUtils.ByPlayer(Collider2D)
+  fullName: CurseR.Core.Utils.CoreUtils.ByPlayer(Collider2D)
+  nameWithType: CoreUtils.ByPlayer(Collider2D)
+- uid: CurseR.Core.Utils.CoreUtils.ByPlayer(Collision2D)
+  name: ByPlayer(Collision2D)
+  href: api/CurseR.Core.Utils.CoreUtils.html#CurseR_Core_Utils_CoreUtils_ByPlayer_Collision2D_
+  commentId: M:CurseR.Core.Utils.CoreUtils.ByPlayer(Collision2D)
+  fullName: CurseR.Core.Utils.CoreUtils.ByPlayer(Collision2D)
+  nameWithType: CoreUtils.ByPlayer(Collision2D)
+- uid: CurseR.Core.Utils.CoreUtils.ByPlayer*
+  name: ByPlayer
+  href: api/CurseR.Core.Utils.CoreUtils.html#CurseR_Core_Utils_CoreUtils_ByPlayer_
+  commentId: Overload:CurseR.Core.Utils.CoreUtils.ByPlayer
+  isSpec: "True"
+  fullName: CurseR.Core.Utils.CoreUtils.ByPlayer
+  nameWithType: CoreUtils.ByPlayer
+- uid: CurseR.Core.Utils.CoreUtils.GetComponentInCurrentScene*
+  name: GetComponentInCurrentScene
+  href: api/CurseR.Core.Utils.CoreUtils.html#CurseR_Core_Utils_CoreUtils_GetComponentInCurrentScene_
+  commentId: Overload:CurseR.Core.Utils.CoreUtils.GetComponentInCurrentScene
+  isSpec: "True"
+  fullName: CurseR.Core.Utils.CoreUtils.GetComponentInCurrentScene
+  nameWithType: CoreUtils.GetComponentInCurrentScene
+- uid: CurseR.Core.Utils.CoreUtils.GetComponentInCurrentScene``1(MonoBehaviour,System.Boolean)
+  name: GetComponentInCurrentScene<T>(MonoBehaviour, bool)
+  href: api/CurseR.Core.Utils.CoreUtils.html#CurseR_Core_Utils_CoreUtils_GetComponentInCurrentScene__1_MonoBehaviour_System_Boolean_
+  commentId: M:CurseR.Core.Utils.CoreUtils.GetComponentInCurrentScene``1(MonoBehaviour,System.Boolean)
+  name.vb: GetComponentInCurrentScene(Of T)(MonoBehaviour, Boolean)
+  fullName: CurseR.Core.Utils.CoreUtils.GetComponentInCurrentScene<T>(MonoBehaviour, bool)
+  fullName.vb: CurseR.Core.Utils.CoreUtils.GetComponentInCurrentScene(Of T)(MonoBehaviour, Boolean)
+  nameWithType: CoreUtils.GetComponentInCurrentScene<T>(MonoBehaviour, bool)
+  nameWithType.vb: CoreUtils.GetComponentInCurrentScene(Of T)(MonoBehaviour, Boolean)
+- uid: CurseR.Core.Utils.CoreUtils.GetComponentsInCurrentScene*
+  name: GetComponentsInCurrentScene
+  href: api/CurseR.Core.Utils.CoreUtils.html#CurseR_Core_Utils_CoreUtils_GetComponentsInCurrentScene_
+  commentId: Overload:CurseR.Core.Utils.CoreUtils.GetComponentsInCurrentScene
+  isSpec: "True"
+  fullName: CurseR.Core.Utils.CoreUtils.GetComponentsInCurrentScene
+  nameWithType: CoreUtils.GetComponentsInCurrentScene
+- uid: CurseR.Core.Utils.CoreUtils.GetComponentsInCurrentScene``1(MonoBehaviour,System.Boolean)
+  name: GetComponentsInCurrentScene<T>(MonoBehaviour, bool)
+  href: api/CurseR.Core.Utils.CoreUtils.html#CurseR_Core_Utils_CoreUtils_GetComponentsInCurrentScene__1_MonoBehaviour_System_Boolean_
+  commentId: M:CurseR.Core.Utils.CoreUtils.GetComponentsInCurrentScene``1(MonoBehaviour,System.Boolean)
+  name.vb: GetComponentsInCurrentScene(Of T)(MonoBehaviour, Boolean)
+  fullName: CurseR.Core.Utils.CoreUtils.GetComponentsInCurrentScene<T>(MonoBehaviour, bool)
+  fullName.vb: CurseR.Core.Utils.CoreUtils.GetComponentsInCurrentScene(Of T)(MonoBehaviour, Boolean)
+  nameWithType: CoreUtils.GetComponentsInCurrentScene<T>(MonoBehaviour, bool)
+  nameWithType.vb: CoreUtils.GetComponentsInCurrentScene(Of T)(MonoBehaviour, Boolean)
+- uid: CurseR.Core.Utils.CoreUtils.GetRoot(UnityEngine.SceneManagement.Scene)
+  name: GetRoot(Scene)
+  href: api/CurseR.Core.Utils.CoreUtils.html#CurseR_Core_Utils_CoreUtils_GetRoot_UnityEngine_SceneManagement_Scene_
+  commentId: M:CurseR.Core.Utils.CoreUtils.GetRoot(UnityEngine.SceneManagement.Scene)
+  fullName: CurseR.Core.Utils.CoreUtils.GetRoot(UnityEngine.SceneManagement.Scene)
+  nameWithType: CoreUtils.GetRoot(UnityEngine.SceneManagement.Scene)
+- uid: CurseR.Core.Utils.CoreUtils.GetRoot*
+  name: GetRoot
+  href: api/CurseR.Core.Utils.CoreUtils.html#CurseR_Core_Utils_CoreUtils_GetRoot_
+  commentId: Overload:CurseR.Core.Utils.CoreUtils.GetRoot
+  isSpec: "True"
+  fullName: CurseR.Core.Utils.CoreUtils.GetRoot
+  nameWithType: CoreUtils.GetRoot
+- uid: CurseR.Core.Utils.CoreUtils.GetSurfaceAngle(RaycastHit2D)
+  name: GetSurfaceAngle(RaycastHit2D)
+  href: api/CurseR.Core.Utils.CoreUtils.html#CurseR_Core_Utils_CoreUtils_GetSurfaceAngle_RaycastHit2D_
+  commentId: M:CurseR.Core.Utils.CoreUtils.GetSurfaceAngle(RaycastHit2D)
+  fullName: CurseR.Core.Utils.CoreUtils.GetSurfaceAngle(RaycastHit2D)
+  nameWithType: CoreUtils.GetSurfaceAngle(RaycastHit2D)
+- uid: CurseR.Core.Utils.CoreUtils.GetSurfaceAngle*
+  name: GetSurfaceAngle
+  href: api/CurseR.Core.Utils.CoreUtils.html#CurseR_Core_Utils_CoreUtils_GetSurfaceAngle_
+  commentId: Overload:CurseR.Core.Utils.CoreUtils.GetSurfaceAngle
+  isSpec: "True"
+  fullName: CurseR.Core.Utils.CoreUtils.GetSurfaceAngle
+  nameWithType: CoreUtils.GetSurfaceAngle
+- uid: CurseR.Core.Utils.CoreUtils.Teleport(Rigidbody2D,Vector2)
+  name: Teleport(Rigidbody2D, Vector2)
+  href: api/CurseR.Core.Utils.CoreUtils.html#CurseR_Core_Utils_CoreUtils_Teleport_Rigidbody2D_Vector2_
+  commentId: M:CurseR.Core.Utils.CoreUtils.Teleport(Rigidbody2D,Vector2)
+  fullName: CurseR.Core.Utils.CoreUtils.Teleport(Rigidbody2D, Vector2)
+  nameWithType: CoreUtils.Teleport(Rigidbody2D, Vector2)
+- uid: CurseR.Core.Utils.CoreUtils.Teleport*
+  name: Teleport
+  href: api/CurseR.Core.Utils.CoreUtils.html#CurseR_Core_Utils_CoreUtils_Teleport_
+  commentId: Overload:CurseR.Core.Utils.CoreUtils.Teleport
+  isSpec: "True"
+  fullName: CurseR.Core.Utils.CoreUtils.Teleport
+  nameWithType: CoreUtils.Teleport
+- uid: CurseR.Core.Utils.CoreUtils.ToVector2(Vector3)
+  name: ToVector2(Vector3)
+  href: api/CurseR.Core.Utils.CoreUtils.html#CurseR_Core_Utils_CoreUtils_ToVector2_Vector3_
+  commentId: M:CurseR.Core.Utils.CoreUtils.ToVector2(Vector3)
+  fullName: CurseR.Core.Utils.CoreUtils.ToVector2(Vector3)
+  nameWithType: CoreUtils.ToVector2(Vector3)
+- uid: CurseR.Core.Utils.CoreUtils.ToVector2*
+  name: ToVector2
+  href: api/CurseR.Core.Utils.CoreUtils.html#CurseR_Core_Utils_CoreUtils_ToVector2_
+  commentId: Overload:CurseR.Core.Utils.CoreUtils.ToVector2
+  isSpec: "True"
+  fullName: CurseR.Core.Utils.CoreUtils.ToVector2
+  nameWithType: CoreUtils.ToVector2
+- uid: CurseR.Core.Utils.CoreUtils.WaitForCompletionAll(MonoBehaviour,System.Collections.IEnumerator[])
+  name: WaitForCompletionAll(MonoBehaviour, params IEnumerator[])
+  href: api/CurseR.Core.Utils.CoreUtils.html#CurseR_Core_Utils_CoreUtils_WaitForCompletionAll_MonoBehaviour_System_Collections_IEnumerator___
+  commentId: M:CurseR.Core.Utils.CoreUtils.WaitForCompletionAll(MonoBehaviour,System.Collections.IEnumerator[])
+  name.vb: WaitForCompletionAll(MonoBehaviour, ParamArray IEnumerator())
+  fullName: CurseR.Core.Utils.CoreUtils.WaitForCompletionAll(MonoBehaviour, params System.Collections.IEnumerator[])
+  fullName.vb: CurseR.Core.Utils.CoreUtils.WaitForCompletionAll(MonoBehaviour, ParamArray System.Collections.IEnumerator())
+  nameWithType: CoreUtils.WaitForCompletionAll(MonoBehaviour, params IEnumerator[])
+  nameWithType.vb: CoreUtils.WaitForCompletionAll(MonoBehaviour, ParamArray IEnumerator())
+- uid: CurseR.Core.Utils.CoreUtils.WaitForCompletionAll*
+  name: WaitForCompletionAll
+  href: api/CurseR.Core.Utils.CoreUtils.html#CurseR_Core_Utils_CoreUtils_WaitForCompletionAll_
+  commentId: Overload:CurseR.Core.Utils.CoreUtils.WaitForCompletionAll
+  isSpec: "True"
+  fullName: CurseR.Core.Utils.CoreUtils.WaitForCompletionAll
+  nameWithType: CoreUtils.WaitForCompletionAll
 - uid: CurseR.Core.Utils.Direction
   name: Direction
   href: api/CurseR.Core.Utils.Direction.html
@@ -3120,159 +3365,6 @@ references:
   fullName.vb: CurseR.Core.Utils.HistoryValue(Of T).CType
   nameWithType: HistoryValue<T>.implicit operator
   nameWithType.vb: HistoryValue(Of T).CType
-- uid: CurseR.Core.Utils.Localization
-  name: CurseR.Core.Utils.Localization
-  href: api/CurseR.Core.Utils.Localization.html
-  commentId: N:CurseR.Core.Utils.Localization
-  fullName: CurseR.Core.Utils.Localization
-  nameWithType: CurseR.Core.Utils.Localization
-- uid: CurseR.Core.Utils.Localization.LocalizationManager
-  name: LocalizationManager
-  href: api/CurseR.Core.Utils.Localization.LocalizationManager.html
-  commentId: T:CurseR.Core.Utils.Localization.LocalizationManager
-  fullName: CurseR.Core.Utils.Localization.LocalizationManager
-  nameWithType: LocalizationManager
-- uid: CurseR.Core.Utils.Localization.LocalizationManager.ClearCache
-  name: ClearCache()
-  href: api/CurseR.Core.Utils.Localization.LocalizationManager.html#CurseR_Core_Utils_Localization_LocalizationManager_ClearCache
-  commentId: M:CurseR.Core.Utils.Localization.LocalizationManager.ClearCache
-  fullName: CurseR.Core.Utils.Localization.LocalizationManager.ClearCache()
-  nameWithType: LocalizationManager.ClearCache()
-- uid: CurseR.Core.Utils.Localization.LocalizationManager.ClearCache*
-  name: ClearCache
-  href: api/CurseR.Core.Utils.Localization.LocalizationManager.html#CurseR_Core_Utils_Localization_LocalizationManager_ClearCache_
-  commentId: Overload:CurseR.Core.Utils.Localization.LocalizationManager.ClearCache
-  isSpec: "True"
-  fullName: CurseR.Core.Utils.Localization.LocalizationManager.ClearCache
-  nameWithType: LocalizationManager.ClearCache
-- uid: CurseR.Core.Utils.Localization.LocalizationManager.CurrentLanguage
-  name: CurrentLanguage
-  href: api/CurseR.Core.Utils.Localization.LocalizationManager.html#CurseR_Core_Utils_Localization_LocalizationManager_CurrentLanguage
-  commentId: P:CurseR.Core.Utils.Localization.LocalizationManager.CurrentLanguage
-  fullName: CurseR.Core.Utils.Localization.LocalizationManager.CurrentLanguage
-  nameWithType: LocalizationManager.CurrentLanguage
-- uid: CurseR.Core.Utils.Localization.LocalizationManager.CurrentLanguage*
-  name: CurrentLanguage
-  href: api/CurseR.Core.Utils.Localization.LocalizationManager.html#CurseR_Core_Utils_Localization_LocalizationManager_CurrentLanguage_
-  commentId: Overload:CurseR.Core.Utils.Localization.LocalizationManager.CurrentLanguage
-  isSpec: "True"
-  fullName: CurseR.Core.Utils.Localization.LocalizationManager.CurrentLanguage
-  nameWithType: LocalizationManager.CurrentLanguage
-- uid: CurseR.Core.Utils.Localization.LocalizationManager.GetString(System.String,System.String)
-  name: GetString(string, string)
-  href: api/CurseR.Core.Utils.Localization.LocalizationManager.html#CurseR_Core_Utils_Localization_LocalizationManager_GetString_System_String_System_String_
-  commentId: M:CurseR.Core.Utils.Localization.LocalizationManager.GetString(System.String,System.String)
-  name.vb: GetString(String, String)
-  fullName: CurseR.Core.Utils.Localization.LocalizationManager.GetString(string, string)
-  fullName.vb: CurseR.Core.Utils.Localization.LocalizationManager.GetString(String, String)
-  nameWithType: LocalizationManager.GetString(string, string)
-  nameWithType.vb: LocalizationManager.GetString(String, String)
-- uid: CurseR.Core.Utils.Localization.LocalizationManager.GetString*
-  name: GetString
-  href: api/CurseR.Core.Utils.Localization.LocalizationManager.html#CurseR_Core_Utils_Localization_LocalizationManager_GetString_
-  commentId: Overload:CurseR.Core.Utils.Localization.LocalizationManager.GetString
-  isSpec: "True"
-  fullName: CurseR.Core.Utils.Localization.LocalizationManager.GetString
-  nameWithType: LocalizationManager.GetString
-- uid: CurseR.Core.Utils.Localization.LocalizationManager.LoadTableAsync(System.String,System.Action{System.Boolean})
-  name: LoadTableAsync(string, Action<bool>)
-  href: api/CurseR.Core.Utils.Localization.LocalizationManager.html#CurseR_Core_Utils_Localization_LocalizationManager_LoadTableAsync_System_String_System_Action_System_Boolean__
-  commentId: M:CurseR.Core.Utils.Localization.LocalizationManager.LoadTableAsync(System.String,System.Action{System.Boolean})
-  name.vb: LoadTableAsync(String, Action(Of Boolean))
-  fullName: CurseR.Core.Utils.Localization.LocalizationManager.LoadTableAsync(string, System.Action<bool>)
-  fullName.vb: CurseR.Core.Utils.Localization.LocalizationManager.LoadTableAsync(String, System.Action(Of Boolean))
-  nameWithType: LocalizationManager.LoadTableAsync(string, Action<bool>)
-  nameWithType.vb: LocalizationManager.LoadTableAsync(String, Action(Of Boolean))
-- uid: CurseR.Core.Utils.Localization.LocalizationManager.LoadTableAsync*
-  name: LoadTableAsync
-  href: api/CurseR.Core.Utils.Localization.LocalizationManager.html#CurseR_Core_Utils_Localization_LocalizationManager_LoadTableAsync_
-  commentId: Overload:CurseR.Core.Utils.Localization.LocalizationManager.LoadTableAsync
-  isSpec: "True"
-  fullName: CurseR.Core.Utils.Localization.LocalizationManager.LoadTableAsync
-  nameWithType: LocalizationManager.LoadTableAsync
-- uid: CurseR.Core.Utils.Localization.LocalizationManager.OnLanguageChanged
-  name: OnLanguageChanged
-  href: api/CurseR.Core.Utils.Localization.LocalizationManager.html#CurseR_Core_Utils_Localization_LocalizationManager_OnLanguageChanged
-  commentId: E:CurseR.Core.Utils.Localization.LocalizationManager.OnLanguageChanged
-  fullName: CurseR.Core.Utils.Localization.LocalizationManager.OnLanguageChanged
-  nameWithType: LocalizationManager.OnLanguageChanged
-- uid: CurseR.Core.Utils.Localization.LocalizationSettingsData
-  name: LocalizationSettingsData
-  href: api/CurseR.Core.Utils.Localization.LocalizationSettingsData.html
-  commentId: T:CurseR.Core.Utils.Localization.LocalizationSettingsData
-  fullName: CurseR.Core.Utils.Localization.LocalizationSettingsData
-  nameWithType: LocalizationSettingsData
-- uid: CurseR.Core.Utils.Localization.LocalizationSettingsData.BaseUrl
-  name: BaseUrl
-  href: api/CurseR.Core.Utils.Localization.LocalizationSettingsData.html#CurseR_Core_Utils_Localization_LocalizationSettingsData_BaseUrl
-  commentId: F:CurseR.Core.Utils.Localization.LocalizationSettingsData.BaseUrl
-  fullName: CurseR.Core.Utils.Localization.LocalizationSettingsData.BaseUrl
-  nameWithType: LocalizationSettingsData.BaseUrl
-- uid: CurseR.Core.Utils.Localization.LocalizationSettingsData.OutputFolderPath
-  name: OutputFolderPath
-  href: api/CurseR.Core.Utils.Localization.LocalizationSettingsData.html#CurseR_Core_Utils_Localization_LocalizationSettingsData_OutputFolderPath
-  commentId: F:CurseR.Core.Utils.Localization.LocalizationSettingsData.OutputFolderPath
-  fullName: CurseR.Core.Utils.Localization.LocalizationSettingsData.OutputFolderPath
-  nameWithType: LocalizationSettingsData.OutputFolderPath
-- uid: CurseR.Core.Utils.Localization.LocalizationSettingsData.sheets
-  name: sheets
-  href: api/CurseR.Core.Utils.Localization.LocalizationSettingsData.html#CurseR_Core_Utils_Localization_LocalizationSettingsData_sheets
-  commentId: F:CurseR.Core.Utils.Localization.LocalizationSettingsData.sheets
-  fullName: CurseR.Core.Utils.Localization.LocalizationSettingsData.sheets
-  nameWithType: LocalizationSettingsData.sheets
-- uid: CurseR.Core.Utils.Localization.LocalizationSheetConfig
-  name: LocalizationSheetConfig
-  href: api/CurseR.Core.Utils.Localization.LocalizationSheetConfig.html
-  commentId: T:CurseR.Core.Utils.Localization.LocalizationSheetConfig
-  fullName: CurseR.Core.Utils.Localization.LocalizationSheetConfig
-  nameWithType: LocalizationSheetConfig
-- uid: CurseR.Core.Utils.Localization.LocalizationSheetConfig.Gid
-  name: Gid
-  href: api/CurseR.Core.Utils.Localization.LocalizationSheetConfig.html#CurseR_Core_Utils_Localization_LocalizationSheetConfig_Gid
-  commentId: F:CurseR.Core.Utils.Localization.LocalizationSheetConfig.Gid
-  fullName: CurseR.Core.Utils.Localization.LocalizationSheetConfig.Gid
-  nameWithType: LocalizationSheetConfig.Gid
-- uid: CurseR.Core.Utils.Localization.LocalizationSheetConfig.TableName
-  name: TableName
-  href: api/CurseR.Core.Utils.Localization.LocalizationSheetConfig.html#CurseR_Core_Utils_Localization_LocalizationSheetConfig_TableName
-  commentId: F:CurseR.Core.Utils.Localization.LocalizationSheetConfig.TableName
-  fullName: CurseR.Core.Utils.Localization.LocalizationSheetConfig.TableName
-  nameWithType: LocalizationSheetConfig.TableName
-- uid: CurseR.Core.Utils.Localization.LocalizedText
-  name: LocalizedText
-  href: api/CurseR.Core.Utils.Localization.LocalizedText.html
-  commentId: T:CurseR.Core.Utils.Localization.LocalizedText
-  fullName: CurseR.Core.Utils.Localization.LocalizedText
-  nameWithType: LocalizedText
-- uid: CurseR.Core.Utils.Localization.LocalizedText.ApplyLocalization
-  name: ApplyLocalization()
-  href: api/CurseR.Core.Utils.Localization.LocalizedText.html#CurseR_Core_Utils_Localization_LocalizedText_ApplyLocalization
-  commentId: M:CurseR.Core.Utils.Localization.LocalizedText.ApplyLocalization
-  fullName: CurseR.Core.Utils.Localization.LocalizedText.ApplyLocalization()
-  nameWithType: LocalizedText.ApplyLocalization()
-- uid: CurseR.Core.Utils.Localization.LocalizedText.ApplyLocalization*
-  name: ApplyLocalization
-  href: api/CurseR.Core.Utils.Localization.LocalizedText.html#CurseR_Core_Utils_Localization_LocalizedText_ApplyLocalization_
-  commentId: Overload:CurseR.Core.Utils.Localization.LocalizedText.ApplyLocalization
-  isSpec: "True"
-  fullName: CurseR.Core.Utils.Localization.LocalizedText.ApplyLocalization
-  nameWithType: LocalizedText.ApplyLocalization
-- uid: CurseR.Core.Utils.Localization.LocalizedText.SetKey(System.String)
-  name: SetKey(string)
-  href: api/CurseR.Core.Utils.Localization.LocalizedText.html#CurseR_Core_Utils_Localization_LocalizedText_SetKey_System_String_
-  commentId: M:CurseR.Core.Utils.Localization.LocalizedText.SetKey(System.String)
-  name.vb: SetKey(String)
-  fullName: CurseR.Core.Utils.Localization.LocalizedText.SetKey(string)
-  fullName.vb: CurseR.Core.Utils.Localization.LocalizedText.SetKey(String)
-  nameWithType: LocalizedText.SetKey(string)
-  nameWithType.vb: LocalizedText.SetKey(String)
-- uid: CurseR.Core.Utils.Localization.LocalizedText.SetKey*
-  name: SetKey
-  href: api/CurseR.Core.Utils.Localization.LocalizedText.html#CurseR_Core_Utils_Localization_LocalizedText_SetKey_
-  commentId: Overload:CurseR.Core.Utils.Localization.LocalizedText.SetKey
-  isSpec: "True"
-  fullName: CurseR.Core.Utils.Localization.LocalizedText.SetKey
-  nameWithType: LocalizedText.SetKey
 - uid: CurseR.Core.Utils.PriorityQueue`2
   name: PriorityQueue<TElement, TPriority>
   href: api/CurseR.Core.Utils.PriorityQueue-2.html
@@ -3561,131 +3653,6 @@ references:
   isSpec: "True"
   fullName: CurseR.Core.Utils.TextAssetExtensionFilterAttribute.AllowedExtensions
   nameWithType: TextAssetExtensionFilterAttribute.AllowedExtensions
-- uid: CurseR.Core.Utils.Utils
-  name: Utils
-  href: api/CurseR.Core.Utils.Utils.html
-  commentId: T:CurseR.Core.Utils.Utils
-  fullName: CurseR.Core.Utils.Utils
-  nameWithType: Utils
-- uid: CurseR.Core.Utils.Utils.ByPlayer(Collider2D)
-  name: ByPlayer(Collider2D)
-  href: api/CurseR.Core.Utils.Utils.html#CurseR_Core_Utils_Utils_ByPlayer_Collider2D_
-  commentId: M:CurseR.Core.Utils.Utils.ByPlayer(Collider2D)
-  fullName: CurseR.Core.Utils.Utils.ByPlayer(Collider2D)
-  nameWithType: Utils.ByPlayer(Collider2D)
-- uid: CurseR.Core.Utils.Utils.ByPlayer(Collision2D)
-  name: ByPlayer(Collision2D)
-  href: api/CurseR.Core.Utils.Utils.html#CurseR_Core_Utils_Utils_ByPlayer_Collision2D_
-  commentId: M:CurseR.Core.Utils.Utils.ByPlayer(Collision2D)
-  fullName: CurseR.Core.Utils.Utils.ByPlayer(Collision2D)
-  nameWithType: Utils.ByPlayer(Collision2D)
-- uid: CurseR.Core.Utils.Utils.ByPlayer*
-  name: ByPlayer
-  href: api/CurseR.Core.Utils.Utils.html#CurseR_Core_Utils_Utils_ByPlayer_
-  commentId: Overload:CurseR.Core.Utils.Utils.ByPlayer
-  isSpec: "True"
-  fullName: CurseR.Core.Utils.Utils.ByPlayer
-  nameWithType: Utils.ByPlayer
-- uid: CurseR.Core.Utils.Utils.GetComponentInCurrentScene*
-  name: GetComponentInCurrentScene
-  href: api/CurseR.Core.Utils.Utils.html#CurseR_Core_Utils_Utils_GetComponentInCurrentScene_
-  commentId: Overload:CurseR.Core.Utils.Utils.GetComponentInCurrentScene
-  isSpec: "True"
-  fullName: CurseR.Core.Utils.Utils.GetComponentInCurrentScene
-  nameWithType: Utils.GetComponentInCurrentScene
-- uid: CurseR.Core.Utils.Utils.GetComponentInCurrentScene``1(MonoBehaviour,System.Boolean)
-  name: GetComponentInCurrentScene<T>(MonoBehaviour, bool)
-  href: api/CurseR.Core.Utils.Utils.html#CurseR_Core_Utils_Utils_GetComponentInCurrentScene__1_MonoBehaviour_System_Boolean_
-  commentId: M:CurseR.Core.Utils.Utils.GetComponentInCurrentScene``1(MonoBehaviour,System.Boolean)
-  name.vb: GetComponentInCurrentScene(Of T)(MonoBehaviour, Boolean)
-  fullName: CurseR.Core.Utils.Utils.GetComponentInCurrentScene<T>(MonoBehaviour, bool)
-  fullName.vb: CurseR.Core.Utils.Utils.GetComponentInCurrentScene(Of T)(MonoBehaviour, Boolean)
-  nameWithType: Utils.GetComponentInCurrentScene<T>(MonoBehaviour, bool)
-  nameWithType.vb: Utils.GetComponentInCurrentScene(Of T)(MonoBehaviour, Boolean)
-- uid: CurseR.Core.Utils.Utils.GetComponentsInCurrentScene*
-  name: GetComponentsInCurrentScene
-  href: api/CurseR.Core.Utils.Utils.html#CurseR_Core_Utils_Utils_GetComponentsInCurrentScene_
-  commentId: Overload:CurseR.Core.Utils.Utils.GetComponentsInCurrentScene
-  isSpec: "True"
-  fullName: CurseR.Core.Utils.Utils.GetComponentsInCurrentScene
-  nameWithType: Utils.GetComponentsInCurrentScene
-- uid: CurseR.Core.Utils.Utils.GetComponentsInCurrentScene``1(MonoBehaviour,System.Boolean)
-  name: GetComponentsInCurrentScene<T>(MonoBehaviour, bool)
-  href: api/CurseR.Core.Utils.Utils.html#CurseR_Core_Utils_Utils_GetComponentsInCurrentScene__1_MonoBehaviour_System_Boolean_
-  commentId: M:CurseR.Core.Utils.Utils.GetComponentsInCurrentScene``1(MonoBehaviour,System.Boolean)
-  name.vb: GetComponentsInCurrentScene(Of T)(MonoBehaviour, Boolean)
-  fullName: CurseR.Core.Utils.Utils.GetComponentsInCurrentScene<T>(MonoBehaviour, bool)
-  fullName.vb: CurseR.Core.Utils.Utils.GetComponentsInCurrentScene(Of T)(MonoBehaviour, Boolean)
-  nameWithType: Utils.GetComponentsInCurrentScene<T>(MonoBehaviour, bool)
-  nameWithType.vb: Utils.GetComponentsInCurrentScene(Of T)(MonoBehaviour, Boolean)
-- uid: CurseR.Core.Utils.Utils.GetRoot(UnityEngine.SceneManagement.Scene)
-  name: GetRoot(Scene)
-  href: api/CurseR.Core.Utils.Utils.html#CurseR_Core_Utils_Utils_GetRoot_UnityEngine_SceneManagement_Scene_
-  commentId: M:CurseR.Core.Utils.Utils.GetRoot(UnityEngine.SceneManagement.Scene)
-  fullName: CurseR.Core.Utils.Utils.GetRoot(UnityEngine.SceneManagement.Scene)
-  nameWithType: Utils.GetRoot(UnityEngine.SceneManagement.Scene)
-- uid: CurseR.Core.Utils.Utils.GetRoot*
-  name: GetRoot
-  href: api/CurseR.Core.Utils.Utils.html#CurseR_Core_Utils_Utils_GetRoot_
-  commentId: Overload:CurseR.Core.Utils.Utils.GetRoot
-  isSpec: "True"
-  fullName: CurseR.Core.Utils.Utils.GetRoot
-  nameWithType: Utils.GetRoot
-- uid: CurseR.Core.Utils.Utils.GetSurfaceAngle(RaycastHit2D)
-  name: GetSurfaceAngle(RaycastHit2D)
-  href: api/CurseR.Core.Utils.Utils.html#CurseR_Core_Utils_Utils_GetSurfaceAngle_RaycastHit2D_
-  commentId: M:CurseR.Core.Utils.Utils.GetSurfaceAngle(RaycastHit2D)
-  fullName: CurseR.Core.Utils.Utils.GetSurfaceAngle(RaycastHit2D)
-  nameWithType: Utils.GetSurfaceAngle(RaycastHit2D)
-- uid: CurseR.Core.Utils.Utils.GetSurfaceAngle*
-  name: GetSurfaceAngle
-  href: api/CurseR.Core.Utils.Utils.html#CurseR_Core_Utils_Utils_GetSurfaceAngle_
-  commentId: Overload:CurseR.Core.Utils.Utils.GetSurfaceAngle
-  isSpec: "True"
-  fullName: CurseR.Core.Utils.Utils.GetSurfaceAngle
-  nameWithType: Utils.GetSurfaceAngle
-- uid: CurseR.Core.Utils.Utils.Teleport(Rigidbody2D,Vector2)
-  name: Teleport(Rigidbody2D, Vector2)
-  href: api/CurseR.Core.Utils.Utils.html#CurseR_Core_Utils_Utils_Teleport_Rigidbody2D_Vector2_
-  commentId: M:CurseR.Core.Utils.Utils.Teleport(Rigidbody2D,Vector2)
-  fullName: CurseR.Core.Utils.Utils.Teleport(Rigidbody2D, Vector2)
-  nameWithType: Utils.Teleport(Rigidbody2D, Vector2)
-- uid: CurseR.Core.Utils.Utils.Teleport*
-  name: Teleport
-  href: api/CurseR.Core.Utils.Utils.html#CurseR_Core_Utils_Utils_Teleport_
-  commentId: Overload:CurseR.Core.Utils.Utils.Teleport
-  isSpec: "True"
-  fullName: CurseR.Core.Utils.Utils.Teleport
-  nameWithType: Utils.Teleport
-- uid: CurseR.Core.Utils.Utils.ToVector2(Vector3)
-  name: ToVector2(Vector3)
-  href: api/CurseR.Core.Utils.Utils.html#CurseR_Core_Utils_Utils_ToVector2_Vector3_
-  commentId: M:CurseR.Core.Utils.Utils.ToVector2(Vector3)
-  fullName: CurseR.Core.Utils.Utils.ToVector2(Vector3)
-  nameWithType: Utils.ToVector2(Vector3)
-- uid: CurseR.Core.Utils.Utils.ToVector2*
-  name: ToVector2
-  href: api/CurseR.Core.Utils.Utils.html#CurseR_Core_Utils_Utils_ToVector2_
-  commentId: Overload:CurseR.Core.Utils.Utils.ToVector2
-  isSpec: "True"
-  fullName: CurseR.Core.Utils.Utils.ToVector2
-  nameWithType: Utils.ToVector2
-- uid: CurseR.Core.Utils.Utils.WaitForCompletionAll(MonoBehaviour,System.Collections.IEnumerator[])
-  name: WaitForCompletionAll(MonoBehaviour, params IEnumerator[])
-  href: api/CurseR.Core.Utils.Utils.html#CurseR_Core_Utils_Utils_WaitForCompletionAll_MonoBehaviour_System_Collections_IEnumerator___
-  commentId: M:CurseR.Core.Utils.Utils.WaitForCompletionAll(MonoBehaviour,System.Collections.IEnumerator[])
-  name.vb: WaitForCompletionAll(MonoBehaviour, ParamArray IEnumerator())
-  fullName: CurseR.Core.Utils.Utils.WaitForCompletionAll(MonoBehaviour, params System.Collections.IEnumerator[])
-  fullName.vb: CurseR.Core.Utils.Utils.WaitForCompletionAll(MonoBehaviour, ParamArray System.Collections.IEnumerator())
-  nameWithType: Utils.WaitForCompletionAll(MonoBehaviour, params IEnumerator[])
-  nameWithType.vb: Utils.WaitForCompletionAll(MonoBehaviour, ParamArray IEnumerator())
-- uid: CurseR.Core.Utils.Utils.WaitForCompletionAll*
-  name: WaitForCompletionAll
-  href: api/CurseR.Core.Utils.Utils.html#CurseR_Core_Utils_Utils_WaitForCompletionAll_
-  commentId: Overload:CurseR.Core.Utils.Utils.WaitForCompletionAll
-  isSpec: "True"
-  fullName: CurseR.Core.Utils.Utils.WaitForCompletionAll
-  nameWithType: Utils.WaitForCompletionAll
 - uid: CurseR.Core.Utils.WaitForAtLeastSeconds
   name: WaitForAtLeastSeconds
   href: api/CurseR.Core.Utils.WaitForAtLeastSeconds.html
