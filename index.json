@@ -277,12 +277,12 @@
   "api/CurseR.Core.CutScene.CutSceneManager.html": {
     "href": "api/CurseR.Core.CutScene.CutSceneManager.html",
     "title": "Class CutSceneManager | CurseR",
-    "summary": "Class CutSceneManager Namespace CurseR.Core.CutScene public class CutSceneManager : MonoBehaviour Inheritance object CutSceneManager Properties IsPlaying public bool IsPlaying { get; } Property Value bool Methods PlayCutScene(CutSceneData, bool) public void PlayCutScene(CutSceneData cutScene, bool interrupt = false) Parameters cutScene CutSceneData interrupt bool RegisterDialogBubble(DialogSpeaker, DialogBubble) public void RegisterDialogBubble(DialogSpeaker speaker, DialogBubble bubble) Parameters speaker DialogSpeaker bubble DialogBubble"
+    "summary": "Class CutSceneManager Namespace CurseR.Core.CutScene public class CutSceneManager : MonoBehaviour Inheritance object CutSceneManager Properties IsPlaying public bool IsPlaying { get; } Property Value bool Methods AddEventHandler(string, Action) public void AddEventHandler(string eventName, Action handler) Parameters eventName string handler Action PlayCutScene(CutSceneData, bool) public void PlayCutScene(CutSceneData cutScene, bool interrupt = false) Parameters cutScene CutSceneData interrupt bool RegisterDialogBubble(DialogSpeaker, DialogBubble) public void RegisterDialogBubble(DialogSpeaker speaker, DialogBubble bubble) Parameters speaker DialogSpeaker bubble DialogBubble RemoveEventHandler(string, Action) public void RemoveEventHandler(string eventName, Action handler) Parameters eventName string handler Action"
   },
   "api/CurseR.Core.CutScene.CutSceneSequence.html": {
     "href": "api/CurseR.Core.CutScene.CutSceneSequence.html",
     "title": "Class CutSceneSequence | CurseR",
-    "summary": "Class CutSceneSequence Namespace CurseR.Core.CutScene [Serializable] public abstract class CutSceneSequence Inheritance object CutSceneSequence Derived CameraSequence ConversationSequence DelaySequence Properties Enabled public bool Enabled { get; set; } Property Value bool SequenceType public abstract SequenceType SequenceType { get; } Property Value SequenceType"
+    "summary": "Class CutSceneSequence Namespace CurseR.Core.CutScene [Serializable] public abstract class CutSceneSequence Inheritance object CutSceneSequence Derived CameraSequence ConversationSequence DelaySequence EventSequence TransformPlaybackSequence Properties Enabled public bool Enabled { get; set; } Property Value bool SequenceType public abstract SequenceType SequenceType { get; } Property Value SequenceType"
   },
   "api/CurseR.Core.CutScene.CutSceneTrigger.html": {
     "href": "api/CurseR.Core.CutScene.CutSceneTrigger.html",
@@ -294,15 +294,55 @@
     "title": "Class DelaySequence | CurseR",
     "summary": "Class DelaySequence Namespace CurseR.Core.CutScene [Serializable] public class DelaySequence : CutSceneSequence Inheritance object CutSceneSequence DelaySequence Inherited Members CutSceneSequence.Enabled Constructors DelaySequence(float) public DelaySequence(float duration) Parameters duration float Properties Duration public float Duration { get; } Property Value float SequenceType public override SequenceType SequenceType { get; } Property Value SequenceType"
   },
+  "api/CurseR.Core.CutScene.EventSequence.html": {
+    "href": "api/CurseR.Core.CutScene.EventSequence.html",
+    "title": "Class EventSequence | CurseR",
+    "summary": "Class EventSequence Namespace CurseR.Core.CutScene [Serializable] public class EventSequence : CutSceneSequence Inheritance object CutSceneSequence EventSequence Inherited Members CutSceneSequence.Enabled Constructors EventSequence(string) public EventSequence(string eventName) Parameters eventName string Properties EventName public string EventName { get; } Property Value string SequenceType public override SequenceType SequenceType { get; } Property Value SequenceType"
+  },
   "api/CurseR.Core.CutScene.SequenceType.html": {
     "href": "api/CurseR.Core.CutScene.SequenceType.html",
     "title": "Enum SequenceType | CurseR",
-    "summary": "Enum SequenceType Namespace CurseR.Core.CutScene public enum SequenceType Fields Camera = 1 Conversation = 2 Delay = 0"
+    "summary": "Enum SequenceType Namespace CurseR.Core.CutScene public enum SequenceType Fields Camera = 1 Conversation = 2 Delay = 0 Event = 3 TransformPlayback = 4"
+  },
+  "api/CurseR.Core.CutScene.Transform.RecordingOptions.html": {
+    "href": "api/CurseR.Core.CutScene.Transform.RecordingOptions.html",
+    "title": "Class RecordingOptions | CurseR",
+    "summary": "Class RecordingOptions Namespace CurseR.Core.CutScene.Transform Recording options for transform recording [Serializable] public class RecordingOptions Inheritance object RecordingOptions Constructors RecordingOptions() public RecordingOptions() RecordingOptions(bool, bool, bool, int) public RecordingOptions(bool recordPosition, bool recordRotation, bool recordScale, int frameRate) Parameters recordPosition bool recordRotation bool recordScale bool frameRate int Properties FrameRate public int FrameRate { get; set; } Property Value int RecordPosition public bool RecordPosition { get; set; } Property Value bool RecordRotation public bool RecordRotation { get; set; } Property Value bool RecordScale public bool RecordScale { get; set; } Property Value bool"
+  },
+  "api/CurseR.Core.CutScene.Transform.TransformFrame.html": {
+    "href": "api/CurseR.Core.CutScene.Transform.TransformFrame.html",
+    "title": "Class TransformFrame | CurseR",
+    "summary": "Class TransformFrame Namespace CurseR.Core.CutScene.Transform Single frame data for transform recording [Serializable] public class TransformFrame Inheritance object TransformFrame Constructors TransformFrame() public TransformFrame() TransformFrame(Vector3?, Quaternion?, Vector3?) public TransformFrame(Vector3? position, Quaternion? rotation, Vector3? scale) Parameters position Vector3? rotation Quaternion? scale Vector3? Properties Position public SerializableVector3? Position { get; set; } Property Value SerializableVector3? Rotation public SerializableQuaternion? Rotation { get; set; } Property Value SerializableQuaternion? Scale public SerializableVector3? Scale { get; set; } Property Value SerializableVector3?"
+  },
+  "api/CurseR.Core.CutScene.Transform.TransformPlaybackPoint.html": {
+    "href": "api/CurseR.Core.CutScene.Transform.TransformPlaybackPoint.html",
+    "title": "Class TransformPlaybackPoint | CurseR",
+    "summary": "Class TransformPlaybackPoint Namespace CurseR.Core.CutScene.Transform Marks a position where TransformPlayer should move to before playback starts public class TransformPlaybackPoint : MonoBehaviour Inheritance object TransformPlaybackPoint Properties Id public string Id { get; } Property Value string"
+  },
+  "api/CurseR.Core.CutScene.Transform.TransformPlaybackSequence.html": {
+    "href": "api/CurseR.Core.CutScene.Transform.TransformPlaybackSequence.html",
+    "title": "Class TransformPlaybackSequence | CurseR",
+    "summary": "Class TransformPlaybackSequence Namespace CurseR.Core.CutScene.Transform Sequence for playing back recorded transform data [Serializable] public class TransformPlaybackSequence : CutSceneSequence Inheritance object CutSceneSequence TransformPlaybackSequence Inherited Members CutSceneSequence.Enabled Constructors TransformPlaybackSequence() public TransformPlaybackSequence() TransformPlaybackSequence(string, string, string, bool, float) public TransformPlaybackSequence(string playerId, string recordingAssetPath = \"\", string startPointId = \"\", bool async = false, float playbackSpeed = 1) Parameters playerId string recordingAssetPath string startPointId string async bool playbackSpeed float Properties Async public bool Async { get; } Property Value bool PlaybackSpeed public float PlaybackSpeed { get; } Property Value float PlayerId public string PlayerId { get; } Property Value string RecordingAssetPath public string RecordingAssetPath { get; } Property Value string SequenceType public override SequenceType SequenceType { get; } Property Value SequenceType StartPointId public string StartPointId { get; } Property Value string"
+  },
+  "api/CurseR.Core.CutScene.Transform.TransformPlayer.html": {
+    "href": "api/CurseR.Core.CutScene.Transform.TransformPlayer.html",
+    "title": "Class TransformPlayer | CurseR",
+    "summary": "Class TransformPlayer Namespace CurseR.Core.CutScene.Transform Component for playing back recorded transform data with external injection Used by CutScenes to play back transform recordings public class TransformPlayer : MonoBehaviour Inheritance object TransformPlayer Properties Id public string Id { get; } Property Value string IsPlaying public bool IsPlaying { get; } Property Value bool Methods Play(TransformRecordingData, TransformPlaybackPoint, float) Play recording with external data and start point public IEnumerator Play(TransformRecordingData recordingData, TransformPlaybackPoint startPoint, float speed = 1) Parameters recordingData TransformRecordingData startPoint TransformPlaybackPoint speed float Returns IEnumerator Stop() Stop current playback public void Stop()"
+  },
+  "api/CurseR.Core.CutScene.Transform.TransformRecordingData.html": {
+    "href": "api/CurseR.Core.CutScene.Transform.TransformRecordingData.html",
+    "title": "Class TransformRecordingData | CurseR",
+    "summary": "Class TransformRecordingData Namespace CurseR.Core.CutScene.Transform Main container for transform recording data [Serializable] public class TransformRecordingData Inheritance object TransformRecordingData Constructors TransformRecordingData() public TransformRecordingData() TransformRecordingData(RecordingOptions) public TransformRecordingData(RecordingOptions options) Parameters options RecordingOptions Properties Frames public List<TransformFrame> Frames { get; set; } Property Value List<TransformFrame> RecordingOptions public RecordingOptions RecordingOptions { get; set; } Property Value RecordingOptions Methods FromJson(string) Import recording data from JSON string public static TransformRecordingData FromJson(string json) Parameters json string Returns TransformRecordingData FromTextAsset(TextAsset) Create TransformRecordingData from TextAsset public static TransformRecordingData FromTextAsset(UnityEngine.TextAsset textAsset) Parameters textAsset TextAsset Returns TransformRecordingData ToJson() Export recording data to JSON string public string ToJson() Returns string"
+  },
+  "api/CurseR.Core.CutScene.Transform.html": {
+    "href": "api/CurseR.Core.CutScene.Transform.html",
+    "title": "Namespace CurseR.Core.CutScene.Transform | CurseR",
+    "summary": "Namespace CurseR.Core.CutScene.Transform Classes RecordingOptions Recording options for transform recording TransformFrame Single frame data for transform recording TransformPlaybackPoint Marks a position where TransformPlayer should move to before playback starts TransformPlaybackSequence Sequence for playing back recorded transform data TransformPlayer Component for playing back recorded transform data with external injection Used by CutScenes to play back transform recordings TransformRecordingData Main container for transform recording data"
   },
   "api/CurseR.Core.CutScene.html": {
     "href": "api/CurseR.Core.CutScene.html",
     "title": "Namespace CurseR.Core.CutScene | CurseR",
-    "summary": "Namespace CurseR.Core.CutScene Namespaces CurseR.Core.CutScene.Camera CurseR.Core.CutScene.Conversation Classes CutSceneData CutSceneManager CutSceneSequence CutSceneTrigger DelaySequence Enums SequenceType"
+    "summary": "Namespace CurseR.Core.CutScene Namespaces CurseR.Core.CutScene.Camera CurseR.Core.CutScene.Conversation CurseR.Core.CutScene.Transform Classes CutSceneData CutSceneManager CutSceneSequence CutSceneTrigger DelaySequence EventSequence Enums SequenceType"
   },
   "api/CurseR.Core.GameEvent.html": {
     "href": "api/CurseR.Core.GameEvent.html",
@@ -429,6 +469,16 @@
     "title": "Class PriorityQueue<TElement, TPriority> | CurseR",
     "summary": "Class PriorityQueue<TElement, TPriority> Namespace CurseR.Core.Utils Min-heap based priority queue implementation Lower priority values are dequeued first public class PriorityQueue<TElement, TPriority> where TPriority : IComparable<TPriority> Type Parameters TElement Type of elements in the queue TPriority Type of priority (must be comparable) Inheritance object PriorityQueue<TElement, TPriority> Constructors PriorityQueue() public PriorityQueue() PriorityQueue(int) public PriorityQueue(int initialCapacity) Parameters initialCapacity int Properties Count public int Count { get; } Property Value int Methods Clear() Remove all elements from the queue public void Clear() Dequeue() Remove and return the element with the lowest priority public TElement Dequeue() Returns TElement Enqueue(TElement, TPriority) Add an element with the given priority public void Enqueue(TElement element, TPriority priority) Parameters element TElement priority TPriority Peek() Get the element with the lowest priority without removing it public TElement Peek() Returns TElement"
   },
+  "api/CurseR.Core.Utils.SerializableQuaternion.html": {
+    "href": "api/CurseR.Core.Utils.SerializableQuaternion.html",
+    "title": "Struct SerializableQuaternion | CurseR",
+    "summary": "Struct SerializableQuaternion Namespace CurseR.Core.Utils Serializable Quaternion with only x, y, z, w components [Serializable] public struct SerializableQuaternion Constructors SerializableQuaternion(Quaternion) public SerializableQuaternion(Quaternion q) Parameters q Quaternion Fields w public float w Field Value float x public float x Field Value float y public float y Field Value float z public float z Field Value float Methods ToQuaternion() public Quaternion ToQuaternion() Returns Quaternion"
+  },
+  "api/CurseR.Core.Utils.SerializableVector3.html": {
+    "href": "api/CurseR.Core.Utils.SerializableVector3.html",
+    "title": "Struct SerializableVector3 | CurseR",
+    "summary": "Struct SerializableVector3 Namespace CurseR.Core.Utils Serializable Vector3 with only x, y, z components [Serializable] public struct SerializableVector3 Constructors SerializableVector3(Vector3) public SerializableVector3(Vector3 v) Parameters v Vector3 Fields x public float x Field Value float y public float y Field Value float z public float z Field Value float Methods ToVector3() public Vector3 ToVector3() Returns Vector3"
+  },
   "api/CurseR.Core.Utils.SharedFlag.Handle.html": {
     "href": "api/CurseR.Core.Utils.SharedFlag.Handle.html",
     "title": "Class SharedFlag.Handle | CurseR",
@@ -467,7 +517,7 @@
   "api/CurseR.Core.Utils.html": {
     "href": "api/CurseR.Core.Utils.html",
     "title": "Namespace CurseR.Core.Utils | CurseR",
-    "summary": "Namespace CurseR.Core.Utils Classes CoreUtils HistoryValue<T> 과거 값을 내부적으로 캐싱 PriorityQueue<TElement, TPriority> Min-heap based priority queue implementation Lower priority values are dequeued first SharedFlag SharedFlag.Handle TextAssetExtensionFilterAttribute TextAsset 필드에 특정 확장자만 허용하도록 필터링하는 어트리뷰트 WaitForAtLeastSeconds 시작 시점으로부터 최소 대기 시간 보장 WaitForSecondsWithCancel 중간 취소 가능한 WaitForSeconds WaitUntilWithCancel 중간 취소 가능한 WaitUntil Structs WorldPoint Enums Direction"
+    "summary": "Namespace CurseR.Core.Utils Classes CoreUtils HistoryValue<T> 과거 값을 내부적으로 캐싱 PriorityQueue<TElement, TPriority> Min-heap based priority queue implementation Lower priority values are dequeued first SharedFlag SharedFlag.Handle TextAssetExtensionFilterAttribute TextAsset 필드에 특정 확장자만 허용하도록 필터링하는 어트리뷰트 WaitForAtLeastSeconds 시작 시점으로부터 최소 대기 시간 보장 WaitForSecondsWithCancel 중간 취소 가능한 WaitForSeconds WaitUntilWithCancel 중간 취소 가능한 WaitUntil Structs SerializableQuaternion Serializable Quaternion with only x, y, z, w components SerializableVector3 Serializable Vector3 with only x, y, z components WorldPoint Enums Direction"
   },
   "api/CurseR.Core.html": {
     "href": "api/CurseR.Core.html",
@@ -493,6 +543,11 @@
     "href": "articles/chapter_1/player/check_collision.html",
     "title": "플레이어 충돌 체크하기 | CurseR",
     "summary": "충돌 체크하기 확장 메소드 Collision2D.ByPlayer() 사용 void OnCollisionEnter2D(Collision2D collision) { if (collision.ByPlayer()) { // Do something } } 트리거 체크하기 확장 메소드 Collider2D.ByPlayer() 사용 void OnTriggerEnter2D(Collider2D collision) { if (collision.ByPlayer()) { // Do something } }"
+  },
+  "articles/core/cutscene_system.html": {
+    "href": "articles/core/cutscene_system.html",
+    "title": "Cutscene System | CurseR",
+    "summary": "Cutscene System CutSceneData.FromTextAsset() 메서드를 이용해 TextAsset을 CutSceneData로 변환할 수 있습니다. CutSceneData cutScene = CutSceneData.FromTextAsset(textAsset); 컷씬 재생 여부 var chapterManager = GameServices.ChapterManager; chapterManager.IsCutScenePlayed(cutScene) // 재생 여부 가져오기 chapterManager.SetCutScenePlayed(cutScene); // 재생 여부 설정하기 컷씬 재생하기 var cutsceneManager = GameServices.CutSceneManager; cutsceneManager.PlayCutscene(cutScene);"
   },
   "articles/core/sound/audio_emitter.html": {
     "href": "articles/core/sound/audio_emitter.html",

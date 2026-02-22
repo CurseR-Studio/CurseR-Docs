@@ -838,6 +838,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.CutScene.EventSequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.CutScene.EventSequence.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.CutScene.EventSequence",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CurseR.Core.CutScene.SequenceType.yml",
       "output": {
         ".html": {
@@ -848,6 +862,104 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "CurseR.Core.CutScene.SequenceType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.CutScene.Transform.RecordingOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.CutScene.Transform.RecordingOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.CutScene.Transform.RecordingOptions",
+      "Summary": "<p sourcefile=\"api/CurseR.Core.CutScene.Transform.RecordingOptions.yml\" sourcestartlinenumber=\"1\">Recording options for transform recording</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.CutScene.Transform.TransformFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.CutScene.Transform.TransformFrame.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.CutScene.Transform.TransformFrame",
+      "Summary": "<p sourcefile=\"api/CurseR.Core.CutScene.Transform.TransformFrame.yml\" sourcestartlinenumber=\"1\">Single frame data for transform recording</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.CutScene.Transform.TransformPlaybackPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.CutScene.Transform.TransformPlaybackPoint.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.CutScene.Transform.TransformPlaybackPoint",
+      "Summary": "<p sourcefile=\"api/CurseR.Core.CutScene.Transform.TransformPlaybackPoint.yml\" sourcestartlinenumber=\"1\">Marks a position where TransformPlayer should move to before playback starts</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.CutScene.Transform.TransformPlaybackSequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.CutScene.Transform.TransformPlaybackSequence.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.CutScene.Transform.TransformPlaybackSequence",
+      "Summary": "<p sourcefile=\"api/CurseR.Core.CutScene.Transform.TransformPlaybackSequence.yml\" sourcestartlinenumber=\"1\">Sequence for playing back recorded transform data</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.CutScene.Transform.TransformPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.CutScene.Transform.TransformPlayer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.CutScene.Transform.TransformPlayer",
+      "Summary": "<p sourcefile=\"api/CurseR.Core.CutScene.Transform.TransformPlayer.yml\" sourcestartlinenumber=\"1\">Component for playing back recorded transform data with external injection\nUsed by CutScenes to play back transform recordings</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.CutScene.Transform.TransformRecordingData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.CutScene.Transform.TransformRecordingData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.CutScene.Transform.TransformRecordingData",
+      "Summary": "<p sourcefile=\"api/CurseR.Core.CutScene.Transform.TransformRecordingData.yml\" sourcestartlinenumber=\"1\">Main container for transform recording data</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.CutScene.Transform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.CutScene.Transform.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.CutScene.Transform",
       "Summary": null
     },
     {
@@ -1216,6 +1328,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Utils.SerializableQuaternion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Utils.SerializableQuaternion.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Utils.SerializableQuaternion",
+      "Summary": "<p sourcefile=\"api/CurseR.Core.Utils.SerializableQuaternion.yml\" sourcestartlinenumber=\"1\">Serializable Quaternion with only x, y, z, w components</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Utils.SerializableVector3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Utils.SerializableVector3.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Utils.SerializableVector3",
+      "Summary": "<p sourcefile=\"api/CurseR.Core.Utils.SerializableVector3.yml\" sourcestartlinenumber=\"1\">Serializable Vector3 with only x, y, z components</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CurseR.Core.Utils.SharedFlag.Handle.yml",
       "output": {
         ".html": {
@@ -1393,6 +1533,16 @@
       "output": {
         ".html": {
           "relative_path": "articles/chapter_1/player/check_collision.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/core/cutscene_system.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/core/cutscene_system.html"
         }
       },
       "version": ""

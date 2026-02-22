@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class DelaySequence | CurseR </title>
+      <title>Struct SerializableVector3 | CurseR </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class DelaySequence | CurseR ">
+      <meta name="title" content="Struct SerializableVector3 | CurseR ">
       
-      
+      <meta name="description" content="Serializable Vector3 with only x, y, z components">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/CurseR-Studio/CurseR/new/develop/apiSpec/new?filename=CurseR_Core_CutScene_DelaySequence.md&amp;value=---%0Auid%3A%20CurseR.Core.CutScene.DelaySequence%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/CurseR-Studio/CurseR/new/develop/apiSpec/new?filename=CurseR_Core_Utils_SerializableVector3.md&amp;value=---%0Auid%3A%20CurseR.Core.Utils.SerializableVector3%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,48 +84,34 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="CurseR.Core.CutScene.DelaySequence">
+        <article data-uid="CurseR.Core.Utils.SerializableVector3">
 
 
 
-  <h1 id="CurseR_Core_CutScene_DelaySequence" data-uid="CurseR.Core.CutScene.DelaySequence" class="text-break">
-Class DelaySequence  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/CutScene/CutScene.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  <h1 id="CurseR_Core_Utils_SerializableVector3" data-uid="CurseR.Core.Utils.SerializableVector3" class="text-break">
+Struct SerializableVector3  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/SerializableTransformTypes.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="CurseR.html">CurseR</a>.<a class="xref" href="CurseR.Core.html">Core</a>.<a class="xref" href="CurseR.Core.CutScene.html">CutScene</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CurseR.html">CurseR</a>.<a class="xref" href="CurseR.Core.html">Core</a>.<a class="xref" href="CurseR.Core.Utils.html">Utils</a></dd></dl>
   
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Serializable Vector3 with only x, y, z components</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
-public class DelaySequence : CutSceneSequence</code></pre>
+public struct SerializableVector3</code></pre>
   </div>
 
 
 
 
-  <dl class="typelist inheritance">
-    <dt>Inheritance</dt>
-    <dd>
-      <div><span class="xref">object</span></div>
-      <div><a class="xref" href="CurseR.Core.CutScene.CutSceneSequence.html">CutSceneSequence</a></div>
-      <div><span class="xref">DelaySequence</span></div>
-    </dd>
-  </dl>
 
 
 
-  <dl class="typelist inheritedMembers">
-    <dt>Inherited Members</dt>
-    <dd>
-    <div>
-      <a class="xref" href="CurseR.Core.CutScene.CutSceneSequence.html#CurseR_Core_CutScene_CutSceneSequence_Enabled">CutSceneSequence.Enabled</a>
-    </div>
-  </dd></dl>
 
 
 
@@ -136,23 +122,23 @@ public class DelaySequence : CutSceneSequence</code></pre>
 </h2>
 
 
-  <a id="CurseR_Core_CutScene_DelaySequence__ctor_" data-uid="CurseR.Core.CutScene.DelaySequence.#ctor*"></a>
+  <a id="CurseR_Core_Utils_SerializableVector3__ctor_" data-uid="CurseR.Core.Utils.SerializableVector3.#ctor*"></a>
 
-  <h3 id="CurseR_Core_CutScene_DelaySequence__ctor_System_Single_" data-uid="CurseR.Core.CutScene.DelaySequence.#ctor(System.Single)">
-  DelaySequence(float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/CutScene/CutScene.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CurseR_Core_Utils_SerializableVector3__ctor_Vector3_" data-uid="CurseR.Core.Utils.SerializableVector3.#ctor(Vector3)">
+  SerializableVector3(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/SerializableTransformTypes.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DelaySequence(float duration)</code></pre>
+    <pre><code class="lang-csharp hljs">public SerializableVector3(Vector3 v)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>duration</code> <span class="xref">float</span></dt>
+    <dt><code>v</code> <span class="xref">Vector3</span></dt>
     <dd></dd>
   </dl>
 
@@ -167,29 +153,27 @@ public class DelaySequence : CutSceneSequence</code></pre>
 
 
 
-  <h2 class="section" id="properties">Properties
+  <h2 class="section" id="fields">Fields
 </h2>
 
 
-  <a id="CurseR_Core_CutScene_DelaySequence_Duration_" data-uid="CurseR.Core.CutScene.DelaySequence.Duration*"></a>
 
-  <h3 id="CurseR_Core_CutScene_DelaySequence_Duration" data-uid="CurseR.Core.CutScene.DelaySequence.Duration">
-  Duration
-  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/CutScene/CutScene.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CurseR_Core_Utils_SerializableVector3_x" data-uid="CurseR.Core.Utils.SerializableVector3.x">
+  x
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/SerializableTransformTypes.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float Duration { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public float x</code></pre>
   </div>
 
 
 
 
-
-  <h4 class="section">Property Value</h4>
+  <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><span class="xref">float</span></dt>
     <dd></dd>
@@ -202,29 +186,94 @@ public class DelaySequence : CutSceneSequence</code></pre>
 
 
 
-  <a id="CurseR_Core_CutScene_DelaySequence_SequenceType_" data-uid="CurseR.Core.CutScene.DelaySequence.SequenceType*"></a>
 
-  <h3 id="CurseR_Core_CutScene_DelaySequence_SequenceType" data-uid="CurseR.Core.CutScene.DelaySequence.SequenceType">
-  SequenceType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/CutScene/CutScene.cs/#L72"><i class="bi bi-code-slash"></i></a>
+
+  <h3 id="CurseR_Core_Utils_SerializableVector3_y" data-uid="CurseR.Core.Utils.SerializableVector3.y">
+  y
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/SerializableTransformTypes.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override SequenceType SequenceType { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public float y</code></pre>
   </div>
 
 
 
 
-
-  <h4 class="section">Property Value</h4>
+  <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CurseR.Core.CutScene.SequenceType.html">SequenceType</a></dt>
+    <dt><span class="xref">float</span></dt>
     <dd></dd>
   </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CurseR_Core_Utils_SerializableVector3_z" data-uid="CurseR.Core.Utils.SerializableVector3.z">
+  z
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/SerializableTransformTypes.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float z</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">float</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CurseR_Core_Utils_SerializableVector3_ToVector3_" data-uid="CurseR.Core.Utils.SerializableVector3.ToVector3*"></a>
+
+  <h3 id="CurseR_Core_Utils_SerializableVector3_ToVector3" data-uid="CurseR.Core.Utils.SerializableVector3.ToVector3">
+  ToVector3()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/SerializableTransformTypes.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 ToVector3()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
 
 
 
@@ -237,7 +286,7 @@ public class DelaySequence : CutSceneSequence</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/CutScene/CutScene.cs/#L69" class="edit-link">Edit this page</a>
+          <a href="https://github.com/CurseR-Studio/CurseR/blob/develop/Assets/Features/Core/Utils/SerializableTransformTypes.cs/#L10" class="edit-link">Edit this page</a>
         </div>
 
 
