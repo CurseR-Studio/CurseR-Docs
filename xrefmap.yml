@@ -1711,6 +1711,18 @@ references:
   commentId: F:CurseR.Core.CutScene.Conversation.DialogSpeaker.Elf
   fullName: CurseR.Core.CutScene.Conversation.DialogSpeaker.Elf
   nameWithType: DialogSpeaker.Elf
+- uid: CurseR.Core.CutScene.Conversation.DialogSpeaker.Elf2
+  name: Elf2
+  href: api/CurseR.Core.CutScene.Conversation.DialogSpeaker.html#CurseR_Core_CutScene_Conversation_DialogSpeaker_Elf2
+  commentId: F:CurseR.Core.CutScene.Conversation.DialogSpeaker.Elf2
+  fullName: CurseR.Core.CutScene.Conversation.DialogSpeaker.Elf2
+  nameWithType: DialogSpeaker.Elf2
+- uid: CurseR.Core.CutScene.Conversation.DialogSpeaker.Elf3
+  name: Elf3
+  href: api/CurseR.Core.CutScene.Conversation.DialogSpeaker.html#CurseR_Core_CutScene_Conversation_DialogSpeaker_Elf3
+  commentId: F:CurseR.Core.CutScene.Conversation.DialogSpeaker.Elf3
+  fullName: CurseR.Core.CutScene.Conversation.DialogSpeaker.Elf3
+  nameWithType: DialogSpeaker.Elf3
 - uid: CurseR.Core.CutScene.Conversation.DialogSpeaker.Goblin1
   name: Goblin1
   href: api/CurseR.Core.CutScene.Conversation.DialogSpeaker.html#CurseR_Core_CutScene_Conversation_DialogSpeaker_Goblin1
@@ -2785,6 +2797,19 @@ references:
   isSpec: "True"
   fullName: CurseR.Core.GameServices.RegisterSceneController
   nameWithType: GameServices.RegisterSceneController
+- uid: CurseR.Core.GameServices.RegisterSoundManager(CurseR.Core.Sound.SoundManager)
+  name: RegisterSoundManager(SoundManager)
+  href: api/CurseR.Core.GameServices.html#CurseR_Core_GameServices_RegisterSoundManager_CurseR_Core_Sound_SoundManager_
+  commentId: M:CurseR.Core.GameServices.RegisterSoundManager(CurseR.Core.Sound.SoundManager)
+  fullName: CurseR.Core.GameServices.RegisterSoundManager(CurseR.Core.Sound.SoundManager)
+  nameWithType: GameServices.RegisterSoundManager(SoundManager)
+- uid: CurseR.Core.GameServices.RegisterSoundManager*
+  name: RegisterSoundManager
+  href: api/CurseR.Core.GameServices.html#CurseR_Core_GameServices_RegisterSoundManager_
+  commentId: Overload:CurseR.Core.GameServices.RegisterSoundManager
+  isSpec: "True"
+  fullName: CurseR.Core.GameServices.RegisterSoundManager
+  nameWithType: GameServices.RegisterSoundManager
 - uid: CurseR.Core.GameServices.RegisterTransitionManager(CurseR.Core.TransitionManager)
   name: RegisterTransitionManager(TransitionManager)
   href: api/CurseR.Core.GameServices.html#CurseR_Core_GameServices_RegisterTransitionManager_CurseR_Core_TransitionManager_
@@ -2824,6 +2849,19 @@ references:
   isSpec: "True"
   fullName: CurseR.Core.GameServices.SetVirtualCamera
   nameWithType: GameServices.SetVirtualCamera
+- uid: CurseR.Core.GameServices.SoundManager
+  name: SoundManager
+  href: api/CurseR.Core.GameServices.html#CurseR_Core_GameServices_SoundManager
+  commentId: P:CurseR.Core.GameServices.SoundManager
+  fullName: CurseR.Core.GameServices.SoundManager
+  nameWithType: GameServices.SoundManager
+- uid: CurseR.Core.GameServices.SoundManager*
+  name: SoundManager
+  href: api/CurseR.Core.GameServices.html#CurseR_Core_GameServices_SoundManager_
+  commentId: Overload:CurseR.Core.GameServices.SoundManager
+  isSpec: "True"
+  fullName: CurseR.Core.GameServices.SoundManager
+  nameWithType: GameServices.SoundManager
 - uid: CurseR.Core.GameServices.TransitionManager
   name: TransitionManager
   href: api/CurseR.Core.GameServices.html#CurseR_Core_GameServices_TransitionManager
@@ -3549,6 +3587,60 @@ references:
   commentId: F:CurseR.Core.Sound.SoundEntry.volume
   fullName: CurseR.Core.Sound.SoundEntry.volume
   nameWithType: SoundEntry.volume
+- uid: CurseR.Core.Sound.SoundManager
+  name: SoundManager
+  href: api/CurseR.Core.Sound.SoundManager.html
+  commentId: T:CurseR.Core.Sound.SoundManager
+  fullName: CurseR.Core.Sound.SoundManager
+  nameWithType: SoundManager
+- uid: CurseR.Core.Sound.SoundManager.PlayBGM(AudioClip,System.Single,System.Single)
+  name: PlayBGM(AudioClip, float, float)
+  href: api/CurseR.Core.Sound.SoundManager.html#CurseR_Core_Sound_SoundManager_PlayBGM_AudioClip_System_Single_System_Single_
+  commentId: M:CurseR.Core.Sound.SoundManager.PlayBGM(AudioClip,System.Single,System.Single)
+  name.vb: PlayBGM(AudioClip, Single, Single)
+  fullName: CurseR.Core.Sound.SoundManager.PlayBGM(AudioClip, float, float)
+  fullName.vb: CurseR.Core.Sound.SoundManager.PlayBGM(AudioClip, Single, Single)
+  nameWithType: SoundManager.PlayBGM(AudioClip, float, float)
+  nameWithType.vb: SoundManager.PlayBGM(AudioClip, Single, Single)
+- uid: CurseR.Core.Sound.SoundManager.PlayBGM*
+  name: PlayBGM
+  href: api/CurseR.Core.Sound.SoundManager.html#CurseR_Core_Sound_SoundManager_PlayBGM_
+  commentId: Overload:CurseR.Core.Sound.SoundManager.PlayBGM
+  isSpec: "True"
+  fullName: CurseR.Core.Sound.SoundManager.PlayBGM
+  nameWithType: SoundManager.PlayBGM
+- uid: CurseR.Core.Sound.SoundManager.PlaySFX(AudioClip,System.Single)
+  name: PlaySFX(AudioClip, float)
+  href: api/CurseR.Core.Sound.SoundManager.html#CurseR_Core_Sound_SoundManager_PlaySFX_AudioClip_System_Single_
+  commentId: M:CurseR.Core.Sound.SoundManager.PlaySFX(AudioClip,System.Single)
+  name.vb: PlaySFX(AudioClip, Single)
+  fullName: CurseR.Core.Sound.SoundManager.PlaySFX(AudioClip, float)
+  fullName.vb: CurseR.Core.Sound.SoundManager.PlaySFX(AudioClip, Single)
+  nameWithType: SoundManager.PlaySFX(AudioClip, float)
+  nameWithType.vb: SoundManager.PlaySFX(AudioClip, Single)
+- uid: CurseR.Core.Sound.SoundManager.PlaySFX*
+  name: PlaySFX
+  href: api/CurseR.Core.Sound.SoundManager.html#CurseR_Core_Sound_SoundManager_PlaySFX_
+  commentId: Overload:CurseR.Core.Sound.SoundManager.PlaySFX
+  isSpec: "True"
+  fullName: CurseR.Core.Sound.SoundManager.PlaySFX
+  nameWithType: SoundManager.PlaySFX
+- uid: CurseR.Core.Sound.SoundManager.StopBGM(System.Single)
+  name: StopBGM(float)
+  href: api/CurseR.Core.Sound.SoundManager.html#CurseR_Core_Sound_SoundManager_StopBGM_System_Single_
+  commentId: M:CurseR.Core.Sound.SoundManager.StopBGM(System.Single)
+  name.vb: StopBGM(Single)
+  fullName: CurseR.Core.Sound.SoundManager.StopBGM(float)
+  fullName.vb: CurseR.Core.Sound.SoundManager.StopBGM(Single)
+  nameWithType: SoundManager.StopBGM(float)
+  nameWithType.vb: SoundManager.StopBGM(Single)
+- uid: CurseR.Core.Sound.SoundManager.StopBGM*
+  name: StopBGM
+  href: api/CurseR.Core.Sound.SoundManager.html#CurseR_Core_Sound_SoundManager_StopBGM_
+  commentId: Overload:CurseR.Core.Sound.SoundManager.StopBGM
+  isSpec: "True"
+  fullName: CurseR.Core.Sound.SoundManager.StopBGM
+  nameWithType: SoundManager.StopBGM
 - uid: CurseR.Core.TransitionManager
   name: TransitionManager
   href: api/CurseR.Core.TransitionManager.html
@@ -4569,3 +4661,51 @@ references:
   commentId: F:CurseR.Core.Utils.WorldPoint.SceneName
   fullName: CurseR.Core.Utils.WorldPoint.SceneName
   nameWithType: WorldPoint.SceneName
+- uid: CutSceneEvents
+  name: CutSceneEvents
+  href: api/CutSceneEvents.html
+  commentId: N:CutSceneEvents
+  fullName: CutSceneEvents
+  nameWithType: CutSceneEvents
+- uid: CutSceneEvents.FadeType
+  name: FadeType
+  href: api/CutSceneEvents.FadeType.html
+  commentId: T:CutSceneEvents.FadeType
+  fullName: CutSceneEvents.FadeType
+  nameWithType: FadeType
+- uid: CutSceneEvents.FadeType.FadeIn
+  name: FadeIn
+  href: api/CutSceneEvents.FadeType.html#CutSceneEvents_FadeType_FadeIn
+  commentId: F:CutSceneEvents.FadeType.FadeIn
+  fullName: CutSceneEvents.FadeType.FadeIn
+  nameWithType: FadeType.FadeIn
+- uid: CutSceneEvents.FadeType.FadeOut
+  name: FadeOut
+  href: api/CutSceneEvents.FadeType.html#CutSceneEvents_FadeType_FadeOut
+  commentId: F:CutSceneEvents.FadeType.FadeOut
+  fullName: CutSceneEvents.FadeType.FadeOut
+  nameWithType: FadeType.FadeOut
+- uid: CutSceneEvents.FadeType.None
+  name: None
+  href: api/CutSceneEvents.FadeType.html#CutSceneEvents_FadeType_None
+  commentId: F:CutSceneEvents.FadeType.None
+  fullName: CutSceneEvents.FadeType.None
+  nameWithType: FadeType.None
+- uid: CutSceneEvents.MoveObject
+  name: MoveObject
+  href: api/CutSceneEvents.MoveObject.html
+  commentId: T:CutSceneEvents.MoveObject
+  fullName: CutSceneEvents.MoveObject
+  nameWithType: MoveObject
+- uid: CutSceneEvents.MoveObject2
+  name: MoveObject2
+  href: api/CutSceneEvents.MoveObject2.html
+  commentId: T:CutSceneEvents.MoveObject2
+  fullName: CutSceneEvents.MoveObject2
+  nameWithType: MoveObject2
+- uid: CutSceneEvents.MoveObject3
+  name: MoveObject3
+  href: api/CutSceneEvents.MoveObject3.html
+  commentId: T:CutSceneEvents.MoveObject3
+  fullName: CutSceneEvents.MoveObject3
+  nameWithType: MoveObject3

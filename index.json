@@ -277,7 +277,7 @@
   "api/CurseR.Core.CutScene.Conversation.DialogSpeaker.html": {
     "href": "api/CurseR.Core.CutScene.Conversation.DialogSpeaker.html",
     "title": "Enum DialogSpeaker | CurseR",
-    "summary": "Enum DialogSpeaker Namespace CurseR.Core.CutScene.Conversation public enum DialogSpeaker Fields Elf = 7 Goblin1 = 3 Goblin2 = 4 Goblin3 = 5 Goblin4 = 6 None = 0 Piyu = 2 Player = 1"
+    "summary": "Enum DialogSpeaker Namespace CurseR.Core.CutScene.Conversation public enum DialogSpeaker Fields Elf = 7 Elf2 = 8 Elf3 = 9 Goblin1 = 3 Goblin2 = 4 Goblin3 = 5 Goblin4 = 6 None = 0 Piyu = 2 Player = 1"
   },
   "api/CurseR.Core.CutScene.Conversation.html": {
     "href": "api/CurseR.Core.CutScene.Conversation.html",
@@ -372,7 +372,7 @@
   "api/CurseR.Core.GameServices.html": {
     "href": "api/CurseR.Core.GameServices.html",
     "title": "Class GameServices | CurseR",
-    "summary": "Class GameServices Namespace CurseR.Core public static class GameServices Inheritance object GameServices Fields OnReady public static Action OnReady Field Value Action Properties ChapterManager public static AbstractChapterManager ChapterManager { get; } Property Value AbstractChapterManager CutSceneManager public static CutSceneManager CutSceneManager { get; } Property Value CutSceneManager EventBus public static GameEventBus EventBus { get; } Property Value GameEventBus MainCamera public static GameObject MainCamera { get; } Property Value GameObject Player public static GameObject Player { get; } Property Value GameObject SceneController public static SceneController SceneController { get; } Property Value SceneController TransitionManager public static TransitionManager TransitionManager { get; } Property Value TransitionManager VirtualCamera 현재 활성화된 씬의 Virtual Camera public static VirtualCamera VirtualCamera { get; } Property Value VirtualCamera Methods GetChapterManager<T>() 특정 챕터의 ChapterManager가 필요할 때 직접 AbstractChapterManager 캐스팅하지 말고 사용. public static T GetChapterManager<T>() where T : AbstractChapterManager Returns T Type Parameters T 챕터 매니저 타입 RegisterChapterManager(AbstractChapterManager) public static void RegisterChapterManager(AbstractChapterManager manager) Parameters manager AbstractChapterManager RegisterCutSceneManager(CutSceneManager) public static void RegisterCutSceneManager(CutSceneManager manager) Parameters manager CutSceneManager RegisterEventBus(GameEventBus) public static void RegisterEventBus(GameEventBus eventBus) Parameters eventBus GameEventBus RegisterMainCamera(GameObject) public static void RegisterMainCamera(GameObject camera) Parameters camera GameObject RegisterPlayer(GameObject) public static void RegisterPlayer(GameObject player) Parameters player GameObject RegisterSceneController(SceneController) public static void RegisterSceneController(SceneController controller) Parameters controller SceneController RegisterTransitionManager(TransitionManager) public static void RegisterTransitionManager(TransitionManager transitionManager) Parameters transitionManager TransitionManager SetVirtualCamera(VirtualCamera) public static void SetVirtualCamera(VirtualCamera cam) Parameters cam VirtualCamera"
+    "summary": "Class GameServices Namespace CurseR.Core public static class GameServices Inheritance object GameServices Fields OnReady public static Action OnReady Field Value Action Properties ChapterManager public static AbstractChapterManager ChapterManager { get; } Property Value AbstractChapterManager CutSceneManager public static CutSceneManager CutSceneManager { get; } Property Value CutSceneManager EventBus public static GameEventBus EventBus { get; } Property Value GameEventBus MainCamera public static GameObject MainCamera { get; } Property Value GameObject Player public static GameObject Player { get; } Property Value GameObject SceneController public static SceneController SceneController { get; } Property Value SceneController SoundManager public static SoundManager SoundManager { get; } Property Value SoundManager TransitionManager public static TransitionManager TransitionManager { get; } Property Value TransitionManager VirtualCamera 현재 활성화된 씬의 Virtual Camera public static VirtualCamera VirtualCamera { get; } Property Value VirtualCamera Methods GetChapterManager<T>() 특정 챕터의 ChapterManager가 필요할 때 직접 AbstractChapterManager 캐스팅하지 말고 사용. public static T GetChapterManager<T>() where T : AbstractChapterManager Returns T Type Parameters T 챕터 매니저 타입 RegisterChapterManager(AbstractChapterManager) public static void RegisterChapterManager(AbstractChapterManager manager) Parameters manager AbstractChapterManager RegisterCutSceneManager(CutSceneManager) public static void RegisterCutSceneManager(CutSceneManager manager) Parameters manager CutSceneManager RegisterEventBus(GameEventBus) public static void RegisterEventBus(GameEventBus eventBus) Parameters eventBus GameEventBus RegisterMainCamera(GameObject) public static void RegisterMainCamera(GameObject camera) Parameters camera GameObject RegisterPlayer(GameObject) public static void RegisterPlayer(GameObject player) Parameters player GameObject RegisterSceneController(SceneController) public static void RegisterSceneController(SceneController controller) Parameters controller SceneController RegisterSoundManager(SoundManager) public static void RegisterSoundManager(SoundManager manager) Parameters manager SoundManager RegisterTransitionManager(TransitionManager) public static void RegisterTransitionManager(TransitionManager transitionManager) Parameters transitionManager TransitionManager SetVirtualCamera(VirtualCamera) public static void SetVirtualCamera(VirtualCamera cam) Parameters cam VirtualCamera"
   },
   "api/CurseR.Core.Localization.LocalizationManager.html": {
     "href": "api/CurseR.Core.Localization.LocalizationManager.html",
@@ -454,10 +454,15 @@
     "title": "Class SoundEntry | CurseR",
     "summary": "Class SoundEntry Namespace CurseR.Core.Sound [Serializable] public class SoundEntry Inheritance object SoundEntry Fields clip public AudioClip clip Field Value AudioClip key public string key Field Value string volume public float volume Field Value float"
   },
+  "api/CurseR.Core.Sound.SoundManager.html": {
+    "href": "api/CurseR.Core.Sound.SoundManager.html",
+    "title": "Class SoundManager | CurseR",
+    "summary": "Class SoundManager Namespace CurseR.Core.Sound public class SoundManager : MonoBehaviour Inheritance object SoundManager Methods PlayBGM(AudioClip, float, float) public void PlayBGM(AudioClip clip, float volume = 1, float fadeDuration = 1) Parameters clip AudioClip volume float fadeDuration float PlaySFX(AudioClip, float) public void PlaySFX(AudioClip clip, float volume = 1) Parameters clip AudioClip volume float StopBGM(float) public void StopBGM(float fadeDuration = 1) Parameters fadeDuration float"
+  },
   "api/CurseR.Core.Sound.html": {
     "href": "api/CurseR.Core.Sound.html",
     "title": "Namespace CurseR.Core.Sound | CurseR",
-    "summary": "Namespace CurseR.Core.Sound Classes AudioEmitter AudioSourcePool AudioSource 컴포넌트 풀. Get()으로 빌리고, Release()로 반납. 부족하면 자동 확장. 일반 C# 클래스로, 생성자에서 관리할 GameObject를 받음. SoundEntry"
+    "summary": "Namespace CurseR.Core.Sound Classes AudioEmitter AudioSourcePool AudioSource 컴포넌트 풀. Get()으로 빌리고, Release()로 반납. 부족하면 자동 확장. 일반 C# 클래스로, 생성자에서 관리할 GameObject를 받음. SoundEntry SoundManager"
   },
   "api/CurseR.Core.TransitionManager.html": {
     "href": "api/CurseR.Core.TransitionManager.html",
@@ -543,6 +548,31 @@
     "href": "api/CurseR.html",
     "title": "Namespace CurseR | CurseR",
     "summary": "Namespace CurseR Namespaces CurseR.Chapter1 CurseR.Core"
+  },
+  "api/CutSceneEvents.FadeType.html": {
+    "href": "api/CutSceneEvents.FadeType.html",
+    "title": "Enum FadeType | CurseR",
+    "summary": "Enum FadeType Namespace CutSceneEvents 컷씬 이벤트 신호를 받아, 현재 위치에서 아래로 이동하는 범용 컴포넌트. to be continue 용. fade in 넣어야 처음에 투명 public enum FadeType Fields FadeIn = 1 FadeOut = 2 None = 0"
+  },
+  "api/CutSceneEvents.MoveObject.html": {
+    "href": "api/CutSceneEvents.MoveObject.html",
+    "title": "Class MoveObject | CurseR",
+    "summary": "Class MoveObject Namespace CutSceneEvents 컷씬 이벤트 신호를 받아, 현재 위치에서 특정 거리만큼 이동하는 범용 컴포넌트 회전 칼날용 public class MoveObject : MonoBehaviour Inheritance object MoveObject"
+  },
+  "api/CutSceneEvents.MoveObject2.html": {
+    "href": "api/CutSceneEvents.MoveObject2.html",
+    "title": "Class MoveObject2 | CurseR",
+    "summary": "Class MoveObject2 Namespace CutSceneEvents public class MoveObject2 : MonoBehaviour Inheritance object MoveObject2"
+  },
+  "api/CutSceneEvents.MoveObject3.html": {
+    "href": "api/CutSceneEvents.MoveObject3.html",
+    "title": "Class MoveObject3 | CurseR",
+    "summary": "Class MoveObject3 Namespace CutSceneEvents 컷씬 이벤트 신호를 받아, 현재 위치에서 특정 거리만큼 이동하는 범용 컴포넌트 엘프 화살 용 public class MoveObject3 : MonoBehaviour Inheritance object MoveObject3"
+  },
+  "api/CutSceneEvents.html": {
+    "href": "api/CutSceneEvents.html",
+    "title": "Namespace CutSceneEvents | CurseR",
+    "summary": "Namespace CutSceneEvents Classes MoveObject 컷씬 이벤트 신호를 받아, 현재 위치에서 특정 거리만큼 이동하는 범용 컴포넌트 회전 칼날용 MoveObject2 MoveObject3 컷씬 이벤트 신호를 받아, 현재 위치에서 특정 거리만큼 이동하는 범용 컴포넌트 엘프 화살 용 Enums FadeType 컷씬 이벤트 신호를 받아, 현재 위치에서 아래로 이동하는 범용 컴포넌트. to be continue 용. fade in 넣어야 처음에 투명"
   },
   "api/index.html": {
     "href": "api/index.html",

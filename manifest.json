@@ -1286,6 +1286,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Core.Sound.SoundManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Core.Sound.SoundManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Core.Sound.SoundManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CurseR.Core.Sound.yml",
       "output": {
         ".html": {
@@ -1534,6 +1548,76 @@
       "Uid": null,
       "IsMRef": true,
       "Title": null,
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CutSceneEvents.FadeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CutSceneEvents.FadeType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CutSceneEvents.FadeType",
+      "Summary": "<p sourcefile=\"api/CutSceneEvents.FadeType.yml\" sourcestartlinenumber=\"1\">컷씬 이벤트 신호를 받아, 현재 위치에서 아래로 이동하는 범용 컴포넌트.\nto be continue 용. fade in 넣어야 처음에 투명</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CutSceneEvents.MoveObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CutSceneEvents.MoveObject.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CutSceneEvents.MoveObject",
+      "Summary": "<p sourcefile=\"api/CutSceneEvents.MoveObject.yml\" sourcestartlinenumber=\"1\">컷씬 이벤트 신호를 받아, 현재 위치에서 특정 거리만큼 이동하는 범용 컴포넌트\n회전 칼날용</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CutSceneEvents.MoveObject2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CutSceneEvents.MoveObject2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CutSceneEvents.MoveObject2",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CutSceneEvents.MoveObject3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CutSceneEvents.MoveObject3.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CutSceneEvents.MoveObject3",
+      "Summary": "<p sourcefile=\"api/CutSceneEvents.MoveObject3.yml\" sourcestartlinenumber=\"1\">컷씬 이벤트 신호를 받아, 현재 위치에서 특정 거리만큼 이동하는 범용 컴포넌트\n엘프 화살 용</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CutSceneEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CutSceneEvents.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CutSceneEvents",
       "Summary": null
     },
     {
