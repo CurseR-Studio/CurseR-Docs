@@ -59,6 +59,21 @@
     "title": "Enum ObjectType | CurseR",
     "summary": "Enum ObjectType Namespace CurseR.Chapter1 public enum ObjectType Fields Button = 0 Inputbox = 1"
   },
+  "api/CurseR.Chapter1.Objects.ArrowTrap.Arrow.html": {
+    "href": "api/CurseR.Chapter1.Objects.ArrowTrap.Arrow.html",
+    "title": "Class Arrow | CurseR",
+    "summary": "Class Arrow Namespace CurseR.Chapter1.Objects.ArrowTrap public class Arrow : MonoBehaviour Inheritance object Arrow Methods Init(Vector2, float) public void Init(Vector2 direction, float speed) Parameters direction Vector2 speed float"
+  },
+  "api/CurseR.Chapter1.Objects.ArrowTrap.ArrowTrap.html": {
+    "href": "api/CurseR.Chapter1.Objects.ArrowTrap.ArrowTrap.html",
+    "title": "Class ArrowTrap | CurseR",
+    "summary": "Class ArrowTrap Namespace CurseR.Chapter1.Objects.ArrowTrap public class ArrowTrap : Object Inheritance object Object ArrowTrap Inherited Members Object.useEvent<EventTy>(Action<EventTy>) Object.useSound() Object.Dispose() Methods Init() Object 초기화 코드 여기에 작성. Start 시점에서 실행됨. protected override void Init()"
+  },
+  "api/CurseR.Chapter1.Objects.ArrowTrap.html": {
+    "href": "api/CurseR.Chapter1.Objects.ArrowTrap.html",
+    "title": "Namespace CurseR.Chapter1.Objects.ArrowTrap | CurseR",
+    "summary": "Namespace CurseR.Chapter1.Objects.ArrowTrap Classes Arrow ArrowTrap"
+  },
   "api/CurseR.Chapter1.Objects.Button.Button.html": {
     "href": "api/CurseR.Chapter1.Objects.Button.Button.html",
     "title": "Class Button | CurseR",
@@ -97,7 +112,7 @@
   "api/CurseR.Chapter1.Objects.Object.html": {
     "href": "api/CurseR.Chapter1.Objects.Object.html",
     "title": "Class Object | CurseR",
-    "summary": "Class Object Namespace CurseR.Chapter1.Objects public class Object : MonoBehaviour Inheritance object Object Derived Button Inputbox RepairButton Spike Methods Dispose() Object 소멸 코드 여기에 작성. OnDestroy 사용하면 문제 생김. protected virtual void Dispose() Init() Object 초기화 코드 여기에 작성. Start 시점에서 실행됨. protected virtual void Init() useEvent<EventTy>(Action<EventTy>) EventBus에 이벤트 구독. OnDestroy에서 자동으로 이벤트 구독 해제됨. protected void useEvent<EventTy>(Action<EventTy> handler) where EventTy : GameEvent Parameters handler Action<EventTy> 이벤트 핸들러 Type Parameters EventTy 이벤트 타입 useSound() AudioEmitter 컴포넌트를 캐싱해서 반환. Init()에서 호출해 _sound를 초기화하는 용도. protected AudioEmitter useSound() Returns AudioEmitter"
+    "summary": "Class Object Namespace CurseR.Chapter1.Objects public class Object : MonoBehaviour Inheritance object Object Derived ArrowTrap Button Inputbox RepairButton Spike Methods Dispose() Object 소멸 코드 여기에 작성. OnDestroy 사용하면 문제 생김. protected virtual void Dispose() Init() Object 초기화 코드 여기에 작성. Start 시점에서 실행됨. protected virtual void Init() useEvent<EventTy>(Action<EventTy>) EventBus에 이벤트 구독. OnDestroy에서 자동으로 이벤트 구독 해제됨. protected void useEvent<EventTy>(Action<EventTy> handler) where EventTy : GameEvent Parameters handler Action<EventTy> 이벤트 핸들러 Type Parameters EventTy 이벤트 타입 useSound() AudioEmitter 컴포넌트를 캐싱해서 반환. Init()에서 호출해 _sound를 초기화하는 용도. protected AudioEmitter useSound() Returns AudioEmitter"
   },
   "api/CurseR.Chapter1.Objects.RepairButton.RepairButton.html": {
     "href": "api/CurseR.Chapter1.Objects.RepairButton.RepairButton.html",
@@ -122,7 +137,7 @@
   "api/CurseR.Chapter1.Objects.Slime.Slime.html": {
     "href": "api/CurseR.Chapter1.Objects.Slime.Slime.html",
     "title": "Class Slime | CurseR",
-    "summary": "Class Slime Namespace CurseR.Chapter1.Objects.Slime public class Slime : MonoBehaviour Inheritance object Slime Fields arriveDistance public float arriveDistance Field Value float endPoints public List<Transform> endPoints Field Value List<Transform> moveSpeed public float moveSpeed Field Value float rayLength public float rayLength Field Value float raySpacing public float raySpacing Field Value float rotateSpeed public float rotateSpeed Field Value float terrainLayer public LayerMask terrainLayer Field Value LayerMask"
+    "summary": "Class Slime Namespace CurseR.Chapter1.Objects.Slime public class Slime : MonoBehaviour Inheritance object Slime Fields arriveDistance public float arriveDistance Field Value float endPoints public List<Transform> endPoints Field Value List<Transform> moveSpeed public float moveSpeed Field Value float rayLength public float rayLength Field Value float raySpacing public float raySpacing Field Value float rotateSpeed public float rotateSpeed Field Value float stopTime public float stopTime Field Value float terrainLayer public LayerMask terrainLayer Field Value LayerMask"
   },
   "api/CurseR.Chapter1.Objects.Slime.html": {
     "href": "api/CurseR.Chapter1.Objects.Slime.html",
@@ -142,7 +157,7 @@
   "api/CurseR.Chapter1.Objects.html": {
     "href": "api/CurseR.Chapter1.Objects.html",
     "title": "Namespace CurseR.Chapter1.Objects | CurseR",
-    "summary": "Namespace CurseR.Chapter1.Objects Namespaces CurseR.Chapter1.Objects.Button CurseR.Chapter1.Objects.Inputbox CurseR.Chapter1.Objects.RepairButton CurseR.Chapter1.Objects.RotatingBlade CurseR.Chapter1.Objects.Slime CurseR.Chapter1.Objects.Spike Classes Object"
+    "summary": "Namespace CurseR.Chapter1.Objects Namespaces CurseR.Chapter1.Objects.ArrowTrap CurseR.Chapter1.Objects.Button CurseR.Chapter1.Objects.Inputbox CurseR.Chapter1.Objects.RepairButton CurseR.Chapter1.Objects.RotatingBlade CurseR.Chapter1.Objects.Slime CurseR.Chapter1.Objects.Spike Classes Object"
   },
   "api/CurseR.Chapter1.Piyu.PiyuController.html": {
     "href": "api/CurseR.Chapter1.Piyu.PiyuController.html",
@@ -207,7 +222,7 @@
   "api/CurseR.Core.Conversation.DialogBubble.html": {
     "href": "api/CurseR.Core.Conversation.DialogBubble.html",
     "title": "Class DialogBubble | CurseR",
-    "summary": "Class DialogBubble Namespace CurseR.Core.Conversation public class DialogBubble : DialogBubbleBase Inheritance object DialogBubbleBase DialogBubble Inherited Members DialogBubbleBase._text DialogBubbleBase.SetDirection(bool) Methods Disable() public override void Disable() ShowText(string, Action) public override void ShowText(string text, Action onComplete = null) Parameters text string onComplete Action SkipTyping() public void SkipTyping() Start() protected override void Start()"
+    "summary": "Class DialogBubble Namespace CurseR.Core.Conversation public class DialogBubble : DialogBubbleBase Inheritance object DialogBubbleBase DialogBubble Inherited Members DialogBubbleBase._text DialogBubbleBase.Start() DialogBubbleBase.SetDirection(bool) Methods Disable() public override void Disable() ShowText(string, Action) public override void ShowText(string text, Action onComplete = null) Parameters text string onComplete Action SkipTyping() public void SkipTyping()"
   },
   "api/CurseR.Core.Conversation.DialogBubbleBase.html": {
     "href": "api/CurseR.Core.Conversation.DialogBubbleBase.html",
@@ -262,7 +277,7 @@
   "api/CurseR.Core.CutScene.Conversation.DialogSpeaker.html": {
     "href": "api/CurseR.Core.CutScene.Conversation.DialogSpeaker.html",
     "title": "Enum DialogSpeaker | CurseR",
-    "summary": "Enum DialogSpeaker Namespace CurseR.Core.CutScene.Conversation public enum DialogSpeaker Fields None = 0 Piyu = 2 Player = 1"
+    "summary": "Enum DialogSpeaker Namespace CurseR.Core.CutScene.Conversation public enum DialogSpeaker Fields Elf = 7 Goblin1 = 3 Goblin2 = 4 Goblin3 = 5 Goblin4 = 6 None = 0 Piyu = 2 Player = 1"
   },
   "api/CurseR.Core.CutScene.Conversation.html": {
     "href": "api/CurseR.Core.CutScene.Conversation.html",

@@ -180,6 +180,48 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Objects.ArrowTrap.Arrow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Objects.ArrowTrap.Arrow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Objects.ArrowTrap.Arrow",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Objects.ArrowTrap.ArrowTrap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Objects.ArrowTrap.ArrowTrap.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Objects.ArrowTrap.ArrowTrap",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CurseR.Chapter1.Objects.ArrowTrap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CurseR.Chapter1.Objects.ArrowTrap.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CurseR.Chapter1.Objects.ArrowTrap",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CurseR.Chapter1.Objects.Button.Button.yml",
       "output": {
         ".html": {

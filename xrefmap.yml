@@ -308,6 +308,53 @@ references:
   commentId: N:CurseR.Chapter1.Objects
   fullName: CurseR.Chapter1.Objects
   nameWithType: CurseR.Chapter1.Objects
+- uid: CurseR.Chapter1.Objects.ArrowTrap
+  name: CurseR.Chapter1.Objects.ArrowTrap
+  href: api/CurseR.Chapter1.Objects.ArrowTrap.html
+  commentId: N:CurseR.Chapter1.Objects.ArrowTrap
+  fullName: CurseR.Chapter1.Objects.ArrowTrap
+  nameWithType: CurseR.Chapter1.Objects.ArrowTrap
+- uid: CurseR.Chapter1.Objects.ArrowTrap.Arrow
+  name: Arrow
+  href: api/CurseR.Chapter1.Objects.ArrowTrap.Arrow.html
+  commentId: T:CurseR.Chapter1.Objects.ArrowTrap.Arrow
+  fullName: CurseR.Chapter1.Objects.ArrowTrap.Arrow
+  nameWithType: Arrow
+- uid: CurseR.Chapter1.Objects.ArrowTrap.Arrow.Init(Vector2,System.Single)
+  name: Init(Vector2, float)
+  href: api/CurseR.Chapter1.Objects.ArrowTrap.Arrow.html#CurseR_Chapter1_Objects_ArrowTrap_Arrow_Init_Vector2_System_Single_
+  commentId: M:CurseR.Chapter1.Objects.ArrowTrap.Arrow.Init(Vector2,System.Single)
+  name.vb: Init(Vector2, Single)
+  fullName: CurseR.Chapter1.Objects.ArrowTrap.Arrow.Init(Vector2, float)
+  fullName.vb: CurseR.Chapter1.Objects.ArrowTrap.Arrow.Init(Vector2, Single)
+  nameWithType: Arrow.Init(Vector2, float)
+  nameWithType.vb: Arrow.Init(Vector2, Single)
+- uid: CurseR.Chapter1.Objects.ArrowTrap.Arrow.Init*
+  name: Init
+  href: api/CurseR.Chapter1.Objects.ArrowTrap.Arrow.html#CurseR_Chapter1_Objects_ArrowTrap_Arrow_Init_
+  commentId: Overload:CurseR.Chapter1.Objects.ArrowTrap.Arrow.Init
+  isSpec: "True"
+  fullName: CurseR.Chapter1.Objects.ArrowTrap.Arrow.Init
+  nameWithType: Arrow.Init
+- uid: CurseR.Chapter1.Objects.ArrowTrap.ArrowTrap
+  name: ArrowTrap
+  href: api/CurseR.Chapter1.Objects.ArrowTrap.ArrowTrap.html
+  commentId: T:CurseR.Chapter1.Objects.ArrowTrap.ArrowTrap
+  fullName: CurseR.Chapter1.Objects.ArrowTrap.ArrowTrap
+  nameWithType: ArrowTrap
+- uid: CurseR.Chapter1.Objects.ArrowTrap.ArrowTrap.Init
+  name: Init()
+  href: api/CurseR.Chapter1.Objects.ArrowTrap.ArrowTrap.html#CurseR_Chapter1_Objects_ArrowTrap_ArrowTrap_Init
+  commentId: M:CurseR.Chapter1.Objects.ArrowTrap.ArrowTrap.Init
+  fullName: CurseR.Chapter1.Objects.ArrowTrap.ArrowTrap.Init()
+  nameWithType: ArrowTrap.Init()
+- uid: CurseR.Chapter1.Objects.ArrowTrap.ArrowTrap.Init*
+  name: Init
+  href: api/CurseR.Chapter1.Objects.ArrowTrap.ArrowTrap.html#CurseR_Chapter1_Objects_ArrowTrap_ArrowTrap_Init_
+  commentId: Overload:CurseR.Chapter1.Objects.ArrowTrap.ArrowTrap.Init
+  isSpec: "True"
+  fullName: CurseR.Chapter1.Objects.ArrowTrap.ArrowTrap.Init
+  nameWithType: ArrowTrap.Init
 - uid: CurseR.Chapter1.Objects.Button
   name: CurseR.Chapter1.Objects.Button
   href: api/CurseR.Chapter1.Objects.Button.html
@@ -656,6 +703,12 @@ references:
   commentId: F:CurseR.Chapter1.Objects.Slime.Slime.rotateSpeed
   fullName: CurseR.Chapter1.Objects.Slime.Slime.rotateSpeed
   nameWithType: Slime.rotateSpeed
+- uid: CurseR.Chapter1.Objects.Slime.Slime.stopTime
+  name: stopTime
+  href: api/CurseR.Chapter1.Objects.Slime.Slime.html#CurseR_Chapter1_Objects_Slime_Slime_stopTime
+  commentId: F:CurseR.Chapter1.Objects.Slime.Slime.stopTime
+  fullName: CurseR.Chapter1.Objects.Slime.Slime.stopTime
+  nameWithType: Slime.stopTime
 - uid: CurseR.Chapter1.Objects.Slime.Slime.terrainLayer
   name: terrainLayer
   href: api/CurseR.Chapter1.Objects.Slime.Slime.html#CurseR_Chapter1_Objects_Slime_Slime_terrainLayer
@@ -1169,19 +1222,6 @@ references:
   isSpec: "True"
   fullName: CurseR.Core.Conversation.DialogBubble.SkipTyping
   nameWithType: DialogBubble.SkipTyping
-- uid: CurseR.Core.Conversation.DialogBubble.Start
-  name: Start()
-  href: api/CurseR.Core.Conversation.DialogBubble.html#CurseR_Core_Conversation_DialogBubble_Start
-  commentId: M:CurseR.Core.Conversation.DialogBubble.Start
-  fullName: CurseR.Core.Conversation.DialogBubble.Start()
-  nameWithType: DialogBubble.Start()
-- uid: CurseR.Core.Conversation.DialogBubble.Start*
-  name: Start
-  href: api/CurseR.Core.Conversation.DialogBubble.html#CurseR_Core_Conversation_DialogBubble_Start_
-  commentId: Overload:CurseR.Core.Conversation.DialogBubble.Start
-  isSpec: "True"
-  fullName: CurseR.Core.Conversation.DialogBubble.Start
-  nameWithType: DialogBubble.Start
 - uid: CurseR.Core.Conversation.DialogBubbleBase
   name: DialogBubbleBase
   href: api/CurseR.Core.Conversation.DialogBubbleBase.html
@@ -1665,6 +1705,36 @@ references:
   commentId: T:CurseR.Core.CutScene.Conversation.DialogSpeaker
   fullName: CurseR.Core.CutScene.Conversation.DialogSpeaker
   nameWithType: DialogSpeaker
+- uid: CurseR.Core.CutScene.Conversation.DialogSpeaker.Elf
+  name: Elf
+  href: api/CurseR.Core.CutScene.Conversation.DialogSpeaker.html#CurseR_Core_CutScene_Conversation_DialogSpeaker_Elf
+  commentId: F:CurseR.Core.CutScene.Conversation.DialogSpeaker.Elf
+  fullName: CurseR.Core.CutScene.Conversation.DialogSpeaker.Elf
+  nameWithType: DialogSpeaker.Elf
+- uid: CurseR.Core.CutScene.Conversation.DialogSpeaker.Goblin1
+  name: Goblin1
+  href: api/CurseR.Core.CutScene.Conversation.DialogSpeaker.html#CurseR_Core_CutScene_Conversation_DialogSpeaker_Goblin1
+  commentId: F:CurseR.Core.CutScene.Conversation.DialogSpeaker.Goblin1
+  fullName: CurseR.Core.CutScene.Conversation.DialogSpeaker.Goblin1
+  nameWithType: DialogSpeaker.Goblin1
+- uid: CurseR.Core.CutScene.Conversation.DialogSpeaker.Goblin2
+  name: Goblin2
+  href: api/CurseR.Core.CutScene.Conversation.DialogSpeaker.html#CurseR_Core_CutScene_Conversation_DialogSpeaker_Goblin2
+  commentId: F:CurseR.Core.CutScene.Conversation.DialogSpeaker.Goblin2
+  fullName: CurseR.Core.CutScene.Conversation.DialogSpeaker.Goblin2
+  nameWithType: DialogSpeaker.Goblin2
+- uid: CurseR.Core.CutScene.Conversation.DialogSpeaker.Goblin3
+  name: Goblin3
+  href: api/CurseR.Core.CutScene.Conversation.DialogSpeaker.html#CurseR_Core_CutScene_Conversation_DialogSpeaker_Goblin3
+  commentId: F:CurseR.Core.CutScene.Conversation.DialogSpeaker.Goblin3
+  fullName: CurseR.Core.CutScene.Conversation.DialogSpeaker.Goblin3
+  nameWithType: DialogSpeaker.Goblin3
+- uid: CurseR.Core.CutScene.Conversation.DialogSpeaker.Goblin4
+  name: Goblin4
+  href: api/CurseR.Core.CutScene.Conversation.DialogSpeaker.html#CurseR_Core_CutScene_Conversation_DialogSpeaker_Goblin4
+  commentId: F:CurseR.Core.CutScene.Conversation.DialogSpeaker.Goblin4
+  fullName: CurseR.Core.CutScene.Conversation.DialogSpeaker.Goblin4
+  nameWithType: DialogSpeaker.Goblin4
 - uid: CurseR.Core.CutScene.Conversation.DialogSpeaker.None
   name: None
   href: api/CurseR.Core.CutScene.Conversation.DialogSpeaker.html#CurseR_Core_CutScene_Conversation_DialogSpeaker_None
