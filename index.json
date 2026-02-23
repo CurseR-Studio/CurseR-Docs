@@ -222,7 +222,7 @@
   "api/CurseR.Core.Conversation.DialogBubble.html": {
     "href": "api/CurseR.Core.Conversation.DialogBubble.html",
     "title": "Class DialogBubble | CurseR",
-    "summary": "Class DialogBubble Namespace CurseR.Core.Conversation public class DialogBubble : DialogBubbleBase Inheritance object DialogBubbleBase DialogBubble Inherited Members DialogBubbleBase._text DialogBubbleBase.Start() DialogBubbleBase.SetDirection(bool) Methods Disable() public override void Disable() ShowText(string, Action) public override void ShowText(string text, Action onComplete = null) Parameters text string onComplete Action SkipTyping() public void SkipTyping()"
+    "summary": "Class DialogBubble Namespace CurseR.Core.Conversation public class DialogBubble : DialogBubbleBase Inheritance object DialogBubbleBase DialogBubble Inherited Members DialogBubbleBase._text DialogBubbleBase.SetDirection(bool) Methods Disable() public override void Disable() ShowText(string, Action) public override void ShowText(string text, Action onComplete = null) Parameters text string onComplete Action SkipTyping() public void SkipTyping() Start() protected override void Start()"
   },
   "api/CurseR.Core.Conversation.DialogBubbleBase.html": {
     "href": "api/CurseR.Core.Conversation.DialogBubbleBase.html",

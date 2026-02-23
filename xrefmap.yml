@@ -1222,6 +1222,19 @@ references:
   isSpec: "True"
   fullName: CurseR.Core.Conversation.DialogBubble.SkipTyping
   nameWithType: DialogBubble.SkipTyping
+- uid: CurseR.Core.Conversation.DialogBubble.Start
+  name: Start()
+  href: api/CurseR.Core.Conversation.DialogBubble.html#CurseR_Core_Conversation_DialogBubble_Start
+  commentId: M:CurseR.Core.Conversation.DialogBubble.Start
+  fullName: CurseR.Core.Conversation.DialogBubble.Start()
+  nameWithType: DialogBubble.Start()
+- uid: CurseR.Core.Conversation.DialogBubble.Start*
+  name: Start
+  href: api/CurseR.Core.Conversation.DialogBubble.html#CurseR_Core_Conversation_DialogBubble_Start_
+  commentId: Overload:CurseR.Core.Conversation.DialogBubble.Start
+  isSpec: "True"
+  fullName: CurseR.Core.Conversation.DialogBubble.Start
+  nameWithType: DialogBubble.Start
 - uid: CurseR.Core.Conversation.DialogBubbleBase
   name: DialogBubbleBase
   href: api/CurseR.Core.Conversation.DialogBubbleBase.html
